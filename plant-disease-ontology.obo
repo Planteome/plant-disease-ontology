@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 06:04:2012 15:10
-saved-by: cooperl
+date: 06:04:2012 15:47
+saved-by: moorel
 auto-generated-by: OBO-Edit 2.1.1-beta7
 default-namespace: plant_disease_ontology
 
@@ -36,7 +36,7 @@ creation_date: 2012-03-30T03:04:19Z
 [Term]
 id: PDO:0000002
 name: plant bacterial disease
-def: "A plant disease (PDO:0000001) that is caused by bacteria." [POC:curators]
+def: "A plant disease (PDO:0000001) that is caused by bacteria." [PDO:curators]
 is_a: PDO:0000001 ! plant disease
 created_by: cooperl
 creation_date: 2012-03-30T03:13:24Z
@@ -60,7 +60,7 @@ creation_date: 2012-03-30T03:50:49Z
 [Term]
 id: PDO:0000005
 name: plant viral disease
-def: "A plant disease (PDO:0000001) caused by a virus." []
+def: "A plant disease (PDO:0000001) caused by a virus." [PDO:curators]
 is_a: PDO:0000001 ! plant disease
 created_by: moorel
 creation_date: 2012-04-05T10:23:07Z
@@ -68,7 +68,7 @@ creation_date: 2012-04-05T10:23:07Z
 [Term]
 id: PDO:0000006
 name: rice fungal disease
-def: "A plant fungal disease (PDO:0000004) that affects rice." []
+def: "A plant fungal disease (PDO:0000004) that affects rice." [PDO:curators]
 is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-05T10:24:14Z
@@ -76,7 +76,7 @@ creation_date: 2012-04-05T10:24:14Z
 [Term]
 id: PDO:0000007
 name: rice viral disease
-def: "A plant viral disease (PDO:0000005) that affects rice." []
+def: "A plant viral disease (PDO:0000005) that affects rice." [PDO:curators]
 is_a: PDO:0000005 ! plant viral disease
 created_by: moorel
 creation_date: 2012-04-05T10:26:18Z
@@ -84,7 +84,7 @@ creation_date: 2012-04-05T10:26:18Z
 [Term]
 id: PDO:0000008
 name: wheat bacterial disease
-def: "A plant bacterial disease (PDO:0000002) that affects wheat." []
+def: "A plant bacterial disease (PDO:0000002) that affects wheat." [PDO:curators]
 is_a: PDO:0000002 ! plant bacterial disease
 created_by: moorel
 creation_date: 2012-04-05T10:29:00Z
@@ -92,7 +92,7 @@ creation_date: 2012-04-05T10:29:00Z
 [Term]
 id: PDO:0000009
 name: wheat fungal disease
-def: "A plant fungal disease (PDO:0000004) that affects wheat." []
+def: "A plant fungal disease (PDO:0000004) that affects wheat." [PDO:curators]
 is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-05T10:30:50Z
@@ -100,7 +100,7 @@ creation_date: 2012-04-05T10:30:50Z
 [Term]
 id: PDO:0000010
 name: wheat viral disease
-def: "A plant viral disease (PDO:0000005) that affects wheat." []
+def: "A plant viral disease (PDO:0000005) that affects wheat." [PDO:curators]
 is_a: PDO:0000005 ! plant viral disease
 created_by: moorel
 creation_date: 2012-04-05T10:31:58Z
@@ -108,7 +108,7 @@ creation_date: 2012-04-05T10:31:58Z
 [Term]
 id: PDO:0000011
 name: corn/maize bacterial disease
-def: "A bacterial plant disease (PDO:0000002) that affects corn or maize." []
+def: "A bacterial plant disease (PDO:0000002) that affects corn or maize." [PDO:curators]
 is_a: PDO:0000002 ! plant bacterial disease
 created_by: moorel
 creation_date: 2012-04-05T10:33:27Z
@@ -116,7 +116,7 @@ creation_date: 2012-04-05T10:33:27Z
 [Term]
 id: PDO:0000012
 name: corn/maize fungal disease
-def: "A fungal plant disease (PDO:0000004) that affects corn or maize." []
+def: "A fungal plant disease (PDO:0000004) that affects corn or maize." [PDO:curators]
 is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-05T10:34:55Z
@@ -124,7 +124,7 @@ creation_date: 2012-04-05T10:34:55Z
 [Term]
 id: PDO:0000013
 name: corn/maize viral disease
-def: "A plant viral disease (PDO:0000005) that affects corn or maize." []
+def: "A plant viral disease (PDO:0000005) that affects corn or maize." [PDO:curators]
 is_a: PDO:0000005 ! plant viral disease
 created_by: moorel
 creation_date: 2012-04-05T10:36:00Z
@@ -132,7 +132,7 @@ creation_date: 2012-04-05T10:36:00Z
 [Term]
 id: PDO:0000014
 name: rice bacterial blight
-def: "A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv. oryzae (PDO:0000017)." []
+def: "A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv. oryzae (PDO:0000017)." [PDO:curators]
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-05T10:37:53Z
@@ -140,13 +140,14 @@ creation_date: 2012-04-05T10:37:53Z
 [Term]
 id: PDO:0000015
 name: causal agent
+def: "An agent that causes disease." [PDO:curators]
 created_by: moorel
 creation_date: 2012-04-06T02:20:47Z
 
 [Term]
 id: PDO:0000016
 name: bacteria
-def: "A causal agent (PDO: 0000015) of a plant disease (PDO: 0000001) which is a bacteria." []
+def: "A causal agent (PDO:0000015) of a plant disease (PDO:0000001) which is a bacteria." [PDO:curators]
 is_a: PDO:0000015 ! causal agent
 created_by: moorel
 creation_date: 2012-04-06T02:21:57Z
@@ -154,8 +155,8 @@ creation_date: 2012-04-06T02:21:57Z
 [Term]
 id: PDO:0000017
 name: Xanthomonas oryzae pv. oryzae
-def: "A bacteria (PDO:0000016) that causes rice bacterial blight (PDO:0000014)." []
-xref: NCBI_Taxonomy ID:\:64187
+def: "A bacteria (PDO:0000016) that causes rice bacterial blight (PDO:0000014)." [PDO:curators]
+xref: NCBI_Taxonomy_ID:64187
 is_a: PDO:0000016 ! bacteria
 relationship: causal_agent PDO:0000014 ! rice bacterial blight
 created_by: moorel
