@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:04:2012 15:09
+date: 12:04:2012 10:59
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.1.1-beta7
 default-namespace: plant_disease_ontology
@@ -244,7 +244,7 @@ creation_date: 2012-04-09T02:06:26Z
 
 [Term]
 id: PDO:0000027
-name: rice aggregate sheath spot 
+name: rice aggregate sheath spot
 def: "A rice fungal disease (PDO:0000006) caused by Ceratobasidium oryzae-sativae (PDO:0000028)." [PDO:curators]
 is_a: PDO:0000006 ! rice fungal disease
 created_by: moorel
@@ -256,13 +256,13 @@ name: Ceratobasidium oryzae-sativae
 def: "A fungus (PDO:0000026) that causes rice aggregate sheath spot (PDO:0000027)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:63189
 is_a: PDO:0000026 ! fungus
-relationship: causal_agent PDO:0000027 ! rice aggregate sheath spot 
+relationship: causal_agent PDO:0000027 ! rice aggregate sheath spot
 created_by: moorel
 creation_date: 2012-04-09T02:14:30Z
 
 [Term]
 id: PDO:0000029
-name: rice black kernel 
+name: rice black kernel
 def: "A rice fungal disease (PDO:0000006) caused by Curvularia lunata (PDO:0000030)." [PDO:curators]
 is_a: PDO:0000006 ! rice fungal disease
 created_by: moorel
@@ -274,7 +274,7 @@ name: Curvularia lunata
 def: "A fungus (PDO:0000026) that causes rice black kernel (PDO:0000029)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:418123
 is_a: PDO:0000026 ! fungus
-relationship: causal_agent PDO:0000029 ! rice black kernel 
+relationship: causal_agent PDO:0000029 ! rice black kernel
 created_by: moorel
 creation_date: 2012-04-09T02:19:53Z
 
@@ -439,6 +439,114 @@ is_a: PDO:0000026 ! fungus
 relationship: causal_agent PDO:0000047 ! rice leaf scald
 created_by: moorel
 creation_date: 2012-04-09T03:04:07Z
+
+[Term]
+id: PDO:0000049
+name: rice narrow brown leaf spot 
+def: "A rice fungal disease (PDO:0000006) caused by Cercospora janseana (PDO:0000050)." [PDO:curators]
+is_a: PDO:0000006 ! rice fungal disease
+created_by: moorel
+creation_date: 2012-04-12T10:19:40Z
+
+[Term]
+id: PDO:0000050
+name: Cercospora janseana
+def: "A fungus (PDO:0000026) that causes rice narrow brown leaf spot (PDO:0000049)." [PDO:curators]
+xref: NCBI_Taxonomy_ID:706553
+is_a: PDO:0000026 ! fungus
+relationship: causal_agent PDO:0000049 ! rice narrow brown leaf spot 
+created_by: moorel
+creation_date: 2012-04-12T10:22:56Z
+
+[Term]
+id: PDO:0000051
+name: rice sheath blight
+def: "A rice fungal disease (PDO:0000006) caused by Thanatephorus cucumeris (PDO:0000052)." [PDO:curators]
+is_a: PDO:0000006 ! rice fungal disease
+created_by: moorel
+creation_date: 2012-04-12T10:28:54Z
+
+[Term]
+id: PDO:0000052
+name: Thanatephorus cucumeris
+def: "A fungus (PDO:0000026) that causes rice sheath blight (PDO:0000051)." [PDO:curators]
+xref: NCBI_Taxonomy_ID:107832
+is_a: PDO:0000026 ! fungus
+relationship: causal_agent PDO:0000051 ! rice sheath blight
+created_by: moorel
+creation_date: 2012-04-12T10:34:25Z
+
+[Term]
+id: PDO:0000053
+name: rice sheath rot
+def: "A rice fungal disease (PDO:0000006) caused by Sarocladium oryzae (PDO:0000054)." [PDO:curators]
+is_a: PDO:0000006 ! rice fungal disease
+created_by: moorel
+creation_date: 2012-04-12T10:36:53Z
+
+[Term]
+id: PDO:0000054
+name: Sarocladium oryzae
+def: "A fungus (PDO:0000026) that causes rice sheath rot (PDO:0000053)." [PDO:curators]
+xref: NCBI_Taxonomy_ID:284135
+is_a: PDO:0000026 ! fungus
+relationship: causal_agent PDO:0000053 ! rice sheath rot
+created_by: moorel
+creation_date: 2012-04-12T10:38:45Z
+
+[Term]
+id: PDO:0000055
+name: rice sheath spot
+def: "A rice fungal disease (PDO:0000006) caused by Rhizoctonia oryzae (PDO:0000056)." [PDO:curators]
+is_a: PDO:0000006 ! rice fungal disease
+created_by: moorel
+creation_date: 2012-04-12T10:41:34Z
+
+[Term]
+id: PDO:0000056
+name: Rhizoctonia oryzae
+def: "A fungus (PDO:0000026) that causes rice sheath spot (PDO:0000055)." [PDO:curators]
+xref: NCBI_Taxonomy_ID:459364
+is_a: PDO:0000026 ! fungus
+relationship: causal_agent PDO:0000055 ! rice sheath spot
+created_by: moorel
+creation_date: 2012-04-12T10:44:51Z
+
+[Term]
+id: PDO:0000057
+name: rice stackburn (alternaria leaf spot)
+def: "A rice fungal disease (PDO:0000006) caused by Alternaria padwickii (PDO:0000058)." [PDO:curators]
+is_a: PDO:0000006 ! rice fungal disease
+created_by: moorel
+creation_date: 2012-04-12T10:49:10Z
+
+[Term]
+id: PDO:0000058
+name: Alternaria padwickii
+def: "A fungus (PDO:0000026) that causes rice stackburn (alternaria leaf spot) (PDO:0000057)." [PDO:curators]
+xref: NCBI_Taxonomy_ID:714880
+is_a: PDO:0000026 ! fungus
+relationship: causal_agent PDO:0000057 ! rice stackburn (alternaria leaf spot)
+created_by: moorel
+creation_date: 2012-04-12T10:51:24Z
+
+[Term]
+id: PDO:0000059
+name: rice stem rot 
+def: "A rice fungal disease (PDO:0000006) caused by Magnaporthe salvinii (PDO:0000060)." [PDO:curators]
+is_a: PDO:0000006 ! rice fungal disease
+created_by: moorel
+creation_date: 2012-04-12T10:55:03Z
+
+[Term]
+id: PDO:0000060
+name: Magnaporthe salvinii
+def: "A fungus (PDO:0000026) that causes rice stem rot (PDO:0000059)." [PDO:curators]
+xref: NCBI_Taxonomy_ID:165778
+is_a: PDO:0000026 ! fungus
+relationship: causal_agent PDO:0000059 ! rice stem rot 
+created_by: moorel
+creation_date: 2012-04-12T10:56:31Z
 
 [Typedef]
 id: causal_agent
