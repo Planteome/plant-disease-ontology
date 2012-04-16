@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:04:2012 15:24
+date: 16:04:2012 13:15
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.1.1-beta7
 default-namespace: plant_disease_ontology
@@ -634,6 +634,13 @@ def: "A fungal biotic causal agent (PDO:0000026) that is more than one fungal sp
 is_a: PDO:0000026 ! fungal biotic causal agent
 created_by: moorel
 creation_date: 2012-04-13T02:51:36Z
+
+[Term]
+id: PDO:0000071
+name: host plant
+def: "An plant species that is effected a plant disease (PDO:0000001)." [PDO:curator]
+created_by: cooperl
+creation_date: 2012-04-16T01:12:08Z
 
 [Typedef]
 id: causal_agent
