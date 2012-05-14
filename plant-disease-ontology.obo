@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 27:04:2012 14:30
-saved-by: moorel
+date: 14:05:2012 16:49
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.1.1-beta9
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
@@ -74,6 +74,7 @@ id: PDO:0000006
 name: rice fungal disease
 def: "A plant fungal disease (PDO:0000004) that affects rice." [PDO:curators]
 is_a: PDO:0000004 ! plant fungal disease
+intersection_of: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-05T10:24:14Z
 
@@ -694,7 +695,7 @@ def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium specie
 xref: NCBI_Taxonomy_ID:5506
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000077 ! Fusarium pecky rice
-relationship: causal_agent PDO:0000081 ! Fusarium pecky rice 
+relationship: causal_agent PDO:0000081 ! Fusarium pecky rice
 relationship: causal_agent PDO:0000086 ! rice Fusarium seedling blight
 created_by: moorel
 creation_date: 2012-04-27T13:43:12Z
@@ -704,7 +705,7 @@ id: PDO:0000077
 name: Fusarium pecky rice
 def: "A rice fungal disease (PDO:0000006) caused by Fusarium spp. (PDO:0000076)." [PDO:curators]
 synonym: "kernel spotting" RELATED []
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000090 ! fungal pecky rice
 created_by: moorel
 creation_date: 2012-04-27T13:44:52Z
 
@@ -736,7 +737,7 @@ creation_date: 2012-04-27T14:00:25Z
 
 [Term]
 id: PDO:0000081
-name: Fusarium pecky rice 
+name: Fusarium pecky rice
 def: "A rice fungal disease (PDO:0000006) caused by Fusarium spp. (PDO:0000076)." [PDO:curators]
 synonym: "kernel spotting" RELATED []
 is_a: PDO:0000006 ! rice fungal disease
@@ -812,6 +813,21 @@ is_a: PDO:0000006 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:26:03Z
 
+[Term]
+id: PDO:0000090
+name: fungal pecky rice
+def: "A plant fungal disease (PDO:0000004) which results in a rice kernel that has brown spots." [PDO:curators]
+is_a: PDO:0000004 ! plant fungal disease
+created_by: cooperl
+creation_date: 2012-05-14T14:45:43Z
+
+[Term]
+id: PDO:0000091
+name: rice disease
+def: "A plant fungal disease (PDO:0000004) that affects rice." [PDO:curators]
+is_a: PDO:0000001 ! plant disease
+created_by: cooperl
+creation_date: 2012-05-14T16:30:47Z
 
 [Typedef]
 id: causal_agent
