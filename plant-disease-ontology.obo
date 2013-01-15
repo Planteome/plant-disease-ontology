@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 16:05:2012 14:42
+date: 11:01:2013 14:05
 saved-by: moorel
-auto-generated-by: OBO-Edit 2.1.1-beta9
+auto-generated-by: OBO-Edit 2.2
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
 subsetdef: Triticum aestivum "Terms used for wheat"
@@ -159,9 +159,9 @@ creation_date: 2012-04-06T02:21:57Z
 [Term]
 id: PDO:0000017
 name: Xanthomonas oryzae pv. oryzae
-def: "A bacteria (PDO:0000016) that causes rice bacterial blight (PDO:0000014)." [PDO:curators]
+def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial blight (PDO:0000014)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:64187
-is_a: PDO:0000016 ! bacteria
+is_a: PDO:0000095 ! Xanthomonas
 relationship: causal_agent PDO:0000014 ! rice bacterial blight
 created_by: moorel
 creation_date: 2012-04-06T02:30:34Z
@@ -169,9 +169,9 @@ creation_date: 2012-04-06T02:30:34Z
 [Term]
 id: PDO:0000018
 name: Xanthomonas oryzae pv. oryzicola
-def: "A bacteria (PDO:0000016) that causes rice bacterial leaf streak (PDO:0000018)." [PDO:curators]
+def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial leaf streak (PDO:0000018)." [PDO:curators]
 xref: NDBI_Taxonomy_ID:129394
-is_a: PDO:0000016 ! bacteria
+is_a: PDO:0000095 ! Xanthomonas
 relationship: causal_agent PDO:0000019 ! rice bacterial leaf streak
 created_by: moorel
 creation_date: 2012-04-09T01:35:20Z
@@ -205,9 +205,9 @@ creation_date: 2012-04-09T01:43:12Z
 [Term]
 id: PDO:0000022
 name: Pseudomonas glumae
-def: "A bacteria (PDO:0000016) that causes rice grain rot (PDO:0000023)." [PDO:curators]
+def: "A Pseudomonas (PDO:0000094) species that causes rice grain rot (PDO:0000023)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:286
-is_a: PDO:0000016 ! bacteria
+is_a: PDO:0000094 ! Pseudomonas
 relationship: causal_agent PDO:0000023 ! rice grain rot
 created_by: moorel
 creation_date: 2012-04-09T01:48:50Z
@@ -231,9 +231,9 @@ creation_date: 2012-04-09T01:59:01Z
 [Term]
 id: PDO:0000025
 name: Pseudomonas fuscovaginae
-def: "A bacteria (PDO:0000016) that causes rice sheath brown rot (PDO:0000024)." [PDO:curators]
+def: "A Pseudomonas (PDO:0000094) species that causes rice sheath brown rot (PDO:0000024)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:50340
-is_a: PDO:0000016 ! bacteria
+is_a: PDO:0000094 ! Pseudomonas
 relationship: causal_agent PDO:0000024 ! rice sheath brown rot
 created_by: moorel
 creation_date: 2012-04-09T02:00:45Z
@@ -566,9 +566,9 @@ creation_date: 2012-04-13T01:10:09Z
 [Term]
 id: PDO:0000062
 name: Pseudomonas syringae
-def: "A bacteria (PDO:0000016) that causes wheat bacterial leaf blight (PDO:0000061)." [PDO:curators]
+def: "A Pseudomonas (PDO:0000094) species that causes wheat bacterial leaf blight (PDO:0000061)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:317
-is_a: PDO:0000016 ! bacteria
+is_a: PDO:0000094 ! Pseudomonas
 relationship: causal_agent PDO:0000061 ! wheat bacterial leaf blight
 created_by: moorel
 creation_date: 2012-04-13T01:13:06Z
@@ -853,6 +853,24 @@ def: "A rice fungal disease (PDO:0000006) that can be caused by one or more fung
 is_a: PDO:0000006 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-05-16T13:46:51Z
+
+[Term]
+id: PDO:0000094
+name: Pseudomonas
+def: "A bacteria (PDO:0000016) genus of Gram-negative aerobic gammaproteobacteria." [PDO:moorel]
+xref: NCBI_Taxonomy_ID:286
+is_a: PDO:0000016 ! bacteria
+created_by: moorel
+creation_date: 2013-01-11T13:43:05Z
+
+[Term]
+id: PDO:0000095
+name: Xanthomonas
+def: "A bacteria (PDO:0000016) genus of Protobacteria that may cause plant disease (PDO:0000001)." [PDO:moorel]
+xref: NCBI_Taxonomy_ID:338
+is_a: PDO:0000016 ! bacteria
+created_by: moorel
+creation_date: 2013-01-11T14:02:08Z
 
 [Typedef]
 id: causal_agent
