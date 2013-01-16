@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:01:2013 14:05
+date: 16:01:2013 13:41
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 subsetdef: Glycine max "Terms used for soybean"
@@ -871,6 +871,78 @@ xref: NCBI_Taxonomy_ID:338
 is_a: PDO:0000016 ! bacteria
 created_by: moorel
 creation_date: 2013-01-11T14:02:08Z
+
+[Term]
+id: PDO:0000096
+name: Poaceae
+def: "A host plant (PDO:0000071) family of monocotyledonous flowering plants." [PDO:moorel]
+xref: NCBI_Taxonomy_ID:4479
+is_a: PDO:0000071 ! host plant
+created_by: moorel
+creation_date: 2013-01-16T13:14:15Z
+
+[Term]
+id: PDO:0000097
+name: Oryza
+def: "A Poaceae (PDO:0000096) genus of seven to twenty species of grasses." [PDO:moorel]
+xref: NCBI_Taxonomy_ID:4527
+is_a: PDO:0000096 ! Poaceae
+created_by: moorel
+creation_date: 2013-01-16T13:18:18Z
+
+[Term]
+id: PDO:0000098
+name: Oryza sativa
+def: "An Oryza (PDO:0000097) species commonly known as Asian rice." [PDO:moorel]
+xref: NCBI_Taxonomy_ID:4530
+is_a: PDO:0000097 ! Oryza
+created_by: moorel
+creation_date: 2013-01-16T13:21:33Z
+
+[Term]
+id: PDO:0000099
+name: Triticum
+def: "A Poaceae (PDO:0000096) genus of cereal grains." [PDO:moorel]
+xref: NCBI_Taxonomy_ID:4564
+is_a: PDO:0000096 ! Poaceae
+created_by: moorel
+creation_date: 2013-01-16T13:25:35Z
+
+[Term]
+id: PDO:0000100
+name: Zea
+def: "A Poaceae (PDO:000096) genus of grasses commonly known as teosintes." [PDO:moorel]
+xref: NCBI_Taxonomy_ID:4575
+is_a: PDO:0000096 ! Poaceae
+created_by: moorel
+creation_date: 2013-01-16T13:29:53Z
+
+[Term]
+id: PDO:0000101
+name: Zea mays
+def: "A Zea (PDO:0000100) species commonly known as corn or maize." [PDO:moorel]
+xref: NCBI_Taxonomy_ID:4577
+is_a: PDO:0000100 ! Zea
+created_by: moorel
+creation_date: 2013-01-16T13:32:37Z
+
+[Term]
+id: PDO:0000102
+name: Hordeum
+def: "A Poaceae (PDO:0000096) genus of annual and perennial grasses commonly known as barleys." [PDO:moorel]
+xref: NCBI_Taxonomy_ID:4512
+is_a: PDO:0000096 ! Poaceae
+created_by: moorel
+creation_date: 2013-01-16T13:36:12Z
+
+[Term]
+id: PDO:0000103
+name: Hordeum vulgare
+def: "A Hordeum (PDO:0000102) species commonly known as barley." [PDO:moorel]
+xref: NCBI_Taxonomy_ID:4513
+is_a: PDO:0000102 ! Hordeum
+created_by: moorel
+creation_date: 2013-01-16T13:40:26Z
 
 [Typedef]
 id: causal_agent
