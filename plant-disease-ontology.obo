@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:01:2013 15:49
+date: 17:01:2013 15:57
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 subsetdef: Glycine max "Terms used for soybean"
@@ -283,6 +283,7 @@ def: "A fungal species (PDO:0000069) that causes rice black kernel (PDO:0000029)
 xref: NCBI_Taxonomy_ID:418123
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000029 ! rice black kernel
+relationship: part_of PDO:0000074 ! Curvularia spp.
 created_by: moorel
 creation_date: 2012-04-09T02:19:53Z
 
@@ -614,6 +615,7 @@ def: "A fungal species (PDO:0000069) that causes rice Pythium dissotocum root ro
 xref: NCBI_Taxonomy_ID:82936
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000065 ! rice Pythium dissotocum root rot
+relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
 creation_date: 2012-04-13T02:18:59Z
 
@@ -662,6 +664,7 @@ name: Pythium spinosum
 def: "A fungal species (PDO:0000069) that causes rice Pythium spinosum root rot (PDO:0000073)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:82948
 is_a: PDO:0000069 ! fungal species
+relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
 creation_date: 2012-04-27T13:35:14Z
 
@@ -1002,6 +1005,7 @@ comment: Oomycete
 synonym: "Pythium arrhenomanes Drechs. " NARROW []
 xref: NCBI_Taxonomy_ID:82932
 is_a: PDO:0000069 ! fungal species
+relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
 creation_date: 2013-01-17T14:47:59Z
 
@@ -1013,6 +1017,7 @@ comment: Oomycetes
 synonym: "Pythium graminicola Subramanian" NARROW []
 xref: NCBI_Taxonomy_ID:82937
 is_a: PDO:0000069 ! fungal species
+relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
 creation_date: 2013-01-17T15:05:28Z
 
@@ -1033,6 +1038,7 @@ def: "A fungal species (PDO:0000111) which causes snow rot." [PDO:moorel]
 synonym: "Pythium iwayamai Ito" NARROW []
 xref: NCBI_Taxonomy_ID:115417
 is_a: PDO:0000069 ! fungal species
+relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
 creation_date: 2013-01-17T15:25:04Z
 
@@ -1043,6 +1049,7 @@ def: "A fungal species (PDO:0000069) which causes snow rot." [PDO:moorel]
 synonym: "Pythium okanoganense Lipps " NARROW []
 xref: NCBI_Taxonomy_ID:182683
 is_a: PDO:0000069 ! fungal species
+relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
 creation_date: 2013-01-17T15:29:11Z
 
