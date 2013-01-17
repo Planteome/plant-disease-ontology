@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:01:2013 15:41
+date: 17:01:2013 15:49
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 subsetdef: Glycine max "Terms used for soybean"
@@ -271,7 +271,7 @@ creation_date: 2012-04-09T02:14:30Z
 [Term]
 id: PDO:0000029
 name: rice black kernel
-def: "A rice fungal disease (PDO:0000006) caused by Curvularia lunata (PDO:0000030)." [PDO:curators]
+def: "A plant fungal disease (PDO:0000004) caused by Curvularia lunata (PDO:0000030)." [PDO:curators]
 is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:18:03Z
@@ -289,7 +289,7 @@ creation_date: 2012-04-09T02:19:53Z
 [Term]
 id: PDO:0000031
 name: rice blast (leaf, neck [rotten neck], nodal and collar)
-def: "A rice fungal disease (PDO:0000006) caused by Pyricularia grisea (PDO:0000032)." [PDO:curators]
+def: "A plant fungal disease (PDO:0000004) caused by Pyricularia grisea (PDO:0000032)." [PDO:curators]
 is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:23:26Z
