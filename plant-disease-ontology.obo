@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:01:2013 14:03
+date: 17:01:2013 15:14
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 subsetdef: Glycine max "Terms used for soybean"
@@ -73,7 +73,7 @@ creation_date: 2012-04-05T10:23:07Z
 id: PDO:0000006
 name: rice fungal disease
 def: "A plant fungal disease (PDO:0000004) that affects rice." [PDO:curators]
-is_a: PDO:0000004 ! plant fungal disease
+is_obsolete: true
 created_by: moorel
 creation_date: 2012-04-05T10:24:14Z
 
@@ -135,8 +135,8 @@ creation_date: 2012-04-05T10:36:00Z
 
 [Term]
 id: PDO:0000014
-name: rice bacterial blight
-def: "A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv. oryzae (PDO:0000017)." [PDO:curators]
+name: bacterial blight
+def: "A plant bacterial disease (PDO:0000002) caused by Xanthomonas oryzae pv. oryzae (PDO:0000017)." [PDO:curators]
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-05T10:37:53Z
@@ -159,10 +159,10 @@ creation_date: 2012-04-06T02:21:57Z
 [Term]
 id: PDO:0000017
 name: Xanthomonas oryzae pv. oryzae
-def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial blight (PDO:0000014)." [PDO:curators]
+def: "A Xanthomonas (PDO:0000095) species that causes bacterial blight (PDO:0000014) of Oryza sativa (PDO:0000098)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:64187
 is_a: PDO:0000095 ! Xanthomonas
-relationship: causal_agent PDO:0000014 ! rice bacterial blight
+relationship: causal_agent PDO:0000014 ! bacterial blight
 created_by: moorel
 creation_date: 2012-04-06T02:30:34Z
 
@@ -253,8 +253,8 @@ creation_date: 2012-04-09T02:06:26Z
 [Term]
 id: PDO:0000027
 name: rice aggregate sheath spot
-def: "A rice fungal disease (PDO:0000006) caused by Ceratobasidium oryzae-sativae (PDO:0000028)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+def: "A plant fungal disease (PDO:0000004) caused by Ceratobasidium oryzae-sativae (PDO:0000028)." [PDO:curators]
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:12:07Z
 
@@ -272,7 +272,7 @@ creation_date: 2012-04-09T02:14:30Z
 id: PDO:0000029
 name: rice black kernel
 def: "A rice fungal disease (PDO:0000006) caused by Curvularia lunata (PDO:0000030)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:18:03Z
 
@@ -290,7 +290,7 @@ creation_date: 2012-04-09T02:19:53Z
 id: PDO:0000031
 name: rice blast (leaf, neck [rotten neck], nodal and collar)
 def: "A rice fungal disease (PDO:0000006) caused by Pyricularia grisea (PDO:0000032)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:23:26Z
 
@@ -308,7 +308,7 @@ creation_date: 2012-04-09T02:25:01Z
 id: PDO:0000033
 name: rice brown spot
 def: "A rice fungal disease (PDO:0000006) caused by Cochliobolus miyabeanus (PDO:0000034)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:27:33Z
 
@@ -328,7 +328,7 @@ creation_date: 2012-04-09T02:28:59Z
 id: PDO:0000035
 name: rice crown sheath rot
 def: "A rice fungal disease (PDO:0000006) caused by Gaeumannomyces graminis (PDO:0000036)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:31:07Z
 
@@ -344,19 +344,18 @@ creation_date: 2012-04-09T02:32:53Z
 
 [Term]
 id: PDO:0000037
-name: rice downy mildew
-def: "A rice fungal disease (PDO:0000006) caused by Sclerophthora macrospora (PDO:0000038)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+name: downy mildew
+def: "A plant fungal disease (PDO:0000004) caused by Sclerophthora macrospora (PDO:0000038)." [PDO:curators]
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:35:27Z
 
 [Term]
 id: PDO:0000038
 name: Sclerophthora macrospora
-def: "A fungal species (PDO:0000069) that causes rice downy mildew (PDO:0000037)." [PDO:curators]
+def: "A fungal species (PDO:0000069) that causes downy mildew (PDO:0000037)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:467176
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000037 ! rice downy mildew
 created_by: moorel
 creation_date: 2012-04-09T02:39:34Z
 
@@ -364,7 +363,7 @@ creation_date: 2012-04-09T02:39:34Z
 id: PDO:0000039
 name: rice eyespot
 def: "A rice fungal disease (PDO:0000006) caused by Drechslera gigantea (PDO:0000040)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:43:16Z
 
@@ -382,7 +381,7 @@ creation_date: 2012-04-09T02:44:40Z
 id: PDO:0000041
 name: rice false smut
 def: "A rice fungal disease (PDO:0000006) caused by Ustilaginoidea virens (PDO:0000042)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:47:43Z
 
@@ -400,7 +399,7 @@ creation_date: 2012-04-09T02:49:19Z
 id: PDO:0000043
 name: rice kernel smut
 def: "A rice fungal disease (PDO:0000006) caused by Tilletia barclayana (PDO:0000044)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:52:18Z
 
@@ -418,7 +417,7 @@ creation_date: 2012-04-09T02:53:56Z
 id: PDO:0000045
 name: rice leaf smut
 def: "A rice fungal disease (PDO:0000006) caused by Entyloma oryzae (PDO:0000046)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:56:24Z
 
@@ -436,7 +435,7 @@ creation_date: 2012-04-09T02:57:42Z
 id: PDO:0000047
 name: rice leaf scald
 def: "A rice fungal disease (PDO:0000006) caused by Microdochium oryzae (PDO:0000048)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-09T03:01:46Z
 
@@ -455,7 +454,7 @@ creation_date: 2012-04-09T03:04:07Z
 id: PDO:0000049
 name: rice narrow brown leaf spot
 def: "A rice fungal disease (PDO:0000006) caused by Cercospora janseana (PDO:0000050)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:19:40Z
 
@@ -473,7 +472,7 @@ creation_date: 2012-04-12T10:22:56Z
 id: PDO:0000051
 name: rice sheath blight
 def: "A rice fungal disease (PDO:0000006) caused by Thanatephorus cucumeris (PDO:0000052)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:28:54Z
 
@@ -491,7 +490,7 @@ creation_date: 2012-04-12T10:34:25Z
 id: PDO:0000053
 name: rice sheath rot
 def: "A rice fungal disease (PDO:0000006) caused by Sarocladium oryzae (PDO:0000054)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:36:53Z
 
@@ -509,7 +508,7 @@ creation_date: 2012-04-12T10:38:45Z
 id: PDO:0000055
 name: rice sheath spot
 def: "A rice fungal disease (PDO:0000006) caused by Rhizoctonia oryzae (PDO:0000056)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:41:34Z
 
@@ -527,7 +526,7 @@ creation_date: 2012-04-12T10:44:51Z
 id: PDO:0000057
 name: rice stackburn (alternaria leaf spot)
 def: "A rice fungal disease (PDO:0000006) caused by Alternaria padwickii (PDO:0000058)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:49:10Z
 
@@ -545,7 +544,7 @@ creation_date: 2012-04-12T10:51:24Z
 id: PDO:0000059
 name: rice stem rot
 def: "A rice fungal disease (PDO:0000006) caused by Magnaporthe salvinii (PDO:0000060)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:55:03Z
 
@@ -583,20 +582,20 @@ creation_date: 2012-04-13T01:13:06Z
 
 [Term]
 id: PDO:0000063
-name: rice pythium root rot
-def: "A rice fungal disease (PDO:0000006) caused by Pythium spp. (PDO:0000064)." [PDO:curators]
+name: Pythium root rot
+def: "A plant fungal disease (PDO:0000004) caused by Pythium spp. (PDO:0000064)." [PDO:curators]
 synonym: "rice kernel spotting" EXACT []
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-13T02:04:43Z
 
 [Term]
 id: PDO:0000064
 name: Pythium spp.
-def: "A Pythium fungal spp. (PDO:0000070) that is more than one Pythium species and causes rice Pythium root rot (PDO:0000063)." [PDO:curtors]
+def: "A Pythium fungal spp. (PDO:0000070) that is more than one Pythium species and causes Pythium root rot (PDO:0000063)." [PDO:curtors]
 xref: NCBI_Taxonomy_ID:4797
 is_a: PDO:0000070 ! fungal spp.
-relationship: causal_agent PDO:0000063 ! rice pythium root rot
+relationship: causal_agent PDO:0000063 ! Pythium root rot
 created_by: moorel
 creation_date: 2012-04-13T02:11:59Z
 
@@ -604,7 +603,7 @@ creation_date: 2012-04-13T02:11:59Z
 id: PDO:0000065
 name: rice Pythium dissotocum root rot
 def: "A rice Pythium root rot (PDO:0000063) caused by Pythium dissotocum (PDO:0000066)." [PDO:curators]
-is_a: PDO:0000063 ! rice pythium root rot
+is_a: PDO:0000063 ! Pythium root rot
 created_by: moorel
 creation_date: 2012-04-13T02:15:43Z
 
@@ -670,7 +669,7 @@ creation_date: 2012-04-27T13:35:14Z
 id: PDO:0000073
 name: rice Pythium spinosum root rot
 def: "A rice Pythium root rot (PDO:0000063) caused by Pythium spinosum (PDO:0000072)." [PDO:curators]
-is_a: PDO:0000063 ! rice pythium root rot
+is_a: PDO:0000063 ! Pythium root rot
 relationship: causal_agent PDO:0000072 ! Pythium spinosum
 created_by: moorel
 creation_date: 2012-04-27T13:37:47Z
@@ -741,7 +740,7 @@ creation_date: 2012-04-27T13:50:51Z
 id: PDO:0000080
 name: rice fusarium root rot
 def: "A rice fungal disease (PDO:0000006) caused by Fusarium spp. (PDO:0000076)." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:00:25Z
 
@@ -814,7 +813,7 @@ creation_date: 2012-04-27T14:21:31Z
 [Term]
 id: PDO:0000088
 name: Rhizoctonia solani
-def: "A fungal species (PDO:0000069) that causes rice Rhizoctonia solani seedling blight (PDO:0000087)." [PDO:curators]
+def: "A fungal species (PDO:0000069) that causes rice Rhizoctonia solani seedling blight (PDO:0000087) and Rhizoctonia root rot and stalk rot." [PDO:curators]
 xref: NCBI_Taxonomy_ID:456999
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000087 ! rice rhizoctonia solani seedling blight
@@ -842,7 +841,7 @@ creation_date: 2012-05-14T14:45:43Z
 id: PDO:0000091
 name: rice disease
 def: "A plant disease (PDO:0000001) that affects rice." [PDO:curators]
-is_a: PDO:0000001 ! plant disease
+is_obsolete: true
 created_by: cooperl
 creation_date: 2012-05-14T16:30:47Z
 
@@ -850,7 +849,7 @@ creation_date: 2012-05-14T16:30:47Z
 id: PDO:0000092
 name: pecky rice
 def: "A rice fungal disease (PDO:0000006) that can be caused by one or more fungal species." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-05-16T13:14:55Z
 
@@ -858,7 +857,7 @@ creation_date: 2012-05-16T13:14:55Z
 id: PDO:0000093
 name: rice seedling blight
 def: "A rice fungal disease (PDO:0000006) that can be caused by one or more fungal species." [PDO:curators]
-is_a: PDO:0000006 ! rice fungal disease
+is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-05-16T13:46:51Z
 
@@ -884,6 +883,7 @@ creation_date: 2013-01-11T14:02:08Z
 id: PDO:0000096
 name: Poaceae
 def: "A host plant (PDO:0000071) family of monocotyledonous flowering plants." [PDO:moorel]
+synonym: "Gramineae" NARROW []
 xref: NCBI_Taxonomy_ID:4479
 is_a: PDO:0000071 ! host plant
 created_by: moorel
@@ -902,6 +902,7 @@ creation_date: 2013-01-16T13:18:18Z
 id: PDO:0000098
 name: Oryza sativa
 def: "An Oryza (PDO:0000097) species commonly known as Asian rice." [PDO:moorel]
+synonym: "Oryza sativa L." NARROW []
 xref: NCBI_Taxonomy_ID:4530
 is_a: PDO:0000097 ! Oryza
 created_by: moorel
@@ -911,6 +912,7 @@ creation_date: 2013-01-16T13:21:33Z
 id: PDO:0000099
 name: Triticum
 def: "A Poaceae (PDO:0000096) genus of cereal grains." [PDO:moorel]
+synonym: "Triticum spp. L." NARROW []
 xref: NCBI_Taxonomy_ID:4564
 is_a: PDO:0000096 ! Poaceae
 created_by: moorel
@@ -929,6 +931,7 @@ creation_date: 2013-01-16T13:29:53Z
 id: PDO:0000101
 name: Zea mays
 def: "A Zea (PDO:0000100) species commonly known as corn or maize." [PDO:moorel]
+synonym: "Zea mays L." NARROW []
 xref: NCBI_Taxonomy_ID:4577
 is_a: PDO:0000100 ! Zea
 created_by: moorel
@@ -947,10 +950,77 @@ creation_date: 2013-01-16T13:36:12Z
 id: PDO:0000103
 name: Hordeum vulgare
 def: "A Hordeum (PDO:0000102) species commonly known as barley." [PDO:moorel]
+synonym: "Hordeum vulgare L." NARROW []
 xref: NCBI_Taxonomy_ID:4513
 is_a: PDO:0000102 ! Hordeum
 created_by: moorel
 creation_date: 2013-01-16T13:40:26Z
+
+[Term]
+id: PDO:0000104
+name: Achlya conspicua
+def: "A fungal species (PDO:0000069) which causes plant disease (PDO:0000001)." [PDO:moorel]
+synonym: "Achlya conspicua Coker" NARROW []
+xref: NCBI_Taxonomy_ID:112027
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-17T13:04:11Z
+
+[Term]
+id: PDO:0000105
+name: Achlya klebsiana
+def: "A fungal species (PDO:0000069) which causes plant disease (PDO:0000001)." [PDO:moorel]
+synonym: "Achlya klebsiana Pieters" NARROW []
+xref: NCBI_Taxonomy_ID:4767
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-17T13:13:00Z
+
+[Term]
+id: PDO:0000106
+name: Colletotrichum graminicola
+def: "A fungal species (PDO:0000069) that causes Anthracnose leaf blight and anthracnose stalk rot." [PDO:moorel]
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-17T14:38:50Z
+
+[Term]
+id: PDO:0000107
+name: Ascochyta tritici
+def: "A fungal species (PDO:0000069) which causes leaf spot." [PDO:moorel]
+comment: No NCBI Taxonomy ID.
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-17T14:43:46Z
+
+[Term]
+id: PDO:0000108
+name: Pythium arrhenomanes
+def: "A fungal species (PDO:0000069) that causes Pythium root rot (PDO:0000063)." [PDO:moorel]
+comment: Oomycete
+synonym: "Pythium arrhenomanes Drechs. " NARROW []
+xref: NCBI_Taxonomy_ID:82932
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-17T14:47:59Z
+
+[Term]
+id: PDO:0000109
+name: Pythium graminicola
+def: "A fungal species (PDO:0000069) which causes Pythium root rot (PDO:0000063)." [PDO:moorel]
+comment: Oomycetes
+synonym: "Pythium graminicola Subramanian" NARROW []
+xref: NCBI_Taxonomy_ID:82937
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-17T15:05:28Z
+
+[Term]
+id: PDO:0000110
+name: <new term>
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-17T15:11:41Z
 
 [Typedef]
 id: causal_agent
