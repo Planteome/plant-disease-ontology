@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:01:2013 15:14
+date: 17:01:2013 15:41
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 subsetdef: Glycine max "Terms used for soybean"
@@ -814,6 +814,7 @@ creation_date: 2012-04-27T14:21:31Z
 id: PDO:0000088
 name: Rhizoctonia solani
 def: "A fungal species (PDO:0000069) that causes rice Rhizoctonia solani seedling blight (PDO:0000087) and Rhizoctonia root rot and stalk rot." [PDO:curators]
+synonym: "Rhizoctonia solani Kühn" NARROW []
 xref: NCBI_Taxonomy_ID:456999
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000087 ! rice rhizoctonia solani seedling blight
@@ -1017,10 +1018,63 @@ creation_date: 2013-01-17T15:05:28Z
 
 [Term]
 id: PDO:0000110
-name: <new term>
+name: Typhula idahoensis
+def: "A fungal species (PDO:0000110) that causes speckled snow mold." [PDO:moorel]
+synonym: "Typhula idahoensis Remsberg" NARROW []
+xref: NCBI_Taxonomy_ID:107961
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-17T15:11:41Z
+
+[Term]
+id: PDO:0000111
+name: Pythium iwayamai
+def: "A fungal species (PDO:0000111) which causes snow rot." [PDO:moorel]
+synonym: "Pythium iwayamai Ito" NARROW []
+xref: NCBI_Taxonomy_ID:115417
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-17T15:25:04Z
+
+[Term]
+id: PDO:0000112
+name: Pythium okanoganense
+def: "A fungal species (PDO:0000069) which causes snow rot." [PDO:moorel]
+synonym: "Pythium okanoganense Lipps " NARROW []
+xref: NCBI_Taxonomy_ID:182683
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-17T15:29:11Z
+
+[Term]
+id: PDO:0000113
+name: Myriosclerotinia borealis
+def: "A fungal species (PDO:0000069) which causes snow scald." [PDO:moorel]
+synonym: "Myriosclerotinia borealis (Bubak & Vleugel) L. M. Kohn" NARROW []
+xref: NCBI_Taxonomy_ID:77105
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-17T15:32:41Z
+
+[Term]
+id: PDO:0000114
+name: Sclerotium rolfsii
+def: "A fungal species (PDO:0000069) which causes southern blight." [PDO:moorel]
+synonym: "Sclerotium rolfsii Sacc." NARROW []
+xref: NCBI_Taxonomy_ID:39291
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-17T15:36:17Z
+
+[Term]
+id: PDO:0000115
+name: Pyrenophora tritici-repentis
+def: "A fungal species (PDO:0000069) which causes tan spot." [PDO:moorel]
+synonym: "Pyrenophora tritici-repentis (Died.) Drechs." NARROW []
+xref: NCBI_Taxonomy_ID:45151
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-17T15:39:13Z
 
 [Typedef]
 id: causal_agent
