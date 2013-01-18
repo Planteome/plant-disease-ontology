@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 18:01:2013 09:54
-saved-by: cooperl
+date: 18:01:2013 12:40
+saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
@@ -122,7 +122,7 @@ creation_date: 2012-04-05T10:36:00Z
 [Term]
 id: PDO:0000014
 name: bacterial blight
-def: "A plant bacterial disease (PDO:0000002) caused by Xanthomonas oryzae pv. oryzae (PDO:0000017)." [PDO:curators]
+def: "A plant bacterial disease (PDO:0000002) caused by Xanthomonas oryzae pv oryzae (PDO:0000017)." [PDO:curators]
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-05T10:37:53Z
@@ -165,7 +165,7 @@ creation_date: 2012-04-09T01:35:20Z
 [Term]
 id: PDO:0000019
 name: rice bacterial leaf streak
-def: "A rice bacterial disease (PDO:0000003) cause by Xanthomonas oryzae pv. oryzicola (PDO:0000018)." [PDO:curators]
+def: "A rice bacterial disease (PDO:0000003) cause by Xanthomonas oryzae pv oryzicola (PDO:0000018)." [PDO:curators]
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:37:41Z
@@ -486,8 +486,7 @@ id: PDO:0000054
 name: Sarocladium oryzae
 def: "A fungal species (PDO:0000069) that causes rice sheath rot (PDO:0000053)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:284135
-is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000053 ! sheath rot
+is_obsolete: true
 created_by: moorel
 creation_date: 2012-04-12T10:38:45Z
 
@@ -521,6 +520,7 @@ creation_date: 2012-04-12T10:49:10Z
 id: PDO:0000058
 name: Alternaria padwickii
 def: "A fungal species (PDO:0000069) that causes rice stackburn (alternaria leaf spot) (PDO:0000057)." [PDO:curators]
+synonym: "Alternaria padwickii (Ganguly) M.B. Ellis" NARROW []
 xref: NCBI_Taxonomy_ID:714880
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000057 ! rice stackburn (alternaria leaf spot)
@@ -579,7 +579,7 @@ creation_date: 2012-04-13T02:04:43Z
 [Term]
 id: PDO:0000064
 name: Pythium spp.
-def: "A Pythium fungal spp. (PDO:0000070) that is more than one Pythium species and causes Pythium root rot (PDO:0000063)." [PDO:curtors]
+def: "A fungal spp. (PDO:0000070) that is more than one Pythium species." [PDO:curtors]
 xref: NCBI_Taxonomy_ID:4797
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000063 ! Pythium root rot
@@ -598,6 +598,8 @@ creation_date: 2012-04-13T02:15:43Z
 id: PDO:0000066
 name: Pythium dissotocum
 def: "A fungal species (PDO:0000069) that causes rice Pythium dissotocum root rot (PDO:0000065)." [PDO:curators]
+comment: Pythium is an oomycete.  This species causes Pythium root rot in Oryza sativa.
+synonym: "Pythium dissotocum Drechs" NARROW []
 xref: NCBI_Taxonomy_ID:82936
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000065 ! rice Pythium dissotocum root rot
@@ -648,6 +650,7 @@ creation_date: 2012-04-16T01:12:08Z
 id: PDO:0000072
 name: Pythium spinosum
 def: "A fungal species (PDO:0000069) that causes rice Pythium spinosum root rot (PDO:0000073)." [PDO:curators]
+synonym: "Pythium spinosum Sawada" NARROW []
 xref: NCBI_Taxonomy_ID:82948
 is_a: PDO:0000069 ! fungal species
 relationship: part_of PDO:0000064 ! Pythium spp.
@@ -756,7 +759,8 @@ creation_date: 2012-04-27T14:05:28Z
 [Term]
 id: PDO:0000083
 name: Sarocladium oryzae
-def: "A fungal species (PDO:0000069) that causes Sarocladium oryzae pecky rice (PDO:0000082)." [PDO:curators]
+def: "A fungal species (PDO:0000069) that causes various plant fungal diseases (PDO:0000004)." [PDO:curators]
+comment: A fungal species that causes Sarocladium oryzae pecky rice (PDO:0000082) and rice sheath rot (PDO:0000053).
 xref: NCBI_Taxonomy_ID:284135
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000082 ! sarocladium oryzae pecky rice
@@ -813,8 +817,7 @@ creation_date: 2012-04-27T14:22:42Z
 [Term]
 id: PDO:0000089
 name: rice sclerotium rolfsii seedling blight
-def: "A rice seedling blight (PDO:0000092) caused by Sclerotium rolfsii (PDO:0000090)." [PDO:curators]
-xref: :<new xref>
+def: "A rice seedling blight (PDO:0000092) caused by Sclerotium rolfsii (PDO:0000090)." [PDO:moorel]
 is_a: PDO:0000093 ! rice seedling blight
 created_by: moorel
 creation_date: 2012-04-27T14:26:03Z
@@ -1021,6 +1024,7 @@ creation_date: 2013-01-17T15:11:41Z
 id: PDO:0000111
 name: Pythium iwayamai
 def: "A fungal species (PDO:0000111) which causes snow rot." [PDO:moorel]
+comment: Pythium is an oomycete.  This species causes snow rot in Hordeum vulgare and Triticum.
 synonym: "Pythium iwayamai Ito" NARROW []
 xref: NCBI_Taxonomy_ID:115417
 is_a: PDO:0000069 ! fungal species
@@ -1032,6 +1036,7 @@ creation_date: 2013-01-17T15:25:04Z
 id: PDO:0000112
 name: Pythium okanoganense
 def: "A fungal species (PDO:0000069) which causes snow rot." [PDO:moorel]
+comment: Pythium is an oomycete.  This species causes snow rot in Hordeum vulgare and Triticum.
 synonym: "Pythium okanoganense Lipps " NARROW []
 xref: NCBI_Taxonomy_ID:182683
 is_a: PDO:0000069 ! fungal species
