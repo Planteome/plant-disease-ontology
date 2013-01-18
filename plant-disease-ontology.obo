@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:01:2013 12:40
+date: 18:01:2013 13:08
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 subsetdef: Glycine max "Terms used for soybean"
@@ -248,6 +248,7 @@ creation_date: 2012-04-09T02:12:07Z
 id: PDO:0000028
 name: Ceratobasidium oryzae-sativae
 def: "A fungal species (PDO:0000069) that causes rice aggregate sheath spot (PDO:0000027)." [PDO:curators]
+synonym: "Ceratobasidium oryzae-sativae Gunnell & Webster" NARROW []
 xref: NCBI_Taxonomy_ID:63189
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000027 ! rice aggregate sheath spot
@@ -266,6 +267,7 @@ creation_date: 2012-04-09T02:18:03Z
 id: PDO:0000030
 name: Curvularia lunata
 def: "A fungal species (PDO:0000069) that causes rice black kernel (PDO:0000029)." [PDO:curators]
+synonym: "Curvularia lunata (Wakk.) Boedijn" NARROW []
 xref: NCBI_Taxonomy_ID:418123
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000029 ! black kernel
@@ -285,6 +287,7 @@ creation_date: 2012-04-09T02:23:26Z
 id: PDO:0000032
 name: Pyricularia grisea
 def: "A fungal species (PDO:0000069) that causes rice blast (PDO:0000031)." [PDO:curators]
+synonym: "Pyricularia grisea Sacc." NARROW []
 xref: NCBI_Taxonomy_ID:148305
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000031 ! rice blast (leaf, neck [rotten neck], nodal and collar)
@@ -303,6 +306,7 @@ creation_date: 2012-04-09T02:27:33Z
 id: PDO:0000034
 name: Cochliobolus miyabeanus
 def: "A fungal species (PDO:0000069) that causes rice brown spot (PDO:0000033), Cochliobolus miyabeanus pecky rice (PDO:0000078) and rice Cochliobolus miyabeanus seedling blight (PDO:0000084)." [PDO:curators]
+synonym: "Cochliobolus miyabeanus (Ito & Kuribayashi) Drechs. ex Dastur" NARROW []
 xref: NCBI_Taxonomy_ID:101162
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000033 ! brown spot
@@ -323,6 +327,7 @@ creation_date: 2012-04-09T02:31:07Z
 id: PDO:0000036
 name: Gaeumannomyces graminis
 def: "A fungal species (PDO:0000069) that causes rice crown sheath rot (PDO:0000035)." [PDO:curators]
+synonym: "Gaeumannomyces graminis (Sacc.) Thirumalachar et al." NARROW []
 xref: NCBI_Taxonomy_ID:29850
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000035 ! rice crown sheath rot
@@ -341,6 +346,7 @@ creation_date: 2012-04-09T02:35:27Z
 id: PDO:0000038
 name: Sclerophthora macrospora
 def: "A fungal species (PDO:0000069) that causes downy mildew (PDO:0000037)." [PDO:curators]
+synonym: "Sclerophthora macrospora (Sacc.) Thirumalachar et al. " NARROW []
 xref: NCBI_Taxonomy_ID:467176
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
@@ -358,6 +364,7 @@ creation_date: 2012-04-09T02:43:16Z
 id: PDO:0000040
 name: Drechslera gigantea
 def: "A fungal species (PDO:0000069) that causes rice eyespot (PDO:0000039)." [PDO:curators]
+synonym: "Drechslera gigantea (Heald & F.A. Wolf) Ito" NARROW []
 xref: NCBI_Taxonomy_ID:5028
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000039 ! eyespot
@@ -376,6 +383,7 @@ creation_date: 2012-04-09T02:47:43Z
 id: PDO:0000042
 name: Ustilaginoidea virens
 def: "A fungal species (PDO:0000069) that causes rice false smut (PDO:0000041)." [PDO:curators]
+synonym: "Ustilaginoidea virens (Cooke) Takah." NARROW []
 xref: NCBI_Taxonomy_ID:1159556
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000041 ! false smut
@@ -394,6 +402,7 @@ creation_date: 2012-04-09T02:52:18Z
 id: PDO:0000044
 name: Tilletia barclayana
 def: "A fungal species (PDO:0000069) that causes rice kernel smut (PDO:0000043)." [PDO:curators]
+synonym: "Tilletia barclayana (Bref.) Sacc. & Syd. in Sacc." NARROW []
 xref: NCBI_Taxonomy_ID:157178
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000043 ! rice kernel smut
@@ -412,6 +421,7 @@ creation_date: 2012-04-09T02:56:24Z
 id: PDO:0000046
 name: Entyloma oryzae
 def: "A fungal species (PDO:0000069) that causes rice leaf smut (PDO:0000045)." [PDO:curators]
+synonym: "Entyloma oryzae Syd. & P. Syd." NARROW []
 xref: NCBI_Taxonomy_ID:62636
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000045 ! rice leaf smut
@@ -430,6 +440,7 @@ creation_date: 2012-04-09T03:01:46Z
 id: PDO:0000048
 name: Microdochium oryzae
 def: "A fungal species (PDO:0000069) that causes rice leaf scald (PDO:0000047) and Microdochium oryzae pecky rice (PDO:0000079)." [PDO:curators]
+synonym: "Microdochium oryzae (Hashioka & Yokogi) Samuels & I.C. Hallett" NARROW []
 xref: NCBI_Taxonomy_ID:67608
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000047 ! rice leaf scald
@@ -449,6 +460,7 @@ creation_date: 2012-04-12T10:19:40Z
 id: PDO:0000050
 name: Cercospora janseana
 def: "A fungal species (PDO:0000069) that causes rice narrow brown leaf spot (PDO:0000049)." [PDO:curators]
+synonym: "Cercospora janseana (Racib.) O. Const." NARROW []
 xref: NCBI_Taxonomy_ID:706553
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000049 ! rice narrow brown leaf spot
@@ -467,6 +479,7 @@ creation_date: 2012-04-12T10:28:54Z
 id: PDO:0000052
 name: Thanatephorus cucumeris
 def: "A fungal species (PDO:0000069) that causes rice sheath blight (PDO:0000051)." [PDO:curators]
+synonym: "Thanatephorus cucumeris (A.B. Frank) Donk " NARROW []
 xref: NCBI_Taxonomy_ID:107832
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000051 ! rice sheath blight
@@ -502,6 +515,7 @@ creation_date: 2012-04-12T10:41:34Z
 id: PDO:0000056
 name: Rhizoctonia oryzae
 def: "A fungal species (PDO:0000069) that causes rice sheath spot (PDO:0000055)." [PDO:curators]
+synonym: "Rhizoctonia oryzae Ryker & Gooch" NARROW []
 xref: NCBI_Taxonomy_ID:459364
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000055 ! rice sheath spot
@@ -539,6 +553,7 @@ creation_date: 2012-04-12T10:55:03Z
 id: PDO:0000060
 name: Magnaporthe salvinii
 def: "A fungal species (PDO:0000069) that causes rice stem rot (PDO:0000059)." [PDO:curators]
+synonym: "Magnaporthe salvinii (Cattaneo) R. Krause & Webster" NARROW []
 xref: NCBI_Taxonomy_ID:165778
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000059 ! rice stem rot
@@ -761,6 +776,7 @@ id: PDO:0000083
 name: Sarocladium oryzae
 def: "A fungal species (PDO:0000069) that causes various plant fungal diseases (PDO:0000004)." [PDO:curators]
 comment: A fungal species that causes Sarocladium oryzae pecky rice (PDO:0000082) and rice sheath rot (PDO:0000053).
+synonym: "Sarocladium oryzae (Sawada) W. Gams & D. Hawksworth" NARROW []
 xref: NCBI_Taxonomy_ID:284135
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000082 ! sarocladium oryzae pecky rice
@@ -973,6 +989,8 @@ creation_date: 2013-01-17T13:13:00Z
 id: PDO:0000106
 name: Colletotrichum graminicola
 def: "A fungal species (PDO:0000069) that causes Anthracnose leaf blight and anthracnose stalk rot." [PDO:moorel]
+synonym: "Glomerella graminicola" NARROW []
+xref: NCBI_Taxonomy_ID:31870
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-17T14:38:50Z
@@ -980,8 +998,9 @@ creation_date: 2013-01-17T14:38:50Z
 [Term]
 id: PDO:0000107
 name: Ascochyta tritici
-def: "A fungal species (PDO:0000069) which causes leaf spot." [PDO:moorel]
+def: "A fungal species (PDO:0000069) which causes leaf spot in Zea mays (PDO:0000101) and Hordeum vulgare (PDO:0000103)." [PDO:moorel]
 comment: No NCBI Taxonomy ID.
+synonym: "Ascochyta tritici S. Hori & Enjoji" NARROW []
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-17T14:43:46Z
