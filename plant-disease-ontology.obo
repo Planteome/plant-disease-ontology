@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:01:2013 13:08
+date: 18:01:2013 13:34
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 subsetdef: Glycine max "Terms used for soybean"
@@ -998,8 +998,8 @@ creation_date: 2013-01-17T14:38:50Z
 [Term]
 id: PDO:0000107
 name: Ascochyta tritici
-def: "A fungal species (PDO:0000069) which causes leaf spot in Zea mays (PDO:0000101) and Hordeum vulgare (PDO:0000103)." [PDO:moorel]
-comment: No NCBI Taxonomy ID.
+def: "A fungal species (PDO:0000069) which causes various plant fungal diseases (PDO:0000004)." [PDO:moorel]
+comment: No NCBI Taxonomy ID. Causes leaf spot in Zea mays (PDO:0000101), Hordeum vulgare (PDO:0000103) and Triticum aestivum (PDO:0000116).
 synonym: "Ascochyta tritici S. Hori & Enjoji" NARROW []
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
@@ -1092,6 +1092,37 @@ xref: NCBI_Taxonomy_ID:45151
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-17T15:39:13Z
+
+[Term]
+id: PDO:0000116
+name: Triticum aestivum
+def: "A Triticum (PDO:0000099) species commonly known as bread wheat." [PDO:moorel]
+synonym: "Triticum aestivum subsp. aestivum" NARROW []
+synonym: "Triticum vulgare" NARROW []
+xref: NCBI_Taxonomy_ID:4565
+is_a: PDO:0000099 ! Triticum
+created_by: moorel
+creation_date: 2013-01-18T13:22:31Z
+
+[Term]
+id: PDO:0000117
+name: Alternaria triticina
+def: "A fungal species (PDO:0000069) which causes alternaria leaf blight of Triticum aestivum (PDO:0000116)." [PDO:moorel]
+synonym: "Alternaria triticina Prasada & Prabhu" NARROW []
+xref: NCBI_Taxonomy_ID:216836
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-18T13:24:30Z
+
+[Term]
+id: PDO:0000118
+name: Microdochium bolleyi
+def: "A fungal species (PDO:0000069) which causes aureobasidium decay in Triticum aestivum (PDO:0000116)." [PDO:moorel]
+synonym: "Microdochium bolleyi (R. Sprague) DeHoog & Hermanides-Nijhof" NARROW []
+xref: NCBI_Taxonomy_ID:196109
+is_a: PDO:0000069 ! fungal species
+created_by: moorel
+creation_date: 2013-01-18T13:30:45Z
 
 [Typedef]
 id: causal_agent
