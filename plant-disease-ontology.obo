@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 17:01:2013 16:03
-saved-by: moorel
+date: 18:01:2013 09:54
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
@@ -15,20 +15,6 @@ def: "A plant disease [0000001] caused by bacteria" []
 is_obsolete: true
 created_by: moorel
 creation_date: 2012-04-05T10:11:59Z
-
-[Term]
-id: ID:0000001
-name: <new term>
-is_obsolete: true
-created_by: moorel
-creation_date: 2012-04-05T10:14:57Z
-
-[Term]
-id: ID:0000002
-name: <new term>
-is_obsolete: true
-created_by: moorel
-creation_date: 2012-04-05T10:15:35Z
 
 [Term]
 id: PDO:0000001
@@ -1001,7 +987,7 @@ creation_date: 2013-01-17T14:43:46Z
 id: PDO:0000108
 name: Pythium arrhenomanes
 def: "A fungal species (PDO:0000069) that causes Pythium root rot (PDO:0000063)." [PDO:moorel]
-comment: Oomycete
+comment: Pythium is an oomycete.  This species causes Pythium root rot  in Zea mays\nHordeum vulgare, and Triticum spp.
 synonym: "Pythium arrhenomanes Drechs. " NARROW []
 xref: NCBI_Taxonomy_ID:82932
 is_a: PDO:0000069 ! fungal species
@@ -1013,7 +999,7 @@ creation_date: 2013-01-17T14:47:59Z
 id: PDO:0000109
 name: Pythium graminicola
 def: "A fungal species (PDO:0000069) which causes Pythium root rot (PDO:0000063)." [PDO:moorel]
-comment: Oomycetes
+comment: Pythium is an oomycete.  This species causes Pythium root rot  in Zea mays\nHordeum vulgare, and Triticum spp.
 synonym: "Pythium graminicola Subramanian" NARROW []
 xref: NCBI_Taxonomy_ID:82937
 is_a: PDO:0000069 ! fungal species
