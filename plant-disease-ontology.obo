@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:03:2014 09:43
+date: 11:03:2014 12:37
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3
 subsetdef: Glycine max "Terms used for soybean"
@@ -709,7 +709,6 @@ def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium specie
 xref: NCBI_Taxonomy_ID:5506
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000077 ! Fusarium pecky rice
-relationship: causal_agent PDO:0000081 ! fusarium pecky rice
 relationship: causal_agent PDO:0000086 ! rice fusarium seedling blight
 created_by: moorel
 creation_date: 2012-04-27T13:43:12Z
@@ -750,16 +749,6 @@ def: "A plant fungal disease (PDO:0000004) caused by Fusarium spp. (PDO:0000076)
 is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:00:25Z
-
-[Term]
-id: PDO:0000081
-name: fusarium pecky rice
-def: "A pecky rice (PDO:0000092) caused by Fusarium spp. (PDO:0000076)." [PDO:curators]
-synonym: "kernel spotting" RELATED []
-xref: NCBI_Taxonomy_ID:5506
-is_a: PDO:0000092 ! pecky rice
-created_by: moorel
-creation_date: 2012-04-27T14:02:03Z
 
 [Term]
 id: PDO:0000082
@@ -843,6 +832,7 @@ id: PDO:0000090
 name: fungal pecky rice
 def: "A plant fungal disease (PDO:0000004) which results in a rice kernel that has brown spots." [PDO:curators]
 is_a: PDO:0000004 ! plant fungal disease
+is_a: PDO:0000092 ! pecky rice
 created_by: cooperl
 creation_date: 2012-05-14T14:45:43Z
 
@@ -858,7 +848,7 @@ creation_date: 2012-05-14T16:30:47Z
 id: PDO:0000092
 name: pecky rice
 def: "A plant fungal disease (PDO:0000004) that can be caused by one or more fungal species." [PDO:curators]
-is_a: PDO:0000004 ! plant fungal disease
+is_a: PDO:0000001 ! plant disease
 created_by: moorel
 creation_date: 2012-05-16T13:14:55Z
 
