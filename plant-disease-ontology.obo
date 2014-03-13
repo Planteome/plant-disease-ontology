@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 12:03:2014 14:49
-saved-by: uppalas
+date: 13:03:2014 10:21
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
@@ -594,7 +594,7 @@ creation_date: 2012-04-13T02:04:43Z
 [Term]
 id: PDO:0000064
 name: Pythium spp.
-def: "A fungal spp. (PDO:0000070) that is more than one Pythium species." [PDO:curtors]
+def: "A fungal spp. (PDO:0000070) that is more than one Pythium species." [PDO:curators]
 xref: NCBI_Taxonomy_ID:4797
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000063 ! Pythium root rot
@@ -684,7 +684,7 @@ creation_date: 2012-04-27T13:37:47Z
 [Term]
 id: PDO:0000074
 name: Curvularia spp.
-def: "A Curvularia fungal spp. (PDO:0000070) that is more than one Curvularia species and causes Curvularia pecky rice (PDO:0000075) and rice Curvularia seedling blight (PDO:0000085)." [PDO:curators]
+def: "A fungal spp. (PDO:0000070) that is more than one Curvularia species and causes Curvularia pecky rice (PDO:0000075) and rice Curvularia seedling blight (PDO:0000085)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:5502
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000075 ! Curvularia pecky rice
@@ -705,7 +705,7 @@ creation_date: 2012-04-27T13:41:18Z
 [Term]
 id: PDO:0000076
 name: Fusarium spp.
-def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium species and causes rice Fusarium root rot (PDO:0000080), Fusarium pecky rice (PDO:0000077) and rice Fusarium seedling blight (PDO:0000086)." [PDO:curators]
+def: "A fungal spp. (PDO:0000070) that is more than one Fusarium species and causes rice Fusarium root rot (PDO:0000080), Fusarium pecky rice (PDO:0000077) and rice Fusarium seedling blight (PDO:0000086)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:5506
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000077 ! Fusarium pecky rice
