@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:03:2014 14:58
+date: 17:03:2014 15:13
 saved-by: uppalas
 auto-generated-by: OBO-Edit 2.3
 subsetdef: Glycine max "Terms used for soybean"
@@ -239,7 +239,7 @@ creation_date: 2012-04-09T02:06:26Z
 [Term]
 id: PDO:0000027
 name: rice aggregate sheath spot
-def: "A plant fungal disease (PDO:0000081) caused by Ceratobasidium oryzae-sativae (PDO:0000028)." [PDO:curators, PDO:saisreeu_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by Ceratobasidium oryzae-sativae (PDO:0000028)." [PDO:saisree_uppala]
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:12:07Z
@@ -278,7 +278,8 @@ creation_date: 2012-04-09T02:19:53Z
 [Term]
 id: PDO:0000031
 name: rice blast (leaf, neck [rotten neck], nodal and collar)
-def: "A plant fungal disease (PDO:0000081) caused by Pyricularia grisea (PDO:0000032)." [PDO:curators, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by Pyricularia grisea (PDO:0000032)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:5
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:23:26Z
@@ -318,7 +319,8 @@ creation_date: 2012-04-09T02:28:59Z
 [Term]
 id: PDO:0000035
 name: rice crown sheath rot
-def: "A plant fungal disease (PDO:0000081) caused by Gaeumannomyces graminis (PDO:0000036)." [PDO:curators]
+def: "A rice fungal disease (PDO:0000081) caused by Gaeumannomyces graminis (PDO:0000036)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:7
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:31:07Z
@@ -393,7 +395,8 @@ creation_date: 2012-04-09T02:49:19Z
 [Term]
 id: PDO:0000043
 name: rice kernel smut
-def: "A plant fungal disease (PDO:0000081) caused by Tilletia barclayana (PDO:0000044)." [PDO:curators, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by Tilletia barclayana (PDO:0000044)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:2
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:52:18Z
@@ -412,7 +415,8 @@ creation_date: 2012-04-09T02:53:56Z
 [Term]
 id: PDO:0000045
 name: rice leaf smut
-def: "A plant fungal disease (PDO:0000081) caused by Entyloma oryzae (PDO:0000046)." [PDO:curators, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by Entyloma oryzae (PDO:0000046)." [PDO:curators, PDO:saisree_uppala]
+xref: OBO_SF_PSO:4
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:56:24Z
@@ -431,8 +435,9 @@ creation_date: 2012-04-09T02:57:42Z
 [Term]
 id: PDO:0000047
 name: rice leaf scald
-def: "A plant fungal disease (PDO:0000004) caused by Microdochium oryzae (PDO:0000048)." [PDO:curators]
-is_a: PDO:0000004 ! plant fungal disease
+def: "A rice fungal disease (PDO:0000081) caused by Microdochium oryzae (PDO:0000048)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:8
+is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T03:01:46Z
 
@@ -451,7 +456,8 @@ creation_date: 2012-04-09T03:04:07Z
 [Term]
 id: PDO:0000049
 name: rice narrow brown leaf spot
-def: "A plant fungal disease (PDO:0000081) caused by Cercospora janseana (PDO:0000050)." [PDO:curators, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by Cercospora janseana (PDO:0000050)." [PDO:curators, PDO:saisree_uppala]
+xref: OBO_SF_PSO:3
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:19:40Z
@@ -754,6 +760,7 @@ creation_date: 2012-04-27T14:00:25Z
 id: PDO:0000081
 name: rice fungal disease
 def: "A fungal plant disease (PDO:0000004) that affects rice (Oryza sativa L.)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:1
 is_a: PDO:0000004 ! plant fungal disease
 created_by: uppalas
 creation_date: 2014-03-12T14:04:34Z
