@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:03:2014 15:13
+date: 19:03:2014 16:40
 saved-by: uppalas
 auto-generated-by: OBO-Edit 2.3
 subsetdef: Glycine max "Terms used for soybean"
@@ -26,7 +26,7 @@ creation_date: 2012-03-30T03:04:19Z
 [Term]
 id: PDO:0000002
 name: plant bacterial disease
-def: "A plant disease (PDO:0000001) that is caused by bacteria." [PDO:curators]
+def: "A plant disease (PDO:0000001) that is caused by bacteria (PDO:0000016)." [PDO:saisree_uppala]
 is_a: PDO:0000001 ! plant disease
 created_by: cooperl
 creation_date: 2012-03-30T03:13:24Z
@@ -42,7 +42,7 @@ creation_date: 2012-03-30T03:32:12Z
 [Term]
 id: PDO:0000004
 name: plant fungal disease
-def: "A plant disease (PDO:0000001) that is caused by a fungus." [PDO:curators]
+def: "A plant disease (PDO:0000001) that is caused by a fungus." [PDO:saisree_uppala]
 is_a: PDO:0000001 ! plant disease
 created_by: cooperl
 creation_date: 2012-03-30T03:50:49Z
@@ -50,8 +50,9 @@ creation_date: 2012-03-30T03:50:49Z
 [Term]
 id: PDO:0000005
 name: plant viral disease
-def: "A plant disease (PDO:0000001) caused by a virus." [PDO:curators]
+def: "A plant disease (PDO:0000001) caused by a virus." [PDO:saisree_uppala]
 is_a: PDO:0000001 ! plant disease
+is_a: PDO:0000067 ! biotic causal agent
 created_by: moorel
 creation_date: 2012-04-05T10:23:07Z
 
@@ -1128,6 +1129,14 @@ xref: NCBI_Taxonomy_ID:196109
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-18T13:30:45Z
+
+[Term]
+id: PDO:0000119
+name: viral biotic causal agent
+def: "A biotic causal agent (PDO:0000067) that is virus." [PDO:saisree_uppala]
+is_a: PDO:0000067 ! biotic causal agent
+created_by: uppalas
+creation_date: 2014-03-19T16:37:36Z
 
 [Typedef]
 id: causal_agent
