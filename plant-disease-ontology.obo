@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 24:03:2014 18:21
+date: 24:03:2014 20:21
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -241,6 +241,7 @@ creation_date: 2012-04-09T02:06:26Z
 id: PDO:0000027
 name: rice aggregate sheath spot
 def: "A rice fungal disease (PDO:0000081) caused by Ceratobasidium oryzae-sativae (PDO:0000028)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:13
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:12:07Z
@@ -478,6 +479,7 @@ creation_date: 2012-04-12T10:22:56Z
 id: PDO:0000051
 name: rice sheath blight
 def: "A rice fungal disease (PDO:0000081) caused by Thanatephorus cucumeris (PDO:0000052)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:15
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:28:54Z
@@ -872,6 +874,7 @@ creation_date: 2012-05-16T13:14:55Z
 id: PDO:0000093
 name: rice seedling blight
 def: "A rice fungal disease (PDO:0000081) caused by one or more fungal species." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:14
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-05-16T13:46:51Z
