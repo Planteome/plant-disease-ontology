@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 24:03:2014 20:21
+date: 25:03:2014 09:37
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -479,6 +479,7 @@ creation_date: 2012-04-12T10:22:56Z
 id: PDO:0000051
 name: rice sheath blight
 def: "A rice fungal disease (PDO:0000081) caused by Thanatephorus cucumeris (PDO:0000052)." [PDO:saisree_uppala]
+comment: Symptoms: Grayish-green lesions may enlarge and coalesce with other lesions, mostly on lower leaf sheaths, but occasionally on the leaves. Phenotypic evaluation scale (based on relative lesion height): 0 - No infection observed; 1 - Lesions limited to lower 20% of the plant height; 3 - 20-30%; 5 - 31-45%; 7 - 46-65%; 9 - More than 65%. Defining relative lesion height: The relative lesion height is the average vertical height of the uppermost lesion on leaf or sheath expressed as a percentage of the average plant height (RiceSES).
 xref: OBO_SF_PSO:15
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
