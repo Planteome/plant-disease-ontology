@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:03:2014 09:45
+date: 25:03:2014 09:50
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -398,6 +398,7 @@ creation_date: 2012-04-09T02:49:19Z
 id: PDO:0000043
 name: rice kernel smut
 def: "A rice fungal disease (PDO:0000081) caused by Tilletia barclayana (PDO:0000044)." [PDO:saisree_uppala]
+comment: Symptoms: Infected grains show minute black pustules or streaks bursting through the glumes. In severe infection, the rupturing glumes produce short beak-like or spur-like growths. Growth stage affected : 9 (RiceSES).
 xref: OBO_SF_PSO:2
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
