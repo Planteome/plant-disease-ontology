@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:03:2014 09:37
+date: 25:03:2014 09:45
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -438,6 +438,7 @@ creation_date: 2012-04-09T02:57:42Z
 id: PDO:0000047
 name: rice leaf scald
 def: "A rice fungal disease (PDO:0000081) caused by Microdochium oryzae (PDO:0000048)." [PDO:saisree_uppala]
+comment: Symptoms: The lesions occurs mostly near leaf tips, but sometimes starts at the margin of the blade and develops into large ellipsoid areas encircled by dark-brown, narrow bands accompanied by a light-brown halo. Growth stage affected: 5-8. Phenotypic evaluation scale (based on affected leaf area): 0 - No incidence; 1 - Less than 1% (apical lesions); 3 - 1-5% (apical lesions); 5 - 6-25% (apical and some marginal lesions); 7 - 26-50% (apical and marginal lesions); 9 - 51-100% (apical and marginal lesions). (RiceSES).
 xref: OBO_SF_PSO:8
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
