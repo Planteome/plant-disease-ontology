@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 19:03:2014 16:40
-saved-by: uppalas
-auto-generated-by: OBO-Edit 2.3
+date: 24:03:2014 18:21
+saved-by: SAISREE
+auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
 subsetdef: Triticum aestivum "Terms used for wheat"
@@ -477,8 +477,8 @@ creation_date: 2012-04-12T10:22:56Z
 [Term]
 id: PDO:0000051
 name: rice sheath blight
-def: "A plant fungal disease (PDO:0000004) caused by Thanatephorus cucumeris (PDO:0000052)." [PDO:curators]
-is_a: PDO:0000004 ! plant fungal disease
+def: "A rice fungal disease (PDO:0000081) caused by Thanatephorus cucumeris (PDO:0000052)." [PDO:saisree_uppala]
+is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:28:54Z
 
@@ -513,7 +513,7 @@ creation_date: 2012-04-12T10:38:45Z
 [Term]
 id: PDO:0000055
 name: rice sheath spot
-def: "A plant fungal disease (PDO:0000004) caused by Rhizoctonia oryzae (PDO:0000056)." [PDO:curators]
+def: "A rice fungal disease (PDO:0000081) caused by Rhizoctonia oryzae (PDO:0000056)." [PDO:saisree_uppala]
 is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:41:34Z
@@ -871,8 +871,8 @@ creation_date: 2012-05-16T13:14:55Z
 [Term]
 id: PDO:0000093
 name: rice seedling blight
-def: "A plant fungal disease (PDO:0000004) that can be caused by one or more fungal species." [PDO:curators]
-is_a: PDO:0000004 ! plant fungal disease
+def: "A rice fungal disease (PDO:0000081) caused by one or more fungal species." [PDO:saisree_uppala]
+is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-05-16T13:46:51Z
 
