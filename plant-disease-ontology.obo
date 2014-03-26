@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:03:2014 19:08
+date: 25:03:2014 19:17
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -377,9 +377,10 @@ creation_date: 2012-04-09T02:44:40Z
 
 [Term]
 id: PDO:0000041
-name: false smut
-def: "A plant fungal disease (PDO:0000004) caused by Ustilaginoidea virens (PDO:0000042)." [PDO:curators]
-is_a: PDO:0000004 ! plant fungal disease
+name: rice false smut
+def: "A rice fungal disease (PDO:0000081) caused by Ustilaginoidea virens (PDO:0000042)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:20
+is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:47:43Z
 
@@ -390,7 +391,7 @@ def: "A fungal species (PDO:0000069) that causes rice false smut (PDO:0000041)."
 synonym: "Ustilaginoidea virens (Cooke) Takah." NARROW []
 xref: NCBI_Taxonomy_ID:1159556
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000041 ! false smut
+relationship: causal_agent PDO:0000041 ! rice false smut
 created_by: moorel
 creation_date: 2012-04-09T02:49:19Z
 
