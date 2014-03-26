@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:03:2014 09:50
+date: 25:03:2014 19:08
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -500,9 +500,10 @@ creation_date: 2012-04-12T10:34:25Z
 
 [Term]
 id: PDO:0000053
-name: sheath rot
-def: "A plant fungal disease (PDO:0000004) caused by Sarocladium oryzae (PDO:0000054)." [PDO:curators]
-is_a: PDO:0000004 ! plant fungal disease
+name: rice sheath rot
+def: "A rice fungal disease (PDO:0000081)caused by Sarocladium oryzae (PDO:0000054)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:19
+is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:36:53Z
 
@@ -519,7 +520,8 @@ creation_date: 2012-04-12T10:38:45Z
 id: PDO:0000055
 name: rice sheath spot
 def: "A rice fungal disease (PDO:0000081) caused by Rhizoctonia oryzae (PDO:0000056)." [PDO:saisree_uppala]
-is_a: PDO:0000004 ! plant fungal disease
+xref: OBO_SF_PSO:16
+is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:41:34Z
 
@@ -537,8 +539,9 @@ creation_date: 2012-04-12T10:44:51Z
 [Term]
 id: PDO:0000057
 name: rice stackburn (alternaria leaf spot)
-def: "A plant fungal disease (PDO:0000004) caused by Alternaria padwickii (PDO:0000058)." [PDO:curators]
-is_a: PDO:0000004 ! plant fungal disease
+def: "A rice fungal disease (PDO:0000081) caused by Alternaria padwickii (PDO:0000058)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:17
+is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:49:10Z
 
@@ -556,8 +559,9 @@ creation_date: 2012-04-12T10:51:24Z
 [Term]
 id: PDO:0000059
 name: rice stem rot
-def: "A plant fungal disease (PDO:0000004) caused by Magnaporthe salvinii (PDO:0000060)." [PDO:curators]
-is_a: PDO:0000004 ! plant fungal disease
+def: "A rice fungal disease (PDO:0000081) caused by Magnaporthe salvinii (PDO:0000060)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:18
+is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:55:03Z
 
