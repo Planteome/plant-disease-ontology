@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:03:2014 21:43
+date: 31:03:2014 15:59
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -724,7 +724,7 @@ name: Curvularia pecky rice
 def: "A pecky rice (PDO:0000092) caused by Curvularia spp. (PDO:0000074)." [PDO:curators]
 synonym: "kernel spotting" RELATED []
 xref: NCBI_Taxonomy_ID:5502
-is_a: PDO:0000090 ! fungal pecky rice
+is_a: PDO:0000090 ! pecky rice
 created_by: moorel
 creation_date: 2012-04-27T13:41:18Z
 
@@ -744,7 +744,7 @@ id: PDO:0000077
 name: Fusarium pecky rice
 def: "A rice fungal disease (PDO:0000006) caused by Fusarium spp. (PDO:0000076)." [PDO:curators]
 synonym: "kernel spotting" RELATED []
-is_a: PDO:0000090 ! fungal pecky rice
+is_a: PDO:0000090 ! pecky rice
 created_by: moorel
 creation_date: 2012-04-27T13:44:52Z
 
@@ -754,7 +754,7 @@ name: Cochliobolus miyabeanus pecky rice
 def: "A pecky rice (PDO:0000092) caused by Cochliobolus miyabeanus." [PDO:curators]
 synonym: "kernel spotting" RELATED []
 xref: NCBI_Taxonomy_ID:101162
-is_a: PDO:0000090 ! fungal pecky rice
+is_a: PDO:0000090 ! pecky rice
 created_by: moorel
 creation_date: 2012-04-27T13:48:26Z
 
@@ -764,7 +764,7 @@ name: Microdochium oryzae pecky rice
 def: "A pecky rice (PDO:0000092) caused by Microdochium oryzae." [PDO:curators]
 synonym: "kernel spotting" RELATED []
 xref: NCBI_Taxonomy_ID:67608
-is_a: PDO:0000090 ! fungal pecky rice
+is_a: PDO:0000090 ! pecky rice
 created_by: moorel
 creation_date: 2012-04-27T13:50:51Z
 
@@ -791,7 +791,7 @@ name: Sarocladium oryzae pecky rice
 def: "A pecky rice (PDO:0000092) caused by Sarocladium oryzae (PDO:0000083)." [PDO:curators]
 synonym: "kernel spotting" RELATED []
 xref: NCBI_Taxonomy_ID:284135
-is_a: PDO:0000090 ! fungal pecky rice
+is_a: PDO:0000090 ! pecky rice
 created_by: moorel
 creation_date: 2012-04-27T14:05:28Z
 
@@ -864,10 +864,11 @@ creation_date: 2012-04-27T14:26:03Z
 
 [Term]
 id: PDO:0000090
-name: fungal pecky rice
-def: "A plant fungal disease (PDO:0000004) which results in a rice kernel that has brown spots." [PDO:curators]
-is_a: PDO:0000004 ! plant fungal disease
-is_a: PDO:0000092 ! pecky rice
+name: pecky rice
+def: "A rice fungal disease (PDO:0000081) which results in a rice kernel that has brown spots. Caused by many fungi including Cochliobolus miyabeanus, Curvularia spp., Fusarium spp., Microdochium oryzae, Sarocladium oryzae and other fungi." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:30
+is_a: PDO:0000081 ! rice fungal disease
+is_a: PDO:0000092 ! pecky rice by bacteria
 created_by: cooperl
 creation_date: 2012-05-14T14:45:43Z
 
@@ -881,7 +882,7 @@ creation_date: 2012-05-14T16:30:47Z
 
 [Term]
 id: PDO:0000092
-name: pecky rice
+name: pecky rice by bacteria
 def: "A plant fungal disease (PDO:0000004) that can be caused by one or more fungal species." [PDO:curators]
 is_a: PDO:0000001 ! plant disease
 created_by: moorel
