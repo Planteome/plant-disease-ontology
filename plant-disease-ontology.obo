@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:03:2014 15:59
+date: 31:03:2014 17:16
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -126,8 +126,9 @@ creation_date: 2012-04-05T10:36:00Z
 
 [Term]
 id: PDO:0000014
-name: bacterial blight
-def: "A plant bacterial disease (PDO:0000002) caused by Xanthomonas oryzae pv oryzae (PDO:0000017)." [PDO:curators]
+name: rice bacterial blight
+def: "A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv oryzae (PDO:0000017)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:31
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-05T10:37:53Z
@@ -153,7 +154,7 @@ name: Xanthomonas oryzae pv. oryzae
 def: "A Xanthomonas (PDO:0000095) species that causes bacterial blight (PDO:0000014) of Oryza sativa (PDO:0000098)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:64187
 is_a: PDO:0000095 ! Xanthomonas
-relationship: causal_agent PDO:0000014 ! bacterial blight
+relationship: causal_agent PDO:0000014 ! rice bacterial blight
 created_by: moorel
 creation_date: 2012-04-06T02:30:34Z
 
@@ -170,7 +171,8 @@ creation_date: 2012-04-09T01:35:20Z
 [Term]
 id: PDO:0000019
 name: rice bacterial leaf streak
-def: "A rice bacterial disease (PDO:0000003) cause by Xanthomonas oryzae pv oryzicola (PDO:0000018)." [PDO:curators]
+def: "A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv oryzicola (PDO:0000018)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:32
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:37:41Z
@@ -178,7 +180,8 @@ creation_date: 2012-04-09T01:37:41Z
 [Term]
 id: PDO:0000020
 name: rice foot rot
-def: "A rice bacterial disease (PDO:0000003) caused by Erwinia chrysanthemi (PDO:0000021)." [PDO:curators]
+def: "A rice bacterial disease (PDO:0000003) caused by Erwinia chrysanthemi (PDO:0000021)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:33
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:41:32Z
@@ -209,7 +212,8 @@ creation_date: 2012-04-09T01:48:50Z
 [Term]
 id: PDO:0000023
 name: rice grain rot
-def: "A rice bacterial disease (PDO:0000003) caused by Pseudomonas glumae (PDO:0000022)." [PDO:curators]
+def: "A rice bacterial disease (PDO:0000003) caused by Pseudomonas glumae (PDO:0000022)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:34
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:51:43Z
@@ -217,7 +221,8 @@ creation_date: 2012-04-09T01:51:43Z
 [Term]
 id: PDO:0000024
 name: rice sheath brown rot
-def: "A rice bacterial disease (PDO:0000003) caused by Pseudomonas fuscovaginae (PDO:0000025)." [PDO:curators]
+def: "A rice bacterial disease (PDO:0000003) caused by Pseudomonas fuscovaginae (PDO:0000025)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:35
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:59:01Z
@@ -883,8 +888,9 @@ creation_date: 2012-05-14T16:30:47Z
 [Term]
 id: PDO:0000092
 name: pecky rice by bacteria
-def: "A plant fungal disease (PDO:0000004) that can be caused by one or more fungal species." [PDO:curators]
-is_a: PDO:0000001 ! plant disease
+def: "A rice bacterial disease (PDO:0000003) which results in a rice kernel that has brown spots. Caused by one or more bacterial species." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:36
+is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-05-16T13:14:55Z
 
