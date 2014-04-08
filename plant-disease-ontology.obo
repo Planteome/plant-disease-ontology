@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 04:04:2014 15:48
-saved-by: uppalas
+date: 01:04:2014 17:06
+saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
@@ -44,7 +44,7 @@ creation_date: 2012-03-30T03:32:12Z
 [Term]
 id: PDO:0000004
 name: plant fungal disease
-def: "A plant disease (PDO:0000001) that is caused by a fungus (PDO:0000026)." [PDO:saisree_uppala]
+def: "A plant disease (PDO:0000001) that is caused by a fungus." [PDO:saisree_uppala]
 xref: OBO_SF_PSO:12
 is_a: PDO:0000001 ! plant disease
 created_by: cooperl
@@ -143,7 +143,7 @@ creation_date: 2012-04-06T02:20:47Z
 [Term]
 id: PDO:0000016
 name: bacterial biotic causal agent
-def: "A biotic causal agent (PDO:0000067) which is a bacteria." [PDO:saisree_uppala]
+def: "A biotic causal agent (PDO:0000067) which is a bacteria." [PDO:curators]
 is_a: PDO:0000067 ! biotic causal agent
 created_by: moorel
 creation_date: 2012-04-06T02:21:57Z
@@ -453,7 +453,7 @@ creation_date: 2012-04-09T02:57:42Z
 id: PDO:0000047
 name: rice leaf scald
 def: "A rice fungal disease (PDO:0000081) caused by Microdochium oryzae (PDO:0000048)." [PDO:saisree_uppala]
-comment: Symptoms: The lesions occurs mostly near leaf tips, but sometimes starts at the margin of the blade and develops into large ellipsoid areas encircled by dark-brown, narrow bands accompanied by a light-brown halo. Growth stage affected: 5-8. Phenotypic evaluation scale (based on affected leaf area): 0 - No incidence; 1 - Less than 1% (apical lesions); 3 - 1-5% (apical lesions); 5 - 6-25% (apical and some marginal lesions); 7 - 26-50% (apical and marginal lesions); 9 - 51-100% (apical and marginal lesions) (RiceSES:leaf-scald-ls).
+comment: Symptoms: The lesions occurs mostly near leaf tips, but sometimes starts at the margin of the blade and develops into large ellipsoid areas encircled by dark-brown, narrow bands accompanied by a light-brown halo. Growth stage affected: 5-8. Phenotypic evaluation scale (based on affected leaf area): 0 - No incidence; 1 - Less than 1% (apical lesions); 3 - 1-5% (apical lesions); 5 - 6-25% (apical and some marginal lesions); 7 - 26-50% (apical and marginal lesions); 9 - 51-100% (apical and marginal lesions). (RiceSES).
 xref: OBO_SF_PSO:8
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -1161,7 +1161,7 @@ creation_date: 2013-01-18T13:30:45Z
 [Term]
 id: PDO:0000119
 name: viral biotic causal agent
-def: "A biotic causal agent (PDO:0000067) which is a virus." [PDO:saisree_uppala]
+def: "A biotic causal agent (PDO:0000067) that is virus." [PDO:saisree_uppala]
 is_a: PDO:0000067 ! biotic causal agent
 created_by: uppalas
 creation_date: 2014-03-19T16:37:36Z
