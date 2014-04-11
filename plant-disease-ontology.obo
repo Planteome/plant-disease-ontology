@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:04:2014 23:09
+date: 10:04:2014 23:44
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1209,7 +1209,9 @@ creation_date: 2014-04-10T21:50:53Z
 
 [Term]
 id: PDO:0000124
-name: hoja blanca
+name: rice hoja blanca
+def: "A rice viral disease (PDO:0000007) caused by rice hoja blanca virus (PDO:0000136)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:51
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1302,6 +1304,8 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000136
 name: rice hoja blanca virus (RHBV)
+def: "A viral biotic causal agent (PDO:0000119) that causes rice hoja blanca (PDO:0000124)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:52
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
