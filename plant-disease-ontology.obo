@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:04:2014 21:38
+date: 10:04:2014 22:26
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -56,7 +56,6 @@ name: plant viral disease
 def: "A plant disease (PDO:0000001) that is caused by virus (PDO:0000119)." [PDO:saisree_uppala]
 xref: OBO_SF_PSO:11
 is_a: PDO:0000001 ! plant disease
-is_a: PDO:0000067 ! biotic causal agent
 created_by: moorel
 creation_date: 2012-04-05T10:23:07Z
 
@@ -71,7 +70,8 @@ creation_date: 2012-04-05T10:24:14Z
 [Term]
 id: PDO:0000007
 name: rice viral disease
-def: "A plant viral disease (PDO:0000005) that affects rice." [PDO:curators]
+def: "A plant viral disease (PDO:0000005) that affects rice." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:42
 is_a: PDO:0000005 ! plant viral disease
 created_by: moorel
 creation_date: 2012-04-05T10:26:18Z
@@ -136,7 +136,8 @@ creation_date: 2012-04-05T10:37:53Z
 [Term]
 id: PDO:0000015
 name: causal agent
-def: "An agent that causes a plant disease (PDO:0000001)." [PDO:curators]
+def: "An agent that causes plant disease (PDO:0000001)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:40
 created_by: moorel
 creation_date: 2012-04-06T02:20:47Z
 
@@ -1169,6 +1170,185 @@ xref: OBO_SF_PSO:10
 is_a: PDO:0000067 ! biotic causal agent
 created_by: uppalas
 creation_date: 2014-03-19T16:37:36Z
+
+[Term]
+id: PDO:0000120
+name: rice giallume
+def: "A rice viral disease (PDO:0000007) caused by barley yellow dwarf virus (PDO:0000132)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:43
+is_a: PDO:0000007 ! rice viral disease
+created_by: SAISREE
+creation_date: 2014-04-10T21:50:53Z
+
+[Term]
+id: PDO:0000121
+name: rice black streak dwarf
+is_a: PDO:0000007 ! rice viral disease
+created_by: SAISREE
+creation_date: 2014-04-10T21:50:53Z
+
+[Term]
+id: PDO:0000122
+name: rice dwarf
+is_a: PDO:0000007 ! rice viral disease
+created_by: SAISREE
+creation_date: 2014-04-10T21:50:53Z
+
+[Term]
+id: PDO:0000123
+name: rice grassy stunt
+is_a: PDO:0000007 ! rice viral disease
+created_by: SAISREE
+creation_date: 2014-04-10T21:50:53Z
+
+[Term]
+id: PDO:0000124
+name: hoja blanca
+is_a: PDO:0000007 ! rice viral disease
+created_by: SAISREE
+creation_date: 2014-04-10T21:50:53Z
+
+[Term]
+id: PDO:0000125
+name: rice necrotic mosaic
+is_a: PDO:0000007 ! rice viral disease
+created_by: SAISREE
+creation_date: 2014-04-10T21:50:53Z
+
+[Term]
+id: PDO:0000126
+name: rice rugged stunt
+is_a: PDO:0000007 ! rice viral disease
+created_by: SAISREE
+creation_date: 2014-04-10T21:50:53Z
+
+[Term]
+id: PDO:0000127
+name: rice stripe
+is_a: PDO:0000007 ! rice viral disease
+created_by: SAISREE
+creation_date: 2014-04-10T21:50:53Z
+
+[Term]
+id: PDO:0000128
+name: rice transitory yellowing
+is_a: PDO:0000007 ! rice viral disease
+created_by: SAISREE
+creation_date: 2014-04-10T21:50:53Z
+
+[Term]
+id: PDO:0000129
+name: rice yellow dwarf
+is_a: PDO:0000007 ! rice viral disease
+created_by: SAISREE
+creation_date: 2014-04-10T21:50:53Z
+
+[Term]
+id: PDO:0000130
+name: rice yellow mottle
+is_a: PDO:0000007 ! rice viral disease
+created_by: SAISREE
+creation_date: 2014-04-10T21:50:53Z
+
+[Term]
+id: PDO:0000131
+name: rice tungro
+is_a: PDO:0000007 ! rice viral disease
+created_by: SAISREE
+creation_date: 2014-04-10T21:50:53Z
+
+[Term]
+id: PDO:0000132
+name: barley yellow dwarf virus
+def: "A viral biotic causal agent (PDO:0000119) that causes rice giallume (PDO:0000132)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:44
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000133
+name: rice black streak dwarf virus (RGSDV)
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000134
+name: rice dwarf virus (RDV)
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000135
+name: rice grassy stunt virus (RGSV)
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000136
+name: rice hoja blanca virus (RHBV)
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000137
+name: rice necrotic mosaic virus (RNMV)
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000138
+name: rice rugged stunt virus (RRSV)
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000139
+name: rice stripe virus (RStV)
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000140
+name: rice transitory yellowing virus (RTYV)
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000141
+name: mycoplasmalike organism (MLO)
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000142
+name: rice yellow mottle virus (RYMV)
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000143
+name: rice tungro spherical virus (RTSV)
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000144
+name: rice tungro bacilliform virus (RTBV)
+is_a: PDO:0000119 ! viral biotic causal agent
+created_by: SAISREE
+creation_date: 2014-04-10T22:06:25Z
 
 [Typedef]
 id: causal_agent
