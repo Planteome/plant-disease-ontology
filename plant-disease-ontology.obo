@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:04:2014 22:46
+date: 10:04:2014 22:57
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1192,6 +1192,8 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000122
 name: rice dwarf
+def: "A rice viral disease (PDO:0000007) caused by rice dwarf virus (PDO:0000134)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:47
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1280,6 +1282,8 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000134
 name: rice dwarf virus (RDV)
+def: "A viral biotic causal agent (PDO:0000119) that causes rice dwarf (PDO:0000122)." [PDO:saisree_uppala]
+xref: PDO_SF_PSO:48
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
