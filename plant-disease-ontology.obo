@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:04:2014 23:46
+date: 11:04:2014 16:05
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -874,7 +874,8 @@ creation_date: 2012-04-27T14:26:03Z
 [Term]
 id: PDO:0000090
 name: fungal pecky rice
-def: "A rice fungal disease (PDO:0000081) caused by many fungi including Cochliobolus miyabeanus (PDO:0000034), Curvularia spp., (PDO:0000074) Fusarium spp., (PDO:0000076) Microdochium oryzae (PDO:0000048), Sarocladium oryzae(PDO:0000083) and other fungi." [PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by one or more of Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Microdochium oryzae (PDO:0000048), and Sarocladium oryzae (PDO:0000083)." [PDO:saisree_uppala]
+synonym: "pecky rice" BROAD []
 xref: OBO_SF_PSO:30
 is_a: PDO:0000081 ! rice fungal disease
 is_a: PDO:0000092 ! bacterial pecky rice
