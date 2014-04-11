@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:04:2014 22:57
+date: 10:04:2014 23:09
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1201,6 +1201,8 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000123
 name: rice grassy stunt
+def: "A rice viral disease (PDO:0000007) caused by rice grassy stunt virus (PDO:0000135)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:49
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1283,7 +1285,7 @@ creation_date: 2014-04-10T22:06:25Z
 id: PDO:0000134
 name: rice dwarf virus (RDV)
 def: "A viral biotic causal agent (PDO:0000119) that causes rice dwarf (PDO:0000122)." [PDO:saisree_uppala]
-xref: PDO_SF_PSO:48
+xref: OBO_SF_PSO:48
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1291,6 +1293,8 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000135
 name: rice grassy stunt virus (RGSV)
+def: "A viral biotic causal agent (PDO:0000119) that causes rice grassy stunt (PDO:0000123)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:50
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
