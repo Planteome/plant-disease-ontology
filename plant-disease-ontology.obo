@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:04:2014 22:11
+date: 20:04:2014 22:32
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -364,8 +364,9 @@ creation_date: 2012-04-09T02:32:53Z
 
 [Term]
 id: PDO:0000037
-name: rice downy mildew
+name: rice downy mildew fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Sclerophthora macrospora (PDO:0000038)." [PDO:saisree_uppala]
+synonym: "rice downy mildew" EXACT []
 xref: OBO_SF_PSO:21
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -383,8 +384,9 @@ creation_date: 2012-04-09T02:39:34Z
 
 [Term]
 id: PDO:0000039
-name: rice eyespot
+name: rice eyespot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Drechslera gigantea (PDO:0000040)." [PDO:saisree_uppala]
+synonym: "rice eyespot" EXACT []
 xref: OBO_SF_PSO:26
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -397,14 +399,15 @@ def: "A fungal species (PDO:0000069) that causes rice eyespot (PDO:0000039)." [P
 synonym: "Drechslera gigantea (Heald & F.A. Wolf) Ito" NARROW []
 xref: NCBI_Taxonomy_ID:5028
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000039 ! rice eyespot
+relationship: causal_agent PDO:0000039 ! rice eyespot fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:44:40Z
 
 [Term]
 id: PDO:0000041
-name: rice false smut
+name: rice false smut fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Ustilaginoidea virens (PDO:0000042)." [PDO:saisree_uppala]
+synonym: "rice false smut" EXACT []
 xref: OBO_SF_PSO:20
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -417,15 +420,16 @@ def: "A fungal species (PDO:0000069) that causes rice false smut (PDO:0000041)."
 synonym: "Ustilaginoidea virens (Cooke) Takah." NARROW []
 xref: NCBI_Taxonomy_ID:1159556
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000041 ! rice false smut
+relationship: causal_agent PDO:0000041 ! rice false smut fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:49:19Z
 
 [Term]
 id: PDO:0000043
-name: rice kernel smut
+name: rice kernel smut fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Tilletia barclayana (PDO:0000044)." [PDO:saisree_uppala]
 comment: Symptoms: Infected grains show minute black pustules or streaks bursting through the glumes. In severe infection, the rupturing glumes produce short beak-like or spur-like growths. Growth stage affected : 9 (RiceSES).
+synonym: "rice kernel smut" EXACT []
 xref: OBO_SF_PSO:2
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -438,14 +442,15 @@ def: "A fungal species (PDO:0000069) that causes rice kernel smut (PDO:0000043).
 synonym: "Tilletia barclayana (Bref.) Sacc. & Syd. in Sacc." NARROW []
 xref: NCBI_Taxonomy_ID:157178
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000043 ! rice kernel smut
+relationship: causal_agent PDO:0000043 ! rice kernel smut fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:53:56Z
 
 [Term]
 id: PDO:0000045
-name: rice leaf smut
+name: rice leaf smut fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Entyloma oryzae (PDO:0000046)." [PDO:curators, PDO:saisree_uppala]
+synonym: "rice leaf smut" EXACT []
 xref: OBO_SF_PSO:4
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -458,15 +463,16 @@ def: "A fungal species (PDO:0000069) that causes rice leaf smut (PDO:0000045)." 
 synonym: "Entyloma oryzae Syd. & P. Syd." NARROW []
 xref: NCBI_Taxonomy_ID:62636
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000045 ! rice leaf smut
+relationship: causal_agent PDO:0000045 ! rice leaf smut fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:57:42Z
 
 [Term]
 id: PDO:0000047
-name: rice leaf scald
+name: rice leaf scald fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Microdochium oryzae (PDO:0000048)." [PDO:saisree_uppala]
 comment: Symptoms: The lesions occurs mostly near leaf tips, but sometimes starts at the margin of the blade and develops into large ellipsoid areas encircled by dark-brown, narrow bands accompanied by a light-brown halo. Growth stage affected: 5-8. Phenotypic evaluation scale (based on affected leaf area): 0 - No incidence; 1 - Less than 1% (apical lesions); 3 - 1-5% (apical lesions); 5 - 6-25% (apical and some marginal lesions); 7 - 26-50% (apical and marginal lesions); 9 - 51-100% (apical and marginal lesions). (RiceSES).
+synonym: "rice leaf scald" EXACT []
 xref: OBO_SF_PSO:8
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -479,15 +485,16 @@ def: "A fungal species (PDO:0000069) that causes rice leaf scald (PDO:0000047) a
 synonym: "Microdochium oryzae (Hashioka & Yokogi) Samuels & I.C. Hallett" NARROW []
 xref: NCBI_Taxonomy_ID:67608
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000047 ! rice leaf scald
+relationship: causal_agent PDO:0000047 ! rice leaf scald fungal disease
 relationship: causal_agent PDO:0000079 ! Microdochium oryzae pecky rice
 created_by: moorel
 creation_date: 2012-04-09T03:04:07Z
 
 [Term]
 id: PDO:0000049
-name: rice narrow brown leaf spot
+name: rice narrow brown leaf spot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Cercospora janseana (PDO:0000050)." [PDO:curators, PDO:saisree_uppala]
+synonym: "rice narrow brown leaf spot" EXACT []
 xref: OBO_SF_PSO:3
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -500,7 +507,7 @@ def: "A fungal species (PDO:0000069) that causes rice narrow brown leaf spot (PD
 synonym: "Cercospora janseana (Racib.) O. Const." NARROW []
 xref: NCBI_Taxonomy_ID:706553
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000049 ! rice narrow brown leaf spot
+relationship: causal_agent PDO:0000049 ! rice narrow brown leaf spot fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:22:56Z
 
