@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:04:2014 16:05
+date: 20:04:2014 22:11
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -126,8 +126,9 @@ creation_date: 2012-04-05T10:36:00Z
 
 [Term]
 id: PDO:0000014
-name: rice bacterial blight
+name: rice bacterial blight disease
 def: "A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv oryzae (PDO:0000017)." [PDO:saisree_uppala]
+synonym: "rice bacterial blight " EXACT []
 xref: OBO_SF_PSO:31
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
@@ -156,7 +157,7 @@ name: Xanthomonas oryzae pv. oryzae
 def: "A Xanthomonas (PDO:0000095) species that causes bacterial blight (PDO:0000014) of Oryza sativa (PDO:0000098)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:64187
 is_a: PDO:0000095 ! Xanthomonas
-relationship: causal_agent PDO:0000014 ! rice bacterial blight
+relationship: causal_agent PDO:0000014 ! rice bacterial blight disease
 created_by: moorel
 creation_date: 2012-04-06T02:30:34Z
 
@@ -166,14 +167,15 @@ name: Xanthomonas oryzae pv. oryzicola
 def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial leaf streak (PDO:0000018)." [PDO:curators]
 xref: NDBI_Taxonomy_ID:129394
 is_a: PDO:0000095 ! Xanthomonas
-relationship: causal_agent PDO:0000019 ! rice bacterial leaf streak
+relationship: causal_agent PDO:0000019 ! rice bacterial leaf streak disease
 created_by: moorel
 creation_date: 2012-04-09T01:35:20Z
 
 [Term]
 id: PDO:0000019
-name: rice bacterial leaf streak
+name: rice bacterial leaf streak disease
 def: "A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv oryzicola (PDO:0000018)." [PDO:saisree_uppala]
+synonym: "rice bacterial leaf streak" EXACT []
 xref: OBO_SF_PSO:32
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
@@ -181,8 +183,9 @@ creation_date: 2012-04-09T01:37:41Z
 
 [Term]
 id: PDO:0000020
-name: rice foot rot
+name: rice foot rot bacterial disease
 def: "A rice bacterial disease (PDO:0000003) caused by Erwinia chrysanthemi (PDO:0000021)." [PDO:saisree_uppala]
+synonym: "rice foot rot" EXACT []
 xref: OBO_SF_PSO:33
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
@@ -196,7 +199,7 @@ synonym: "Erwinia chrysanthemi Burkholder et al. " NARROW []
 synonym: "Erwinia chrysanthemi pv. zeae (Sabet) Victoria et al. " NARROW []
 xref: NCBI_Taxonomy_ID:556
 is_a: PDO:0000016 ! bacterial biotic causal agent
-relationship: causal_agent PDO:0000020 ! rice foot rot
+relationship: causal_agent PDO:0000020 ! rice foot rot bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:43:12Z
 
@@ -207,14 +210,15 @@ def: "A Pseudomonas (PDO:0000094) species that causes rice grain rot (PDO:000002
 synonym: "Pseudomonas glumae Kurita & Tabei" NARROW []
 xref: NCBI_Taxonomy_ID:286
 is_a: PDO:0000094 ! Pseudomonas
-relationship: causal_agent PDO:0000023 ! rice grain rot
+relationship: causal_agent PDO:0000023 ! rice grain rot bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:48:50Z
 
 [Term]
 id: PDO:0000023
-name: rice grain rot
+name: rice grain rot bacterial disease
 def: "A rice bacterial disease (PDO:0000003) caused by Pseudomonas glumae (PDO:0000022)." [PDO:saisree_uppala]
+synonym: "rice grain rot" EXACT []
 xref: OBO_SF_PSO:34
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
@@ -222,8 +226,9 @@ creation_date: 2012-04-09T01:51:43Z
 
 [Term]
 id: PDO:0000024
-name: rice sheath brown rot
+name: rice sheath brown rot bacterial disease
 def: "A rice bacterial disease (PDO:0000003) caused by Pseudomonas fuscovaginae (PDO:0000025)." [PDO:saisree_uppala]
+synonym: "rice sheath brown rot" EXACT []
 xref: OBO_SF_PSO:35
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
@@ -236,7 +241,7 @@ def: "A Pseudomonas (PDO:0000094) species that causes rice sheath brown rot (PDO
 synonym: "Pseudomonas fuscovaginae (ex Tanii et al) Miyajima et al." NARROW []
 xref: NCBI_Taxonomy_ID:50340
 is_a: PDO:0000094 ! Pseudomonas
-relationship: causal_agent PDO:0000024 ! rice sheath brown rot
+relationship: causal_agent PDO:0000024 ! rice sheath brown rot bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T02:00:45Z
 
@@ -251,8 +256,9 @@ creation_date: 2012-04-09T02:06:26Z
 
 [Term]
 id: PDO:0000027
-name: rice aggregate sheath spot
+name: rice aggregate sheath spot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Ceratobasidium oryzae-sativae (PDO:0000028)." [PDO:saisree_uppala]
+synonym: "rice aggregate sheath spot" EXACT []
 xref: OBO_SF_PSO:13
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -265,14 +271,15 @@ def: "A fungal species (PDO:0000069) that causes rice aggregate sheath spot (PDO
 synonym: "Ceratobasidium oryzae-sativae Gunnell & Webster" NARROW []
 xref: NCBI_Taxonomy_ID:63189
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000027 ! rice aggregate sheath spot
+relationship: causal_agent PDO:0000027 ! rice aggregate sheath spot fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:14:30Z
 
 [Term]
 id: PDO:0000029
-name: rice black kernel
+name: rice black kernel fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Curvularia lunata (PDO:0000030)." [PDO:saisree_uppala]
+synonym: "rice black kernel" RELATED []
 xref: OBO_SF_PSO:24
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -285,15 +292,16 @@ def: "A fungal species (PDO:0000069) that causes rice black kernel (PDO:0000029)
 synonym: "Curvularia lunata (Wakk.) Boedijn" NARROW []
 xref: NCBI_Taxonomy_ID:418123
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000029 ! rice black kernel
+relationship: causal_agent PDO:0000029 ! rice black kernel fungal disease
 relationship: part_of PDO:0000074 ! Curvularia spp.
 created_by: moorel
 creation_date: 2012-04-09T02:19:53Z
 
 [Term]
 id: PDO:0000031
-name: rice blast (leaf, neck [rotten neck], nodal and collar)
+name: rice blast (leaf, neck [rotten neck], nodal and collar) fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Pyricularia grisea (PDO:0000032)." [PDO:saisree_uppala]
+synonym: "rice blast (leaf, neck [rotten neck], nodal and collar)" EXACT []
 xref: OBO_SF_PSO:5
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -306,14 +314,15 @@ def: "A fungal species (PDO:0000069) that causes rice blast (PDO:0000031)." [PDO
 synonym: "Pyricularia grisea Sacc." NARROW []
 xref: NCBI_Taxonomy_ID:148305
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000031 ! rice blast (leaf, neck [rotten neck], nodal and collar)
+relationship: causal_agent PDO:0000031 ! rice blast (leaf, neck [rotten neck], nodal and collar) fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:25:01Z
 
 [Term]
 id: PDO:0000033
-name: rice brown spot
+name: rice brown spot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Cochliobolus miyabeanus (PDO:0000034)." [PDO:saisree_uppala]
+synonym: "rice brown spot" EXACT []
 xref: OBO_SF_PSO:25
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -326,7 +335,7 @@ def: "A fungal species (PDO:0000069) that causes rice brown spot (PDO:0000033), 
 synonym: "Cochliobolus miyabeanus (Ito & Kuribayashi) Drechs. ex Dastur" NARROW []
 xref: NCBI_Taxonomy_ID:101162
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000033 ! rice brown spot
+relationship: causal_agent PDO:0000033 ! rice brown spot fungal disease
 relationship: causal_agent PDO:0000078 ! Cochliobolus miyabeanus pecky rice
 relationship: causal_agent PDO:0000084 ! rice cochliobolus miyabeanus seedling blight
 created_by: moorel
@@ -334,8 +343,9 @@ creation_date: 2012-04-09T02:28:59Z
 
 [Term]
 id: PDO:0000035
-name: rice crown sheath rot
+name: rice crown sheath rot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Gaeumannomyces graminis (PDO:0000036)." [PDO:saisree_uppala]
+synonym: "rice crown sheath rot" EXACT []
 xref: OBO_SF_PSO:7
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -348,7 +358,7 @@ def: "A fungal species (PDO:0000069) that causes rice crown sheath rot (PDO:0000
 synonym: "Gaeumannomyces graminis (Sacc.) Thirumalachar et al." NARROW []
 xref: NCBI_Taxonomy_ID:29850
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000035 ! rice crown sheath rot
+relationship: causal_agent PDO:0000035 ! rice crown sheath rot fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:32:53Z
 
@@ -895,6 +905,7 @@ id: PDO:0000092
 name: bacterial pecky rice
 def: "A rice bacterial disease (PDO:0000003) caused by one or more bacterial species." [PDO:saisree_uppala]
 comment: Bacterial pecky rice results in rice kernels that has brown spots (APSNET).
+synonym: "pecky rice" BROAD []
 xref: OBO_SF_PSO:36
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
