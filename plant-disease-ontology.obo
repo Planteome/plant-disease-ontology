@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:04:2014 22:32
+date: 21:04:2014 23:51
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -366,7 +366,7 @@ creation_date: 2012-04-09T02:32:53Z
 id: PDO:0000037
 name: rice downy mildew fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Sclerophthora macrospora (PDO:0000038)." [PDO:saisree_uppala]
-synonym: "rice downy mildew" EXACT []
+synonym: "rice downy mildew " EXACT []
 xref: OBO_SF_PSO:21
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -634,9 +634,9 @@ creation_date: 2012-04-13T01:13:06Z
 
 [Term]
 id: PDO:0000063
-name: rice root rot
-def: "A rice fungal disease (PDO:0000081)  caused by many fungi including Fusarium spp. (PDO:0000076), Pythium spp. (PDO:0000063) such as P. dissotocum Drechs. (PDO:0000066), P. spinosum Sawada (PDO:0000072)." [PDO:saisree_uppala]
-synonym: "rice kernel spotting" EXACT []
+name: rice root rot fungal disease
+def: "A rice fungal disease (PDO:0000081) caused by one or more of Fusarium spp. (PDO:0000076), Pythium spp. (PDO:0000063) such as P. dissotocum Drechs. (PDO:0000066), P. spinosum Sawada (PDO:0000072)." [PDO:saisree_uppala]
+synonym: "rice root rot" EXACT []
 xref: OBO_SF_PSO:23
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -648,7 +648,7 @@ name: Pythium spp.
 def: "A fungal spp. (PDO:0000070) that is more than one Pythium species." [PDO:curtors]
 xref: NCBI_Taxonomy_ID:4797
 is_a: PDO:0000070 ! fungal spp.
-relationship: causal_agent PDO:0000063 ! rice root rot
+relationship: causal_agent PDO:0000063 ! rice root rot fungal disease
 created_by: moorel
 creation_date: 2012-04-13T02:11:59Z
 
@@ -656,7 +656,7 @@ creation_date: 2012-04-13T02:11:59Z
 id: PDO:0000065
 name: rice Pythium dissotocum root rot
 def: "A rice Pythium root rot (PDO:0000063) caused by Pythium dissotocum (PDO:0000066)." [PDO:curators]
-is_a: PDO:0000063 ! rice root rot
+is_a: PDO:0000063 ! rice root rot fungal disease
 created_by: moorel
 creation_date: 2012-04-13T02:15:43Z
 
@@ -727,7 +727,7 @@ creation_date: 2012-04-27T13:35:14Z
 id: PDO:0000073
 name: rice Pythium spinosum root rot
 def: "A rice Pythium root rot (PDO:0000063) caused by Pythium spinosum (PDO:0000072)." [PDO:curators]
-is_a: PDO:0000063 ! rice root rot
+is_a: PDO:0000063 ! rice root rot fungal disease
 relationship: causal_agent PDO:0000072 ! Pythium spinosum
 created_by: moorel
 creation_date: 2012-04-27T13:37:47Z
@@ -838,7 +838,7 @@ id: PDO:0000084
 name: rice cochliobolus miyabeanus seedling blight
 def: "A rice seedling blight (PDO:0000093) caused by Cochliobolus miyabeanus (PDO:0000034)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:101162
-is_a: PDO:0000093 ! rice seedling blight
+is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:11:12Z
 
@@ -847,7 +847,7 @@ id: PDO:0000085
 name: rice curvularia seedling blight
 def: "A rice seedling blight (PDO:0000093) caused by Curvularia spp. (PDO:0000074)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:5502
-is_a: PDO:0000093 ! rice seedling blight
+is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:15:08Z
 
@@ -856,7 +856,7 @@ id: PDO:0000086
 name: rice fusarium seedling blight
 def: "A rice seedling blight (PDO:0000093) caused by Fusarium spp. (PDO:0000076)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:5506
-is_a: PDO:0000093 ! rice seedling blight
+is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:17:44Z
 
@@ -865,7 +865,7 @@ id: PDO:0000087
 name: rice rhizoctonia solani seedling blight
 def: "A rice seedling blight (PDO:0000092) caused by Rhizoctonia solani (PDO:0000088)." [PDO:curators]
 xref: NCBI_Taxonomy_ID:456999
-is_a: PDO:0000093 ! rice seedling blight
+is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:21:31Z
 
@@ -884,7 +884,7 @@ creation_date: 2012-04-27T14:22:42Z
 id: PDO:0000089
 name: rice sclerotium rolfsii seedling blight
 def: "A rice seedling blight (PDO:0000092) caused by Sclerotium rolfsii (PDO:0000090)." [PDO:moorel]
-is_a: PDO:0000093 ! rice seedling blight
+is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:26:03Z
 
@@ -920,8 +920,9 @@ creation_date: 2012-05-16T13:14:55Z
 
 [Term]
 id: PDO:0000093
-name: rice seedling blight
+name: rice seedling blight fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by many fungi including Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074, Fusarium spp. (PDO:0000076), Rhizoctonia solani (PDO:0000088), Sclerotium rolfsii (PDO:0000114) other pathogenic fungi." [PDO:saisree_uppala]
+synonym: "rice seedling blight" EXACT []
 xref: OBO_SF_PSO:14
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
