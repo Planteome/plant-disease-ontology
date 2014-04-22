@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:04:2014 00:15
+date: 22:04:2014 00:42
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -596,8 +596,9 @@ creation_date: 2012-04-12T10:51:24Z
 
 [Term]
 id: PDO:0000059
-name: rice stem rot
+name: rice stem rot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Magnaporthe salvinii (PDO:0000060)." [PDO:saisree_uppala]
+synonym: "rice stem rot" EXACT []
 xref: OBO_SF_PSO:18
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -610,7 +611,7 @@ def: "A fungal species (PDO:0000069) that causes rice stem rot (PDO:0000059)." [
 synonym: "Magnaporthe salvinii (Cattaneo) R. Krause & Webster" NARROW []
 xref: NCBI_Taxonomy_ID:165778
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000059 ! rice stem rot
+relationship: causal_agent PDO:0000059 ! rice stem rot fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:56:31Z
 
@@ -799,8 +800,9 @@ creation_date: 2012-04-27T13:50:51Z
 
 [Term]
 id: PDO:0000080
-name: rice water-mold (seed-rot and seedling disease)
-def: "A rice fungal disease (PDO:0000081) caused by many fungi including Achlya conspicua (PDO:0000104) , A. klebsiana (PDO:0000105), Fusarium spp.  (PDO:0000076),  Pythium spp. (PDO:0000063),  P. dissotocum (PDO:0000066), P. spinosum (PDO:0000072)." [PDO:saisree_uppala]
+name: rice water-mold fungal disease (seed-rot and seedling disease)
+def: "A rice fungal disease (PDO:0000081) caused by one or more of Achlya conspicua (PDO:0000104) , A. klebsiana (PDO:0000105), Fusarium spp.  (PDO:0000076),  Pythium spp. (PDO:0000063),  P. dissotocum (PDO:0000066), P. spinosum (PDO:0000072)." [PDO:saisree_uppala]
+synonym: "rice water-mold (seed-rot and seedling disease)" EXACT []
 xref: OBO_SF_PSO:37
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -1197,8 +1199,9 @@ creation_date: 2014-03-19T16:37:36Z
 
 [Term]
 id: PDO:0000120
-name: rice giallume
+name: rice giallume viral disease
 def: "A rice viral disease (PDO:0000007) caused by barley yellow dwarf virus (PDO:0000132)." [PDO:saisree_uppala]
+synonym: "rice giallume " EXACT []
 xref: OBO_SF_PSO:43
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
@@ -1206,8 +1209,9 @@ creation_date: 2014-04-10T21:50:53Z
 
 [Term]
 id: PDO:0000121
-name: rice black streak dwarf
+name: rice black streak dwarf viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice black streak dwarf virus (PDO:0000133)." [PDO:saisree_uppala]
+synonym: "rice black streak dwarf" EXACT []
 xref: OBO_SF_PSO:45
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
@@ -1215,8 +1219,9 @@ creation_date: 2014-04-10T21:50:53Z
 
 [Term]
 id: PDO:0000122
-name: rice dwarf
+name: rice dwarf viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice dwarf virus (PDO:0000134)." [PDO:saisree_uppala]
+synonym: "rice dwarf" EXACT []
 xref: OBO_SF_PSO:47
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
@@ -1224,8 +1229,9 @@ creation_date: 2014-04-10T21:50:53Z
 
 [Term]
 id: PDO:0000123
-name: rice grassy stunt
+name: rice grassy stunt viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice grassy stunt virus (PDO:0000135)." [PDO:saisree_uppala]
+synonym: "rice grassy stunt" RELATED []
 xref: OBO_SF_PSO:49
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
@@ -1233,8 +1239,9 @@ creation_date: 2014-04-10T21:50:53Z
 
 [Term]
 id: PDO:0000124
-name: rice hoja blanca
+name: rice hoja blanca viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice hoja blanca virus (PDO:0000136)." [PDO:saisree_uppala]
+synonym: "rice hoja blanca" EXACT []
 xref: OBO_SF_PSO:51
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
