@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:04:2014 23:51
+date: 22:04:2014 00:15
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -513,9 +513,10 @@ creation_date: 2012-04-12T10:22:56Z
 
 [Term]
 id: PDO:0000051
-name: rice sheath blight
+name: rice sheath blight fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Thanatephorus cucumeris (PDO:0000052)." [PDO:saisree_uppala]
 comment: Symptoms: Grayish-green lesions may enlarge and coalesce with other lesions, mostly on lower leaf sheaths, but occasionally on the leaves. Phenotypic evaluation scale (based on relative lesion height): 0 - No infection observed; 1 - Lesions limited to lower 20% of the plant height; 3 - 20-30%; 5 - 31-45%; 7 - 46-65%; 9 - More than 65%. Defining relative lesion height: The relative lesion height is the average vertical height of the uppermost lesion on leaf or sheath expressed as a percentage of the average plant height (RiceSES).
+synonym: "rice sheath blight" EXACT []
 xref: OBO_SF_PSO:15
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -528,14 +529,15 @@ def: "A fungal species (PDO:0000069) that causes rice sheath blight (PDO:0000051
 synonym: "Thanatephorus cucumeris (A.B. Frank) Donk " NARROW []
 xref: NCBI_Taxonomy_ID:107832
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000051 ! rice sheath blight
+relationship: causal_agent PDO:0000051 ! rice sheath blight fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:34:25Z
 
 [Term]
 id: PDO:0000053
-name: rice sheath rot
-def: "A rice fungal disease (PDO:0000081)caused by Sarocladium oryzae (PDO:0000054)." [PDO:saisree_uppala]
+name: rice sheath rot fungal disease
+def: "A rice fungal disease (PDO:0000081) caused by Sarocladium oryzae (PDO:0000054)." [PDO:saisree_uppala]
+synonym: "rice sheath rot" EXACT []
 xref: OBO_SF_PSO:19
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -552,8 +554,9 @@ creation_date: 2012-04-12T10:38:45Z
 
 [Term]
 id: PDO:0000055
-name: rice sheath spot
+name: rice sheath spot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Rhizoctonia oryzae (PDO:0000056)." [PDO:saisree_uppala]
+synonym: "rice sheath spot" EXACT []
 xref: OBO_SF_PSO:16
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -566,14 +569,15 @@ def: "A fungal species (PDO:0000069) that causes rice sheath spot (PDO:0000055).
 synonym: "Rhizoctonia oryzae Ryker & Gooch" NARROW []
 xref: NCBI_Taxonomy_ID:459364
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000055 ! rice sheath spot
+relationship: causal_agent PDO:0000055 ! rice sheath spot fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:44:51Z
 
 [Term]
 id: PDO:0000057
-name: rice stackburn (alternaria leaf spot)
+name: rice stackburn (alternaria leaf spot) fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Alternaria padwickii (PDO:0000058)." [PDO:saisree_uppala]
+synonym: "rice stackburn (alternaria leaf spot)" EXACT []
 xref: OBO_SF_PSO:17
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -586,7 +590,7 @@ def: "A fungal species (PDO:0000069) that causes rice stackburn (alternaria leaf
 synonym: "Alternaria padwickii (Ganguly) M.B. Ellis" NARROW []
 xref: NCBI_Taxonomy_ID:714880
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000057 ! rice stackburn (alternaria leaf spot)
+relationship: causal_agent PDO:0000057 ! rice stackburn (alternaria leaf spot) fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:51:24Z
 
@@ -921,7 +925,7 @@ creation_date: 2012-05-16T13:14:55Z
 [Term]
 id: PDO:0000093
 name: rice seedling blight fungal disease
-def: "A rice fungal disease (PDO:0000081) caused by many fungi including Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074, Fusarium spp. (PDO:0000076), Rhizoctonia solani (PDO:0000088), Sclerotium rolfsii (PDO:0000114) other pathogenic fungi." [PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by one or more of Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074, Fusarium spp. (PDO:0000076), Rhizoctonia solani (PDO:0000088), Sclerotium rolfsii (PDO:0000114) other pathogenic fungi." [PDO:saisree_uppala]
 synonym: "rice seedling blight" EXACT []
 xref: OBO_SF_PSO:14
 is_a: PDO:0000081 ! rice fungal disease
