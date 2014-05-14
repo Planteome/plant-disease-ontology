@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:04:2014 10:00
+date: 14:05:2014 00:18
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1359,6 +1359,7 @@ creation_date: 2014-04-10T22:06:25Z
 id: PDO:0000137
 name: rice necrotic mosaic virus (RNMV)
 def: "A viral biotic causal agent (PDO:0000119) that causes rice necrotic mosaic viral disease (PDO:0000125)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:53
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1367,6 +1368,7 @@ creation_date: 2014-04-10T22:06:25Z
 id: PDO:0000138
 name: rice rugged stunt virus (RRSV)
 def: "A viral biotic causal agent (PDO:0000119) that causes rice rugged stunt  viral disease (PDO:0000126)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:54
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1375,6 +1377,7 @@ creation_date: 2014-04-10T22:06:25Z
 id: PDO:0000139
 name: rice stripe virus (RStV)
 def: "A viral biotic causal agent (PDO:0000119) that causes rice stripe viral disease (PDO:0000127)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:55
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1382,7 +1385,8 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000140
 name: rice transitory yellowing virus (RTYV)
-def: "A viral biotic causal agent (PDO:0000119) that causes rice transitory yellowing  viral disease (PDO:0000128)." [PDO:saisree_uppala]
+def: "A viral biotic causal agent (PDO:0000119) that causes rice transitory yellowing viral disease (PDO:0000128)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:56
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1397,6 +1401,8 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000142
 name: rice yellow mottle virus (RYMV)
+def: "A viral biotic causal agent (PDO:0000119) that causes rice yellow mottle viral disease (PDO:0000130)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:59
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1404,6 +1410,8 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000143
 name: rice tungro spherical virus (RTSV)
+def: "A viral biotic causal agent (PDO:0000119) that causes rice tungro viral disease (PDO:0000131)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:58
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1411,6 +1419,8 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000144
 name: rice tungro bacilliform virus (RTBV)
+def: "A viral biotic causal agent (PDO:0000119) that causes rice tungro viral disease (PDO:0000131)." [PDO:saisree_uppala]
+xref: OBO_SF_PSO:57
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
