@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:05:2014 13:05
+date: 17:05:2014 13:57
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1431,6 +1431,93 @@ xref: OBO_SF_PSO:57
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
+
+[Term]
+id: PDO:0000145
+name: corn/maize bacterial leaf blight and stalk rot
+is_a: PDO:0000011 ! corn/maize bacterial disease
+created_by: SAISREE
+creation_date: 2014-05-17T13:43:13Z
+
+[Term]
+id: PDO:0000146
+name: corn/maize bacterial leaf spot
+is_a: PDO:0000011 ! corn/maize bacterial disease
+created_by: SAISREE
+creation_date: 2014-05-17T13:43:13Z
+
+[Term]
+id: PDO:0000147
+name: corn/maize bacterial stalk rot
+is_a: PDO:0000011 ! corn/maize bacterial disease
+created_by: SAISREE
+creation_date: 2014-05-17T13:43:13Z
+
+[Term]
+id: PDO:0000148
+name: corn/maize bacterial stalk and top rot
+is_a: PDO:0000011 ! corn/maize bacterial disease
+created_by: SAISREE
+creation_date: 2014-05-17T13:43:13Z
+
+[Term]
+id: PDO:0000149
+name: corn/maize bacterial stripe
+is_a: PDO:0000011 ! corn/maize bacterial disease
+created_by: SAISREE
+creation_date: 2014-05-17T13:43:13Z
+
+[Term]
+id: PDO:0000150
+name: corn/maize chocolate spot
+is_a: PDO:0000011 ! corn/maize bacterial disease
+created_by: SAISREE
+creation_date: 2014-05-17T13:43:13Z
+
+[Term]
+id: PDO:0000151
+name: corn/maize Goss's bacterial wilt and blight 
+synonym: "maize leaf freckles and wilt" EXACT []
+is_a: PDO:0000011 ! corn/maize bacterial disease
+created_by: SAISREE
+creation_date: 2014-05-17T13:43:13Z
+
+[Term]
+id: PDO:0000152
+name: corn/maize holcus spot
+is_a: PDO:0000011 ! corn/maize bacterial disease
+created_by: SAISREE
+creation_date: 2014-05-17T13:43:13Z
+
+[Term]
+id: PDO:0000153
+name: corn/maize purple leaf sheath
+is_a: PDO:0000011 ! corn/maize bacterial disease
+created_by: SAISREE
+creation_date: 2014-05-17T13:43:13Z
+
+[Term]
+id: PDO:0000154
+name: corn/maize seed rot-seedling blight
+is_a: PDO:0000011 ! corn/maize bacterial disease
+created_by: SAISREE
+creation_date: 2014-05-17T13:43:13Z
+
+[Term]
+id: PDO:0000155
+name: corn/maize Stewart's disease
+synonym: "maize bacterial wilt" EXACT []
+is_a: PDO:0000011 ! corn/maize bacterial disease
+created_by: SAISREE
+creation_date: 2014-05-17T13:43:13Z
+
+[Term]
+id: PDO:0000156
+name: corn/maize stunt 
+synonym: "achapparramiento, maize stunt, Mesa Central or Rio Grande maize stunt" EXACT []
+is_a: PDO:0000011 ! corn/maize bacterial disease
+created_by: SAISREE
+creation_date: 2014-05-17T13:43:13Z
 
 [Typedef]
 id: causal_agent
