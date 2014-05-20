@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:05:2014 13:57
+date: 17:05:2014 14:09
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1469,14 +1469,14 @@ creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000150
-name: corn/maize chocolate spot
+name: corn/maize chocolate spot bacterial disease
 is_a: PDO:0000011 ! corn/maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000151
-name: corn/maize Goss's bacterial wilt and blight 
+name: corn/maize Goss's bacterial wilt and blight
 synonym: "maize leaf freckles and wilt" EXACT []
 is_a: PDO:0000011 ! corn/maize bacterial disease
 created_by: SAISREE
@@ -1484,28 +1484,28 @@ creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000152
-name: corn/maize holcus spot
+name: corn/maize holcus spot bacterial disease
 is_a: PDO:0000011 ! corn/maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000153
-name: corn/maize purple leaf sheath
+name: corn/maize purple leaf sheath bacterial disease
 is_a: PDO:0000011 ! corn/maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000154
-name: corn/maize seed rot-seedling blight
+name: corn/maize seed rot-seedling blight bacterial disease
 is_a: PDO:0000011 ! corn/maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000155
-name: corn/maize Stewart's disease
+name: corn/maize Stewart's bacterial disease 
 synonym: "maize bacterial wilt" EXACT []
 is_a: PDO:0000011 ! corn/maize bacterial disease
 created_by: SAISREE
@@ -1513,7 +1513,7 @@ creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000156
-name: corn/maize stunt 
+name: corn/maize stunt bacterial disease
 synonym: "achapparramiento, maize stunt, Mesa Central or Rio Grande maize stunt" EXACT []
 is_a: PDO:0000011 ! corn/maize bacterial disease
 created_by: SAISREE
