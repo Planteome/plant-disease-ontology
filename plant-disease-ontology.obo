@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:05:2014 11:29
+date: 26:05:2014 11:41
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1201,7 +1201,7 @@ creation_date: 2014-03-19T16:37:36Z
 [Term]
 id: PDO:0000120
 name: rice giallume viral disease
-def: "A rice viral disease (PDO:0000007) caused by barley yellow dwarf virus (PDO:0000132)." [PDO:saisree_uppala]
+def: "A rice viral disease (PDO:0000007) caused by barley yellow dwarf virus (PDO:0000132)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice giallume " EXACT []
 xref: OBO_SF_PSO:43
 is_a: PDO:0000007 ! rice viral disease
@@ -1211,7 +1211,7 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000121
 name: rice black streak dwarf viral disease
-def: "A rice viral disease (PDO:0000007) caused by rice black streak dwarf virus (PDO:0000133)." [PDO:saisree_uppala]
+def: "A rice viral disease (PDO:0000007) caused by rice black streak dwarf virus (PDO:0000133)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice black streak dwarf" EXACT []
 xref: OBO_SF_PSO:45
 is_a: PDO:0000007 ! rice viral disease
@@ -1221,7 +1221,7 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000122
 name: rice dwarf viral disease
-def: "A rice viral disease (PDO:0000007) caused by rice dwarf virus (PDO:0000134)." [PDO:saisree_uppala]
+def: "A rice viral disease (PDO:0000007) caused by rice dwarf virus (PDO:0000134)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice dwarf" EXACT []
 xref: OBO_SF_PSO:47
 is_a: PDO:0000007 ! rice viral disease
@@ -1231,7 +1231,7 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000123
 name: rice grassy stunt viral disease
-def: "A rice viral disease (PDO:0000007) caused by rice grassy stunt virus (PDO:0000135)." [PDO:saisree_uppala]
+def: "A rice viral disease (PDO:0000007) caused by rice grassy stunt virus (PDO:0000135)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice grassy stunt" RELATED []
 xref: OBO_SF_PSO:49
 is_a: PDO:0000007 ! rice viral disease
@@ -1241,7 +1241,7 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000124
 name: rice hoja blanca viral disease
-def: "A rice viral disease (PDO:0000007) caused by rice hoja blanca virus (PDO:0000136)." [PDO:saisree_uppala]
+def: "A rice viral disease (PDO:0000007) caused by rice hoja blanca virus (PDO:0000136)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice hoja blanca" EXACT []
 xref: OBO_SF_PSO:51
 is_a: PDO:0000007 ! rice viral disease
@@ -1251,7 +1251,7 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000125
 name: rice necrotic mosaic viral disease
-def: "A rice viral disease (PDO:0000007) caused by rice necrotic mosaic virus (PDO:0000137)." [PDO:saisree_uppala]
+def: "A rice viral disease (PDO:0000007) caused by rice necrotic mosaic virus (PDO:0000137)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice necrotic mosaic" EXACT []
 xref: OBO_SF_PSO:60
 is_a: PDO:0000007 ! rice viral disease
@@ -1261,7 +1261,7 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000126
 name: rice rugged stunt viral disease
-def: "A rice viral disease (PDO:0000007) caused by rice rugged stunt virus (PDO:0000138)." [PDO:saisree_uppala]
+def: "A rice viral disease (PDO:0000007) caused by rice rugged stunt virus (PDO:0000138)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice rugged stunt " EXACT []
 xref: OBO_SF_PSO:61
 is_a: PDO:0000007 ! rice viral disease
@@ -1271,7 +1271,7 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000127
 name: rice stripe viral disease
-def: "A rice viral disease (PDO:0000007) caused by rice stripe virus (PDO:0000139)." [PDO:saisree_uppala]
+def: "A rice viral disease (PDO:0000007) caused by rice stripe virus (PDO:0000139)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice stripe" EXACT []
 xref: OBO_SF_PSO:62
 is_a: PDO:0000007 ! rice viral disease
@@ -1281,7 +1281,7 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000128
 name: rice transitory yellowing viral disease
-def: "A rice viral disease (PDO:0000007) caused by rice transitory yellowing virus (PDO:0000140)." [PDO:saisree_uppala]
+def: "A rice viral disease (PDO:0000007) caused by rice transitory yellowing virus (PDO:0000140)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice transitory yellowing" EXACT []
 xref: OBO_SF_PSO:63
 is_a: PDO:0000007 ! rice viral disease
@@ -1291,7 +1291,7 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000129
 name: rice yellow dwarf viral disease
-def: "A rice viral disease (PDO:0000007) caused by mycoplasma like organism (PDO:0000141)." [PDO:saisree_uppala]
+def: "A rice viral disease (PDO:0000007) caused by mycoplasma like organism (PDO:0000141)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice yellow dwarf" EXACT []
 xref: OBO_SF_PSO:65
 is_a: PDO:0000007 ! rice viral disease
@@ -1301,7 +1301,7 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000130
 name: rice yellow mottle viral disease
-def: "A rice viral disease (PDO:0000007) caused by rice yellow mottle virus (PDO:0000142)." [PDO:saisree_uppala]
+def: "A rice viral disease (PDO:0000007) caused by rice yellow mottle virus (PDO:0000142)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice yellow mottle" EXACT []
 xref: OBO_SF_PSO:66
 is_a: PDO:0000007 ! rice viral disease
@@ -1311,7 +1311,7 @@ creation_date: 2014-04-10T21:50:53Z
 [Term]
 id: PDO:0000131
 name: rice tungro viral disease
-def: "A rice viral disease (PDO:0000007) caused by one or more of rice tungro spherical virus (PDO:0000143), \nrice tungro bacilliform virus (PDO:0000144)." [PDO:saisree_uppala]
+def: "A rice viral disease (PDO:0000007) caused by one or more of rice tungro spherical virus (PDO:0000143), \nrice tungro bacilliform virus (PDO:0000144)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice tungro" EXACT []
 xref: OBO_SF_PSO:64
 is_a: PDO:0000007 ! rice viral disease
