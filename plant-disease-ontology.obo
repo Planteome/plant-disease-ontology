@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:05:2014 11:41
+date: 26:05:2014 17:42
 saved-by: SAISREE
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -258,6 +258,7 @@ creation_date: 2012-04-09T02:06:26Z
 id: PDO:0000027
 name: rice aggregate sheath spot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Ceratobasidium oryzae-sativae (PDO:0000028)." [APS:Plant_Diseases, PDO:saisree_uppala]
+synonym: "aggregate sheath spot" EXACT []
 synonym: "rice aggregate sheath spot" EXACT []
 xref: OBO_SF_PSO:13
 is_a: PDO:0000081 ! rice fungal disease
@@ -279,6 +280,7 @@ creation_date: 2012-04-09T02:14:30Z
 id: PDO:0000029
 name: rice black kernel fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Curvularia lunata (PDO:0000030)." [APS:Plant_Diseases, PDO:saisree_uppala]
+synonym: "black kernel" EXACT []
 synonym: "rice black kernel" RELATED []
 xref: OBO_SF_PSO:24
 is_a: PDO:0000081 ! rice fungal disease
@@ -299,9 +301,18 @@ creation_date: 2012-04-09T02:19:53Z
 
 [Term]
 id: PDO:0000031
-name: rice blast (leaf, neck [rotten neck], nodal and collar) fungal disease
+name: rice blast fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Pyricularia grisea (PDO:0000032)." [APS:Plant_Diseases, PDO:saisree_uppala]
+synonym: "<new synonym>" RELATED []
+synonym: "collar blast" EXACT []
+synonym: "leaf blast" EXACT []
+synonym: "neck blast" EXACT []
+synonym: "nodal blast" EXACT []
 synonym: "rice blast (leaf, neck [rotten neck], nodal and collar)" EXACT []
+synonym: "rice collar blast" EXACT []
+synonym: "rice leaf blast" EXACT []
+synonym: "rice neck blast" EXACT []
+synonym: "rice nodal blast" EXACT []
 xref: OBO_SF_PSO:5
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -314,7 +325,7 @@ def: "A fungal species (PDO:0000069) that causes rice blast (PDO:0000031)." [PDO
 synonym: "Pyricularia grisea Sacc." NARROW []
 xref: NCBI_Taxonomy_ID:148305
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000031 ! rice blast (leaf, neck [rotten neck], nodal and collar) fungal disease
+relationship: causal_agent PDO:0000031 ! rice blast fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:25:01Z
 
@@ -322,6 +333,7 @@ creation_date: 2012-04-09T02:25:01Z
 id: PDO:0000033
 name: rice brown spot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Cochliobolus miyabeanus (PDO:0000034)." [APS:Plant_Diseases, PDO:saisree_uppala]
+synonym: "brown spot" EXACT []
 synonym: "rice brown spot" EXACT []
 xref: OBO_SF_PSO:25
 is_a: PDO:0000081 ! rice fungal disease
@@ -366,6 +378,7 @@ creation_date: 2012-04-09T02:32:53Z
 id: PDO:0000037
 name: rice downy mildew fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Sclerophthora macrospora (PDO:0000038)." [APS:Plant_Diseases, PDO:saisree_uppala]
+synonym: "downy mildew" EXACT []
 synonym: "rice downy mildew " EXACT []
 xref: OBO_SF_PSO:21
 is_a: PDO:0000081 ! rice fungal disease
@@ -386,6 +399,7 @@ creation_date: 2012-04-09T02:39:34Z
 id: PDO:0000039
 name: rice eyespot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Drechslera gigantea (PDO:0000040)." [APS:Plant_Diseases, PDO:saisree_uppala]
+synonym: "eyespot" EXACT []
 synonym: "rice eyespot" EXACT []
 xref: OBO_SF_PSO:26
 is_a: PDO:0000081 ! rice fungal disease
@@ -407,6 +421,7 @@ creation_date: 2012-04-09T02:44:40Z
 id: PDO:0000041
 name: rice false smut fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Ustilaginoidea virens (PDO:0000042)." [APS:Plant_Diseases, PDO:saisree_uppala]
+synonym: "false smut" EXACT []
 synonym: "rice false smut" EXACT []
 xref: OBO_SF_PSO:20
 is_a: PDO:0000081 ! rice fungal disease
@@ -429,6 +444,7 @@ id: PDO:0000043
 name: rice kernel smut fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Tilletia barclayana (PDO:0000044)." [APS:Plant_Diseases, PDO:saisree_uppala]
 comment: Symptoms: Infected grains show minute black pustules or streaks bursting through the glumes. In severe infection, the rupturing glumes produce short beak-like or spur-like growths. Growth stage affected : 9 (RiceSES).
+synonym: "kernel smut" EXACT []
 synonym: "rice kernel smut" EXACT []
 xref: OBO_SF_PSO:2
 is_a: PDO:0000081 ! rice fungal disease
@@ -450,6 +466,7 @@ creation_date: 2012-04-09T02:53:56Z
 id: PDO:0000045
 name: rice leaf smut fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Entyloma oryzae (PDO:0000046)." [APS:Plant_Diseases, PDO:curators, PDO:saisree_uppala]
+synonym: "leaf smut" EXACT []
 synonym: "rice leaf smut" EXACT []
 xref: OBO_SF_PSO:4
 is_a: PDO:0000081 ! rice fungal disease
@@ -472,6 +489,7 @@ id: PDO:0000047
 name: rice leaf scald fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Microdochium oryzae (PDO:0000048)." [APS:Plant_Diseases, PDO:saisree_uppala]
 comment: Symptoms: The lesions occurs mostly near leaf tips, but sometimes starts at the margin of the blade and develops into large ellipsoid areas encircled by dark-brown, narrow bands accompanied by a light-brown halo. Growth stage affected: 5-8. Phenotypic evaluation scale (based on affected leaf area): 0 - No incidence; 1 - Less than 1% (apical lesions); 3 - 1-5% (apical lesions); 5 - 6-25% (apical and some marginal lesions); 7 - 26-50% (apical and marginal lesions); 9 - 51-100% (apical and marginal lesions). (RiceSES).
+synonym: "leaf scald" EXACT []
 synonym: "rice leaf scald" EXACT []
 xref: OBO_SF_PSO:8
 is_a: PDO:0000081 ! rice fungal disease
@@ -494,6 +512,7 @@ creation_date: 2012-04-09T03:04:07Z
 id: PDO:0000049
 name: rice narrow brown leaf spot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Cercospora janseana (PDO:0000050)." [APS:Plant_Diseases, PDO:curators, PDO:saisree_uppala]
+synonym: "narrow brown leaf spot" EXACT []
 synonym: "rice narrow brown leaf spot" EXACT []
 xref: OBO_SF_PSO:3
 is_a: PDO:0000081 ! rice fungal disease
@@ -517,6 +536,7 @@ name: rice sheath blight fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Thanatephorus cucumeris (PDO:0000052)." [APS:Plant_Diseases, PDO:saisree_uppala]
 comment: Symptoms: Grayish-green lesions may enlarge and coalesce with other lesions, mostly on lower leaf sheaths, but occasionally on the leaves. Phenotypic evaluation scale (based on relative lesion height): 0 - No infection observed; 1 - Lesions limited to lower 20% of the plant height; 3 - 20-30%; 5 - 31-45%; 7 - 46-65%; 9 - More than 65%. Defining relative lesion height: The relative lesion height is the average vertical height of the uppermost lesion on leaf or sheath expressed as a percentage of the average plant height (RiceSES).
 synonym: "rice sheath blight" EXACT []
+synonym: "sheath blight" EXACT []
 xref: OBO_SF_PSO:15
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -538,6 +558,7 @@ id: PDO:0000053
 name: rice sheath rot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Sarocladium oryzae (PDO:0000054)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice sheath rot" EXACT []
+synonym: "sheath rot" EXACT []
 xref: OBO_SF_PSO:19
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -557,6 +578,7 @@ id: PDO:0000055
 name: rice sheath spot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Rhizoctonia oryzae (PDO:0000056)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice sheath spot" EXACT []
+synonym: "sheath spot" EXACT []
 xref: OBO_SF_PSO:16
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -575,8 +597,10 @@ creation_date: 2012-04-12T10:44:51Z
 
 [Term]
 id: PDO:0000057
-name: rice stackburn (alternaria leaf spot) fungal disease
+name: rice stackburn fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Alternaria padwickii (PDO:0000058)." [APS:Plant_Diseases, PDO:saisree_uppala]
+synonym: "alternaria leaf spot" EXACT []
+synonym: "rice alternaria leaf spot" EXACT []
 synonym: "rice stackburn (alternaria leaf spot)" EXACT []
 xref: OBO_SF_PSO:17
 is_a: PDO:0000081 ! rice fungal disease
@@ -590,7 +614,7 @@ def: "A fungal species (PDO:0000069) that causes rice stackburn (alternaria leaf
 synonym: "Alternaria padwickii (Ganguly) M.B. Ellis" NARROW []
 xref: NCBI_Taxonomy_ID:714880
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000057 ! rice stackburn (alternaria leaf spot) fungal disease
+relationship: causal_agent PDO:0000057 ! rice stackburn fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:51:24Z
 
@@ -599,6 +623,7 @@ id: PDO:0000059
 name: rice stem rot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Magnaporthe salvinii (PDO:0000060)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice stem rot" EXACT []
+synonym: "stem rot" EXACT []
 xref: OBO_SF_PSO:18
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -800,9 +825,11 @@ creation_date: 2012-04-27T13:50:51Z
 
 [Term]
 id: PDO:0000080
-name: rice water-mold fungal disease (seed-rot and seedling disease)
+name: rice water-mold fungal disease 
 def: "A rice fungal disease (PDO:0000081) caused by one or more of Achlya conspicua (PDO:0000104) , A. klebsiana (PDO:0000105), Fusarium spp.  (PDO:0000076),  Pythium spp. (PDO:0000063),  P. dissotocum (PDO:0000066), P. spinosum (PDO:0000072)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice water-mold (seed-rot and seedling disease)" EXACT []
+synonym: "seed rot disease" EXACT []
+synonym: "seedling disease" EXACT []
 xref: OBO_SF_PSO:37
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -930,6 +957,7 @@ id: PDO:0000093
 name: rice seedling blight fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by one or more of Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074, Fusarium spp. (PDO:0000076), Rhizoctonia solani (PDO:0000088), Sclerotium rolfsii (PDO:0000114) other pathogenic fungi." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice seedling blight" EXACT []
+synonym: "seedling blight" EXACT []
 xref: OBO_SF_PSO:14
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
