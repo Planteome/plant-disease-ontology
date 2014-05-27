@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 26:05:2014 17:42
-saved-by: SAISREE
-auto-generated-by: OBO-Edit 2.3.1
+date: 27:05:2014 10:42
+saved-by: cooperl
+auto-generated-by: OBO-Edit 2.3
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
 subsetdef: Triticum aestivum "Terms used for wheat"
@@ -9,17 +9,9 @@ subsetdef: Zea mays "Terms used for maize or corn"
 default-namespace: plant_disease_ontology
 
 [Term]
-id: ID:0000000
-name: plant bacterial disease
-def: "A plant disease [0000001] caused by bacteria" []
-is_obsolete: true
-created_by: moorel
-creation_date: 2012-04-05T10:11:59Z
-
-[Term]
 id: PDO:0000001
 name: plant disease
-def: "A disease of a plant structure (PO:0009011)." [PDO:curators]
+def: "A disease of a plant structure (PO:0009011)." [PDO:cooperl]
 created_by: cooperl
 creation_date: 2012-03-30T03:04:19Z
 
@@ -58,14 +50,6 @@ xref: OBO_SF_PSO:11
 is_a: PDO:0000001 ! plant disease
 created_by: moorel
 creation_date: 2012-04-05T10:23:07Z
-
-[Term]
-id: PDO:0000006
-name: rice fungal disease
-def: "A plant fungal disease (PDO:0000004) that affects rice." [PDO:curators]
-is_obsolete: true
-created_by: moorel
-creation_date: 2012-04-05T10:24:14Z
 
 [Term]
 id: PDO:0000007
@@ -565,15 +549,6 @@ created_by: moorel
 creation_date: 2012-04-12T10:36:53Z
 
 [Term]
-id: PDO:0000054
-name: Sarocladium oryzae
-def: "A fungal species (PDO:0000069) that causes rice sheath rot (PDO:0000053)." [PDO:curators]
-xref: NCBI_Taxonomy_ID:284135
-is_obsolete: true
-created_by: moorel
-creation_date: 2012-04-12T10:38:45Z
-
-[Term]
 id: PDO:0000055
 name: rice sheath spot fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by Rhizoctonia oryzae (PDO:0000056)." [APS:Plant_Diseases, PDO:saisree_uppala]
@@ -825,7 +800,7 @@ creation_date: 2012-04-27T13:50:51Z
 
 [Term]
 id: PDO:0000080
-name: rice water-mold fungal disease 
+name: rice water-mold fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by one or more of Achlya conspicua (PDO:0000104) , A. klebsiana (PDO:0000105), Fusarium spp.  (PDO:0000076),  Pythium spp. (PDO:0000063),  P. dissotocum (PDO:0000066), P. spinosum (PDO:0000072)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice water-mold (seed-rot and seedling disease)" EXACT []
 synonym: "seed rot disease" EXACT []
@@ -932,14 +907,6 @@ is_a: PDO:0000081 ! rice fungal disease
 is_a: PDO:0000092 ! bacterial pecky rice
 created_by: cooperl
 creation_date: 2012-05-14T14:45:43Z
-
-[Term]
-id: PDO:0000091
-name: rice disease
-def: "A plant disease (PDO:0000001) that affects rice." [PDO:curators]
-is_obsolete: true
-created_by: cooperl
-creation_date: 2012-05-14T16:30:47Z
 
 [Term]
 id: PDO:0000092
