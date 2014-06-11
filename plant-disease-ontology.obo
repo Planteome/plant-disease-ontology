@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 27:05:2014 11:57
-saved-by: cooperl
-auto-generated-by: OBO-Edit 2.3
+date: 11:06:2014 14:19
+saved-by: SAISREE
+auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
 subsetdef: Triticum aestivum "Terms used for wheat"
@@ -95,7 +95,7 @@ creation_date: 2012-04-05T10:33:27Z
 [Term]
 id: PDO:0000012
 name: corn/maize fungal disease
-def: "A fungal plant disease (PDO:0000004) that affects corn or maize." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal plant disease (PDO:0000004) that affects corn or maize." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
 creation_date: 2012-04-05T10:34:55Z
@@ -138,7 +138,7 @@ creation_date: 2012-04-06T02:21:57Z
 [Term]
 id: PDO:0000017
 name: Xanthomonas oryzae pv. oryzae
-def: "A Xanthomonas (PDO:0000095) species that causes bacterial blight (PDO:0000014) of Oryza sativa (PDO:0000098)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial blight (PDO:0000014)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 xref: NCBI_Taxonomy_ID:64187
 is_a: PDO:0000095 ! Xanthomonas
 relationship: causal_agent PDO:0000014 ! rice bacterial blight disease
@@ -148,7 +148,7 @@ creation_date: 2012-04-06T02:30:34Z
 [Term]
 id: PDO:0000018
 name: Xanthomonas oryzae pv. oryzicola
-def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial leaf streak (PDO:0000018)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial leaf streak (PDO:0000018)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 xref: NDBI_Taxonomy_ID:129394
 is_a: PDO:0000095 ! Xanthomonas
 relationship: causal_agent PDO:0000019 ! rice bacterial leaf streak disease
@@ -178,7 +178,7 @@ creation_date: 2012-04-09T01:41:32Z
 [Term]
 id: PDO:0000021
 name: Erwinia chrysanthemi
-def: "A bacterial biotic causal agent (PDO:0000016) that causes rice foot rot (PDO:0000020)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A bacterial biotic causal agent (PDO:0000016) that causes rice foot rot (PDO:0000020)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 synonym: "Erwinia chrysanthemi Burkholder et al. " NARROW []
 synonym: "Erwinia chrysanthemi pv. zeae (Sabet) Victoria et al. " NARROW []
 xref: NCBI_Taxonomy_ID:556
@@ -190,7 +190,7 @@ creation_date: 2012-04-09T01:43:12Z
 [Term]
 id: PDO:0000022
 name: Pseudomonas glumae
-def: "A Pseudomonas (PDO:0000094) species that causes rice grain rot (PDO:0000023)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A Pseudomonas (PDO:0000094) species that causes rice grain rot (PDO:0000023)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 synonym: "Pseudomonas glumae Kurita & Tabei" NARROW []
 xref: NCBI_Taxonomy_ID:286
 is_a: PDO:0000094 ! Pseudomonas
@@ -221,7 +221,7 @@ creation_date: 2012-04-09T01:59:01Z
 [Term]
 id: PDO:0000025
 name: Pseudomonas fuscovaginae
-def: "A Pseudomonas (PDO:0000094) species that causes rice sheath brown rot (PDO:0000024)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A Pseudomonas (PDO:0000094) species that causes rice sheath brown rot (PDO:0000024)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 synonym: "Pseudomonas fuscovaginae (ex Tanii et al) Miyajima et al." NARROW []
 xref: NCBI_Taxonomy_ID:50340
 is_a: PDO:0000094 ! Pseudomonas
@@ -625,7 +625,7 @@ creation_date: 2012-04-13T01:10:09Z
 [Term]
 id: PDO:0000062
 name: Pseudomonas syringae
-def: "A Pseudomonas (PDO:0000094) species that causes wheat bacterial leaf blight (PDO:0000061)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A Pseudomonas (PDO:0000094) species that causes wheat bacterial leaf blight (PDO:0000061)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 synonym: "    Pseudomonas syringae pv. atrofaciens (McCulloch 1920) Young et al. 1978" NARROW []
 synonym: "Pseudomonas syringae pv. coronafaciens (Elliott) Young et al. " NARROW []
 synonym: "Pseudomonas syringae pv. striafaciens (Elliott 1927) Young et al. 1978 " NARROW []
@@ -680,7 +680,8 @@ creation_date: 2012-04-13T02:18:59Z
 [Term]
 id: PDO:0000067
 name: biotic causal agent
-def: "A causal agent (PDO:0000015) that is one or more living organisms." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A causal agent (PDO:0000015) that is one or more living organisms." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+xref: OBO_SF_PSO:67
 is_a: PDO:0000015 ! causal agent
 created_by: moorel
 creation_date: 2012-04-13T02:26:01Z
@@ -812,7 +813,7 @@ creation_date: 2012-04-27T14:00:25Z
 [Term]
 id: PDO:0000081
 name: rice fungal disease
-def: "A fungal plant disease (PDO:0000004) that affects rice (Oryza sativa L.)." [PDO:saisree_uppala]
+def: "A fungal plant disease (PDO:0000004) that affects rice (Oryza sativa L.)." [APS:Plant_Diseases, PDO:saisree_uppala]
 xref: OBO_SF_PSO:1
 is_a: PDO:0000004 ! plant fungal disease
 created_by: uppalas
@@ -910,7 +911,7 @@ creation_date: 2012-05-14T14:45:43Z
 [Term]
 id: PDO:0000092
 name: bacterial pecky rice
-def: "A rice bacterial disease (PDO:0000003) caused by one or more bacterial species." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice bacterial disease (PDO:0000003) caused by one or more bacterial species." [APS:Plant_Diseases, APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 comment: Bacterial pecky rice results in rice kernels that has brown spots (APSNET).
 synonym: "pecky rice" BROAD []
 xref: OBO_SF_PSO:36
