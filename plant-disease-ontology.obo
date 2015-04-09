@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 11:06:2014 14:19
-saved-by: SAISREE
+date: 09:04:2015 15:08
+saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
@@ -191,8 +191,10 @@ creation_date: 2012-04-09T01:43:12Z
 id: PDO:0000022
 name: Pseudomonas glumae
 def: "A Pseudomonas (PDO:0000094) species that causes rice grain rot (PDO:0000023)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+synonym: " Burkholderia glumae" EXACT [NCBI:337]
 synonym: "Pseudomonas glumae Kurita & Tabei" NARROW []
 xref: NCBI_Taxonomy_ID:286
+xref: OBO_SF_PSO:32
 is_a: PDO:0000094 ! Pseudomonas
 relationship: causal_agent PDO:0000023 ! rice grain rot bacterial disease
 created_by: moorel
@@ -911,7 +913,7 @@ creation_date: 2012-05-14T14:45:43Z
 [Term]
 id: PDO:0000092
 name: bacterial pecky rice
-def: "A rice bacterial disease (PDO:0000003) caused by one or more bacterial species." [APS:Plant_Diseases, APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice bacterial disease (PDO:0000003) caused by one or more bacterial species." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 comment: Bacterial pecky rice results in rice kernels that has brown spots (APSNET).
 synonym: "pecky rice" BROAD []
 xref: OBO_SF_PSO:36
