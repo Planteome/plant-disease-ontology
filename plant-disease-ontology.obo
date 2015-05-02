@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:05:2015 17:40
+date: 02:05:2015 13:02
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -103,7 +103,7 @@ creation_date: 2012-04-05T10:33:27Z
 
 [Term]
 id: PDO:0000012
-name: corn/maize fungal disease
+name: maize fungal disease
 def: "A fungal plant disease (PDO:0000004) that affects corn or maize." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 is_a: PDO:0000004 ! plant fungal disease
 created_by: moorel
@@ -111,7 +111,7 @@ creation_date: 2012-04-05T10:34:55Z
 
 [Term]
 id: PDO:0000013
-name: corn/maize viral disease
+name: maize viral disease
 def: "A plant viral disease (PDO:0000005) that affects corn or maize." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 is_a: PDO:0000005 ! plant viral disease
 created_by: moorel
@@ -915,7 +915,6 @@ comment: Fungal pecky rice results in rice kernels that has brown spots (APSNET)
 synonym: "pecky rice" BROAD []
 xref: OBO_SF_PSO:30
 is_a: PDO:0000081 ! rice fungal disease
-is_a: PDO:0000092 ! bacterial pecky rice
 created_by: cooperl
 creation_date: 2012-05-14T14:45:43Z
 
@@ -1408,7 +1407,7 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000141
 name: mycoplasmalike organism (MLO)
-is_a: PDO:0000119 ! viral biotic causal agent
+is_a: PDO:0000067 ! biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
 
@@ -1441,35 +1440,35 @@ creation_date: 2014-04-10T22:06:25Z
 
 [Term]
 id: PDO:0000145
-name: maize bacterial leaf blight and stalk rot
+name: maize bacterial leaf blight and stalk rot disease
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000146
-name: maize bacterial leaf spot
+name: maize bacterial leaf spot disease
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000147
-name: maize bacterial stalk rot
+name: maize bacterial stalk rot disease
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000148
-name: maize bacterial stalk and top rot
+name: maize bacterial stalk and top rot disease
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000149
-name: maize bacterial stripe
+name: maize bacterial stripe disease
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1483,7 +1482,7 @@ creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000151
-name: maize Goss's bacterial wilt and blight
+name: maize Goss's bacterial wilt and blight disease
 synonym: "maize leaf freckles and wilt" EXACT []
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
