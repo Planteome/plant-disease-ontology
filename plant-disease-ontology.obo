@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:05:2015 17:31
+date: 01:05:2015 17:40
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -55,7 +55,7 @@ creation_date: 2012-04-05T10:23:07Z
 id: PDO:0000006
 name: rice virus causal agent
 def: "A viral biotic causal agent (PDO:0000119) that affects rice (Oyza sativa L.)." [PDO:Cooperl]
-xref: OBO_SF_PSO:new
+xref: OBO_SF_PSO:70
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: cooperl
 creation_date: 2015-05-01T17:18:58Z
