@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 02:05:2015 13:02
-saved-by: cooperl
+date: 04:05:2015 14:06
+saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
@@ -1335,7 +1335,7 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000133
 name: rice black streak dwarf virus (RGSDV)
-def: "A viral biotic causal agent (PDO:0000119) that causes rice black streak dwarf (PDO:0000121)." [PDO:saisree_uppala]
+def: "A rice virus causal agent (PDO:0000006) that causes rice black streak dwarf disease (PDO:0000121)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF_PSO:46
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
