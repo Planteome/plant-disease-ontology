@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 06:05:2015 14:49
+date: 08:05:2015 09:26
 saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1389,7 +1389,7 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000139
 name: rice stripe virus (RStV)
-def: "A rice virus causal agent (PDO:0000006) that causes rice stripe virus disease (PDO:0000127)." [PDO:megan_seymour , PDO:saisree_uppala]
+def: "A rice virus causal agent (PDO:0000006) that causes rice stripe virus disease (PDO:0000127)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF_PSO:55
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
@@ -1422,7 +1422,7 @@ creation_date: 2014-04-10T22:06:25Z
 
 [Term]
 id: PDO:0000143
-name:  rice tungro spherical virus (RTSV)
+name: rice tungro spherical virus (RTSV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice tungro virus disease (PDO:0000131)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF_PSO:58
 is_a: PDO:0000006 ! rice virus causal agent
@@ -1448,6 +1448,8 @@ creation_date: 2014-05-17T13:43:13Z
 [Term]
 id: PDO:0000146
 name: maize bacterial leaf spot disease
+def: "A maize bacterial disease (PDO:0000011) that is caused by Xanthomonas vasicola (PDO:XXXXXXX)." [PDO:megan_seymour]
+xref: OBO_SF_PSO:71
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
