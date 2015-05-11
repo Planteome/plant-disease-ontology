@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:05:2015 09:26
+date: 11:05:2015 14:30
 saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -557,6 +557,19 @@ xref: OBO_SF_PSO:19
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:36:53Z
+
+[Term]
+id: PDO:0000054
+name: Xanthomonas vasicola
+def: "A Xanthomonas bacterial causal agent (PDO:0000095) that causes maize bacterial leaf spot disease (PDO:0000146)." [PDO:megan_seymour]
+synonym: "Xanthomonas campestris pv. holcicola (Elliott) Dye" RELATED [APSnet:<new dbxref>]
+synonym: "Xanthomonas vasicola Vauterin et al. 1995" NARROW [XX:<new dbxref>]
+xref: NCBI_Taxonomy_ID:56459
+xref: OBO_SF_PSO:72
+is_a: PDO:0000095 ! Xanthomonas
+relationship: causal_agent PDO:0000146 ! maize bacterial leaf spot disease
+created_by: planteome
+creation_date: 2015-05-11T13:21:11Z
 
 [Term]
 id: PDO:0000055
@@ -1448,7 +1461,7 @@ creation_date: 2014-05-17T13:43:13Z
 [Term]
 id: PDO:0000146
 name: maize bacterial leaf spot disease
-def: "A maize bacterial disease (PDO:0000011) that is caused by Xanthomonas vasicola (PDO:XXXXXXX)." [PDO:megan_seymour]
+def: "A maize bacterial disease (PDO:0000011) that is caused by Xanthomonas vasicola (PDO:0000054)." [PDO:megan_seymour]
 xref: OBO_SF_PSO:71
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
