@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:05:2015 14:30
+date: 13:05:2015 15:28
 saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -562,8 +562,8 @@ creation_date: 2012-04-12T10:36:53Z
 id: PDO:0000054
 name: Xanthomonas vasicola
 def: "A Xanthomonas bacterial causal agent (PDO:0000095) that causes maize bacterial leaf spot disease (PDO:0000146)." [PDO:megan_seymour]
-synonym: "Xanthomonas campestris pv. holcicola (Elliott) Dye" RELATED [APSnet:<new dbxref>]
-synonym: "Xanthomonas vasicola Vauterin et al. 1995" NARROW [XX:<new dbxref>]
+synonym: "Xanthomonas campestris pv. holcicola (Elliott) Dye" RELATED [APS:]
+synonym: "Xanthomonas vasicola Vauterin et al. 1995" NARROW [APS:]
 xref: NCBI_Taxonomy_ID:56459
 xref: OBO_SF_PSO:72
 is_a: PDO:0000095 ! Xanthomonas
@@ -930,6 +930,19 @@ xref: OBO_SF_PSO:30
 is_a: PDO:0000081 ! rice fungal disease
 created_by: cooperl
 creation_date: 2012-05-14T14:45:43Z
+
+[Term]
+id: PDO:0000091
+name: Enterobacter cloacae subsp. dissolvens
+def: "A bacteria (PDO:0000016) genus that causes maize bacterial stalk rot disease (PDO:0000147)." [PDO:megan_seymour]
+synonym: "Enterobacter dissolvens (Rosen) Brenner et al." RELATED [APS:newdbxref]
+synonym: "Erwinia dissolvens (Rosen) Burkholder" RELATED [APS:newdbxref]
+xref: NCBI_Taxonomy_ID:69219
+xref: OBO_SF_PSO:73
+is_a: PDO:0000016 ! bacterial biotic causal agent
+relationship: causal_agent PDO:0000147 ! maize bacterial stalk rot disease
+created_by: planteome
+creation_date: 2015-05-13T13:26:10Z
 
 [Term]
 id: PDO:0000092
@@ -1384,7 +1397,7 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000137
 name: rice necrotic mosaic virus (RNMV)
-def: "A rice virus causal agent (PDO:0000006) that causes rice necrotic mosaic virus disease (PDO:0000125)." [PDO:saisree_uppala, PDO :megan_seymour]
+def: "A rice virus causal agent (PDO:0000006) that causes rice necrotic mosaic virus disease (PDO:0000125)." [PDO:saisree_uppala, PDO_:megan_seymour]
 xref: OBO_SF_PSO:53
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
@@ -1411,7 +1424,7 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000140
 name: rice transitory yellowing virus (RTYV)
-def: "A rice virus causal agent (PDO:0000006) that causes rice transitory yellowing virus disease (PDO:0000128)." [PDO:saisree_uppala, PDO :megan_seymour]
+def: "A rice virus causal agent (PDO:0000006) that causes rice transitory yellowing virus disease (PDO:0000128)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF_PSO:56
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
@@ -1470,6 +1483,8 @@ creation_date: 2014-05-17T13:43:13Z
 [Term]
 id: PDO:0000147
 name: maize bacterial stalk rot disease
+def: "A maize bacterial disease (PDO:0000011) that is caused by Enterobacter cloacae subsp. dissolvens (PDO:0000091)." [PDO:megan_seymour]
+xref: OBO_SF_PSO:74
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1484,6 +1499,8 @@ creation_date: 2014-05-17T13:43:13Z
 [Term]
 id: PDO:0000149
 name: maize bacterial stripe disease
+def: "A maize bacterial disease (PDO:0000011) that is caused by Burkholderia andropogonis (PDO:0000157)." [PDO:megan_seymour]
+xref: OBO_SF_PSO:75
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1539,6 +1556,18 @@ synonym: "achapparramiento, maize stunt, Mesa Central or Rio Grande maize stunt"
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
+
+[Term]
+id: PDO:0000157
+name: Burkholderia andropogonis
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial stripe disease (PDO:0000149)." [PDO:megan_seymour]
+synonym: "Pseudomonas andropogonis (Smith) Stapp" RELATED [APS:]
+xref: NCBI_Taxonomy_ID:28092
+xref: OBO_SF_PSO:76
+is_a: PDO:0000016 ! bacterial biotic causal agent
+relationship: causal_agent PDO:0000149 ! maize bacterial stripe disease
+created_by: planteome
+creation_date: 2015-05-13T14:48:55Z
 
 [Typedef]
 id: causal_agent
