@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:05:2015 15:28
+date: 14:05:2015 13:43
 saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1523,6 +1523,8 @@ creation_date: 2014-05-17T13:43:13Z
 [Term]
 id: PDO:0000152
 name: maize holcus spot bacterial disease
+def: "A maize bacterial disease (PDO:0000011) that is caused by Pseudomonas syringae pv. syringae (PDO:0000158)." [PDO:megan_seymour]
+xref: OBO_SF_PSO:78
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1568,6 +1570,18 @@ is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000149 ! maize bacterial stripe disease
 created_by: planteome
 creation_date: 2015-05-13T14:48:55Z
+
+[Term]
+id: PDO:0000158
+name: Pseudomonas syringae pv. syringae
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize holcus spot bacterial disease (PDO:0000152)." [PDO:megan_seymour]
+synonym: "Pseudomonas syringae pv. syringae van Hall " RELATED [APS:]
+xref: NCBI_Taxonomy_ID:321
+xref: OBO_SF_PSO:77
+is_a: PDO:0000016 ! bacterial biotic causal agent
+relationship: causal_agent PDO:0000152 ! maize holcus spot bacterial disease
+created_by: planteome
+creation_date: 2015-05-14T13:22:39Z
 
 [Typedef]
 id: causal_agent
