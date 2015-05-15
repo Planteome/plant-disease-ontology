@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 14:05:2015 14:20
-saved-by: planteome
+date: 15:05:2015 12:56
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
@@ -648,13 +648,14 @@ creation_date: 2012-04-13T01:10:09Z
 
 [Term]
 id: PDO:0000062
-name: Pseudomonas syringae
-def: "A Pseudomonas (PDO:0000094) species that causes wheat bacterial leaf blight (PDO:0000061)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
-synonym: "    Pseudomonas syringae pv. atrofaciens (McCulloch 1920) Young et al. 1978" NARROW []
-synonym: "Pseudomonas syringae pv. coronafaciens (Elliott) Young et al. " NARROW []
-synonym: "Pseudomonas syringae pv. striafaciens (Elliott 1927) Young et al. 1978 " NARROW []
-synonym: "Pseudomonas syringae subsp. syringae van Hall 1902 " NARROW []
+name: Pseudomonas syringae subsp. syringae
+def: "A Pseudomonas (PDO:0000062) species that causes wheat bacterial leaf blight (PDO:0000061)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+subset: Triticum aestivum
+synonym: "Pseudomonas syringae " EXACT []
+synonym: "Pseudomonas syringae subsp. syringae van Hall 1902 " NARROW [APS:Plant_Diseases]
+synonym: "Pseudomonas syringae van Hall 1902" RELATED []
 xref: NCBI_Taxonomy_ID:317
+xref: OBO_SF_PSO:81
 is_a: PDO:0000094 ! Pseudomonas
 relationship: causal_agent PDO:0000061 ! wheat bacterial leaf blight
 created_by: moorel
@@ -1576,18 +1577,18 @@ creation_date: 2015-05-13T14:48:55Z
 [Term]
 id: PDO:0000158
 name: Pseudomonas syringae pv. syringae
-def: "A bacterial biotic causal agent (PDO:0000016) that causes maize holcus spot bacterial disease (PDO:0000152)." [PDO:megan_seymour]
-synonym: "Pseudomonas syringae pv. syringae van Hall " RELATED [APS:]
+def: "A Pseudomonas syringae (PDO:0000062) that causes maize holcus spot bacterial disease (PDO:0000152)." [PDO:cooperl, PDO:megan_seymour]
+subset: Zea mays
 xref: NCBI_Taxonomy_ID:321
 xref: OBO_SF_PSO:77
-is_a: PDO:0000016 ! bacterial biotic causal agent
+is_a: PDO:0000062 ! Pseudomonas syringae subsp. syringae
 relationship: causal_agent PDO:0000152 ! maize holcus spot bacterial disease
 created_by: planteome
 creation_date: 2015-05-14T13:22:39Z
 
 [Term]
 id: PDO:0000159
-name: Clavibacter michiganensis subsp. nebraskensis 
+name: Clavibacter michiganensis subsp. nebraskensis
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Goss's bacterial wilt and blight disease (PDO:0000151)." [APS:, PDO:megan_seymour]
 synonym: "Clavibacter michiganensis subsp. nebraskensis (Vidaver & Mandel) Davis et al. " NARROW []
 synonym: "Corynebacterium michiganense pv. nebraskense (Schuster et al.) Dye & Kemp" RELATED [APS:]
