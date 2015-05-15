@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 15:05:2015 12:56
-saved-by: cooperl
+date: 15:05:2015 15:16
+saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
@@ -641,7 +641,8 @@ creation_date: 2012-04-12T10:56:31Z
 [Term]
 id: PDO:0000061
 name: wheat bacterial leaf blight
-def: "A wheat bacterial disease (PDO:0000008) caused by Pseudomonas syringae (PDO:0000062)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A wheat bacterial disease (PDO:0000008) caused by Pseudomonas syringae subsp. syringae (PDO:0000062)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+xref: OBO_SF_PSO:82
 is_a: PDO:0000008 ! wheat bacterial disease
 created_by: moorel
 creation_date: 2012-04-13T01:10:09Z
@@ -649,7 +650,7 @@ creation_date: 2012-04-13T01:10:09Z
 [Term]
 id: PDO:0000062
 name: Pseudomonas syringae subsp. syringae
-def: "A Pseudomonas (PDO:0000062) species that causes wheat bacterial leaf blight (PDO:0000061)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A Pseudomonas (PDO:0000094) species that causes wheat bacterial leaf blight (PDO:0000061)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Triticum aestivum
 synonym: "Pseudomonas syringae " EXACT []
 synonym: "Pseudomonas syringae subsp. syringae van Hall 1902 " NARROW [APS:Plant_Diseases]
@@ -1509,6 +1510,8 @@ creation_date: 2014-05-17T13:43:13Z
 [Term]
 id: PDO:0000150
 name: maize chocolate spot bacterial disease
+def: "A maize bacterial disease (PDO:0000011) that is caused by Pseudomonas coronafaciens pv. coronafaciens (PDO:0000160)." [PDO:megan_seymour]
+xref: OBO_SF_PSO:84
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1549,7 +1552,11 @@ creation_date: 2014-05-17T13:43:13Z
 [Term]
 id: PDO:0000155
 name: maize Stewart's bacterial disease
-synonym: "maize bacterial wilt" EXACT []
+def: "A maize bacterial disease (PDO:0000011) that is caused by Pantoea stewartii subsp. stewartii (PDO:0000161)." [PDO:megan_seymour]
+synonym: "corn Stewart's bacterial disease" EXACT []
+synonym: "corn Stewarts bacterial disease" EXACT []
+synonym: "maize bacterial wilt" EXACT [APS:Plant_Disease]
+xref: OBO_SF_PSO:86
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1589,7 +1596,7 @@ creation_date: 2015-05-14T13:22:39Z
 [Term]
 id: PDO:0000159
 name: Clavibacter michiganensis subsp. nebraskensis
-def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Goss's bacterial wilt and blight disease (PDO:0000151)." [APS:, PDO:megan_seymour]
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Goss's bacterial wilt and blight disease (PDO:0000151)." [APS:, PSO:megan_seymour]
 synonym: "Clavibacter michiganensis subsp. nebraskensis (Vidaver & Mandel) Davis et al. " NARROW []
 synonym: "Corynebacterium michiganense pv. nebraskense (Schuster et al.) Dye & Kemp" RELATED [APS:]
 xref: NCBI_Taxonomy_ID:31963
@@ -1598,6 +1605,30 @@ is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000151 ! maize Goss's bacterial wilt and blight disease
 created_by: planteome
 creation_date: 2015-05-14T13:45:39Z
+
+[Term]
+id: PDO:0000160
+name: Pseudomonas coronafaciens pv. coronafaciens
+def: "A Pseudomonas (PDO:0000094) species that causes maize chocolate spot bacterial disease (PDO:0000150)." [PDO:megan_seymour]
+synonym: "Pseudomonas syringae pv. coronafaciens (Elliott) Young et al.  " NARROW [APS:Plant_Disease]
+xref: NCBI_Taxonomy_ID:235275
+xref: OBO_SF_PSO:83
+is_a: PDO:0000094 ! Pseudomonas
+relationship: causal_agent PDO:0000150 ! maize chocolate spot bacterial disease
+created_by: planteome
+creation_date: 2015-05-15T13:42:09Z
+
+[Term]
+id: PDO:0000161
+name: Pantoea stewartii subsp. stewartii
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Stewart's bacterial disease (PDO:0000155)." [PDO:megan_seymour]
+synonym: "Erwinia stewartii (Smith) Dye" NARROW [APS:Plant_Disease]
+xref: NCBI_Taxonomy_ID:66271
+xref: OBO_SF_PSO:85
+is_a: PDO:0000016 ! bacterial biotic causal agent
+relationship: causal_agent PDO:0000155 ! maize Stewart's bacterial disease
+created_by: planteome
+creation_date: 2015-05-15T14:54:30Z
 
 [Typedef]
 id: causal_agent
