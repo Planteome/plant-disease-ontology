@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 15:05:2015 15:16
-saved-by: planteome
+date: 15:05:2015 16:59
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
@@ -562,8 +562,8 @@ creation_date: 2012-04-12T10:36:53Z
 id: PDO:0000054
 name: Xanthomonas vasicola
 def: "A Xanthomonas bacterial causal agent (PDO:0000095) that causes maize bacterial leaf spot disease (PDO:0000146)." [PDO:megan_seymour]
-synonym: "Xanthomonas campestris pv. holcicola (Elliott) Dye" RELATED [APS:]
-synonym: "Xanthomonas vasicola Vauterin et al. 1995" NARROW [APS:]
+synonym: "Xanthomonas campestris pv. holcicola (Elliott) Dye" RELATED []
+synonym: "Xanthomonas vasicola Vauterin et al. 1995" NARROW [APS:Plant_Disease]
 xref: NCBI_Taxonomy_ID:56459
 xref: OBO_SF_PSO:72
 is_a: PDO:0000095 ! Xanthomonas
@@ -827,7 +827,7 @@ creation_date: 2012-04-27T13:50:51Z
 [Term]
 id: PDO:0000080
 name: rice water-mold fungal disease
-def: "A rice fungal disease (PDO:0000081) caused by one or more of Achlya conspicua (PDO:0000104) , A. klebsiana (PDO:0000105), Fusarium spp.  (PDO:0000076), Pythium spp. (PDO:0000063), P. dissotocum (PDO:0000066), P. spinosum (PDO:0000072)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by one or more of Achlya conspicua (PDO:0000104), A. klebsiana (PDO:0000105), Fusarium spp.  (PDO:0000076), Pythium spp. (PDO:0000063), P. dissotocum (PDO:0000066), P. spinosum (PDO:0000072)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 synonym: "rice water-mold (seed-rot and seedling disease)" EXACT []
 synonym: "seed rot disease" EXACT []
 synonym: "seedling disease" EXACT []
@@ -926,7 +926,7 @@ creation_date: 2012-04-27T14:26:03Z
 id: PDO:0000090
 name: fungal pecky rice
 def: "A rice fungal disease (PDO:0000081) caused by one or more of Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Microdochium oryzae (PDO:0000048), and Sarocladium oryzae (PDO:0000083)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
-comment: Fungal pecky rice results in rice kernels that has brown spots (APSNET).
+comment: Fungal pecky rice results in rice kernels that has brown spots.
 synonym: "pecky rice" BROAD []
 xref: OBO_SF_PSO:30
 is_a: PDO:0000081 ! rice fungal disease
@@ -937,8 +937,8 @@ creation_date: 2012-05-14T14:45:43Z
 id: PDO:0000091
 name: Enterobacter cloacae subsp. dissolvens
 def: "A bacteria (PDO:0000016) genus that causes maize bacterial stalk rot disease (PDO:0000147)." [PDO:megan_seymour]
-synonym: "Enterobacter dissolvens (Rosen) Brenner et al." RELATED [APS:newdbxref]
-synonym: "Erwinia dissolvens (Rosen) Burkholder" RELATED [APS:newdbxref]
+synonym: "Enterobacter dissolvens (Rosen) Brenner et al." RELATED [APS:Plant_Diseases]
+synonym: "Erwinia dissolvens (Rosen) Burkholder" RELATED [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:69219
 xref: OBO_SF_PSO:73
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -950,7 +950,7 @@ creation_date: 2015-05-13T13:26:10Z
 id: PDO:0000092
 name: bacterial pecky rice
 def: "A rice bacterial disease (PDO:0000003) caused by one or more bacterial species." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
-comment: Bacterial pecky rice results in rice kernels that has brown spots (APSNET).
+comment: Bacterial pecky rice results in rice kernels that has brown spots.
 synonym: "pecky rice" BROAD []
 xref: OBO_SF_PSO:36
 is_a: PDO:0000003 ! rice bacterial disease
@@ -1555,7 +1555,7 @@ name: maize Stewart's bacterial disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Pantoea stewartii subsp. stewartii (PDO:0000161)." [PDO:megan_seymour]
 synonym: "corn Stewart's bacterial disease" EXACT []
 synonym: "corn Stewarts bacterial disease" EXACT []
-synonym: "maize bacterial wilt" EXACT [APS:Plant_Disease]
+synonym: "maize bacterial wilt" EXACT [APS:Plant_Diseases]
 xref: OBO_SF_PSO:86
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
@@ -1573,7 +1573,7 @@ creation_date: 2014-05-17T13:43:13Z
 id: PDO:0000157
 name: Burkholderia andropogonis
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial stripe disease (PDO:0000149)." [PDO:megan_seymour]
-synonym: "Pseudomonas andropogonis (Smith) Stapp" RELATED [APS:]
+synonym: "Pseudomonas andropogonis (Smith) Stapp" RELATED [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:28092
 xref: OBO_SF_PSO:76
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -1596,9 +1596,9 @@ creation_date: 2015-05-14T13:22:39Z
 [Term]
 id: PDO:0000159
 name: Clavibacter michiganensis subsp. nebraskensis
-def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Goss's bacterial wilt and blight disease (PDO:0000151)." [APS:, PSO:megan_seymour]
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Goss's bacterial wilt and blight disease (PDO:0000151)." [APS:Plant_Diseases, PSO:megan_seymour]
 synonym: "Clavibacter michiganensis subsp. nebraskensis (Vidaver & Mandel) Davis et al. " NARROW []
-synonym: "Corynebacterium michiganense pv. nebraskense (Schuster et al.) Dye & Kemp" RELATED [APS:]
+synonym: "Corynebacterium michiganense pv. nebraskense (Schuster et al.) Dye & Kemp" RELATED [APS:Plant_Disease]
 xref: NCBI_Taxonomy_ID:31963
 xref: OBO_SF_PSO:79
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -1610,7 +1610,7 @@ creation_date: 2015-05-14T13:45:39Z
 id: PDO:0000160
 name: Pseudomonas coronafaciens pv. coronafaciens
 def: "A Pseudomonas (PDO:0000094) species that causes maize chocolate spot bacterial disease (PDO:0000150)." [PDO:megan_seymour]
-synonym: "Pseudomonas syringae pv. coronafaciens (Elliott) Young et al.  " NARROW [APS:Plant_Disease]
+synonym: "Pseudomonas syringae pv. coronafaciens (Elliott) Young et al.  " NARROW [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:235275
 xref: OBO_SF_PSO:83
 is_a: PDO:0000094 ! Pseudomonas
@@ -1622,7 +1622,7 @@ creation_date: 2015-05-15T13:42:09Z
 id: PDO:0000161
 name: Pantoea stewartii subsp. stewartii
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Stewart's bacterial disease (PDO:0000155)." [PDO:megan_seymour]
-synonym: "Erwinia stewartii (Smith) Dye" NARROW [APS:Plant_Disease]
+synonym: "Erwinia stewartii (Smith) Dye" NARROW [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:66271
 xref: OBO_SF_PSO:85
 is_a: PDO:0000016 ! bacterial biotic causal agent
