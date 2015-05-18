@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:05:2015 14:42
+date: 18:05:2015 15:57
 saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -177,7 +177,7 @@ creation_date: 2012-04-09T01:37:41Z
 [Term]
 id: PDO:0000020
 name: rice foot rot bacterial disease
-def: "A rice bacterial disease (PDO:0000003) caused by Erwinia chrysanthemi (PDO:0000021)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice bacterial disease (PDO:0000003) caused by Dickeya chrysanthemi (PDO:0000021)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour, PDO:saisree_uppala]
 synonym: "rice foot rot" EXACT []
 xref: OBO_SF_PSO:33
 is_a: PDO:0000003 ! rice bacterial disease
@@ -186,10 +186,9 @@ creation_date: 2012-04-09T01:41:32Z
 
 [Term]
 id: PDO:0000021
-name: Erwinia chrysanthemi
-def: "A bacterial biotic causal agent (PDO:0000016) that causes rice foot rot (PDO:0000020)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
-synonym: "Erwinia chrysanthemi Burkholder et al. " NARROW []
-synonym: "Erwinia chrysanthemi pv. zeae (Sabet) Victoria et al. " NARROW []
+name: Dickeya chrysanthemi
+def: "A bacterial biotic causal agent (PDO:0000016) that causes rice foot rot bacterial disease (PDO:0000020)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour, PDO:saisree_uppala]
+synonym: "Erwinia chrysanthemi Burkholder et al. " RELATED [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:556
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000020 ! rice foot rot bacterial disease
