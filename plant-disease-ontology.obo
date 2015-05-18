@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:05:2015 13:56
+date: 18:05:2015 14:24
 saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1556,9 +1556,11 @@ creation_date: 2014-05-17T13:43:13Z
 id: PDO:0000155
 name: maize Stewart's bacterial disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Pantoea stewartii subsp. stewartii (PDO:0000161)." [PDO:megan_seymour]
-synonym: "corn Stewart's bacterial disease" EXACT []
-synonym: "corn Stewarts bacterial disease" EXACT []
-synonym: "maize bacterial wilt" EXACT [APS:Plant_Diseases]
+synonym: "maize bacterial wilt" RELATED [APS:Plant_Diseases]
+synonym: "maize Stewart's bacterial disease" EXACT []
+synonym: "maize Stewarts bacterial disease" EXACT []
+synonym: "Stewart's disease" RELATED [APS:Plant_Diseases]
+synonym: "Stewart's wilt" RELATED [PHI-base:xx]
 xref: OBO_SF_PSO:86
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
