@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 15:05:2015 16:59
-saved-by: cooperl
+date: 18:05:2015 13:24
+saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
@@ -1363,7 +1363,7 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000133
 name: rice black streak dwarf virus (RGSDV)
-def: "A rice virus causal agent (PDO:0000006) that causes rice black streak dwarf virus disease (PDO:0000121)." [PDO:saisree_uppala]
+def: "A rice virus causal agent (PDO:0000006) that causes rice black streak dwarf virus disease (PDO:0000121)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF_PSO:46
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
@@ -1564,7 +1564,9 @@ creation_date: 2014-05-17T13:43:13Z
 [Term]
 id: PDO:0000156
 name: maize stunt bacterial disease
+def: "A maize bacterial disease (PDO:0000011) that is caused by Spiroplasma kunkelii (PDO:0000162)." [PDO:megan_seymour]
 synonym: "achapparramiento, maize stunt, Mesa Central or Rio Grande maize stunt" EXACT []
+xref: OBO_SF_PSO:87
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1629,6 +1631,18 @@ is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000155 ! maize Stewart's bacterial disease
 created_by: planteome
 creation_date: 2015-05-15T14:54:30Z
+
+[Term]
+id: PDO:0000162
+name: Spiroplasma kunkelii
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize stunt bacterial disease (PDO:0000156)." [APS:Plant_Diseases, PDO:megan_seymour]
+synonym: "Spiroplasma kunkelii Whitcomb et al. " NARROW [APS:Plant_Diseases]
+xref: NCBI_Taxonomy_ID:47834
+xref: OBO_SF_PSO:88
+is_a: PDO:0000016 ! bacterial biotic causal agent
+relationship: causal_agent PDO:0000156 ! maize stunt bacterial disease
+created_by: planteome
+creation_date: 2015-05-18T12:43:28Z
 
 [Typedef]
 id: causal_agent
