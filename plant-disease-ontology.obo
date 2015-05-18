@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:05:2015 14:39
+date: 18:05:2015 14:42
 saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1632,7 +1632,7 @@ creation_date: 2015-05-15T13:42:09Z
 [Term]
 id: PDO:0000161
 name: Pantoea stewartii subsp. stewartii
-def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Stewart's bacterial disease (PDO:0000155)." [PDO:megan_seymour]
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Stewart's bacterial disease (PDO:0000155)." [PDO:cooperl, PDO:megan_seymour]
 synonym: "Erwinia stewartii (Smith) Dye" NARROW [APS:Plant_Diseases]
 synonym: "Pantoea stewartii subsp. stewartii DC283" RELATED [NCBI_Taxonomy_ID:660596]
 xref: NCBI_Taxonomy_ID:66271
