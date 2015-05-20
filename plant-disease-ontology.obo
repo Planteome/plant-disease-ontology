@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 19:05:2015 10:52
-saved-by: cooperl
+date: 20:05:2015 13:58
+saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Oryza sativa L "Terms used for rice"
@@ -1538,7 +1538,9 @@ creation_date: 2014-05-17T13:43:13Z
 [Term]
 id: PDO:0000148
 name: maize bacterial stalk and top rot disease
+def: "A maize bacterial disease (PDO:0000011) that is caused by Pectobacterium carotovorum subsp. carotovorum (PDO:0000163)." [PDO:megan_seymour]
 subset: Zea mays
+xref: OBO_SF_PSO:91
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1705,6 +1707,19 @@ is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000156 ! maize stunt bacterial disease
 created_by: planteome
 creation_date: 2015-05-18T12:43:28Z
+
+[Term]
+id: PDO:0000163
+name: Pectobacterium carotovorum subsp. carotovorum
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial stalk and top rot disease (PDO:0000148)." [PDO:megan_seymour]
+subset: Zea mays
+synonym: "Erwinia carotovora subsp. carotovora (Jones) Bergey et al." RELATED [APS:Plant_Diseases]
+xref: NCBI_Taxonomy_ID:555
+xref: OBO_SF_PSO:90
+is_a: PDO:0000016 ! bacterial biotic causal agent
+relationship: causal_agent PDO:0000148 ! maize bacterial stalk and top rot disease
+created_by: planteome
+creation_date: 2015-05-20T13:39:29Z
 
 [Typedef]
 id: causal_agent
