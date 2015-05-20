@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:05:2015 13:58
+date: 20:05:2015 14:24
 saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1599,8 +1599,11 @@ creation_date: 2014-05-17T13:43:13Z
 
 [Term]
 id: PDO:0000154
-name: maize seed rot-seedling blight bacterial disease
+name: maize seed rot and seedling blight bacterial disease
+def: "A maize bacterial disease (PDO:0000011) that is caused by Bacillus subtilis (PDO:0000164)." [PDO:megan_seymour]
 subset: Zea mays
+synonym: "Seed rot-seedling blight " RELATED [APS:Plant_Diseases]
+xref: OBO_SF_PSO:92
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1720,6 +1723,19 @@ is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000148 ! maize bacterial stalk and top rot disease
 created_by: planteome
 creation_date: 2015-05-20T13:39:29Z
+
+[Term]
+id: PDO:0000164
+name: Bacillus subtilis
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize seed rot and seedling blight bacterial disease (PDO:0000154)." [APS:Plant_Diseases, PDO:megan_seymour]
+subset: Zea mays
+synonym: "Bacillus subtilis (Ehrenberg) Cohn" NARROW [APS:Plant_Diseases]
+xref: NCBI_Taxonomy_ID:1423
+xref: OBO_SF_ID:93
+is_a: PDO:0000016 ! bacterial biotic causal agent
+relationship: causal_agent PDO:0000154 ! maize seed rot and seedling blight bacterial disease
+created_by: planteome
+creation_date: 2015-05-20T14:07:41Z
 
 [Typedef]
 id: causal_agent
