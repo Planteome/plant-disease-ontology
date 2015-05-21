@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:05:2015 11:41
+date: 21:05:2015 14:39
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -7,6 +7,9 @@ subsetdef: Oryza sativa L "Terms used for rice"
 subsetdef: Solanaceae spp "Terms used for the Solanaceae"
 subsetdef: Triticum aestivum "Terms used for wheat"
 subsetdef: Zea mays "Terms used for maize"
+synonymtypedef: anamorph "anamorph"
+synonymtypedef: synanamorph "synanamorph"
+synonymtypedef: telomorph "telomorph"
 default-namespace: plant_disease_ontology
 
 [Term]
