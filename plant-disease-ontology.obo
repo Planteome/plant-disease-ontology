@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:05:2015 18:23
+date: 20:05:2015 19:17
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -112,7 +112,7 @@ creation_date: 2012-04-05T10:33:27Z
 [Term]
 id: PDO:0000012
 name: maize fungal disease
-def: "A fungal plant disease (PDO:0000004) that affects maize (Zea mays L.; PDO:0000101)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A fungal plant disease (PDO:0000004) that affects maize (Zea mays L.; PDO:0000101)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper]
 subset: Zea mays
 synonym: "corn fungal disease" EXACT []
 is_a: PDO:0000004 ! plant fungal disease
@@ -556,7 +556,7 @@ creation_date: 2012-04-12T10:19:40Z
 [Term]
 id: PDO:0000050
 name: Cercospora janseana
-def: "A fungal species (PDO:0000069) that causes rice narrow brown leaf spot (PDO:0000049)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal species (PDO:0000069) that causes rice narrow brown leaf spot fungal disease (PDO:0000049)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Cercospora janseana (Racib.) O. Const." NARROW []
 xref: NCBI_Taxonomy_ID:706553
 is_a: PDO:0000069 ! fungal species
