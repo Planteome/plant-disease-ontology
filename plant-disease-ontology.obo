@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 20:05:2015 14:48
-saved-by: planteome
+date: 20:05:2015 18:23
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Oryza sativa L "Terms used for rice"
@@ -161,7 +161,12 @@ creation_date: 2012-04-06T02:21:57Z
 id: PDO:0000017
 name: Xanthomonas oryzae pv. oryzae
 def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial blight disease (PDO:0000014)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+subset: Oryza sativa L
+synonym: "Xanthomonas campestris pv. oryza" RELATED []
+synonym: "Xanthomonas campestris pv. oryzae (lshiyama) Dye" RELATED [APS:Plant_Diseases]
+synonym: "Xanthomonas oryzae pv. oryzae (Ishiyama) Swings et al." NARROW []
 xref: NCBI_Taxonomy_ID:64187
+xref: OBO_SF_PSO:96
 is_a: PDO:0000095 ! Xanthomonas
 relationship: causal_agent PDO:0000014 ! rice bacterial blight disease
 created_by: moorel
@@ -170,8 +175,13 @@ creation_date: 2012-04-06T02:30:34Z
 [Term]
 id: PDO:0000018
 name: Xanthomonas oryzae pv. oryzicola
-def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial leaf streak (PDO:0000018)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial leaf streak disease (PDO:0000018)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+subset: Oryza sativa L
+synonym: "Xanthomonas campestris pv. oryzicola" RELATED []
+synonym: "Xanthomonas campestris pv. oryzicola (Fang et al. 1957) Dye 1978" RELATED []
+synonym: "Xanthomonas oryzae pv. oryzicola (Ishiyama) Swings et al." NARROW []
 xref: NDBI_Taxonomy_ID:129394
+xref: OBO_SF_PSO:97
 is_a: PDO:0000095 ! Xanthomonas
 relationship: causal_agent PDO:0000019 ! rice bacterial leaf streak disease
 created_by: moorel
@@ -212,13 +222,13 @@ creation_date: 2012-04-09T01:43:12Z
 
 [Term]
 id: PDO:0000022
-name: Pseudomonas glumae
-def: "A Pseudomonas (PDO:0000094) species that causes rice grain rot (PDO:0000023)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
-synonym: " Burkholderia glumae" EXACT [NCBI:337]
-synonym: "Pseudomonas glumae Kurita & Tabei" NARROW []
-xref: NCBI_Taxonomy_ID:286
-xref: OBO_SF_PSO:32
-is_a: PDO:0000094 ! Pseudomonas
+name: Burkholderia glumae
+def: "A bacterial biotic causal agent (PDO:0000016) that causes rice grain rot bacterial disease (PDO:0000023)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+synonym: "Burkholderia glumae (Kurita and Tabei 1967) Urakami et al. 1994 " NARROW []
+synonym: "Pseudomonas glumae Kurita & Tabei" RELATED [APS:Plant_Diseases]
+xref: NCBI_Taxonomy_ID:337
+xref: OBO_SF_PSO:99
+is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000023 ! rice grain rot bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:48:50Z
@@ -226,9 +236,9 @@ creation_date: 2012-04-09T01:48:50Z
 [Term]
 id: PDO:0000023
 name: rice grain rot bacterial disease
-def: "A rice bacterial disease (PDO:0000003) caused by Pseudomonas glumae (PDO:0000022)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice bacterial disease (PDO:0000003) caused by Burkholderia glumae (PDO:0000022)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza sativa L
-synonym: "rice grain rot" EXACT []
+synonym: "rice grain rot" BROAD []
 xref: OBO_SF_PSO:34
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
@@ -248,9 +258,11 @@ creation_date: 2012-04-09T01:59:01Z
 [Term]
 id: PDO:0000025
 name: Pseudomonas fuscovaginae
-def: "A Pseudomonas (PDO:0000094) species that causes rice sheath brown rot (PDO:0000024)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A Pseudomonas (PDO:0000094) species that causes rice sheath brown rot bacterial disease (PDO:0000024)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+subset: Oryza sativa L
 synonym: "Pseudomonas fuscovaginae (ex Tanii et al) Miyajima et al." NARROW []
 xref: NCBI_Taxonomy_ID:50340
+xref: OBO_SF_PSO:98
 is_a: PDO:0000094 ! Pseudomonas
 relationship: causal_agent PDO:0000024 ! rice sheath brown rot bacterial disease
 created_by: moorel
@@ -591,9 +603,10 @@ creation_date: 2012-04-12T10:36:53Z
 [Term]
 id: PDO:0000054
 name: Xanthomonas vasicola
-def: "A Xanthomonas bacterial causal agent (PDO:0000095) that causes maize bacterial leaf spot disease (PDO:0000146)." [PDO:megan_seymour]
+def: "A Xanthomonas bacterial causal agent (PDO:0000095) that causes maize bacterial leaf spot disease (PDO:0000146)." [PDO:cooperl, PDO:megan_seymour]
+subset: Zea mays
 synonym: "Xanthomonas campestris pv. holcicola (Elliott) Dye" RELATED []
-synonym: "Xanthomonas vasicola Vauterin et al. 1995" NARROW [APS:Plant_Disease]
+synonym: "Xanthomonas vasicola Vauterin et al. 1995" NARROW [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:56459
 xref: OBO_SF_PSO:72
 is_a: PDO:0000095 ! Xanthomonas
@@ -974,7 +987,7 @@ creation_date: 2012-05-14T14:45:43Z
 [Term]
 id: PDO:0000091
 name: Enterobacter cloacae subsp. dissolvens
-def: "A bacteria (PDO:0000016) genus that causes maize bacterial stalk rot disease (PDO:0000147)." [PDO:megan_seymour]
+def: "A bacteria (PDO:0000016) genus that causes maize bacterial stalk rot disease (PDO:0000147)." [PDO:cooperl, PDO:megan_seymour]
 synonym: "Enterobacter dissolvens (Rosen) Brenner et al." RELATED [APS:Plant_Diseases]
 synonym: "Erwinia dissolvens (Rosen) Burkholder" RELATED [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:69219
@@ -987,7 +1000,7 @@ creation_date: 2015-05-13T13:26:10Z
 [Term]
 id: PDO:0000092
 name: bacterial pecky rice
-def: "A rice bacterial disease (PDO:0000003) caused by one or more bacterial species." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice bacterial disease (PDO:0000003) caused by one or more bacterial biotic causal agents (PDO:0000016)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 comment: Bacterial pecky rice results in rice kernels that has brown spots.
 subset: Oryza sativa L
 synonym: "pecky rice" BROAD []
@@ -1642,7 +1655,7 @@ creation_date: 2014-05-17T13:43:13Z
 [Term]
 id: PDO:0000157
 name: Burkholderia andropogonis
-def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial stripe disease (PDO:0000149)." [PDO:megan_seymour]
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial stripe disease (PDO:0000149)." [PDO:cooperl, PDO:megan_seymour]
 synonym: "Pseudomonas andropogonis (Smith) Stapp" RELATED [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:28092
 xref: OBO_SF_PSO:76
@@ -1666,7 +1679,7 @@ creation_date: 2015-05-14T13:22:39Z
 [Term]
 id: PDO:0000159
 name: Clavibacter michiganensis subsp. nebraskensis
-def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Goss's bacterial wilt and blight disease (PDO:0000151)." [APS:Plant_Diseases, PSO:megan_seymour]
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Goss's bacterial wilt and blight disease (PDO:0000151)." [APS:Plant_Diseases, PDO:cooperl, PDO:megan_seymour]
 synonym: "Clavibacter michiganensis subsp. nebraskensis (Vidaver & Mandel) Davis et al. " NARROW []
 synonym: "Corynebacterium michiganense pv. nebraskense (Schuster et al.) Dye & Kemp" RELATED [APS:Plant_Disease]
 xref: NCBI_Taxonomy_ID:31963
@@ -1704,7 +1717,7 @@ creation_date: 2015-05-15T14:54:30Z
 [Term]
 id: PDO:0000162
 name: Spiroplasma kunkelii
-def: "A bacterial biotic causal agent (PDO:0000016) that causes maize stunt bacterial disease (PDO:0000156)." [APS:Plant_Diseases, PDO:megan_seymour]
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize stunt bacterial disease (PDO:0000156)." [APS:Plant_Diseases, PDO:cooperl, PDO:megan_seymour]
 synonym: "Spiroplasma kunkelii Whitcomb et al. " NARROW [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:47834
 xref: OBO_SF_PSO:88
@@ -1716,7 +1729,7 @@ creation_date: 2015-05-18T12:43:28Z
 [Term]
 id: PDO:0000163
 name: Pectobacterium carotovorum subsp. carotovorum
-def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial stalk and top rot disease (PDO:0000148)." [PDO:megan_seymour]
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial stalk and top rot disease (PDO:0000148)." [PCDO:Laurel_Cooper, PDO:megan_seymour]
 subset: Zea mays
 synonym: "Erwinia carotovora subsp. carotovora (Jones) Bergey et al." RELATED [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:555
@@ -1729,7 +1742,7 @@ creation_date: 2015-05-20T13:39:29Z
 [Term]
 id: PDO:0000164
 name: Bacillus subtilis
-def: "A bacterial biotic causal agent (PDO:0000016) that causes maize seed rot and seedling blight bacterial disease (PDO:0000154)." [APS:Plant_Diseases, PDO:megan_seymour]
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize seed rot and seedling blight bacterial disease (PDO:0000154)." [APS:Plant_Diseases, PDO:cooperl, PDO:megan_seymour]
 subset: Zea mays
 synonym: "Bacillus subtilis (Ehrenberg) Cohn" NARROW [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:1423
@@ -1741,8 +1754,8 @@ creation_date: 2015-05-20T14:07:41Z
 
 [Term]
 id: PDO:0000165
-name: Acidovorax avenae 
-def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial leaf blight and stalk rot disease (PDO:0000145)." [PDO:megan_seymour]
+name: Acidovorax avenae
+def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial leaf blight and stalk rot disease (PDO:0000145)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea mays
 synonym: "Pseudomonas avenae subsp. avenae Manns" RELATED [APS:Plant_Disease]
 xref: NCBI_Taxonomy_ID:80867
@@ -1751,6 +1764,28 @@ is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000145 ! maize bacterial leaf blight and stalk rot disease
 created_by: planteome
 creation_date: 2015-05-20T14:32:42Z
+
+[Term]
+id: PDO:0000166
+name: Burkholderia glumae AU6208
+def: "A Burkholderia glumae (PDO:0000022) strain that causes rice bacterial panicle blight (PDO:0000167)." [PDO:cooperl, PHI-base:xyz]
+synonym: "Burkholderia glumae str. AU6208 " EXACT []
+synonym: "Burkholderia glumae strain AU6208" EXACT []
+xref: NCBI_Taxonomy:1176514
+xref: OBO_SF_PSO:100
+is_a: PDO:0000022 ! Burkholderia glumae
+relationship: causal_agent PDO:0000167 ! rice bacterial panicle blight disease
+created_by: cooperl
+creation_date: 2015-05-20T17:49:52Z
+
+[Term]
+id: PDO:0000167
+name: rice bacterial panicle blight disease
+def: "A rice bacterial disease (PDO:0000003) caused by Burkholderia glumae AU6208 (PDO:0000166)." [PDO:cooperl, PHI-base:xyz]
+xref: OBO_SF_PSO:68
+is_a: PDO:0000003 ! rice bacterial disease
+created_by: cooperl
+creation_date: 2015-05-20T17:51:05Z
 
 [Typedef]
 id: causal_agent
