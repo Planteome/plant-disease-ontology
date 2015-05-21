@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 21:05:2015 14:39
-saved-by: cooperl
+date: 21:05:2015 15:27
+saved-by: planteome
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Oryza sativa L "Terms used for rice"
@@ -330,7 +330,7 @@ creation_date: 2012-04-09T02:19:53Z
 [Term]
 id: PDO:0000031
 name: rice blast fungal disease
-def: "A rice fungal disease (PDO:0000081) caused by Magnaporthe grisea (PDO:0000032)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by Magnaporthe oryzae (PDO:0000032)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour, PDO:saisree_uppala]
 subset: Oryza sativa L
 synonym: "rice blast (leaf, neck [rotten neck], nodal and collar)" EXACT []
 synonym: "rice collar blast" NARROW []
@@ -345,10 +345,15 @@ creation_date: 2012-04-09T02:23:26Z
 
 [Term]
 id: PDO:0000032
-name: Magnaporthe grisea
-def: "A fungal species (PDO:0000069) that causes rice blast (PDO:0000031)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Pyricularia grisea Sacc." NARROW []
-xref: NCBI_Taxonomy_ID:148305
+name: Magnaporthe oryzae
+def: "A fungal species (PDO:0000069) that causes rice blast (PDO:0000031)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+subset: Oryza sativa L
+synonym: "Magnaporthe grisea" RELATED [APS:Plant_Diseases]
+synonym: "Magnaporthe grisea (Hebert) Barr" RELATED telomorph []
+synonym: "Magnaporthe oryzae B.C. Couch 2002" NARROW [EOL:1002512]
+synonym: "Pyricularia grisea Sacc." RELATED []
+synonym: "Pyricularia oryzae Cavara" RELATED [APS:Plant_Diseases]
+xref: NCBI_Taxonomy_ID:318829
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000031 ! rice blast fungal disease
 created_by: moorel
