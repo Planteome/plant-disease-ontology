@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 21:05:2015 15:52
-saved-by: planteome
+date: 21:05:2015 16:37
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Oryza sativa L "Terms used for rice"
@@ -1795,9 +1795,10 @@ creation_date: 2015-05-20T17:51:05Z
 [Term]
 id: PDO:0000168
 name: rice bakanae fungal disease
-def: "A rice fungal disease (PDO:0000081) caused by Fusarium fujikuroi (PDO:0000169)." [PDO:megan_seymour]
+def: "A rice fungal disease (PDO:0000081) caused by Fusarium fujikuroi (PDO:0000169)." [PDO:cooperl, PDO:megan_seymour]
 subset: Oryza sativa L
-synonym: "rice foolish seedling " RELATED []
+synonym: "rice foolish seedling disease" RELATED []
+xref: OBO_SF_PSO:69
 is_a: PDO:0000081 ! rice fungal disease
 created_by: planteome
 creation_date: 2015-05-21T15:41:50Z
@@ -1805,11 +1806,12 @@ creation_date: 2015-05-21T15:41:50Z
 [Term]
 id: PDO:0000169
 name: Fusarium fujikuroi
-def: "A fungal species (PDO:0000069) that causes rice bakanae fungal disease (PDO:0000168)." [PDO:megan_seymour]
+def: "A fungal species (PDO:0000069) that causes rice bakanae fungal disease (PDO:0000168)." [PDO:cooperl, PDO:megan_seymour, PMID:25115968]
 subset: Oryza sativa L
 synonym: "Fusarium fujikuroi Nirenberg 1976 " NARROW [EOL:192530]
 synonym: "Gibberella fujikuroi" RELATED []
 xref: NCBI_Taxonomy_ID:5127
+xref: OBO_SF_PSO:102
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000168 ! rice bakanae fungal disease
 created_by: planteome
