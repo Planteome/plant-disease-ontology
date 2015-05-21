@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:05:2015 19:17
+date: 21:05:2015 11:41
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -327,17 +327,14 @@ creation_date: 2012-04-09T02:19:53Z
 [Term]
 id: PDO:0000031
 name: rice blast fungal disease
-def: "A rice fungal disease (PDO:0000081) caused by Pyricularia grisea (PDO:0000032)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by Magnaporthe grisea (PDO:0000032)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza sativa L
-synonym: "collar blast" EXACT []
-synonym: "leaf blast" EXACT []
-synonym: "neck blast" EXACT []
-synonym: "nodal blast" EXACT []
 synonym: "rice blast (leaf, neck [rotten neck], nodal and collar)" EXACT []
-synonym: "rice collar blast" EXACT []
-synonym: "rice leaf blast" EXACT []
-synonym: "rice neck blast" EXACT []
-synonym: "rice nodal blast" EXACT []
+synonym: "rice collar blast" NARROW []
+synonym: "rice leaf blast" NARROW []
+synonym: "rice neck blast" NARROW []
+synonym: "rice nodal blast" NARROW []
+synonym: "rice rotten neck" NARROW []
 xref: OBO_SF_PSO:5
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
@@ -345,7 +342,7 @@ creation_date: 2012-04-09T02:23:26Z
 
 [Term]
 id: PDO:0000032
-name: Pyricularia grisea
+name: Magnaporthe grisea
 def: "A fungal species (PDO:0000069) that causes rice blast (PDO:0000031)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Pyricularia grisea Sacc." NARROW []
 xref: NCBI_Taxonomy_ID:148305
