@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:05:2015 16:37
+date: 21:05:2015 18:22
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -739,6 +739,7 @@ creation_date: 2012-04-13T02:11:59Z
 id: PDO:0000065
 name: rice Pythium dissotocum root rot
 def: "A rice Pythium root rot (PDO:0000063) caused by Pythium dissotocum (PDO:0000066)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+subset: Oryza sativa L
 is_a: PDO:0000063 ! rice root rot fungal disease
 created_by: moorel
 creation_date: 2012-04-13T02:15:43Z
@@ -800,6 +801,7 @@ creation_date: 2012-04-16T01:12:08Z
 id: PDO:0000072
 name: Pythium spinosum
 def: "A fungal species (PDO:0000069) that causes rice Pythium spinosum root rot (PDO:0000073)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+subset: Oryza sativa L
 synonym: "Pythium spinosum Sawada" NARROW []
 xref: NCBI_Taxonomy_ID:82948
 is_a: PDO:0000069 ! fungal species
@@ -811,6 +813,7 @@ creation_date: 2012-04-27T13:35:14Z
 id: PDO:0000073
 name: rice Pythium spinosum root rot
 def: "A rice Pythium root rot (PDO:0000063) caused by Pythium spinosum (PDO:0000072)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+subset: Oryza sativa L
 is_a: PDO:0000063 ! rice root rot fungal disease
 relationship: causal_agent PDO:0000072 ! Pythium spinosum
 created_by: moorel
@@ -1017,7 +1020,7 @@ creation_date: 2012-05-16T13:14:55Z
 [Term]
 id: PDO:0000093
 name: rice seedling blight fungal disease
-def: "A rice fungal disease (PDO:0000081) caused by one or more of Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074, Fusarium spp. (PDO:0000076), Rhizoctonia solani (PDO:0000088), Sclerotium rolfsii (PDO:0000114) other pathogenic fungi." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by one or more of Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Rhizoctonia solani (PDO:0000088), Sclerotium rolfsii (PDO:0000114), or other pathogenic fungi." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza sativa L
 synonym: "rice seedling blight" EXACT []
 synonym: "seedling blight" EXACT []
