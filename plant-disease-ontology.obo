@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:05:2015 15:39
+date: 29:05:2015 16:41
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1786,7 +1786,7 @@ name: Burkholderia glumae AU6208
 def: "A Burkholderia glumae (PDO:0000022) strain that causes rice bacterial panicle blight (PDO:0000167)." [PDO:cooperl, PHI-base:xyz]
 synonym: "Burkholderia glumae str. AU6208 " EXACT []
 synonym: "Burkholderia glumae strain AU6208" EXACT []
-xref: NCBI_Taxonomy:1176514
+xref: NCBI_Taxonomy_ID:1176514
 xref: OBO_SF_PSO:100
 is_a: PDO:0000022 ! Burkholderia glumae
 relationship: causal_agent PDO:0000167 ! rice bacterial panicle blight disease
@@ -1848,6 +1848,22 @@ is_a: PDO:0000141 ! phytoplasma causal agent
 relationship: causal_agent PDO:0000129 ! rice yellow dwarf phytoplasma disease
 created_by: cooperl
 creation_date: 2015-05-29T15:29:18Z
+
+[Term]
+id: PDO:0000172
+name: maize bushy stunt phytoplasma
+def: "A phytoplasma causal agent (PDO:0000141) that causes maize bushy stunt phytoplasma disease (PDO:0000172)." [EOL:11810019, NCBI_Taxonomy_ID:202462, PDO:cooperl]
+is_a: PDO:0000141 ! phytoplasma causal agent
+created_by: cooperl
+creation_date: 2015-05-29T16:32:06Z
+
+[Term]
+id: PDO:0000173
+name: maize bushy stunt phytoplasma disease
+def: "A maize bacterial disease (PDO:0000011) that is caused by maize bushy stunt phytoplasma (PDO:0000172)." [PDO:cooperl]
+is_a: PDO:0000011 ! maize bacterial disease
+created_by: cooperl
+creation_date: 2015-05-29T16:34:55Z
 
 [Typedef]
 id: causal_agent
