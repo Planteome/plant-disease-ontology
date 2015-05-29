@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:05:2015 18:22
+date: 29:05:2015 15:39
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1385,11 +1385,11 @@ creation_date: 2014-04-10T21:50:53Z
 
 [Term]
 id: PDO:0000129
-name: rice yellow dwarf viral disease
-def: "A rice viral disease (PDO:0000007) caused by mycoplasma like organism (PDO:0000141)." [APS:Plant_Diseases, PDO:saisree_uppala]
-synonym: "rice yellow dwarf" EXACT []
+name: rice yellow dwarf phytoplasma disease
+def: "A rice viral disease (PDO:0000007) caused by mycoplasma like organism (PDO:0000141)." [PDO:cooperl, PDO:saisree_uppala]
+synonym: "rice yellow dwarf" EXACT [APS:Plant_Diseases]
 xref: OBO_SF_PSO:65
-is_a: PDO:0000007 ! rice viral disease
+is_a: PDO:0000170 ! rice phytoplasma disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
 
@@ -1496,8 +1496,15 @@ creation_date: 2014-04-10T22:06:25Z
 
 [Term]
 id: PDO:0000141
-name: mycoplasmalike organism (MLO)
-is_a: PDO:0000067 ! biotic causal agent
+name: phytoplasma causal agent
+def: "A bacterial biotic causal agent (PDO:0000016) that is a phytoplasma." [EOL:97837, PDO:cooperl]
+comment: Phytoplasmas are specialised bacteria that are obligate parasites of plant phloem tissue and transmitting insects (vectors). They were discovered by scientists in 1967 and were named mycoplasma-like organisms or MLOs (Doi, et al 1967). They cannot be cultured in vitro in cell-free media. They are characterised by their lack of a cell wall, a pleiomorphic or filamentous shape, normally with a diameter less than 1 μm, and their very small genomes (Source: http://eol.org/data_objects/31853082).
+synonym: "Candidatus Phytoplasma" EXACT [NCBI_Taxonomy_ID:33926]
+synonym: "Candidatus Phytoplasma Firrao et al. 2004" NARROW []
+synonym: "mycoplasma-like organism (MLO)" EXACT []
+synonym: "plant yellows agent" RELATED [EOL:97837]
+is_a: PDO:0000016 ! bacterial biotic causal agent
+relationship: causal_agent PDO:0000170 ! rice phytoplasma disease
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
 
@@ -1819,6 +1826,28 @@ is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000168 ! rice bakanae fungal disease
 created_by: planteome
 creation_date: 2015-05-21T15:43:40Z
+
+[Term]
+id: PDO:0000170
+name: rice phytoplasma disease
+def: "A rice phytoplasma disease (PDO:0000170) caused by a caused by phytoplasma oryzae (PDO:00001xx)." [PDO:cooeprl]
+xref: OBO_SF_PSO:xxx
+is_a: PDO:0000003 ! rice bacterial disease
+created_by: cooperl
+creation_date: 2015-05-29T15:16:33Z
+
+[Term]
+id: PDO:0000171
+name: Candidatus phytoplasma oryzae
+def: "A phytoplasma causal agent (PDO:0000141) that causes rice yellow dwarf phytoplasma disease  (PDO:0000129)." [NCBI_Taxonomy_ID:203274, PDO:cooperl]
+synonym: " Rice yellow dwarf phytoplasma" RELATED []
+synonym: "Candidatus Phytoplasma oryzae Jung et al. 2003" NARROW [NCBI_Taxonomy_ID:203274]
+synonym: "Phytoplasma oryzae" RELATED []
+synonym: "Phytoplasma oryzae Jung et al. 2003" NARROW [EOL:1002599]
+is_a: PDO:0000141 ! phytoplasma causal agent
+relationship: causal_agent PDO:0000129 ! rice yellow dwarf phytoplasma disease
+created_by: cooperl
+creation_date: 2015-05-29T15:29:18Z
 
 [Typedef]
 id: causal_agent
