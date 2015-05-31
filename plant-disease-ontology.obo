@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:05:2015 16:41
+date: 30:05:2015 17:58
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -115,7 +115,7 @@ creation_date: 2012-04-05T10:33:27Z
 [Term]
 id: PDO:0000012
 name: maize fungal disease
-def: "A fungal plant disease (PDO:0000004) that affects maize (Zea mays L.; PDO:0000101)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal plant disease (PDO:0000004) that affects maize (Zea mays L.; PDO:000010" [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper]
 subset: Zea mays
 synonym: "corn fungal disease" EXACT []
 is_a: PDO:0000004 ! plant fungal disease
@@ -1864,6 +1864,27 @@ def: "A maize bacterial disease (PDO:0000011) that is caused by maize bushy stun
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: cooperl
 creation_date: 2015-05-29T16:34:55Z
+
+[Term]
+id: PDO:0000174
+name: maize gray leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Cercospora zeae-maydis (PDO:0000175)." [PDO:cooperl]
+synonym: "Cercospora leaf spot " RELATED []
+xref: OBO_SF_PSO:XXX
+is_a: PDO:0000012 ! maize fungal disease
+created_by: cooperl
+creation_date: 2015-05-30T17:46:33Z
+
+[Term]
+id: PDO:0000175
+name: Cercospora zeae-maydis
+def: "A fungal species (PDO:0000069) that causes maize gray leaf spot fungal disease (PDO:0000174)." [PDO:cooperl]
+synonym: "Cercospora zeae-maydis Tehon & E.Y. Daniels" NARROW []
+xref: NCBI_Taxonomy_ID:135779
+is_a: PDO:0000069 ! fungal species
+relationship: causal_agent PDO:0000174 ! maize gray leaf spot fungal disease
+created_by: cooperl
+creation_date: 2015-05-30T17:52:43Z
 
 [Typedef]
 id: causal_agent
