@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:05:2015 17:58
+date: 30:05:2015 18:26
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1721,7 +1721,8 @@ id: PDO:0000161
 name: Pantoea stewartii subsp. stewartii
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Stewart's bacterial disease (PDO:0000155)." [PDO:cooperl, PDO:megan_seymour]
 synonym: "Erwinia stewartii (Smith) Dye" NARROW [APS:Plant_Diseases]
-synonym: "Pantoea stewartii subsp. stewartii DC283" RELATED [NCBI_Taxonomy_ID:660596]
+synonym: "Pantoea stewartii subsp. stewartii DC283" NARROW [NCBI_Taxonomy_ID:660596]
+synonym: "Pantoea stewartii subsp. stewartii SS104" NARROW [PHIbase:xxx]
 xref: NCBI_Taxonomy_ID:66271
 xref: OBO_SF_PSO:85
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -1879,6 +1880,7 @@ creation_date: 2015-05-30T17:46:33Z
 id: PDO:0000175
 name: Cercospora zeae-maydis
 def: "A fungal species (PDO:0000069) that causes maize gray leaf spot fungal disease (PDO:0000174)." [PDO:cooperl]
+synonym: "Cercospora zeae-maydis SCOH1-5 " NARROW [PHI-base:xxx]
 synonym: "Cercospora zeae-maydis Tehon & E.Y. Daniels" NARROW []
 xref: NCBI_Taxonomy_ID:135779
 is_a: PDO:0000069 ! fungal species
