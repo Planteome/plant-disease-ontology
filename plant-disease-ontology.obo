@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 30:05:2015 18:26
-saved-by: cooperl
+date: 23:06:2015 12:47
+saved-by: austinmeier
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
 subsetdef: Oryza sativa L "Terms used for rice"
@@ -1887,6 +1887,16 @@ is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000174 ! maize gray leaf spot fungal disease
 created_by: cooperl
 creation_date: 2015-05-30T17:52:43Z
+
+[Term]
+id: PDO:0000176
+name: maize anthracnose leaf blight fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier]
+xref: APS:Plant_Diseases
+xref: OBO_SF_PSO:XXX
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-06-23T12:18:37Z
 
 [Typedef]
 id: causal_agent
