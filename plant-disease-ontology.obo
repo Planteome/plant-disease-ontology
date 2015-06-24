@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 24:06:2015 12:02
+date: 24:06:2015 13:59
 saved-by: austinmeier
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1897,6 +1897,16 @@ xref: OBO_SF_PSO:105
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-23T12:18:37Z
+
+[Term]
+id: PDO:0000177
+name: maize anthracnose stalk rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier]
+xref: APS:Plant_Diseases
+xref: OBO_SF_PSO:105
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-06-24T13:39:01Z
 
 [Typedef]
 id: causal_agent
