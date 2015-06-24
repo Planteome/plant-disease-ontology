@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:06:2015 12:47
+date: 24:06:2015 12:02
 saved-by: austinmeier
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1871,7 +1871,7 @@ id: PDO:0000174
 name: maize gray leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cercospora zeae-maydis (PDO:0000175)." [PDO:cooperl]
 synonym: "Cercospora leaf spot " RELATED []
-xref: OBO_SF_PSO:XXX
+xref: OBO_SF_PSO:113
 is_a: PDO:0000012 ! maize fungal disease
 created_by: cooperl
 creation_date: 2015-05-30T17:46:33Z
@@ -1893,7 +1893,7 @@ id: PDO:0000176
 name: maize anthracnose leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier]
 xref: APS:Plant_Diseases
-xref: OBO_SF_PSO:XXX
+xref: OBO_SF_PSO:105
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-23T12:18:37Z
