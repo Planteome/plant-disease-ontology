@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 24:06:2015 13:59
+date: 25:06:2015 14:46
 saved-by: austinmeier
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1907,6 +1907,46 @@ xref: OBO_SF_PSO:105
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-24T13:39:01Z
+
+[Term]
+id: PDO:0000178
+name: Maize Gibberella ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:XXX)." [PDO:austin_meier]
+xref: APS:Plant_Diseases
+xref: OBO_SF_PSO:107
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-06-25T14:00:39Z
+
+[Term]
+id: PDO:0000179
+name: Maize Gibberella stalk rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:XXX)." [PSO:austin_meier]
+xref: APS:Plant_Disease
+xref: OBO_SF_PSO:107
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-06-25T14:07:05Z
+
+[Term]
+id: PDO:0000180
+name: Maize Fusarium seed rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX)." [PSO:austin_meier]
+xref: APS:Plant_Disease
+xref: OBO_SF_PSO:108
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-06-25T14:25:47Z
+
+[Term]
+id: PDO:0000181
+name: Maize Fusarium seedling blight fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX)." [PSO:austin_meier]
+xref: APS:Plant_Diseases
+xref: OBO_SF_PSO:108
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-06-25T14:33:47Z
 
 [Typedef]
 id: causal_agent
