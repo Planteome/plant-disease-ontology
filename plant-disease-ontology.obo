@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:06:2015 14:46
+date: 02:07:2015 09:47
 saved-by: austinmeier
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine max "Terms used for soybean"
@@ -1947,6 +1947,16 @@ xref: OBO_SF_PSO:108
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-25T14:33:47Z
+
+[Term]
+id: PDO:0000182
+name: maize smut fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Ustilago maydis (PDO:XXX)." [PDO:austin_meier]
+xref: APS:Plant_Disease
+xref: OBO_SF_PSO:112
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-02T09:17:51Z
 
 [Typedef]
 id: causal_agent
