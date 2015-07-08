@@ -11,6 +11,7 @@ synonymtypedef: anamorph "anamorph"
 synonymtypedef: synanamorph "synanamorph"
 synonymtypedef: telomorph "telomorph"
 default-namespace: plant_disease_ontology
+ontology: pdo
 
 [Term]
 id: PDO:0000001
