@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:07:2015 09:47
+date: 09:07:2015 16:21
 saved-by: austinmeier
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -1258,8 +1258,8 @@ id: PDO:0000116
 name: Triticum_aestivum
 def: "A Triticum (PDO:0000099) species commonly known as bread wheat." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 subset: Triticum_aestivum
-synonym: "Triticum_aestivum subsp. aestivum" EXACT []
 synonym: "Triticum vulgare" RELATED []
+synonym: "Triticum_aestivum subsp. aestivum" EXACT []
 xref: NCBI_Taxonomy_ID:4565
 is_a: PDO:0000099 ! Triticum
 created_by: moorel
@@ -1958,6 +1958,56 @@ xref: OBO_SF_PSO:112
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-02T09:17:51Z
+
+[Term]
+id: PDO:0000183
+name: maize Norther leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus carbonum (PDO:XXX)." [PDO:austin_meier]
+xref: APS:Plant_Disease
+xref: OBO_SF_PSO:114
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-09T14:21:28Z
+
+[Term]
+id: PDO:0000184
+name: maize Southern leaf blight fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus heterostrophus (PDO:XXX)." [PDO:austin_meier]
+xref: APS:plant_disease
+xref: OBO_SF_PSO:104
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-09T15:00:03Z
+
+[Term]
+id: PDO:0000185
+name: maize foolish seedling fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by  Gibberella fujikuroi (PDO:xxx)." [PDO:austin_meier]
+xref: APS:plant_disease
+xref: OBO_SF_PSO:109
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-09T15:14:27Z
+
+[Term]
+id: PDO:0000186
+name: maize Norther leaf blight fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Setosphaeria turcica (PDO:xxx)." [PDO:austin_meier]
+xref: APS:plant_disease
+xref: OBO_SF_PSO:111
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-09T15:41:54Z
+
+[Term]
+id: PDO:0000187
+name: maize black bundle fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Acremonium strictum (PDO:xxx)." [PDO:austin_meier]
+xref: APS:plant_disease
+xref: OBO_SF_PSO:115
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-09T16:04:14Z
 
 [Typedef]
 id: causal_agent
