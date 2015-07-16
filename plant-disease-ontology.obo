@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:07:2015 15:26
+date: 16:07:2015 16:24
 saved-by: austinmeier
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -2108,6 +2108,16 @@ xref: OBO_SF_PSO:125
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T15:21:18Z
+
+[Term]
+id: PDO:0000198
+name: maize Hormodendrum ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Cladosporium cladosporioides(PDO:xxx), and .Cladosporium herbarum (PDO:xxx)." [PDO:austin_meier]
+xref: APS:plant_disease
+xref: OBO_SF_PSO:xxx
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-16T15:14:49Z
 
 [Typedef]
 id: causal_agent
