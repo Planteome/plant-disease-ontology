@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:07:2015 13:43
+date: 17:07:2015 15:47
 saved-by: austinmeier
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -2158,6 +2158,66 @@ xref: OBO_SF_PSO:xxx
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T13:35:38Z
+
+[Term]
+id: PDO:0000203
+name: maize Didymella leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Didymella exitalis (PDO:xxx)." [PDO:austin_meier]
+xref: APS:plant_disease
+xref: OBO_SF_PSO:xxx
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-17T14:32:15Z
+
+[Term]
+id: PDO:0000204
+name: maize Dictyochaeta minor root rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Dictyochaeta fertilis (PDO:xxx)." [PDO:austin_meier]
+xref: APS:plant_disease
+xref: OBO_SF_PSO:xxx
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-17T15:18:06Z
+
+[Term]
+id: PDO:0000205
+name: maize Doratomyces minor ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Doratomyces stemonitis (PDO:xxx)." [PDO:austin_meier]
+xref: APS:plant_disease
+xref: OBO_SF_PSO:xxx
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-17T15:23:34Z
+
+[Term]
+id: PDO:0000206
+name: maize Epicoccum minor leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Epicoccum nigrum (PDO:xxx)." [PDO:austin_meier]
+xref: APS:plant_disease
+xref: OBO_SF_PSO:xxx
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-17T15:27:16Z
+
+[Term]
+id: PDO:0000207
+name: maize Exserohilum minor leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Exserohilum prolatum (PDO:xxx)." [PDO:austin_meier]
+xref: APS:plant_disease
+xref: OBO_SF_PSO:xxx
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-17T15:30:26Z
+
+[Term]
+id: PDO:0000208
+name: maize Pythium stalk rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Epicoccum nigrum (PDO:xxx)." [PDO:austin_meier]
+xref: APS:plant_disease
+xref: OBO_SF_PSO:xxx
+is_a: PDO:0000012 ! maize fungal disease
+created_by: austinmeier
+creation_date: 2015-07-17T15:41:31Z
 
 [Typedef]
 id: causal_agent
