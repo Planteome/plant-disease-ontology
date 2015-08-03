@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 21:07:2015 12:23
-saved-by: austinmeier
+date: 03:08:2015 15:52
+saved-by: johnseth
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
 subsetdef: Oryza_sativa_L "Terms used for rice"
@@ -35,6 +35,7 @@ name: rice bacterial disease
 def: "A plant bacterial disease (PDO:0000002) that affects rice (Oryza_sativa_L.; PDO:0000098)." [PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza_sativa_L
 xref: OBO_SF2_PSO:27
+xref: PSO_GIT:26
 is_a: PDO:0000002 ! plant bacterial disease
 created_by: cooperl
 creation_date: 2012-03-30T03:32:12Z
@@ -312,6 +313,7 @@ subset: Oryza_sativa_L
 synonym: "black kernel" EXACT []
 synonym: "rice black kernel" RELATED []
 xref: OBO_SF2_PSO:24
+xref: PSO_GIT:23
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:18:03Z
@@ -368,6 +370,7 @@ subset: Oryza_sativa_L
 synonym: "brown spot" EXACT []
 synonym: "rice brown spot" EXACT []
 xref: OBO_SF2_PSO:25
+xref: PSO_GIT:24
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:27:33Z
@@ -437,6 +440,7 @@ subset: Oryza_sativa_L
 synonym: "eyespot" EXACT []
 synonym: "rice eyespot" EXACT []
 xref: OBO_SF2_PSO:26
+xref: PSO_GIT:25
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:43:16Z
@@ -722,6 +726,7 @@ def: "A rice fungal disease (PDO:0000081) caused by one or more of Fusarium spp.
 subset: Oryza_sativa_L
 synonym: "rice root rot" EXACT []
 xref: OBO_SF2_PSO:23
+xref: PSO_GIT:22
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-13T02:04:43Z
@@ -1499,7 +1504,7 @@ creation_date: 2014-04-10T22:06:25Z
 id: PDO:0000141
 name: phytoplasma causal agent
 def: "A bacterial biotic causal agent (PDO:0000016) that is a phytoplasma." [EOL:97837, PDO:cooperl]
-comment: Phytoplasmas are specialised bacteria that are obligate parasites of plant phloem tissue and transmitting insects (vectors). They were discovered by scientists in 1967 and were named mycoplasma-like organisms or MLOs (Doi, et al 1967). They cannot be cultured in vitro in cell-free media. They are characterised by their lack of a cell wall, a pleiomorphic or filamentous shape, normally with a diameter less than 1 μm, and their very small genomes (Source: http://eol.org/data_objects/31853082).
+comment: Phytoplasmas are specialised bacteria that are obligate parasites of plant phloem tissue and transmitting insects (vectors). They were discovered by scientists in 1967 and were named mycoplasma-like organisms or MLOs (Doi, et al 1967). They cannot be cultured in vitro in cell-free media. They are characterised by their lack of a cell wall, a pleiomorphic or filamentous shape, normally with a diameter less than 1 um, and their very small genomes.
 synonym: "Candidatus Phytoplasma" EXACT [NCBI_Taxonomy_ID:33926]
 synonym: "Candidatus Phytoplasma Firrao et al. 2004" NARROW []
 synonym: "mycoplasma-like organism (MLO)" EXACT []
@@ -1600,7 +1605,7 @@ creation_date: 2014-05-17T13:43:13Z
 id: PDO:0000151
 name: maize Goss's bacterial wilt disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Clavibacter michiganensis subsp. nebraskensis (PDO:0000159)." [PDO:cooperl, PDO:megan_seymour]
-comment: This disease can have two distinct phases: a leaf blight phase and a systemic wilt phase. Although the full name of the disease includes both phases, it is commonly referred to simply as Goss’s wilt. (from: https://www.extension.purdue.edu/extmedia/bp/BP-81-W.pdf).
+comment: This disease can have two distinct phases: a leaf blight phase and a systemic wilt phase. Although the full name of the disease includes both phases, it is commonly referred to simply as Goss’s wilt.
 subset: Zea_mays
 synonym: "bacterial leaf blight disease" RELATED []
 synonym: "Goss's wilt" RELATED []
