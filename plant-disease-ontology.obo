@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:08:2015 15:52
+date: 03:08:2015 16:40
 saved-by: johnseth
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -141,6 +141,7 @@ def: "A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv ory
 subset: Oryza_sativa_L
 synonym: "rice bacterial blight " EXACT []
 xref: OBO_SF2_PSO:31
+xref: PSO_GIT:30
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-05T10:37:53Z
@@ -199,6 +200,7 @@ def: "A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv ory
 subset: Oryza_sativa_L
 synonym: "rice bacterial leaf streak" EXACT []
 xref: OBO_SF2_PSO:32
+xref: PSO_GIT:31
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:37:41Z
@@ -210,6 +212,7 @@ def: "A rice bacterial disease (PDO:0000003) caused by Dickeya chrysanthemi (PDO
 subset: Oryza_sativa_L
 synonym: "rice foot rot" EXACT []
 xref: OBO_SF2_PSO:33
+xref: PSO_GIT:32
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:41:32Z
@@ -245,6 +248,7 @@ def: "A rice bacterial disease (PDO:0000003) caused by Burkholderia glumae (PDO:
 subset: Oryza_sativa_L
 synonym: "rice grain rot" BROAD []
 xref: OBO_SF2_PSO:34
+xref: PSO_GIT:33
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:51:43Z
@@ -256,6 +260,7 @@ def: "A rice bacterial disease (PDO:0000003) caused by Pseudomonas fuscovaginae 
 subset: Oryza_sativa_L
 synonym: "rice sheath brown rot" EXACT []
 xref: OBO_SF2_PSO:35
+xref: PSO_GIT:34
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:59:01Z
@@ -994,6 +999,7 @@ comment: Fungal pecky rice results in rice kernels that has brown spots.
 subset: Oryza_sativa_L
 synonym: "pecky rice" BROAD []
 xref: OBO_SF2_PSO:30
+xref: PSO_GIT:29
 is_a: PDO:0000081 ! rice fungal disease
 created_by: cooperl
 creation_date: 2012-05-14T14:45:43Z
@@ -1019,6 +1025,7 @@ comment: Bacterial pecky rice results in rice kernels that has brown spots.
 subset: Oryza_sativa_L
 synonym: "pecky rice" BROAD []
 xref: OBO_SF2_PSO:36
+xref: PSO_GIT:35
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-05-16T13:14:55Z
