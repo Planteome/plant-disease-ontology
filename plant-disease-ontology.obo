@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 04:08:2015 10:30
+date: 04:08:2015 10:58
 saved-by: austinmeier
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -73,6 +73,7 @@ name: rice viral disease
 def: "A plant viral disease (PDO:0000005) that affects rice (Oryza_sativa_L.; PDO:0000098)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza_sativa_L
 xref: OBO_SF2_PSO:42
+xref: PDO_GIT:41
 is_a: PDO:0000005 ! plant viral disease
 created_by: moorel
 creation_date: 2012-04-05T10:26:18Z
@@ -151,6 +152,7 @@ id: PDO:0000015
 name: causal agent
 def: "An agent that causes plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:40
+xref: PSO_GIT:39
 created_by: moorel
 creation_date: 2012-04-06T02:20:47Z
 
@@ -159,6 +161,7 @@ id: PDO:0000016
 name: bacterial biotic causal agent
 def: "A biotic causal agent (PDO:0000067) that is bacteria." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:39
+xref: PSO_GIT:38
 is_a: PDO:0000067 ! biotic causal agent
 created_by: moorel
 creation_date: 2012-04-06T02:21:57Z
@@ -283,6 +286,7 @@ id: PDO:0000026
 name: fungal biotic causal agent
 def: "A biotic causal agent (PDO:0000067) that is fungus." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:38
+xref: PSO_GIT:37
 is_a: PDO:0000067 ! biotic causal agent
 created_by: moorel
 creation_date: 2012-04-09T02:06:26Z
@@ -773,6 +777,7 @@ id: PDO:0000067
 name: biotic causal agent
 def: "A causal agent (PDO:0000015) that is one or more living organisms." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:67
+xref: PSO_GIT:66
 is_a: PDO:0000015 ! causal agent
 created_by: moorel
 creation_date: 2012-04-13T02:26:01Z
@@ -1313,6 +1318,7 @@ name: rice giallume viral disease
 def: "A rice viral disease (PDO:0000007) caused by barley yellow dwarf virus (PDO:0000132)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice giallume " EXACT []
 xref: OBO_SF2_PSO:43
+xref: PSO_GIT:42
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1323,6 +1329,7 @@ name: rice black streak dwarf viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice black streak dwarf virus (PDO:0000133)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice black streak dwarf" EXACT []
 xref: OBO_SF2_PSO:45
+xref: PSO_GIT:44
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1333,6 +1340,7 @@ name: rice dwarf viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice dwarf virus (PDO:0000134)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice dwarf" EXACT []
 xref: OBO_SF2_PSO:47
+xref: PSO_GIT:46
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1343,6 +1351,7 @@ name: rice grassy stunt viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice grassy stunt virus (PDO:0000135)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice grassy stunt" RELATED []
 xref: OBO_SF2_PSO:49
+xref: PSO_GIT:48
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1353,6 +1362,7 @@ name: rice hoja blanca viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice hoja blanca virus (PDO:0000136)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice hoja blanca" EXACT []
 xref: OBO_SF2_PSO:51
+xref: PSO_GIT:50
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1363,6 +1373,7 @@ name: rice necrotic mosaic viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice necrotic mosaic virus (PDO:0000137)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice necrotic mosaic" EXACT []
 xref: OBO_SF2_PSO:60
+xref: PSO_GIT:59
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1373,6 +1384,7 @@ name: rice rugged stunt viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice rugged stunt virus (PDO:0000138)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice rugged stunt " EXACT []
 xref: OBO_SF2_PSO:61
+xref: PSO_GIT:60
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1383,6 +1395,7 @@ name: rice stripe viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice stripe virus (PDO:0000139)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice stripe" EXACT []
 xref: OBO_SF2_PSO:62
+xref: PSO_GIT:61
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1393,6 +1406,7 @@ name: rice transitory yellowing viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice transitory yellowing virus (PDO:0000140)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice transitory yellowing" EXACT []
 xref: OBO_SF2_PSO:63
+xref: PSO_GIT:62
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1403,6 +1417,7 @@ name: rice yellow dwarf phytoplasma disease
 def: "A rice viral disease (PDO:0000007) caused by mycoplasma like organism (PDO:0000141)." [PDO:cooperl, PDO:saisree_uppala]
 synonym: "rice yellow dwarf" EXACT [APS:Plant_Diseases]
 xref: OBO_SF2_PSO:65
+xref: PSO_GIT:64
 is_a: PDO:0000170 ! rice phytoplasma disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1413,6 +1428,7 @@ name: rice yellow mottle viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice yellow mottle virus (PDO:0000142)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice yellow mottle" EXACT []
 xref: OBO_SF2_PSO:66
+xref: PSO_GIT:65
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1423,6 +1439,7 @@ name: rice tungro viral disease
 def: "A rice viral disease (PDO:0000007) caused by one or more of rice tungro spherical virus (PDO:0000143), rice tungro bacilliform virus (PDO:0000144)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice tungro" EXACT []
 xref: OBO_SF2_PSO:64
+xref: PSO_GIT:63
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1432,6 +1449,7 @@ id: PDO:0000132
 name: barley yellow dwarf virus
 def: "A viral biotic causal agent (PDO:0000119) that causes rice giallume (PDO:0000132)." [PDO:saisree_uppala]
 xref: OBO_SF2_PSO:44
+xref: PSO_GIT:43
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1441,6 +1459,7 @@ id: PDO:0000133
 name: rice black streak dwarf virus (RGSDV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice black streak dwarf virus disease (PDO:0000121)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:46
+xref: PSO_GIT:45
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1450,6 +1469,7 @@ id: PDO:0000134
 name: rice dwarf virus (RDV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice dwarf virus disease (PDO:0000122)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:48
+xref: PSO_GIT:47
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1459,6 +1479,7 @@ id: PDO:0000135
 name: rice grassy stunt virus (RGSV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice grassy stunt virus disease (PDO:0000123)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:50
+xref: PSO_GIT:49
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1468,6 +1489,7 @@ id: PDO:0000136
 name: rice hoja blanca virus (RHBV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice hoja blanca disease (PDO:0000124)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:52
+xref: PSO_GIT:51
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1477,6 +1499,7 @@ id: PDO:0000137
 name: rice necrotic mosaic virus (RNMV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice necrotic mosaic virus disease (PDO:0000125)." [PDO:saisree_uppala, PDO_:megan_seymour]
 xref: OBO_SF2_PSO:53
+xref: PSO_GIT:52
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1486,6 +1509,7 @@ id: PDO:0000138
 name: rice rugged stunt virus (RRSV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice rugged stunt  virus disease (PDO:0000126)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:54
+xref: PSO_GIT:53
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1495,6 +1519,7 @@ id: PDO:0000139
 name: rice stripe virus (RStV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice stripe virus disease (PDO:0000127)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:55
+xref: PSO_GIT:54
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1504,6 +1529,7 @@ id: PDO:0000140
 name: rice transitory yellowing virus (RTYV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice transitory yellowing virus disease (PDO:0000128)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:56
+xref: PSO_GIT:55
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1512,7 +1538,7 @@ creation_date: 2014-04-10T22:06:25Z
 id: PDO:0000141
 name: phytoplasma causal agent
 def: "A bacterial biotic causal agent (PDO:0000016) that is a phytoplasma." [EOL:97837, PDO:cooperl]
-comment: Phytoplasmas are specialised bacteria that are obligate parasites of plant phloem tissue and transmitting insects (vectors). They were discovered by scientists in 1967 and were named mycoplasma-like organisms or MLOs (Doi, et al 1967). They cannot be cultured in vitro in cell-free media. They are characterised by their lack of a cell wall, a pleiomorphic or filamentous shape, normally with a diameter less than 1 um, and their very small genomes.
+comment: Phytoplasmas are specialised bacteria that are obligate parasites of plant phloem tissue and transmitting insects (vectors). They were discovered by scientists in 1967 and were named mycoplasma-like organisms or MLOs (Doi, et al 1967). They cannot be cultured in vitro in cell-free media. They are characterised by their lack of a cell wall, a pleiomorphic or filamentous shape, normally with a diameter less than 1 μm, and their very small genomes (Source: http://eol.org/data_objects/31853082).
 synonym: "Candidatus Phytoplasma" EXACT [NCBI_Taxonomy_ID:33926]
 synonym: "Candidatus Phytoplasma Firrao et al. 2004" NARROW []
 synonym: "mycoplasma-like organism (MLO)" EXACT []
@@ -1527,6 +1553,7 @@ id: PDO:0000142
 name: rice yellow mottle virus (RYMV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice yellow mottle virus disease (PDO:0000130)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:59
+xref: PSO_GIT:58
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1536,6 +1563,7 @@ id: PDO:0000143
 name: rice tungro spherical virus (RTSV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice tungro virus disease (PDO:0000131)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:58
+xref: PSO_GIT:57
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1545,6 +1573,7 @@ id: PDO:0000144
 name: rice tungro bacilliform virus (RTBV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice tungro virus disease (PDO:0000131)." [PDO:saisree_uppala]
 xref: OBO_SF2_PSO:57
+xref: PSO_GIT:56
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1613,7 +1642,7 @@ creation_date: 2014-05-17T13:43:13Z
 id: PDO:0000151
 name: maize Goss's bacterial wilt disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Clavibacter michiganensis subsp. nebraskensis (PDO:0000159)." [PDO:cooperl, PDO:megan_seymour]
-comment: This disease can have two distinct phases: a leaf blight phase and a systemic wilt phase. Although the full name of the disease includes both phases, it is commonly referred to simply as Goss’s wilt.
+comment: This disease can have two distinct phases: a leaf blight phase and a systemic wilt phase. Although the full name of the disease includes both phases, it is commonly referred to simply as Goss’s wilt. (from: https://www.extension.purdue.edu/extmedia/bp/BP-81-W.pdf).
 subset: Zea_mays
 synonym: "bacterial leaf blight disease" RELATED []
 synonym: "Goss's wilt" RELATED []
@@ -1813,6 +1842,7 @@ id: PDO:0000167
 name: rice bacterial panicle blight disease
 def: "A rice bacterial disease (PDO:0000003) caused by Burkholderia glumae AU6208 (PDO:0000166)." [PDO:cooperl, PHI-base:xyz]
 xref: OBO_SF2_PSO:68
+xref: PSO_GIT:67
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: cooperl
 creation_date: 2015-05-20T17:51:05Z
@@ -1824,6 +1854,7 @@ def: "A rice fungal disease (PDO:0000081) caused by Fusarium fujikuroi (PDO:0000
 subset: Oryza_sativa_L
 synonym: "rice foolish seedling disease" RELATED []
 xref: OBO_SF2_PSO:69
+xref: PSO_GIT:68
 is_a: PDO:0000081 ! rice fungal disease
 created_by: planteome
 creation_date: 2015-05-21T15:41:50Z
