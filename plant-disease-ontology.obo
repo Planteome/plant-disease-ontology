@@ -228,6 +228,7 @@ name: Dickeya chrysanthemi
 def: "A bacterial biotic causal agent (PDO:0000016) that causes rice foot rot bacterial disease (PDO:0000020)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour, PDO:saisree_uppala]
 synonym: "Erwinia chrysanthemi Burkholder et al. " RELATED [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:556
+xref: PSO_GIT:88
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000020 ! rice foot rot bacterial disease
 created_by: moorel
@@ -370,6 +371,7 @@ synonym: "Magnaporthe oryzae B.C. Couch 2002" NARROW [EOL:1002512]
 synonym: "Pyricularia grisea Sacc." RELATED []
 synonym: "Pyricularia oryzae Cavara" RELATED [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:318829
+xref: PSO_GIT:100
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000031 ! rice blast fungal disease
 created_by: moorel
@@ -1970,6 +1972,7 @@ name: maize anthracnose leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:105
+xref: PSO_GIT:104
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-23T12:18:37Z
@@ -1981,6 +1984,7 @@ def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola 
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:105
 xref: PSO_GIT:105
+xref: PSO_GIT:104
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-24T13:39:01Z
@@ -1992,6 +1996,7 @@ def: "A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:X
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:107
 xref: PSO_GIT:107
+xref: PSO_GIT:106
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-25T14:00:39Z
@@ -2002,6 +2007,7 @@ name: Maize Gibberella stalk rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:XXX)." [PSO:austin_meier]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:107
+xref: PSO_GIT:106
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-25T14:07:05Z
@@ -2012,6 +2018,7 @@ name: Maize Fusarium seed rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX)." [PSO:austin_meier]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:108
+xref: OBO_SF2_PSO:107
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-25T14:25:47Z
@@ -2022,6 +2029,7 @@ name: Maize Fusarium seedling blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX)." [PSO:austin_meier]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:108
+xref: OBO_SF2_PSO:107
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-25T14:33:47Z
@@ -2044,6 +2052,7 @@ def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus carbonum (PDO:
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:114
 xref: PSO_GIT:113
+xref: PSO_GIT:102
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-09T14:21:28Z
