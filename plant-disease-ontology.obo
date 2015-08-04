@@ -176,6 +176,7 @@ synonym: "Xanthomonas campestris pv. oryzae (lshiyama) Dye" RELATED [APS:Plant_D
 synonym: "Xanthomonas oryzae pv. oryzae (Ishiyama) Swings et al." NARROW []
 xref: NCBI_Taxonomy_ID:64187
 xref: OBO_SF2_PSO:96
+xref: PSO_GIT:95
 is_a: PDO:0000095 ! Xanthomonas
 relationship: causal_agent PDO:0000014 ! rice bacterial blight disease
 created_by: moorel
@@ -191,6 +192,7 @@ synonym: "Xanthomonas campestris pv. oryzicola (Fang et al. 1957) Dye 1978" RELA
 synonym: "Xanthomonas oryzae pv. oryzicola (Ishiyama) Swings et al." NARROW []
 xref: NDBI_Taxonomy_ID:129394
 xref: OBO_SF2_PSO:97
+xref: PSO_GIT:96
 is_a: PDO:0000095 ! Xanthomonas
 relationship: causal_agent PDO:0000019 ! rice bacterial leaf streak disease
 created_by: moorel
@@ -239,6 +241,7 @@ synonym: "Burkholderia glumae (Kurita and Tabei 1967) Urakami et al. 1994 " NARR
 synonym: "Pseudomonas glumae Kurita & Tabei" RELATED [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:337
 xref: OBO_SF2_PSO:99
+xref: PSO_GIT:98
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000023 ! rice grain rot bacterial disease
 created_by: moorel
@@ -276,6 +279,7 @@ subset: Oryza_sativa_L
 synonym: "Pseudomonas fuscovaginae (ex Tanii et al) Miyajima et al." NARROW []
 xref: NCBI_Taxonomy_ID:50340
 xref: OBO_SF2_PSO:98
+xref: PSO_GIT:97
 is_a: PDO:0000094 ! Pseudomonas
 relationship: causal_agent PDO:0000024 ! rice sheath brown rot bacterial disease
 created_by: moorel
@@ -628,6 +632,7 @@ synonym: "Xanthomonas campestris pv. holcicola (Elliott) Dye" RELATED []
 synonym: "Xanthomonas vasicola Vauterin et al. 1995" NARROW [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:56459
 xref: OBO_SF2_PSO:72
+xref: PSO_GIT:71
 is_a: PDO:0000095 ! Xanthomonas
 relationship: causal_agent PDO:0000146 ! maize bacterial leaf spot disease
 created_by: planteome
@@ -709,6 +714,7 @@ name: wheat bacterial leaf blight
 def: "A wheat bacterial disease (PDO:0000008) caused by Pseudomonas syringae subsp. syringae (PDO:0000062)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 subset: Triticum_aestivum
 xref: OBO_SF2_PSO:82
+xref: PSO_GIT:81
 is_a: PDO:0000008 ! wheat bacterial disease
 created_by: moorel
 creation_date: 2012-04-13T01:10:09Z
@@ -723,6 +729,7 @@ synonym: "Pseudomonas syringae subsp. syringae van Hall 1902 " NARROW [APS:Plant
 synonym: "Pseudomonas syringae van Hall 1902" RELATED []
 xref: NCBI_Taxonomy_ID:317
 xref: OBO_SF2_PSO:81
+xref: PSO_GIT:80
 is_a: PDO:0000094 ! Pseudomonas
 relationship: causal_agent PDO:0000061 ! wheat bacterial leaf blight
 created_by: moorel
@@ -1018,6 +1025,7 @@ synonym: "Enterobacter dissolvens (Rosen) Brenner et al." RELATED [APS:Plant_Dis
 synonym: "Erwinia dissolvens (Rosen) Burkholder" RELATED [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:69219
 xref: OBO_SF2_PSO:73
+xref: PSO_GIT:72
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000147 ! maize bacterial stalk rot disease
 created_by: planteome
@@ -1584,6 +1592,7 @@ name: maize bacterial leaf blight and stalk rot disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Acidovorax avenae (PDO:0000165)." [PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:94
+xref: PSO_GIT:93
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1594,6 +1603,7 @@ name: maize bacterial leaf spot disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Xanthomonas vasicola (PDO:0000054)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:71
+xref: PSO_GIT:70
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1604,6 +1614,7 @@ name: maize bacterial stalk rot disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Enterobacter cloacae subsp. dissolvens (PDO:0000091)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:74
+xref: PSO_GIT:73
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1614,6 +1625,7 @@ name: maize bacterial stalk and top rot disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Pectobacterium carotovorum subsp. carotovorum (PDO:0000163)." [PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:91
+xref: PSO_GIT:90
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1624,6 +1636,7 @@ name: maize bacterial stripe disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Burkholderia andropogonis (PDO:0000157)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:75
+xref: PSO_GIT:74
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1634,6 +1647,7 @@ name: maize chocolate spot bacterial disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Pseudomonas coronafaciens pv. coronafaciens (PDO:0000160)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:84
+xref: PSO_GIT:83
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1648,6 +1662,7 @@ synonym: "bacterial leaf blight disease" RELATED []
 synonym: "Goss's wilt" RELATED []
 synonym: "maize leaf freckles" RELATED [APS:Plant_Diseases]
 xref: OBO_SF2_PSO:80
+xref: PSO_GIT:79
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1658,6 +1673,7 @@ name: maize holcus spot bacterial disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Pseudomonas syringae pv. syringae (PDO:0000158)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:78
+xref: PSO_GIT:77
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1677,6 +1693,7 @@ def: "A maize bacterial disease (PDO:0000011) that is caused by Bacillus subtili
 subset: Zea_mays
 synonym: "Seed rot-seedling blight " RELATED [APS:Plant_Diseases]
 xref: OBO_SF2_PSO:92
+xref: PSO_GIT:91
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1691,6 +1708,7 @@ synonym: "maize bacterial wilt" RELATED [APS:Plant_Diseases]
 synonym: "Stewart's disease" RELATED [APS:Plant_Diseases]
 synonym: "Stewart's wilt" RELATED [PHI-base:xx]
 xref: OBO_SF2_PSO:86
+xref: PSO_GIT:85
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1706,6 +1724,7 @@ synonym: "maize stunt" RELATED [APS:Plant_Diseases]
 synonym: "Mesa Central maize stunt " RELATED [APS:Plant_Diseases]
 synonym: "Rio Grande maize stunt" RELATED [APS:Plant_Diseases]
 xref: OBO_SF2_PSO:87
+xref: PSO_GIT:86
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1717,6 +1736,7 @@ def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial 
 synonym: "Pseudomonas andropogonis (Smith) Stapp" RELATED [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:28092
 xref: OBO_SF2_PSO:76
+xref: PSO_GIT:75
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000149 ! maize bacterial stripe disease
 created_by: planteome
@@ -1729,6 +1749,7 @@ def: "A Pseudomonas syringae (PDO:0000062) that causes maize holcus spot bacteri
 subset: Zea_mays
 xref: NCBI_Taxonomy_ID:321
 xref: OBO_SF2_PSO:77
+xref: PSO_GIT:76
 is_a: PDO:0000062 ! Pseudomonas syringae subsp. syringae
 relationship: causal_agent PDO:0000152 ! maize holcus spot bacterial disease
 created_by: planteome
@@ -1742,6 +1763,7 @@ synonym: "Clavibacter michiganensis subsp. nebraskensis (Vidaver & Mandel) Davis
 synonym: "Corynebacterium michiganense pv. nebraskense (Schuster et al.) Dye & Kemp" RELATED [APS:Plant_Disease]
 xref: NCBI_Taxonomy_ID:31963
 xref: OBO_SF2_PSO:79
+xref: PSO_GIT:78
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000151 ! maize Goss's bacterial wilt disease
 created_by: planteome
@@ -1754,6 +1776,7 @@ def: "A Pseudomonas (PDO:0000094) species that causes maize chocolate spot bacte
 synonym: "Pseudomonas syringae pv. coronafaciens (Elliott) Young et al.  " NARROW [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:235275
 xref: OBO_SF2_PSO:83
+xref: PSO_GIT:82
 is_a: PDO:0000094 ! Pseudomonas
 relationship: causal_agent PDO:0000150 ! maize chocolate spot bacterial disease
 created_by: planteome
@@ -1768,6 +1791,7 @@ synonym: "Pantoea stewartii subsp. stewartii DC283" NARROW [NCBI_Taxonomy_ID:660
 synonym: "Pantoea stewartii subsp. stewartii SS104" NARROW [PHIbase:xxx]
 xref: NCBI_Taxonomy_ID:66271
 xref: OBO_SF2_PSO:85
+xref: PSO_GIT:84
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000155 ! maize Stewart's bacterial disease
 created_by: planteome
@@ -1780,6 +1804,7 @@ def: "A bacterial biotic causal agent (PDO:0000016) that causes maize stunt bact
 synonym: "Spiroplasma kunkelii Whitcomb et al. " NARROW [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:47834
 xref: OBO_SF2_PSO:88
+xref: PSO_GIT:87
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000156 ! maize stunt bacterial disease
 created_by: planteome
@@ -1793,6 +1818,7 @@ subset: Zea_mays
 synonym: "Erwinia carotovora subsp. carotovora (Jones) Bergey et al." RELATED [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:555
 xref: OBO_SF2_PSO:90
+xref: PSO_GIT:89
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000148 ! maize bacterial stalk and top rot disease
 created_by: planteome
@@ -1806,6 +1832,7 @@ subset: Zea_mays
 synonym: "Bacillus subtilis (Ehrenberg) Cohn" NARROW [APS:Plant_Diseases]
 xref: NCBI_Taxonomy_ID:1423
 xref: OBO_SF2_PSO:93
+xref: PSO_GIT:92
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000154 ! maize seed rot and seedling blight bacterial disease
 created_by: planteome
@@ -1819,6 +1846,7 @@ subset: Zea_mays
 synonym: "Pseudomonas avenae subsp. avenae Manns" RELATED [APS:Plant_Disease]
 xref: NCBI_Taxonomy_ID:80867
 xref: OBO_SF2_PSO:95
+xref: PSO_GIT:94
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000145 ! maize bacterial leaf blight and stalk rot disease
 created_by: planteome
@@ -1832,6 +1860,7 @@ synonym: "Burkholderia glumae str. AU6208 " EXACT []
 synonym: "Burkholderia glumae strain AU6208" EXACT []
 xref: NCBI_Taxonomy_ID:1176514
 xref: OBO_SF2_PSO:100
+xref: PSO_GIT:99
 is_a: PDO:0000022 ! Burkholderia glumae
 relationship: causal_agent PDO:0000167 ! rice bacterial panicle blight disease
 created_by: cooperl
@@ -1868,6 +1897,7 @@ synonym: "Fusarium fujikuroi Nirenberg 1976 " NARROW [EOL:192530]
 synonym: "Gibberella fujikuroi" RELATED []
 xref: NCBI_Taxonomy_ID:5127
 xref: OBO_SF2_PSO:102
+xref: PSO_GIT:101
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000168 ! rice bakanae fungal disease
 created_by: planteome
@@ -1917,6 +1947,7 @@ name: maize gray leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cercospora zeae-maydis (PDO:0000175)." [PDO:cooperl]
 synonym: "Cercospora leaf spot " RELATED []
 xref: OBO_SF2_PSO:113
+xref: PSO_GIT:112
 is_a: PDO:0000012 ! maize fungal disease
 created_by: cooperl
 creation_date: 2015-05-30T17:46:33Z
@@ -1949,6 +1980,7 @@ name: maize anthracnose stalk rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:105
+xref: PSO_GIT:105
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-24T13:39:01Z
@@ -1959,6 +1991,7 @@ name: Maize Gibberella ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:XXX)." [PDO:austin_meier]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:107
+xref: PSO_GIT:107
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-25T14:00:39Z
@@ -1999,6 +2032,7 @@ name: maize smut fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Ustilago maydis (PDO:XXX)." [PDO:austin_meier]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:112
+xref: PSO_GIT:111
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-02T09:17:51Z
@@ -2009,6 +2043,7 @@ name: maize Norther leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus carbonum (PDO:XXX)." [PDO:austin_meier]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:114
+xref: PSO_GIT:113
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-09T14:21:28Z
@@ -2019,6 +2054,7 @@ name: maize Southern leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus heterostrophus (PDO:XXX)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:104
+xref: PSO_GIT:103
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-09T15:00:03Z
@@ -2029,6 +2065,7 @@ name: maize foolish seedling fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by  Gibberella fujikuroi (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:109
+xref: PSO_GIT:108
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-09T15:14:27Z
@@ -2039,6 +2076,7 @@ name: maize Norther leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Setosphaeria turcica (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:111
+xref: PSO_GIT:110
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-09T15:41:54Z
@@ -2049,6 +2087,7 @@ name: maize black bundle fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Acremonium strictum (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:115
+xref: PSO_GIT:114
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-09T16:04:14Z
@@ -2059,6 +2098,7 @@ name: maize eyespot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Aureobasidium zeae (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:116
+xref: PSO_GIT:115
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T13:45:34Z
@@ -2069,6 +2109,7 @@ name: maize alternaria minor ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Alternaria alternata (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_diseases
 xref: OBO_SF2_PSO:117
+xref: PSO_GIT:116
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T13:54:40Z
@@ -2079,6 +2120,7 @@ name: maize alternaria minor leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Alternaria alternata (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:118
+xref: PSO_GIT:117
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T13:59:15Z
@@ -2089,6 +2131,7 @@ name: maize alternaria minor root rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Alternaria alternata (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:119
+xref: PSO_GIT:118
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T14:05:15Z
@@ -2099,6 +2142,7 @@ name: maize Aspergillus ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Aspergillus glaucus (PDO:xxx), Aspergillus niger (PDO:xxx), and Aspergillus flavus (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:120
+xref: PSO_GIT:119
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T14:25:41Z
@@ -2109,6 +2153,7 @@ name: maize Ascochyta minor leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Ascochyta tritici (PDO:xxx), Ascochyta maydis (PDO:xxx), and Ascochyta zeicola (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:121
+xref: PSO_GIT:120
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T14:34:49Z
@@ -2119,6 +2164,7 @@ name: maize Bipolaris minor leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Bipolaris sorokiniana (PDO:xxx), and Bipolaris victoriae (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:122
+xref: PSO_GIT:121
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T14:44:09Z
@@ -2129,6 +2175,7 @@ name: maize Bipolaris seed rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Bipolaris zeicola (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:123
+xref: PSO_GIT:122
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T15:07:10Z
@@ -2139,6 +2186,7 @@ name: maize gray ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Bipolaris zeae (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:124
+xref: PSO_GIT:123
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T15:11:42Z
@@ -2149,6 +2197,7 @@ name: maize Physalospora ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Botryosphaeria festucae (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:125
+xref: PSO_GIT:124
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T15:21:18Z
@@ -2159,6 +2208,7 @@ name: maize Hormodendrum ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cladosporium cladosporioides(PDO:xxx), and .Cladosporium herbarum (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:126
+xref: PSO_GIT:125
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-16T15:14:49Z
@@ -2169,6 +2219,7 @@ name: maize ergot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Claviceps gigantea (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:127
+xref: PSO_GIT:126
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T13:19:08Z
@@ -2179,6 +2230,7 @@ name: maize Cunninghamella minor ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cunninghamella sp. (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:128
+xref: PSO_GIT:127
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T13:23:58Z
@@ -2189,6 +2241,7 @@ name: maize Culvularia leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Curvularia clavata (PDO:xxx), Curvularia eragrostidis (PDO:xxx), Curvularia inaequalis (PDO:xxx), Curvularia intermedia (PDO:xxx), Curvularia lunata (PDO:xxx), Curvularia pallescens (PDO:xxx), Curvularia senegalensis (PDO:xxx), and Curvularia tuberculata (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:129
+xref: PSO_GIT:128
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T13:30:27Z
@@ -2199,6 +2252,7 @@ name: maize Curvularia minor ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Curvularia pallescens (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:130
+xref: PSO_GIT:129
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T13:35:38Z
@@ -2209,6 +2263,7 @@ name: maize Didymella leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Didymella exitalis (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:131
+xref: PSO_GIT:130
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T14:32:15Z
@@ -2219,6 +2274,7 @@ name: maize Dictyochaeta minor root rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Dictyochaeta fertilis (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:132
+xref: PSO_GIT:131
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T15:18:06Z
@@ -2229,6 +2285,7 @@ name: maize Doratomyces minor ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Doratomyces stemonitis (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:133
+xref: PSO_GIT:132
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T15:23:34Z
@@ -2239,6 +2296,7 @@ name: maize Epicoccum minor leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Epicoccum nigrum (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:134
+xref: PSO_GIT:133
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T15:27:16Z
@@ -2249,6 +2307,7 @@ name: maize Exserohilum minor leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Exserohilum prolatum (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:135
+xref: PSO_GIT:134
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T15:30:26Z
@@ -2259,6 +2318,7 @@ name: maize Pythium stalk rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Epicoccum nigrum (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:136
+xref: PSO_GIT:135
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T15:41:31Z
