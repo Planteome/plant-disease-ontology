@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 04:08:2015 10:58
-saved-by: austinmeier
+date: 06:08:2015 16:44
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
 subsetdef: Oryza_sativa_L "Terms used for rice"
@@ -1547,12 +1547,13 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000141
 name: phytoplasma causal agent
-def: "A bacterial biotic causal agent (PDO:0000016) that is a phytoplasma." [EOL:97837, PDO:cooperl]
+def: "A bacterial biotic causal agent (PDO:0000016) that is a phytoplasma." [PDO:cooperl]
 comment: Phytoplasmas are specialised bacteria that are obligate parasites of plant phloem tissue and transmitting insects (vectors). They were discovered by scientists in 1967 and were named mycoplasma-like organisms or MLOs (Doi, et al 1967). They cannot be cultured in vitro in cell-free media. They are characterised by their lack of a cell wall, a pleiomorphic or filamentous shape, normally with a diameter less than 1 μm, and their very small genomes (Source: http://eol.org/data_objects/31853082).
 synonym: "Candidatus Phytoplasma" EXACT [NCBI_Taxonomy_ID:33926]
 synonym: "Candidatus Phytoplasma Firrao et al. 2004" NARROW []
 synonym: "mycoplasma-like organism (MLO)" EXACT []
 synonym: "plant yellows agent" RELATED [EOL:97837]
+xref: EOL:97837
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000170 ! rice phytoplasma disease
 created_by: SAISREE
@@ -1917,11 +1918,12 @@ creation_date: 2015-05-29T15:16:33Z
 [Term]
 id: PDO:0000171
 name: Candidatus phytoplasma oryzae
-def: "A phytoplasma causal agent (PDO:0000141) that causes rice yellow dwarf phytoplasma disease  (PDO:0000129)." [NCBI_Taxonomy_ID:203274, PDO:cooperl]
+def: "A phytoplasma causal agent (PDO:0000141) that causes rice yellow dwarf phytoplasma disease  (PDO:0000129)." [PDO:cooperl]
 synonym: " Rice yellow dwarf phytoplasma" RELATED []
 synonym: "Candidatus Phytoplasma oryzae Jung et al. 2003" NARROW [NCBI_Taxonomy_ID:203274]
 synonym: "Phytoplasma oryzae" RELATED []
 synonym: "Phytoplasma oryzae Jung et al. 2003" NARROW [EOL:1002599]
+xref: NCBI_Taxonomy_ID:203274
 is_a: PDO:0000141 ! phytoplasma causal agent
 relationship: causal_agent PDO:0000129 ! rice yellow dwarf phytoplasma disease
 created_by: cooperl
@@ -1930,7 +1932,9 @@ creation_date: 2015-05-29T15:29:18Z
 [Term]
 id: PDO:0000172
 name: maize bushy stunt phytoplasma
-def: "A phytoplasma causal agent (PDO:0000141) that causes maize bushy stunt phytoplasma disease (PDO:0000172)." [EOL:11810019, NCBI_Taxonomy_ID:202462, PDO:cooperl]
+def: "A phytoplasma causal agent (PDO:0000141) that causes maize bushy stunt phytoplasma disease (PDO:0000172)." [PDO:cooperl]
+xref: EOL:11810019
+xref: NCBI_Taxonomy_ID:202462
 is_a: PDO:0000141 ! phytoplasma causal agent
 created_by: cooperl
 creation_date: 2015-05-29T16:32:06Z
@@ -1983,8 +1987,8 @@ name: maize anthracnose stalk rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:105
-xref: PSO_GIT:105
 xref: PSO_GIT:104
+xref: PSO_GIT:105
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-24T13:39:01Z
@@ -1995,8 +1999,8 @@ name: Maize Gibberella ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:XXX)." [PDO:austin_meier]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:107
-xref: PSO_GIT:107
 xref: PSO_GIT:106
+xref: PSO_GIT:107
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-25T14:00:39Z
@@ -2017,8 +2021,8 @@ id: PDO:0000180
 name: Maize Fusarium seed rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX)." [PSO:austin_meier]
 xref: APS:Plant_Disease
-xref: OBO_SF2_PSO:108
 xref: OBO_SF2_PSO:107
+xref: OBO_SF2_PSO:108
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-25T14:25:47Z
@@ -2028,8 +2032,8 @@ id: PDO:0000181
 name: Maize Fusarium seedling blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX)." [PSO:austin_meier]
 xref: APS:Plant_Diseases
-xref: OBO_SF2_PSO:108
 xref: OBO_SF2_PSO:107
+xref: OBO_SF2_PSO:108
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-25T14:33:47Z
@@ -2051,8 +2055,8 @@ name: maize Norther leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus carbonum (PDO:XXX)." [PDO:austin_meier]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:114
-xref: PSO_GIT:113
 xref: PSO_GIT:102
+xref: PSO_GIT:113
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-09T14:21:28Z
