@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 06:08:2015 16:44
-saved-by: cooperl
+date: 07:08:2015 10:28
+saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
 subsetdef: Oryza_sativa_L "Terms used for rice"
@@ -632,6 +632,7 @@ def: "A Xanthomonas bacterial causal agent (PDO:0000095) that causes maize bacte
 subset: Zea_mays
 synonym: "Xanthomonas campestris pv. holcicola (Elliott) Dye" RELATED []
 synonym: "Xanthomonas vasicola Vauterin et al. 1995" NARROW [APS:Plant_Diseases]
+xref: EOL:973427
 xref: NCBI_Taxonomy_ID:56459
 xref: OBO_SF2_PSO:72
 xref: PSO_GIT:71
@@ -1025,6 +1026,7 @@ name: Enterobacter cloacae subsp. dissolvens
 def: "A bacteria (PDO:0000016) genus that causes maize bacterial stalk rot disease (PDO:0000147)." [PDO:cooperl, PDO:megan_seymour]
 synonym: "Enterobacter dissolvens (Rosen) Brenner et al." RELATED [APS:Plant_Diseases]
 synonym: "Erwinia dissolvens (Rosen) Burkholder" RELATED [APS:Plant_Diseases]
+xref: EOL:1268764
 xref: NCBI_Taxonomy_ID:69219
 xref: OBO_SF2_PSO:73
 xref: PSO_GIT:72
@@ -1737,6 +1739,7 @@ id: PDO:0000157
 name: Burkholderia andropogonis
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial stripe disease (PDO:0000149)." [PDO:cooperl, PDO:megan_seymour]
 synonym: "Pseudomonas andropogonis (Smith) Stapp" RELATED [APS:Plant_Diseases]
+xref: EOL:976724
 xref: NCBI_Taxonomy_ID:28092
 xref: OBO_SF2_PSO:76
 xref: PSO_GIT:75
@@ -1750,6 +1753,7 @@ id: PDO:0000158
 name: Pseudomonas syringae pv. syringae
 def: "A Pseudomonas syringae (PDO:0000062) that causes maize holcus spot bacterial disease (PDO:0000152)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
+xref: EOL:1268797
 xref: NCBI_Taxonomy_ID:321
 xref: OBO_SF2_PSO:77
 xref: PSO_GIT:76
@@ -1764,6 +1768,7 @@ name: Clavibacter michiganensis subsp. nebraskensis
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Goss's bacterial wilt and blight disease (PDO:0000151)." [APS:Plant_Diseases, PDO:cooperl, PDO:megan_seymour]
 synonym: "Clavibacter michiganensis subsp. nebraskensis (Vidaver & Mandel) Davis et al. " NARROW []
 synonym: "Corynebacterium michiganense pv. nebraskense (Schuster et al.) Dye & Kemp" RELATED [APS:Plant_Disease]
+xref: EOL:1268657
 xref: NCBI_Taxonomy_ID:31963
 xref: OBO_SF2_PSO:79
 xref: PSO_GIT:78
@@ -1777,6 +1782,7 @@ id: PDO:0000160
 name: Pseudomonas coronafaciens pv. coronafaciens
 def: "A Pseudomonas (PDO:0000094) species that causes maize chocolate spot bacterial disease (PDO:0000150)." [PDO:megan_seymour]
 synonym: "Pseudomonas syringae pv. coronafaciens (Elliott) Young et al.  " NARROW [APS:Plant_Diseases]
+xref: EOL:32399817
 xref: NCBI_Taxonomy_ID:235275
 xref: OBO_SF2_PSO:83
 xref: PSO_GIT:82
@@ -1792,6 +1798,7 @@ def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Stewart's 
 synonym: "Erwinia stewartii (Smith) Dye" NARROW [APS:Plant_Diseases]
 synonym: "Pantoea stewartii subsp. stewartii DC283" NARROW [NCBI_Taxonomy_ID:660596]
 synonym: "Pantoea stewartii subsp. stewartii SS104" NARROW [PHIbase:xxx]
+xref: EOL:1268776
 xref: NCBI_Taxonomy_ID:66271
 xref: OBO_SF2_PSO:85
 xref: PSO_GIT:84
@@ -1805,6 +1812,7 @@ id: PDO:0000162
 name: Spiroplasma kunkelii
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize stunt bacterial disease (PDO:0000156)." [APS:Plant_Diseases, PDO:cooperl, PDO:megan_seymour]
 synonym: "Spiroplasma kunkelii Whitcomb et al. " NARROW [APS:Plant_Diseases]
+xref: EOL:977408
 xref: NCBI_Taxonomy_ID:47834
 xref: OBO_SF2_PSO:88
 xref: PSO_GIT:87
@@ -1819,6 +1827,7 @@ name: Pectobacterium carotovorum subsp. carotovorum
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial stalk and top rot disease (PDO:0000148)." [PCDO:Laurel_Cooper, PDO:megan_seymour]
 subset: Zea_mays
 synonym: "Erwinia carotovora subsp. carotovora (Jones) Bergey et al." RELATED [APS:Plant_Diseases]
+xref: EOL:1268774
 xref: NCBI_Taxonomy_ID:555
 xref: OBO_SF2_PSO:90
 xref: PSO_GIT:89
@@ -1833,6 +1842,7 @@ name: Bacillus subtilis
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize seed rot and seedling blight bacterial disease (PDO:0000154)." [APS:Plant_Diseases, PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 synonym: "Bacillus subtilis (Ehrenberg) Cohn" NARROW [APS:Plant_Diseases]
+xref: EOL:2912748
 xref: NCBI_Taxonomy_ID:1423
 xref: OBO_SF2_PSO:93
 xref: PSO_GIT:92
@@ -1847,6 +1857,7 @@ name: Acidovorax avenae
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial leaf blight and stalk rot disease (PDO:0000145)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 synonym: "Pseudomonas avenae subsp. avenae Manns" RELATED [APS:Plant_Disease]
+xref: EOL:6376997
 xref: NCBI_Taxonomy_ID:80867
 xref: OBO_SF2_PSO:95
 xref: PSO_GIT:94
