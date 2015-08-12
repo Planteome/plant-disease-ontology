@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:08:2015 10:28
+date: 12:08:2015 13:45
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -171,9 +171,11 @@ id: PDO:0000017
 name: Xanthomonas oryzae pv. oryzae
 def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial blight disease (PDO:0000014)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza_sativa_L
-synonym: "Xanthomonas campestris pv. oryza" RELATED []
+synonym: "Xanthomonas campestris pv. oryza" RELATED [NCBI_Taxonomy_ID:64187]
+synonym: "Xanthomonas campestris pv. oryza (Ishiyama 1922) Dye 1978" NARROW [NCBI_Taxonomy_ID:64187]
 synonym: "Xanthomonas campestris pv. oryzae (lshiyama) Dye" RELATED [APS:Plant_Diseases]
-synonym: "Xanthomonas oryzae pv. oryzae (Ishiyama) Swings et al." NARROW []
+synonym: "Xanthomonas oryzae pv. oryzae (Ishiyama) Swings et al." NARROW [APS:Plant_Diseases]
+xref: EOL:973456
 xref: NCBI_Taxonomy_ID:64187
 xref: OBO_SF2_PSO:96
 xref: PSO_GIT:95
@@ -187,10 +189,11 @@ id: PDO:0000018
 name: Xanthomonas oryzae pv. oryzicola
 def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial leaf streak disease (PDO:0000018)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza_sativa_L
-synonym: "Xanthomonas campestris pv. oryzicola" RELATED []
-synonym: "Xanthomonas campestris pv. oryzicola (Fang et al. 1957) Dye 1978" RELATED []
-synonym: "Xanthomonas oryzae pv. oryzicola (Ishiyama) Swings et al." NARROW []
-xref: NDBI_Taxonomy_ID:129394
+synonym: "Xanthomonas campestris pv. oryzicola" RELATED [NCBI_Taxonomy_ID:129394]
+synonym: "Xanthomonas campestris pv. oryzicola (Fang et al. 1957) Dye 1978" NARROW [NCBI_Taxonomy_ID:129394]
+synonym: "Xanthomonas oryzae pv. oryzicola (Ishiyama) Swings et al." NARROW [APS:Plant_Diseases]
+xref: EOL:973456
+xref: NCBI_Taxonomy_ID:129394
 xref: OBO_SF2_PSO:97
 xref: PSO_GIT:96
 is_a: PDO:0000095 ! Xanthomonas
@@ -227,6 +230,7 @@ id: PDO:0000021
 name: Dickeya chrysanthemi
 def: "A bacterial biotic causal agent (PDO:0000016) that causes rice foot rot bacterial disease (PDO:0000020)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour, PDO:saisree_uppala]
 synonym: "Erwinia chrysanthemi Burkholder et al. " RELATED [APS:Plant_Diseases]
+xref: EOL:972724
 xref: NCBI_Taxonomy_ID:556
 xref: PSO_GIT:88
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -238,8 +242,10 @@ creation_date: 2012-04-09T01:43:12Z
 id: PDO:0000022
 name: Burkholderia glumae
 def: "A bacterial biotic causal agent (PDO:0000016) that causes rice grain rot bacterial disease (PDO:0000023)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Burkholderia glumae (Kurita and Tabei 1967) Urakami et al. 1994 " NARROW []
+synonym: "Burkholderia glumae (Kurita and Tabei 1967) Urakami et al. 1994 " NARROW [NCBI_Taxonomy_ID:337]
+synonym: "Pseudomonas glumae" RELATED [NCBI_Taxonomy_ID:337]
 synonym: "Pseudomonas glumae Kurita & Tabei" RELATED [APS:Plant_Diseases]
+xref: EOL:976773
 xref: NCBI_Taxonomy_ID:337
 xref: OBO_SF2_PSO:99
 xref: PSO_GIT:98
@@ -277,7 +283,9 @@ id: PDO:0000025
 name: Pseudomonas fuscovaginae
 def: "A Pseudomonas (PDO:0000094) species that causes rice sheath brown rot bacterial disease (PDO:0000024)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza_sativa_L
-synonym: "Pseudomonas fuscovaginae (ex Tanii et al) Miyajima et al." NARROW []
+synonym: "Pseudomonas fuscovaginae (ex Tanii et al) Miyajima et al." NARROW [APS:Plant_Diseases]
+synonym: "Pseudomonas fuscovaginae (ex Tanii et al. 1976) Miyajima et al. 1983" NARROW [NCBI_Taxonomy_ID:50340]
+xref: EOL:973020
 xref: NCBI_Taxonomy_ID:50340
 xref: OBO_SF2_PSO:98
 xref: PSO_GIT:97
@@ -311,9 +319,14 @@ creation_date: 2012-04-09T02:12:07Z
 [Term]
 id: PDO:0000028
 name: Ceratobasidium oryzae-sativae
-def: "A fungal species (PDO:0000069) that causes rice aggregate sheath spot (PDO:0000027)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Ceratobasidium oryzae-sativae Gunnell & Webster" NARROW []
+def: "A fungal species (PDO:0000069) that causes rice aggregate sheath spot fungal disease (PDO:0000027)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
+synonym: "Ceratobasidium oryzae-sativae Gunnell & Webster" NARROW [APS:Plant_Diseases]
+synonym: "Ceratobasidium sativae" RELATED telomorph [NCBI_Taxonomy_ID:63189]
+synonym: "Rhizoctonia oryzae-sativae " RELATED [NCBI_Taxonomy_ID:63189]
+synonym: "Rhizoctonia oryzae-sativae (Sawada) Mordue) " RELATED anamorph [APS:Plant_DIseases]
+xref: EOL:18499121
 xref: NCBI_Taxonomy_ID:63189
+xref: PSO_GIT:136
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000027 ! rice aggregate sheath spot fungal disease
 created_by: moorel
@@ -366,10 +379,11 @@ name: Magnaporthe oryzae
 def: "A fungal species (PDO:0000069) that causes rice blast (PDO:0000031)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 subset: Oryza_sativa_L
 synonym: "Magnaporthe grisea" RELATED [APS:Plant_Diseases]
-synonym: "Magnaporthe grisea (Hebert) Barr" RELATED telomorph []
+synonym: "Magnaporthe grisea (Hebert) Barr" RELATED telomorph [APS:Plant_Diseases]
 synonym: "Magnaporthe oryzae B.C. Couch 2002" NARROW [EOL:1002512]
-synonym: "Pyricularia grisea Sacc." RELATED []
-synonym: "Pyricularia oryzae Cavara" RELATED [APS:Plant_Diseases]
+synonym: "Pyricularia grisea Sacc." RELATED [APS:Plant_Diseases]
+synonym: "Pyricularia oryzae Cavara" RELATED [APS:Plant_Diseases, NCBI_Taxonomy_ID:318829]
+xref: EOL:1002512
 xref: NCBI_Taxonomy_ID:318829
 xref: PSO_GIT:100
 is_a: PDO:0000069 ! fungal species
@@ -1908,7 +1922,8 @@ name: Fusarium fujikuroi
 def: "A fungal species (PDO:0000069) that causes rice bakanae fungal disease (PDO:0000168)." [PDO:cooperl, PDO:megan_seymour, PMID:25115968]
 subset: Oryza_sativa_L
 synonym: "Fusarium fujikuroi Nirenberg 1976 " NARROW [EOL:192530]
-synonym: "Gibberella fujikuroi" RELATED []
+synonym: "Gibberella fujikuroi " RELATED [NCBI_Taxonomy_ID:5127]
+xref: EOL:192530
 xref: NCBI_Taxonomy_ID:5127
 xref: OBO_SF2_PSO:102
 xref: PSO_GIT:101
@@ -1930,10 +1945,11 @@ creation_date: 2015-05-29T15:16:33Z
 id: PDO:0000171
 name: Candidatus phytoplasma oryzae
 def: "A phytoplasma causal agent (PDO:0000141) that causes rice yellow dwarf phytoplasma disease  (PDO:0000129)." [PDO:cooperl]
-synonym: " Rice yellow dwarf phytoplasma" RELATED []
+synonym: " Rice yellow dwarf phytoplasma" RELATED [NCBI_Taxonomy_ID:203274]
 synonym: "Candidatus Phytoplasma oryzae Jung et al. 2003" NARROW [NCBI_Taxonomy_ID:203274]
-synonym: "Phytoplasma oryzae" RELATED []
+synonym: "Phytoplasma oryzae" RELATED [NCBI_Taxonomy_ID:203274]
 synonym: "Phytoplasma oryzae Jung et al. 2003" NARROW [EOL:1002599]
+xref: EOL:1002599
 xref: NCBI_Taxonomy_ID:203274
 is_a: PDO:0000141 ! phytoplasma causal agent
 relationship: causal_agent PDO:0000129 ! rice yellow dwarf phytoplasma disease
