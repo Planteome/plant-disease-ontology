@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:08:2015 13:45
+date: 12:08:2015 16:20
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -192,7 +192,7 @@ subset: Oryza_sativa_L
 synonym: "Xanthomonas campestris pv. oryzicola" RELATED [NCBI_Taxonomy_ID:129394]
 synonym: "Xanthomonas campestris pv. oryzicola (Fang et al. 1957) Dye 1978" NARROW [NCBI_Taxonomy_ID:129394]
 synonym: "Xanthomonas oryzae pv. oryzicola (Ishiyama) Swings et al." NARROW [APS:Plant_Diseases]
-xref: EOL:973456
+xref: EOL:39780763
 xref: NCBI_Taxonomy_ID:129394
 xref: OBO_SF2_PSO:97
 xref: PSO_GIT:96
@@ -229,6 +229,7 @@ creation_date: 2012-04-09T01:41:32Z
 id: PDO:0000021
 name: Dickeya chrysanthemi
 def: "A bacterial biotic causal agent (PDO:0000016) that causes rice foot rot bacterial disease (PDO:0000020)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour, PDO:saisree_uppala]
+synonym: "Dickeya chrysanthemi (Burkholder et al. 1953) Samson et al. 2005" RELATED [NCBI_Taxonomy_ID:556]
 synonym: "Erwinia chrysanthemi Burkholder et al. " RELATED [APS:Plant_Diseases]
 xref: EOL:972724
 xref: NCBI_Taxonomy_ID:556
@@ -694,9 +695,12 @@ creation_date: 2012-04-12T10:49:10Z
 [Term]
 id: PDO:0000058
 name: Alternaria padwickii
-def: "A fungal species (PDO:0000069) that causes rice stackburn (alternaria leaf spot) (PDO:0000057)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Alternaria padwickii (Ganguly) M.B. Ellis" NARROW []
+def: "A fungal species (PDO:0000069) that causes rice stackburn (alternaria leaf spot) (PDO:0000057)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
+synonym: "Alternaria padwickii (Ganguly) M.B. Ellis" NARROW [APS:Plant_Diseases]
+synonym: "Alternaria padwickii (Ganguly) M.B. Ellis 1971" NARROW [NCBI_Taxonomy_ID:714880]
+xref: EOL:1005087
 xref: NCBI_Taxonomy_ID:714880
+xref: PSO_GIT:137
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000057 ! rice stackburn fungal disease
 created_by: moorel
