@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:08:2015 16:20
+date: 13:08:2015 12:44
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -190,7 +190,6 @@ name: Xanthomonas oryzae pv. oryzicola
 def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial leaf streak disease (PDO:0000018)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza_sativa_L
 synonym: "Xanthomonas campestris pv. oryzicola" RELATED [NCBI_Taxonomy_ID:129394]
-synonym: "Xanthomonas campestris pv. oryzicola (Fang et al. 1957) Dye 1978" NARROW [NCBI_Taxonomy_ID:129394]
 synonym: "Xanthomonas oryzae pv. oryzicola (Ishiyama) Swings et al." NARROW [APS:Plant_Diseases]
 xref: EOL:39780763
 xref: NCBI_Taxonomy_ID:129394
@@ -350,7 +349,9 @@ creation_date: 2012-04-09T02:18:03Z
 id: PDO:0000030
 name: Curvularia lunata
 def: "A fungal species (PDO:0000069) that causes rice black kernel (PDO:0000029)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Curvularia lunata (Wakk.) Boedijn" NARROW []
+synonym: "Cochiobolus lunatus R.R. Nelson & Haasis " RELATED telomorph [APS:Plant_Diseases]
+synonym: "Curvularia lunata (Wakk.) Boedijn" NARROW [APS:Plant_DIseases]
+xref: EOL:11501463
 xref: NCBI_Taxonomy_ID:418123
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000029 ! rice black kernel fungal disease
@@ -526,7 +527,10 @@ creation_date: 2012-04-09T02:52:18Z
 id: PDO:0000044
 name: Tilletia barclayana
 def: "A fungal species (PDO:0000069) that causes rice kernel smut (PDO:0000043)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Tilletia barclayana (Bref.) Sacc. & Syd. in Sacc." NARROW []
+synonym: "Neovossia barclayana" RELATED [NCBI_Taxonomy_ID:157178]
+synonym: "Neovossia horrida (Takah.) Padwick & A. Khan  " RELATED [APS:Plant_Diseases]
+synonym: "Tilletia barclayana (Bref.) Sacc. & Syd. in Sacc." NARROW [APS:Plant_Diseases]
+xref: EOL:1029922
 xref: NCBI_Taxonomy_ID:157178
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000043 ! rice kernel smut fungal disease
@@ -1952,7 +1956,7 @@ def: "A phytoplasma causal agent (PDO:0000141) that causes rice yellow dwarf phy
 synonym: " Rice yellow dwarf phytoplasma" RELATED [NCBI_Taxonomy_ID:203274]
 synonym: "Candidatus Phytoplasma oryzae Jung et al. 2003" NARROW [NCBI_Taxonomy_ID:203274]
 synonym: "Phytoplasma oryzae" RELATED [NCBI_Taxonomy_ID:203274]
-synonym: "Phytoplasma oryzae Jung et al. 2003" NARROW [EOL:1002599]
+synonym: "Phytoplasma oryzae Jung et al. 2003" RELATED [EOL:1002599]
 xref: EOL:1002599
 xref: NCBI_Taxonomy_ID:203274
 is_a: PDO:0000141 ! phytoplasma causal agent
