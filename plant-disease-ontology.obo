@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:08:2015 12:44
+date: 13:08:2015 14:47
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -434,7 +434,8 @@ creation_date: 2012-04-09T02:31:07Z
 id: PDO:0000036
 name: Gaeumannomyces graminis
 def: "A fungal species (PDO:0000069) that causes rice crown sheath rot (PDO:0000035)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Gaeumannomyces graminis (Sacc.) Thirumalachar et al." NARROW []
+synonym: "Gaeumannomyces graminis (Sacc.) Thirumalachar et al." NARROW [APS:Plant_Diseases]
+xref: EOL:6640995
 xref: NCBI_Taxonomy_ID:29850
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000035 ! rice crown sheath rot fungal disease
@@ -456,8 +457,9 @@ creation_date: 2012-04-09T02:35:27Z
 [Term]
 id: PDO:0000038
 name: Sclerophthora macrospora
-def: "A fungal species (PDO:0000069) that causes downy mildew (PDO:0000037)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Sclerophthora macrospora (Sacc.) Thirumalachar et al. " NARROW []
+def: "A fungal species (PDO:0000069) that causes downy mildew (PDO:0000037)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
+synonym: "Sclerophthora macrospora (Sacc.) Thirumalachar et al. " NARROW [APS:Plant_Diseases]
+xref: EOL:1009008
 xref: NCBI_Taxonomy_ID:467176
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
@@ -480,7 +482,8 @@ creation_date: 2012-04-09T02:43:16Z
 id: PDO:0000040
 name: Drechslera gigantea
 def: "A fungal species (PDO:0000069) that causes rice eyespot (PDO:0000039)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Drechslera gigantea (Heald & F.A. Wolf) Ito" NARROW []
+synonym: "Drechslera gigantea (Heald & F.A. Wolf) Ito" NARROW [APS:Plant_Diseases]
+xref: EOL:1005334
 xref: NCBI_Taxonomy_ID:5028
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000039 ! rice eyespot fungal disease
@@ -503,7 +506,8 @@ creation_date: 2012-04-09T02:47:43Z
 id: PDO:0000042
 name: Ustilaginoidea virens
 def: "A fungal species (PDO:0000069) that causes rice false smut (PDO:0000041)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Ustilaginoidea virens (Cooke) Takah." NARROW []
+synonym: "Ustilaginoidea virens (Cooke) Takah." NARROW [APS:Plant_Diseases]
+xref: EOL:997966
 xref: NCBI_Taxonomy_ID:1159556
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000041 ! rice false smut fungal disease
@@ -553,7 +557,8 @@ creation_date: 2012-04-09T02:56:24Z
 id: PDO:0000046
 name: Entyloma oryzae
 def: "A fungal species (PDO:0000069) that causes rice leaf smut (PDO:0000045)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Entyloma oryzae Syd. & P. Syd." NARROW []
+synonym: "Entyloma oryzae Syd. & P. Syd." NARROW [APS:Plant_Diseases]
+xref: EOL:188781
 xref: NCBI_Taxonomy_ID:62636
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000045 ! rice leaf smut fungal disease
@@ -577,7 +582,9 @@ creation_date: 2012-04-09T03:01:46Z
 id: PDO:0000048
 name: Microdochium oryzae
 def: "A fungal species (PDO:0000069) that causes rice leaf scald (PDO:0000047) and Microdochium oryzae pecky rice (PDO:0000079)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Microdochium oryzae (Hashioka & Yokogi) Samuels & I.C. Hallett" NARROW []
+synonym: "Microdochium oryzae (Hashioka & Yokogi) Samuels & I.C. Hallett" NARROW [APS:Plant_Diseases]
+synonym: "Rhynchosporium oryzae Hashioka & Yokogi" RELATED [APS:Plant_Diseases]
+xref: EOL:1003765
 xref: NCBI_Taxonomy_ID:67608
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000047 ! rice leaf scald fungal disease
@@ -625,7 +632,10 @@ creation_date: 2012-04-12T10:28:54Z
 id: PDO:0000052
 name: Thanatephorus cucumeris
 def: "A fungal species (PDO:0000069) that causes rice sheath blight (PDO:0000051)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Thanatephorus cucumeris (A.B. Frank) Donk " NARROW []
+synonym: "Rhizoctonia solani Kühn  " RELATED anamorph [APS:Plant_DIseases]
+synonym: "Thanatephorus cucumeris (A.B. Frank) Donk " NARROW [APS:Plant_Diseases]
+synonym: "Thanatephorus praticola " RELATED [NCBI_Taxonomy_ID:107832]
+xref: EOL:1008938
 xref: NCBI_Taxonomy_ID:107832
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000051 ! rice sheath blight fungal disease
@@ -676,7 +686,8 @@ creation_date: 2012-04-12T10:41:34Z
 id: PDO:0000056
 name: Rhizoctonia oryzae
 def: "A fungal species (PDO:0000069) that causes rice sheath spot (PDO:0000055)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Rhizoctonia oryzae Ryker & Gooch" NARROW []
+synonym: "Rhizoctonia oryzae Ryker & Gooch" NARROW [APS:Plant_Diseases]
+xref: EOL:11446349
 xref: NCBI_Taxonomy_ID:459364
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000055 ! rice sheath spot fungal disease
@@ -871,6 +882,7 @@ creation_date: 2012-04-27T13:37:47Z
 id: PDO:0000074
 name: Curvularia spp.
 def: "A Curvularia fungal spp. (PDO:0000070) that is more than one Curvularia species and causes Curvularia pecky rice (PDO:0000075) and rice Curvularia seedling blight (PDO:0000085)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+xref: EOL:16319
 xref: NCBI_Taxonomy_ID:5502
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000075 ! Curvularia pecky rice
@@ -892,6 +904,7 @@ creation_date: 2012-04-27T13:41:18Z
 id: PDO:0000076
 name: Fusarium spp.
 def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium species and causes rice Fusarium root rot (PDO:0000080), Fusarium pecky rice (PDO:0000077) and rice Fusarium seedling blight (PDO:0000086)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+xref: EOL:16364
 xref: NCBI_Taxonomy_ID:5506
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000077 ! Fusarium pecky rice
@@ -967,7 +980,9 @@ id: PDO:0000083
 name: Sarocladium oryzae
 def: "A fungal species (PDO:0000069) that causes various plant fungal diseases (PDO:0000004)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 comment: A fungal species that causes Sarocladium oryzae pecky rice (PDO:0000082) and rice sheath rot (PDO:0000053).
-synonym: "Sarocladium oryzae (Sawada) W. Gams & D. Hawksworth" NARROW []
+synonym: "Acrocylindrium oryzae Sawada" RELATED [APS:Plant_Diseases]
+synonym: "Sarocladium oryzae (Sawada) W. Gams & D. Hawksworth" NARROW [APS:Plant_Diseases]
+xref: EOL:1013725
 xref: NCBI_Taxonomy_ID:284135
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000082 ! Sarocladium oryzae pecky rice
