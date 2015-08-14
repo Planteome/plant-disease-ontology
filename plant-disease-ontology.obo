@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:08:2015 10:44
+date: 14:08:2015 15:18
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -351,6 +351,7 @@ synonym: "Cochiobolus lunatus R.R. Nelson & Haasis " RELATED telomorph [APS:Plan
 synonym: "Curvularia lunata (Wakk.) Boedijn" NARROW [APS:Plant_DIseases]
 xref: EOL:11501463
 xref: NCBI_Taxonomy_ID:418123
+xref: PSO_GIT:139
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000029 ! rice black kernel fungal disease
 relationship: part_of PDO:0000074 ! Curvularia spp.
@@ -393,7 +394,7 @@ creation_date: 2012-04-09T02:25:01Z
 [Term]
 id: PDO:0000033
 name: rice brown spot fungal disease
-def: "A rice fungal disease (PDO:0000081) caused by Cochliobolus miyabeanus (PDO:0000034)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by Bipolaris oryzae (PDO:0000034)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour, PDO:saisree_uppala]
 subset: Oryza_sativa_L
 synonym: "brown spot" EXACT []
 synonym: "rice brown spot" EXACT []
@@ -437,6 +438,7 @@ def: "A fungal species (PDO:0000069) that causes rice crown sheath rot (PDO:0000
 synonym: "Gaeumannomyces graminis (Sacc.) Thirumalachar et al." NARROW [APS:Plant_Diseases]
 xref: EOL:6640995
 xref: NCBI_Taxonomy_ID:29850
+xref: PSO_GIT:148
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000035 ! rice crown sheath rot fungal disease
 created_by: moorel
@@ -461,6 +463,7 @@ def: "A fungal species (PDO:0000069) that causes downy mildew (PDO:0000037)." [P
 synonym: "Sclerophthora macrospora (Sacc.) Thirumalachar et al. " NARROW [APS:Plant_Diseases]
 xref: EOL:1009008
 xref: NCBI_Taxonomy_ID:467176
+xref: PSO_GIT:144
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2012-04-09T02:39:34Z
@@ -485,6 +488,7 @@ def: "A fungal species (PDO:0000069) that causes rice eyespot (PDO:0000039)." [P
 synonym: "Drechslera gigantea (Heald & F.A. Wolf) Ito" NARROW [APS:Plant_Diseases]
 xref: EOL:1005334
 xref: NCBI_Taxonomy_ID:5028
+xref: PSO_GIT:140
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000039 ! rice eyespot fungal disease
 created_by: moorel
@@ -511,6 +515,7 @@ synonym: "Ustilaginoidea virens (Cooke) Takah." NARROW [APS:Plant_Diseases]
 synonym: "Villosiclava virens" RELATED [NCBI_Taxonomy_ID:1159556]
 xref: EOL:997966
 xref: NCBI_Taxonomy_ID:1159556
+xref: PSO_GIT:143
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000041 ! rice false smut fungal disease
 created_by: moorel
@@ -538,6 +543,7 @@ synonym: "Neovossia horrida (Takah.) Padwick & A. Khan  " RELATED [APS:Plant_Dis
 synonym: "Tilletia barclayana (Bref.) Sacc. & Syd. in Sacc." NARROW [APS:Plant_Diseases]
 xref: EOL:1029922
 xref: NCBI_Taxonomy_ID:157178
+xref: PSO_GIT:138
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000043 ! rice kernel smut fungal disease
 created_by: moorel
@@ -562,6 +568,7 @@ def: "A fungal species (PDO:0000069) that causes rice leaf smut (PDO:0000045)." 
 synonym: "Entyloma oryzae Syd. & P. Syd." NARROW [APS:Plant_Diseases]
 xref: EOL:188781
 xref: NCBI_Taxonomy_ID:62636
+xref: PSO_GIT:141
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000045 ! rice leaf smut fungal disease
 created_by: moorel
@@ -639,6 +646,7 @@ synonym: "Thanatephorus cucumeris (A.B. Frank) Donk " NARROW [APS:Plant_Diseases
 synonym: "Thanatephorus praticola " RELATED [NCBI_Taxonomy_ID:107832]
 xref: EOL:1008938
 xref: NCBI_Taxonomy_ID:107832
+xref: PSO_GIT:142
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000051 ! rice sheath blight fungal disease
 created_by: moorel
@@ -691,6 +699,7 @@ def: "A fungal species (PDO:0000069) that causes rice sheath spot (PDO:0000055).
 synonym: "Rhizoctonia oryzae Ryker & Gooch" NARROW [APS:Plant_Diseases]
 xref: EOL:11446349
 xref: NCBI_Taxonomy_ID:459364
+xref: PSO_GIT:145
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000055 ! rice sheath spot fungal disease
 created_by: moorel
@@ -744,6 +753,7 @@ synonym: "Nakataea oryzae (Catt.) J. Luo & N. Zhang, 2013" NARROW [NCBI_Taxonomy
 synonym: "Sclerotium oryzae Cattaneo" RELATED synanamorph [APS:Plant_Diseases]
 xref: EOL:42754629
 xref: NCBI_Taxonomy_ID:165778
+xref: PSO_GIT:147
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000059 ! rice stem rot fungal disease
 created_by: moorel
@@ -989,6 +999,7 @@ synonym: "Acrocylindrium oryzae Sawada" RELATED [APS:Plant_Diseases]
 synonym: "Sarocladium oryzae (Sawada) W. Gams & D. Hawksworth" NARROW [APS:Plant_Diseases]
 xref: EOL:1013725
 xref: NCBI_Taxonomy_ID:284135
+xref: PSO_GIT:146
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000082 ! Sarocladium oryzae pecky rice
 created_by: moorel
