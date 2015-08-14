@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:08:2015 14:47
+date: 14:08:2015 10:44
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -171,8 +171,6 @@ id: PDO:0000017
 name: Xanthomonas oryzae pv. oryzae
 def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial blight disease (PDO:0000014)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza_sativa_L
-synonym: "Xanthomonas campestris pv. oryza" RELATED [NCBI_Taxonomy_ID:64187]
-synonym: "Xanthomonas campestris pv. oryza (Ishiyama 1922) Dye 1978" NARROW [NCBI_Taxonomy_ID:64187]
 synonym: "Xanthomonas campestris pv. oryzae (lshiyama) Dye" RELATED [APS:Plant_Diseases]
 synonym: "Xanthomonas oryzae pv. oryzae (Ishiyama) Swings et al." NARROW [APS:Plant_Diseases]
 xref: EOL:973456
@@ -283,7 +281,7 @@ id: PDO:0000025
 name: Pseudomonas fuscovaginae
 def: "A Pseudomonas (PDO:0000094) species that causes rice sheath brown rot bacterial disease (PDO:0000024)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza_sativa_L
-synonym: "Pseudomonas fuscovaginae (ex Tanii et al) Miyajima et al." NARROW [APS:Plant_Diseases]
+synonym: "Pseudomonas fuscivaginae" RELATED [NCBI_Taxonomy_ID:50340]
 synonym: "Pseudomonas fuscovaginae (ex Tanii et al. 1976) Miyajima et al. 1983" NARROW [NCBI_Taxonomy_ID:50340]
 xref: EOL:973020
 xref: NCBI_Taxonomy_ID:50340
@@ -380,7 +378,6 @@ id: PDO:0000032
 name: Magnaporthe oryzae
 def: "A fungal species (PDO:0000069) that causes rice blast (PDO:0000031)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 subset: Oryza_sativa_L
-synonym: "Magnaporthe grisea" RELATED [APS:Plant_Diseases]
 synonym: "Magnaporthe grisea (Hebert) Barr" RELATED telomorph [APS:Plant_Diseases]
 synonym: "Magnaporthe oryzae B.C. Couch 2002" NARROW [EOL:1002512]
 synonym: "Pyricularia grisea Sacc." RELATED [APS:Plant_Diseases]
@@ -408,9 +405,12 @@ creation_date: 2012-04-09T02:27:33Z
 
 [Term]
 id: PDO:0000034
-name: Cochliobolus miyabeanus
-def: "A fungal species (PDO:0000069) that causes rice brown spot (PDO:0000033), Cochliobolus miyabeanus pecky rice (PDO:0000078) and rice Cochliobolus miyabeanus seedling blight (PDO:0000084)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Cochliobolus miyabeanus (Ito & Kuribayashi) Drechs. ex Dastur" NARROW []
+name: Bipolaris oryzae
+def: "A fungal species (PDO:0000069) that causes rice brown spot (PDO:0000033), Cochliobolus miyabeanus pecky rice (PDO:0000078) and rice Cochliobolus miyabeanus seedling blight (PDO:0000084)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
+synonym: "Bipolaris oryzae (Breda de Haan) Shoemaker" RELATED anamorph [APS:Plant_Diseases]
+synonym: "Bipolaris oryzae (Breda de Haan) Shoemaker, 1959 " NARROW [NCBI_Taxonomy_ID:101162]
+synonym: "Cochliobolus miyabeanus (Ito & Kuribayashi) Drechs. ex Dastur" RELATED [APS:Plant_Diseases]
+xref: EOL:6752668
 xref: NCBI_Taxonomy_ID:101162
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000033 ! rice brown spot fungal disease
@@ -505,8 +505,10 @@ creation_date: 2012-04-09T02:47:43Z
 [Term]
 id: PDO:0000042
 name: Ustilaginoidea virens
-def: "A fungal species (PDO:0000069) that causes rice false smut (PDO:0000041)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal species (PDO:0000069) that causes rice false smut (PDO:0000041)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PSO:Megan_Seymour]
+synonym: "Claviceps virens" RELATED [NCBI_Taxonomy_ID:1159556]
 synonym: "Ustilaginoidea virens (Cooke) Takah." NARROW [APS:Plant_Diseases]
+synonym: "Villosiclava virens" RELATED [NCBI_Taxonomy_ID:1159556]
 xref: EOL:997966
 xref: NCBI_Taxonomy_ID:1159556
 is_a: PDO:0000069 ! fungal species
@@ -711,7 +713,6 @@ creation_date: 2012-04-12T10:49:10Z
 id: PDO:0000058
 name: Alternaria padwickii
 def: "A fungal species (PDO:0000069) that causes rice stackburn (alternaria leaf spot) (PDO:0000057)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
-synonym: "Alternaria padwickii (Ganguly) M.B. Ellis" NARROW [APS:Plant_Diseases]
 synonym: "Alternaria padwickii (Ganguly) M.B. Ellis 1971" NARROW [NCBI_Taxonomy_ID:714880]
 xref: EOL:1005087
 xref: NCBI_Taxonomy_ID:714880
@@ -724,7 +725,7 @@ creation_date: 2012-04-12T10:51:24Z
 [Term]
 id: PDO:0000059
 name: rice stem rot fungal disease
-def: "A rice fungal disease (PDO:0000081) caused by Magnaporthe salvinii (PDO:0000060)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by Nakataea oryzae (PDO:0000060)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour, PDO:saisree_uppala]
 subset: Oryza_sativa_L
 synonym: "rice stem rot" EXACT []
 synonym: "stem rot" EXACT []
@@ -735,9 +736,13 @@ creation_date: 2012-04-12T10:55:03Z
 
 [Term]
 id: PDO:0000060
-name: Magnaporthe salvinii
-def: "A fungal species (PDO:0000069) that causes rice stem rot (PDO:0000059)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Magnaporthe salvinii (Cattaneo) R. Krause & Webster" NARROW []
+name: Nakataea oryzae
+def: "A fungal species (PDO:0000069) that causes rice stem rot (PDO:0000059)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
+synonym: " Nakataea sigmoidae (Cavara) K. Hara " RELATED synanamorph [APS:Plant_Diseases]
+synonym: "Magnaporthe salvinii (Cattaneo) R. Krause & Webster" RELATED [APS:Plant_Diseases]
+synonym: "Nakataea oryzae (Catt.) J. Luo & N. Zhang, 2013" NARROW [NCBI_Taxonomy_ID:165778]
+synonym: "Sclerotium oryzae Cattaneo" RELATED synanamorph [APS:Plant_Diseases]
+xref: EOL:42754629
 xref: NCBI_Taxonomy_ID:165778
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000059 ! rice stem rot fungal disease
