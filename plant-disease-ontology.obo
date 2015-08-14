@@ -1987,10 +1987,11 @@ creation_date: 2015-05-29T15:29:18Z
 [Term]
 id: PDO:0000172
 name: maize bushy stunt phytoplasma
-def: "A phytoplasma causal agent (PDO:0000141) that causes maize bushy stunt phytoplasma disease (PDO:0000172)." [PDO:cooperl]
+def: "A phytoplasma causal agent (PDO:0000141) that causes maize bushy stunt phytoplasma disease (PDO:0000173)." [PDO:cooperl]
 xref: EOL:11810019
 xref: NCBI_Taxonomy_ID:202462
 is_a: PDO:0000141 ! phytoplasma causal agent
+relationship: causal_agent_of PDO:0000173 ! maize bushy stunt phytoplasma disease
 created_by: cooperl
 creation_date: 2015-05-29T16:32:06Z
 
