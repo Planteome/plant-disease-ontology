@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:08:2015 12:45
+date: 19:08:2015 15:10
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -2066,7 +2066,7 @@ creation_date: 2015-06-24T13:39:01Z
 
 [Term]
 id: PDO:0000178
-name: Maize Gibberella ear rot fungal disease
+name: maize Gibberella ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:XXX)." [PDO:austin_meier]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:107
@@ -2078,7 +2078,7 @@ creation_date: 2015-06-25T14:00:39Z
 
 [Term]
 id: PDO:0000179
-name: Maize Gibberella stalk rot fungal disease
+name: maize Gibberella stalk rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:XXX)." [PSO:austin_meier]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:107
@@ -2089,7 +2089,7 @@ creation_date: 2015-06-25T14:07:05Z
 
 [Term]
 id: PDO:0000180
-name: Maize Fusarium seed rot fungal disease
+name: maize Fusarium seed rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX)." [PSO:austin_meier]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:107
@@ -2100,7 +2100,7 @@ creation_date: 2015-06-25T14:25:47Z
 
 [Term]
 id: PDO:0000181
-name: Maize Fusarium seedling blight fungal disease
+name: maize Fusarium seedling blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX)." [PSO:austin_meier]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:107
@@ -2122,8 +2122,8 @@ creation_date: 2015-07-02T09:17:51Z
 
 [Term]
 id: PDO:0000183
-name: maize Norther leaf spot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus carbonum (PDO:XXX)." [PDO:austin_meier]
+name: maize northern leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus carbonum (PDO:XXX)." [PDO:austin_meier, PDO:Megan_Seymour]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:114
 xref: PSO_GIT:102
@@ -2134,7 +2134,7 @@ creation_date: 2015-07-09T14:21:28Z
 
 [Term]
 id: PDO:0000184
-name: maize Southern leaf blight fungal disease
+name: maize southern leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus heterostrophus (PDO:XXX)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:104
@@ -2156,7 +2156,7 @@ creation_date: 2015-07-09T15:14:27Z
 
 [Term]
 id: PDO:0000186
-name: maize Norther leaf blight fungal disease
+name: maize northern leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Setosphaeria turcica (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:111
