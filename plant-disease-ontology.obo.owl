@@ -10,7 +10,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pdo.owl">
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17:08:2015 12:45</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19:08:2015 15:10</oboInOwl:date>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:default-namespace>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seymoume</oboInOwl:saved-by>
@@ -5536,7 +5536,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/PDO_0000178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDO_0000178">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maize Gibberella ear rot fungal disease</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize Gibberella ear rot fungal disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000012"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-06-25T14:00:39Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:XXX).</obo:IAO_0000115>
@@ -5560,7 +5560,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/PDO_0000179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDO_0000179">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maize Gibberella stalk rot fungal disease</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize Gibberella stalk rot fungal disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000012"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-06-25T14:07:05Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:XXX).</obo:IAO_0000115>
@@ -5583,7 +5583,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/PDO_0000180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDO_0000180">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maize Fusarium seed rot fungal disease</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize Fusarium seed rot fungal disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000012"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-06-25T14:25:47Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX).</obo:IAO_0000115>
@@ -5606,7 +5606,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/PDO_0000181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDO_0000181">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maize Fusarium seedling blight fungal disease</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize Fusarium seedling blight fungal disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000012"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-06-25T14:33:47Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX).</obo:IAO_0000115>
@@ -5652,7 +5652,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/PDO_0000183 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDO_0000183">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize Norther leaf spot fungal disease</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize northern leaf spot fungal disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000012"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-07-09T14:21:28Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize fungal disease (PDO:0000012) caused by Cochliobolus carbonum (PDO:XXX).</obo:IAO_0000115>
@@ -5666,6 +5666,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize fungal disease (PDO:0000012) caused by Cochliobolus carbonum (PDO:XXX).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Megan_Seymour</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:austin_meier</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000183"/>
@@ -5676,7 +5677,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/PDO_0000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDO_0000184">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize Southern leaf blight fungal disease</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize southern leaf blight fungal disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000012"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-07-09T15:00:03Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize fungal disease (PDO:0000012) caused by Cochliobolus heterostrophus (PDO:XXX).</obo:IAO_0000115>
@@ -5722,7 +5723,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/PDO_0000186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDO_0000186">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize Norther leaf blight fungal disease</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize northern leaf blight fungal disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000012"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-07-09T15:41:54Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize fungal disease (PDO:0000012) caused by Setosphaeria turcica (PDO:xxx).</obo:IAO_0000115>
