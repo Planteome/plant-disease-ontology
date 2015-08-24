@@ -174,7 +174,7 @@ subset: Oryza_sativa_L
 synonym: "Xanthomonas campestris pv. oryzae (lshiyama) Dye" RELATED [APS:Plant_Diseases]
 synonym: "Xanthomonas oryzae pv. oryzae (Ishiyama) Swings et al." NARROW [APS:Plant_Diseases]
 xref: EOL:973456
-xref: NCBI_Taxonomy_ID:64187
+xref: NCBITaxon:64187
 xref: OBO_SF2_PSO:96
 xref: PSO_GIT:95
 is_a: PDO:0000095 ! Xanthomonas
@@ -187,10 +187,10 @@ id: PDO:0000018
 name: Xanthomonas oryzae pv. oryzicola
 def: "A Xanthomonas (PDO:0000095) species that causes rice bacterial leaf streak disease (PDO:0000018)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza_sativa_L
-synonym: "Xanthomonas campestris pv. oryzicola" RELATED [NCBI_Taxonomy_ID:129394]
+synonym: "Xanthomonas campestris pv. oryzicola" RELATED [NCBITaxon:129394]
 synonym: "Xanthomonas oryzae pv. oryzicola (Ishiyama) Swings et al." NARROW [APS:Plant_Diseases]
 xref: EOL:39780763
-xref: NCBI_Taxonomy_ID:129394
+xref: NCBITaxon:129394
 xref: OBO_SF2_PSO:97
 xref: PSO_GIT:96
 is_a: PDO:0000095 ! Xanthomonas
@@ -226,10 +226,10 @@ creation_date: 2012-04-09T01:41:32Z
 id: PDO:0000021
 name: Dickeya chrysanthemi
 def: "A bacterial biotic causal agent (PDO:0000016) that causes rice foot rot bacterial disease (PDO:0000020)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour, PDO:saisree_uppala]
-synonym: "Dickeya chrysanthemi (Burkholder et al. 1953) Samson et al. 2005" RELATED [NCBI_Taxonomy_ID:556]
+synonym: "Dickeya chrysanthemi (Burkholder et al. 1953) Samson et al. 2005" RELATED [NCBITaxon:556]
 synonym: "Erwinia chrysanthemi Burkholder et al. " RELATED [APS:Plant_Diseases]
 xref: EOL:972724
-xref: NCBI_Taxonomy_ID:556
+xref: NCBITaxon:556
 xref: PSO_GIT:88
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent PDO:0000020 ! rice foot rot bacterial disease
@@ -240,11 +240,11 @@ creation_date: 2012-04-09T01:43:12Z
 id: PDO:0000022
 name: Burkholderia glumae
 def: "A bacterial biotic causal agent (PDO:0000016) that causes rice grain rot bacterial disease (PDO:0000023)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Burkholderia glumae (Kurita and Tabei 1967) Urakami et al. 1994 " NARROW [NCBI_Taxonomy_ID:337]
-synonym: "Pseudomonas glumae" RELATED [NCBI_Taxonomy_ID:337]
+synonym: "Burkholderia glumae (Kurita and Tabei 1967) Urakami et al. 1994 " NARROW [NCBITaxon:337]
+synonym: "Pseudomonas glumae" RELATED [NCBITaxon:337]
 synonym: "Pseudomonas glumae Kurita & Tabei" RELATED [APS:Plant_Diseases]
 xref: EOL:976773
-xref: NCBI_Taxonomy_ID:337
+xref: NCBITaxon:337
 xref: OBO_SF2_PSO:99
 xref: PSO_GIT:98
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -281,10 +281,10 @@ id: PDO:0000025
 name: Pseudomonas fuscovaginae
 def: "A Pseudomonas (PDO:0000094) species that causes rice sheath brown rot bacterial disease (PDO:0000024)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza_sativa_L
-synonym: "Pseudomonas fuscivaginae" RELATED [NCBI_Taxonomy_ID:50340]
-synonym: "Pseudomonas fuscovaginae (ex Tanii et al. 1976) Miyajima et al. 1983" NARROW [NCBI_Taxonomy_ID:50340]
+synonym: "Pseudomonas fuscivaginae" RELATED [NCBITaxon:50340]
+synonym: "Pseudomonas fuscovaginae (ex Tanii et al. 1976) Miyajima et al. 1983" NARROW [NCBITaxon:50340]
 xref: EOL:973020
-xref: NCBI_Taxonomy_ID:50340
+xref: NCBITaxon:50340
 xref: OBO_SF2_PSO:98
 xref: PSO_GIT:97
 is_a: PDO:0000094 ! Pseudomonas
@@ -319,11 +319,11 @@ id: PDO:0000028
 name: Ceratobasidium oryzae-sativae
 def: "A fungal species (PDO:0000069) that causes rice aggregate sheath spot fungal disease (PDO:0000027)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "Ceratobasidium oryzae-sativae Gunnell & Webster" NARROW [APS:Plant_Diseases]
-synonym: "Ceratobasidium sativae" RELATED telomorph [NCBI_Taxonomy_ID:63189]
-synonym: "Rhizoctonia oryzae-sativae " RELATED [NCBI_Taxonomy_ID:63189]
+synonym: "Ceratobasidium sativae" RELATED telomorph [NCBITaxon:63189]
+synonym: "Rhizoctonia oryzae-sativae " RELATED [NCBITaxon:63189]
 synonym: "Rhizoctonia oryzae-sativae (Sawada) Mordue) " RELATED anamorph [APS:Plant_DIseases]
 xref: EOL:18499121
-xref: NCBI_Taxonomy_ID:63189
+xref: NCBITaxon:63189
 xref: PSO_GIT:136
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000027 ! rice aggregate sheath spot fungal disease
@@ -350,7 +350,7 @@ def: "A fungal species (PDO:0000069) that causes rice black kernel (PDO:0000029)
 synonym: "Cochiobolus lunatus R.R. Nelson & Haasis " RELATED telomorph [APS:Plant_Diseases]
 synonym: "Curvularia lunata (Wakk.) Boedijn" NARROW [APS:Plant_DIseases]
 xref: EOL:11501463
-xref: NCBI_Taxonomy_ID:418123
+xref: NCBITaxon:418123
 xref: PSO_GIT:139
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000029 ! rice black kernel fungal disease
@@ -382,9 +382,9 @@ subset: Oryza_sativa_L
 synonym: "Magnaporthe grisea (Hebert) Barr" RELATED telomorph [APS:Plant_Diseases]
 synonym: "Magnaporthe oryzae B.C. Couch 2002" NARROW [EOL:1002512]
 synonym: "Pyricularia grisea Sacc." RELATED [APS:Plant_Diseases]
-synonym: "Pyricularia oryzae Cavara" RELATED [APS:Plant_Diseases, NCBI_Taxonomy_ID:318829]
+synonym: "Pyricularia oryzae Cavara" RELATED [APS:Plant_Diseases, NCBITaxon:318829]
 xref: EOL:1002512
-xref: NCBI_Taxonomy_ID:318829
+xref: NCBITaxon:318829
 xref: PSO_GIT:100
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000031 ! rice blast fungal disease
@@ -409,10 +409,10 @@ id: PDO:0000034
 name: Bipolaris oryzae
 def: "A fungal species (PDO:0000069) that causes rice brown spot (PDO:0000033), Cochliobolus miyabeanus pecky rice (PDO:0000078) and rice Cochliobolus miyabeanus seedling blight (PDO:0000084)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "Bipolaris oryzae (Breda de Haan) Shoemaker" RELATED anamorph [APS:Plant_Diseases]
-synonym: "Bipolaris oryzae (Breda de Haan) Shoemaker, 1959 " NARROW [NCBI_Taxonomy_ID:101162]
+synonym: "Bipolaris oryzae (Breda de Haan) Shoemaker, 1959 " NARROW [NCBITaxon:101162]
 synonym: "Cochliobolus miyabeanus (Ito & Kuribayashi) Drechs. ex Dastur" RELATED [APS:Plant_Diseases]
 xref: EOL:6752668
-xref: NCBI_Taxonomy_ID:101162
+xref: NCBITaxon:101162
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000033 ! rice brown spot fungal disease
 relationship: causal_agent PDO:0000078 ! Cochliobolus miyabeanus pecky rice
@@ -437,7 +437,7 @@ name: Gaeumannomyces graminis
 def: "A fungal species (PDO:0000069) that causes rice crown sheath rot (PDO:0000035)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Gaeumannomyces graminis (Sacc.) Thirumalachar et al." NARROW [APS:Plant_Diseases]
 xref: EOL:6640995
-xref: NCBI_Taxonomy_ID:29850
+xref: NCBITaxon:29850
 xref: PSO_GIT:148
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000035 ! rice crown sheath rot fungal disease
@@ -462,7 +462,7 @@ name: Sclerophthora macrospora
 def: "A fungal species (PDO:0000069) that causes downy mildew (PDO:0000037)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "Sclerophthora macrospora (Sacc.) Thirumalachar et al. " NARROW [APS:Plant_Diseases]
 xref: EOL:1009008
-xref: NCBI_Taxonomy_ID:467176
+xref: NCBITaxon:467176
 xref: PSO_GIT:144
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
@@ -487,7 +487,7 @@ name: Drechslera gigantea
 def: "A fungal species (PDO:0000069) that causes rice eyespot (PDO:0000039)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Drechslera gigantea (Heald & F.A. Wolf) Ito" NARROW [APS:Plant_Diseases]
 xref: EOL:1005334
-xref: NCBI_Taxonomy_ID:5028
+xref: NCBITaxon:5028
 xref: PSO_GIT:140
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000039 ! rice eyespot fungal disease
@@ -510,11 +510,11 @@ creation_date: 2012-04-09T02:47:43Z
 id: PDO:0000042
 name: Ustilaginoidea virens
 def: "A fungal species (PDO:0000069) that causes rice false smut (PDO:0000041)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PSO:Megan_Seymour]
-synonym: "Claviceps virens" RELATED [NCBI_Taxonomy_ID:1159556]
+synonym: "Claviceps virens" RELATED [NCBITaxon:1159556]
 synonym: "Ustilaginoidea virens (Cooke) Takah." NARROW [APS:Plant_Diseases]
-synonym: "Villosiclava virens" RELATED [NCBI_Taxonomy_ID:1159556]
+synonym: "Villosiclava virens" RELATED [NCBITaxon:1159556]
 xref: EOL:997966
-xref: NCBI_Taxonomy_ID:1159556
+xref: NCBITaxon:1159556
 xref: PSO_GIT:143
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000041 ! rice false smut fungal disease
@@ -538,11 +538,11 @@ creation_date: 2012-04-09T02:52:18Z
 id: PDO:0000044
 name: Tilletia barclayana
 def: "A fungal species (PDO:0000069) that causes rice kernel smut (PDO:0000043)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Neovossia barclayana" RELATED [NCBI_Taxonomy_ID:157178]
+synonym: "Neovossia barclayana" RELATED [NCBITaxon:157178]
 synonym: "Neovossia horrida (Takah.) Padwick & A. Khan  " RELATED [APS:Plant_Diseases]
 synonym: "Tilletia barclayana (Bref.) Sacc. & Syd. in Sacc." NARROW [APS:Plant_Diseases]
 xref: EOL:1029922
-xref: NCBI_Taxonomy_ID:157178
+xref: NCBITaxon:157178
 xref: PSO_GIT:138
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000043 ! rice kernel smut fungal disease
@@ -567,7 +567,7 @@ name: Entyloma oryzae
 def: "A fungal species (PDO:0000069) that causes rice leaf smut (PDO:0000045)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Entyloma oryzae Syd. & P. Syd." NARROW [APS:Plant_Diseases]
 xref: EOL:188781
-xref: NCBI_Taxonomy_ID:62636
+xref: NCBITaxon:62636
 xref: PSO_GIT:141
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000045 ! rice leaf smut fungal disease
@@ -594,7 +594,7 @@ def: "A fungal species (PDO:0000069) that causes rice leaf scald (PDO:0000047) a
 synonym: "Microdochium oryzae (Hashioka & Yokogi) Samuels & I.C. Hallett" NARROW [APS:Plant_Diseases]
 synonym: "Rhynchosporium oryzae Hashioka & Yokogi" RELATED [APS:Plant_Diseases]
 xref: EOL:1003765
-xref: NCBI_Taxonomy_ID:67608
+xref: NCBITaxon:67608
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000047 ! rice leaf scald fungal disease
 relationship: causal_agent PDO:0000079 ! Microdochium oryzae pecky rice
@@ -618,7 +618,7 @@ id: PDO:0000050
 name: Cercospora janseana
 def: "A fungal species (PDO:0000069) that causes rice narrow brown leaf spot fungal disease (PDO:0000049)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Cercospora janseana (Racib.) O. Const." NARROW []
-xref: NCBI_Taxonomy_ID:706553
+xref: NCBITaxon:706553
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000049 ! rice narrow brown leaf spot fungal disease
 created_by: moorel
@@ -643,9 +643,9 @@ name: Thanatephorus cucumeris
 def: "A fungal species (PDO:0000069) that causes rice sheath blight (PDO:0000051)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Rhizoctonia solani Kühn  " RELATED anamorph [APS:Plant_DIseases]
 synonym: "Thanatephorus cucumeris (A.B. Frank) Donk " NARROW [APS:Plant_Diseases]
-synonym: "Thanatephorus praticola " RELATED [NCBI_Taxonomy_ID:107832]
+synonym: "Thanatephorus praticola " RELATED [NCBITaxon:107832]
 xref: EOL:1008938
-xref: NCBI_Taxonomy_ID:107832
+xref: NCBITaxon:107832
 xref: PSO_GIT:142
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000051 ! rice sheath blight fungal disease
@@ -670,9 +670,9 @@ name: Xanthomonas vasicola
 def: "A Xanthomonas bacterial causal agent (PDO:0000095) that causes maize bacterial leaf spot disease (PDO:0000146)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 synonym: "Xanthomonas campestris pv. holcicola (Elliott) Dye" RELATED [APS:Plant_Diseases]
-synonym: "Xanthomonas vasicola Vauterin et al. 1995" NARROW [NCBI_Taxonomy_ID:56459]
+synonym: "Xanthomonas vasicola Vauterin et al. 1995" NARROW [NCBITaxon:56459]
 xref: EOL:973427
-xref: NCBI_Taxonomy_ID:56459
+xref: NCBITaxon:56459
 xref: OBO_SF2_PSO:72
 xref: PSO_GIT:71
 is_a: PDO:0000095 ! Xanthomonas
@@ -698,7 +698,7 @@ name: Rhizoctonia oryzae
 def: "A fungal species (PDO:0000069) that causes rice sheath spot (PDO:0000055)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Rhizoctonia oryzae Ryker & Gooch" NARROW [APS:Plant_Diseases]
 xref: EOL:11446349
-xref: NCBI_Taxonomy_ID:459364
+xref: NCBITaxon:459364
 xref: PSO_GIT:145
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000055 ! rice sheath spot fungal disease
@@ -722,9 +722,9 @@ creation_date: 2012-04-12T10:49:10Z
 id: PDO:0000058
 name: Alternaria padwickii
 def: "A fungal species (PDO:0000069) that causes rice stackburn (alternaria leaf spot) (PDO:0000057)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
-synonym: "Alternaria padwickii (Ganguly) M.B. Ellis 1971" NARROW [NCBI_Taxonomy_ID:714880]
+synonym: "Alternaria padwickii (Ganguly) M.B. Ellis 1971" NARROW [NCBITaxon:714880]
 xref: EOL:1005087
-xref: NCBI_Taxonomy_ID:714880
+xref: NCBITaxon:714880
 xref: PSO_GIT:137
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000057 ! rice stackburn fungal disease
@@ -749,10 +749,10 @@ name: Nakataea oryzae
 def: "A fungal species (PDO:0000069) that causes rice stem rot (PDO:0000059)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: " Nakataea sigmoidae (Cavara) K. Hara " RELATED synanamorph [APS:Plant_Diseases]
 synonym: "Magnaporthe salvinii (Cattaneo) R. Krause & Webster" RELATED [APS:Plant_Diseases]
-synonym: "Nakataea oryzae (Catt.) J. Luo & N. Zhang, 2013" NARROW [NCBI_Taxonomy_ID:165778]
+synonym: "Nakataea oryzae (Catt.) J. Luo & N. Zhang, 2013" NARROW [NCBITaxon:165778]
 synonym: "Sclerotium oryzae Cattaneo" RELATED synanamorph [APS:Plant_Diseases]
 xref: EOL:42754629
-xref: NCBI_Taxonomy_ID:165778
+xref: NCBITaxon:165778
 xref: PSO_GIT:147
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000059 ! rice stem rot fungal disease
@@ -778,7 +778,7 @@ subset: Triticum_aestivum
 synonym: "Pseudomonas syringae " EXACT []
 synonym: "Pseudomonas syringae subsp. syringae van Hall 1902 " NARROW [APS:Plant_Diseases]
 synonym: "Pseudomonas syringae van Hall 1902" RELATED []
-xref: NCBI_Taxonomy_ID:317
+xref: NCBITaxon:317
 xref: OBO_SF2_PSO:81
 xref: PSO_GIT:80
 is_a: PDO:0000094 ! Pseudomonas
@@ -802,7 +802,7 @@ creation_date: 2012-04-13T02:04:43Z
 id: PDO:0000064
 name: Pythium spp.
 def: "A fungal spp. (PDO:0000070) that is more than one Pythium species." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBI_Taxonomy_ID:4797
+xref: NCBITaxon:4797
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000063 ! rice root rot fungal disease
 created_by: moorel
@@ -823,7 +823,7 @@ name: Pythium dissotocum
 def: "A fungal species (PDO:0000069) that causes rice Pythium dissotocum root rot (PDO:0000065)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 comment: Pythium is an oomycete.  This species causes Pythium root rot in Oryza sativa.
 synonym: "Pythium dissotocum Drechs" NARROW []
-xref: NCBI_Taxonomy_ID:82936
+xref: NCBITaxon:82936
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000065 ! rice Pythium dissotocum root rot
 relationship: part_of PDO:0000064 ! Pythium spp.
@@ -877,7 +877,7 @@ name: Pythium spinosum
 def: "A fungal species (PDO:0000069) that causes rice Pythium spinosum root rot (PDO:0000073)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 subset: Oryza_sativa_L
 synonym: "Pythium spinosum Sawada" NARROW []
-xref: NCBI_Taxonomy_ID:82948
+xref: NCBITaxon:82948
 is_a: PDO:0000069 ! fungal species
 relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
@@ -898,7 +898,7 @@ id: PDO:0000074
 name: Curvularia spp.
 def: "A Curvularia fungal spp. (PDO:0000070) that is more than one Curvularia species and causes Curvularia pecky rice (PDO:0000075) and rice Curvularia seedling blight (PDO:0000085)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 xref: EOL:16319
-xref: NCBI_Taxonomy_ID:5502
+xref: NCBITaxon:5502
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000075 ! Curvularia pecky rice
 relationship: causal_agent PDO:0000085 ! rice curvularia seedling blight
@@ -910,7 +910,7 @@ id: PDO:0000075
 name: Curvularia pecky rice
 def: "A pecky rice (PDO:0000092) caused by Curvularia spp. (PDO:0000074)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "kernel spotting" RELATED []
-xref: NCBI_Taxonomy_ID:5502
+xref: NCBITaxon:5502
 is_a: PDO:0000090 ! fungal pecky rice
 created_by: moorel
 creation_date: 2012-04-27T13:41:18Z
@@ -920,7 +920,7 @@ id: PDO:0000076
 name: Fusarium spp.
 def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium species and causes rice Fusarium root rot (PDO:0000080), Fusarium pecky rice (PDO:0000077) and rice Fusarium seedling blight (PDO:0000086)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 xref: EOL:16364
-xref: NCBI_Taxonomy_ID:5506
+xref: NCBITaxon:5506
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000077 ! Fusarium pecky rice
 relationship: causal_agent PDO:0000086 ! rice fusarium seedling blight
@@ -941,7 +941,7 @@ id: PDO:0000078
 name: Cochliobolus miyabeanus pecky rice
 def: "A pecky rice (PDO:0000092) caused by Cochliobolus miyabeanus." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "kernel spotting" RELATED []
-xref: NCBI_Taxonomy_ID:101162
+xref: NCBITaxon:101162
 is_a: PDO:0000090 ! fungal pecky rice
 created_by: moorel
 creation_date: 2012-04-27T13:48:26Z
@@ -951,7 +951,7 @@ id: PDO:0000079
 name: Microdochium oryzae pecky rice
 def: "A pecky rice (PDO:0000092) caused by Microdochium oryzae." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "kernel spotting" RELATED []
-xref: NCBI_Taxonomy_ID:67608
+xref: NCBITaxon:67608
 is_a: PDO:0000090 ! fungal pecky rice
 created_by: moorel
 creation_date: 2012-04-27T13:50:51Z
@@ -985,7 +985,7 @@ id: PDO:0000082
 name: Sarocladium oryzae pecky rice
 def: "A pecky rice (PDO:0000092) caused by Sarocladium oryzae (PDO:0000083)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "kernel spotting" RELATED []
-xref: NCBI_Taxonomy_ID:284135
+xref: NCBITaxon:284135
 is_a: PDO:0000090 ! fungal pecky rice
 created_by: moorel
 creation_date: 2012-04-27T14:05:28Z
@@ -998,7 +998,7 @@ comment: A fungal species that causes Sarocladium oryzae pecky rice (PDO:0000082
 synonym: "Acrocylindrium oryzae Sawada" RELATED [APS:Plant_Diseases]
 synonym: "Sarocladium oryzae (Sawada) W. Gams & D. Hawksworth" NARROW [APS:Plant_Diseases]
 xref: EOL:1013725
-xref: NCBI_Taxonomy_ID:284135
+xref: NCBITaxon:284135
 xref: PSO_GIT:146
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000082 ! Sarocladium oryzae pecky rice
@@ -1009,7 +1009,7 @@ creation_date: 2012-04-27T14:07:05Z
 id: PDO:0000084
 name: rice cochliobolus miyabeanus seedling blight
 def: "A rice seedling blight (PDO:0000093) caused by Cochliobolus miyabeanus (PDO:0000034)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBI_Taxonomy_ID:101162
+xref: NCBITaxon:101162
 is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:11:12Z
@@ -1018,7 +1018,7 @@ creation_date: 2012-04-27T14:11:12Z
 id: PDO:0000085
 name: rice curvularia seedling blight
 def: "A rice seedling blight (PDO:0000093) caused by Curvularia spp. (PDO:0000074)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBI_Taxonomy_ID:5502
+xref: NCBITaxon:5502
 is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:15:08Z
@@ -1027,7 +1027,7 @@ creation_date: 2012-04-27T14:15:08Z
 id: PDO:0000086
 name: rice fusarium seedling blight
 def: "A rice seedling blight (PDO:0000093) caused by Fusarium spp. (PDO:0000076)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBI_Taxonomy_ID:5506
+xref: NCBITaxon:5506
 is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:17:44Z
@@ -1036,7 +1036,7 @@ creation_date: 2012-04-27T14:17:44Z
 id: PDO:0000087
 name: rice rhizoctonia solani seedling blight
 def: "A rice seedling blight (PDO:0000092) caused by Rhizoctonia solani (PDO:0000088)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBI_Taxonomy_ID:456999
+xref: NCBITaxon:456999
 is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:21:31Z
@@ -1046,7 +1046,7 @@ id: PDO:0000088
 name: Rhizoctonia solani
 def: "A fungal species (PDO:0000069) that causes rice Rhizoctonia solani seedling blight (PDO:0000087) and Rhizoctonia root rot and stalk rot." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Rhizoctonia solani Kühn" NARROW []
-xref: NCBI_Taxonomy_ID:456999
+xref: NCBITaxon:456999
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000087 ! rice rhizoctonia solani seedling blight
 created_by: moorel
@@ -1077,11 +1077,11 @@ creation_date: 2012-05-14T14:45:43Z
 id: PDO:0000091
 name: Enterobacter cloacae subsp. dissolvens
 def: "A bacteria (PDO:0000016) genus that causes maize bacterial stalk rot disease (PDO:0000147)." [PDO:cooperl, PDO:megan_seymour]
-synonym: "Enterobacter cloacae subsp. dissolvens (Rosen 1922) Hoffmann et al. 2005" NARROW [NCBI_Taxonomy_ID:69219]
+synonym: "Enterobacter cloacae subsp. dissolvens (Rosen 1922) Hoffmann et al. 2005" NARROW [NCBITaxon:69219]
 synonym: "Enterobacter dissolvens (Rosen) Brenner et al." RELATED [APS:Plant_Diseases]
 synonym: "Erwinia dissolvens (Rosen) Burkholder" RELATED [APS:Plant_Diseases]
 xref: EOL:1268764
-xref: NCBI_Taxonomy_ID:69219
+xref: NCBITaxon:69219
 xref: OBO_SF2_PSO:73
 xref: PSO_GIT:72
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -1118,7 +1118,7 @@ creation_date: 2012-05-16T13:46:51Z
 id: PDO:0000094
 name: Pseudomonas
 def: "A bacteria (PDO:0000016) genus of Gram-negative aerobic gammaproteobacteria." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBI_Taxonomy_ID:286
+xref: NCBITaxon:286
 is_a: PDO:0000016 ! bacterial biotic causal agent
 created_by: moorel
 creation_date: 2013-01-11T13:43:05Z
@@ -1127,7 +1127,7 @@ creation_date: 2013-01-11T13:43:05Z
 id: PDO:0000095
 name: Xanthomonas
 def: "A bacteria (PDO:0000016) genus of Protobacteria that may cause plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBI_Taxonomy_ID:338
+xref: NCBITaxon:338
 is_a: PDO:0000016 ! bacterial biotic causal agent
 created_by: moorel
 creation_date: 2013-01-11T14:02:08Z
@@ -1137,7 +1137,7 @@ id: PDO:0000096
 name: Poaceae
 def: "A host plant (PDO:0000071) family of monocotyledonous flowering plants." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Gramineae" NARROW []
-xref: NCBI_Taxonomy_ID:4479
+xref: NCBITaxon:4479
 is_a: PDO:0000071 ! host plant
 created_by: moorel
 creation_date: 2013-01-16T13:14:15Z
@@ -1146,7 +1146,7 @@ creation_date: 2013-01-16T13:14:15Z
 id: PDO:0000097
 name: Oryza
 def: "A Poaceae (PDO:0000096) genus of seven to twenty species of grasses." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBI_Taxonomy_ID:4527
+xref: NCBITaxon:4527
 is_a: PDO:0000096 ! Poaceae
 created_by: moorel
 creation_date: 2013-01-16T13:18:18Z
@@ -1156,7 +1156,7 @@ id: PDO:0000098
 name: Oryza sativa
 def: "An Oryza (PDO:0000097) species commonly known as Asian rice." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Oryza_sativa_L." NARROW []
-xref: NCBI_Taxonomy_ID:4530
+xref: NCBITaxon:4530
 is_a: PDO:0000097 ! Oryza
 created_by: moorel
 creation_date: 2013-01-16T13:21:33Z
@@ -1166,7 +1166,7 @@ id: PDO:0000099
 name: Triticum
 def: "A Poaceae (PDO:0000096) genus of cereal grains." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Triticum spp. L." NARROW []
-xref: NCBI_Taxonomy_ID:4564
+xref: NCBITaxon:4564
 is_a: PDO:0000096 ! Poaceae
 created_by: moorel
 creation_date: 2013-01-16T13:25:35Z
@@ -1175,7 +1175,7 @@ creation_date: 2013-01-16T13:25:35Z
 id: PDO:0000100
 name: Zea
 def: "A Poaceae (PDO:000096) genus of grasses commonly known as teosintes." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBI_Taxonomy_ID:4575
+xref: NCBITaxon:4575
 is_a: PDO:0000096 ! Poaceae
 created_by: moorel
 creation_date: 2013-01-16T13:29:53Z
@@ -1185,7 +1185,7 @@ id: PDO:0000101
 name: Zea_mays
 def: "A Zea (PDO:0000100) species commonly known as corn or maize." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Zea_mays L." NARROW []
-xref: NCBI_Taxonomy_ID:4577
+xref: NCBITaxon:4577
 is_a: PDO:0000100 ! Zea
 created_by: moorel
 creation_date: 2013-01-16T13:32:37Z
@@ -1194,7 +1194,7 @@ creation_date: 2013-01-16T13:32:37Z
 id: PDO:0000102
 name: Hordeum
 def: "A Poaceae (PDO:0000096) genus of annual and perennial grasses commonly known as barleys." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBI_Taxonomy_ID:4512
+xref: NCBITaxon:4512
 is_a: PDO:0000096 ! Poaceae
 created_by: moorel
 creation_date: 2013-01-16T13:36:12Z
@@ -1204,7 +1204,7 @@ id: PDO:0000103
 name: Hordeum vulgare
 def: "A Hordeum (PDO:0000102) species commonly known as barley." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Hordeum vulgare L." NARROW []
-xref: NCBI_Taxonomy_ID:4513
+xref: NCBITaxon:4513
 is_a: PDO:0000102 ! Hordeum
 created_by: moorel
 creation_date: 2013-01-16T13:40:26Z
@@ -1214,7 +1214,7 @@ id: PDO:0000104
 name: Achlya conspicua
 def: "A fungal species (PDO:0000069) which causes plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Achlya conspicua Coker" NARROW []
-xref: NCBI_Taxonomy_ID:112027
+xref: NCBITaxon:112027
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-17T13:04:11Z
@@ -1224,7 +1224,7 @@ id: PDO:0000105
 name: Achlya klebsiana
 def: "A fungal species (PDO:0000069) which causes plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Achlya klebsiana Pieters" NARROW []
-xref: NCBI_Taxonomy_ID:4767
+xref: NCBITaxon:4767
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-17T13:13:00Z
@@ -1234,7 +1234,7 @@ id: PDO:0000106
 name: Colletotrichum graminicola
 def: "A fungal species (PDO:0000069) that causes Anthracnose leaf blight and anthracnose stalk rot." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Glomerella graminicola" NARROW []
-xref: NCBI_Taxonomy_ID:31870
+xref: NCBITaxon:31870
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-17T14:38:50Z
@@ -1255,7 +1255,7 @@ name: Pythium arrhenomanes
 def: "A fungal species (PDO:0000069) that causes Pythium root rot (PDO:0000063)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 comment: Pythium is an oomycete.  This species causes Pythium root rot  in Zea_mays\nHordeum vulgare, and Triticum spp.
 synonym: "Pythium arrhenomanes Drechs. " NARROW []
-xref: NCBI_Taxonomy_ID:82932
+xref: NCBITaxon:82932
 is_a: PDO:0000069 ! fungal species
 relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
@@ -1267,7 +1267,7 @@ name: Pythium graminicola
 def: "A fungal species (PDO:0000069) which causes Pythium root rot (PDO:0000063)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 comment: Pythium is an oomycete.  This species causes Pythium root rot  in Zea_mays\nHordeum vulgare, and Triticum spp.
 synonym: "Pythium graminicola Subramanian" NARROW []
-xref: NCBI_Taxonomy_ID:82937
+xref: NCBITaxon:82937
 is_a: PDO:0000069 ! fungal species
 relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
@@ -1278,7 +1278,7 @@ id: PDO:0000110
 name: Typhula idahoensis
 def: "A fungal species (PDO:0000110) that causes speckled snow mold." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Typhula idahoensis Remsberg" NARROW []
-xref: NCBI_Taxonomy_ID:107961
+xref: NCBITaxon:107961
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-17T15:11:41Z
@@ -1289,7 +1289,7 @@ name: Pythium iwayamai
 def: "A fungal species (PDO:0000111) which causes snow rot." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 comment: Pythium is an oomycete.  This species causes snow rot in Hordeum vulgare and Triticum.
 synonym: "Pythium iwayamai Ito" NARROW []
-xref: NCBI_Taxonomy_ID:115417
+xref: NCBITaxon:115417
 is_a: PDO:0000069 ! fungal species
 relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
@@ -1301,7 +1301,7 @@ name: Pythium okanoganense
 def: "A fungal species (PDO:0000069) which causes snow rot." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 comment: Pythium is an oomycete.  This species causes snow rot in Hordeum vulgare and Triticum.
 synonym: "Pythium okanoganense Lipps " NARROW []
-xref: NCBI_Taxonomy_ID:182683
+xref: NCBITaxon:182683
 is_a: PDO:0000069 ! fungal species
 relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
@@ -1312,7 +1312,7 @@ id: PDO:0000113
 name: Myriosclerotinia borealis
 def: "A fungal species (PDO:0000069) which causes snow scald." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Myriosclerotinia borealis (Bubak & Vleugel) L. M. Kohn" NARROW []
-xref: NCBI_Taxonomy_ID:77105
+xref: NCBITaxon:77105
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-17T15:32:41Z
@@ -1322,7 +1322,7 @@ id: PDO:0000114
 name: Sclerotium rolfsii
 def: "A fungal species (PDO:0000069) which causes southern blight." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Sclerotium rolfsii Sacc." NARROW []
-xref: NCBI_Taxonomy_ID:39291
+xref: NCBITaxon:39291
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-17T15:36:17Z
@@ -1332,7 +1332,7 @@ id: PDO:0000115
 name: Pyrenophora tritici-repentis
 def: "A fungal species (PDO:0000069) which causes tan spot." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Pyrenophora tritici-repentis (Died.) Drechs." NARROW []
-xref: NCBI_Taxonomy_ID:45151
+xref: NCBITaxon:45151
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-17T15:39:13Z
@@ -1344,7 +1344,7 @@ def: "A Triticum (PDO:0000099) species commonly known as bread wheat." [PDO:Laur
 subset: Triticum_aestivum
 synonym: "Triticum vulgare" RELATED []
 synonym: "Triticum_aestivum subsp. aestivum" EXACT []
-xref: NCBI_Taxonomy_ID:4565
+xref: NCBITaxon:4565
 is_a: PDO:0000099 ! Triticum
 created_by: moorel
 creation_date: 2013-01-18T13:22:31Z
@@ -1354,7 +1354,7 @@ id: PDO:0000117
 name: Alternaria triticina
 def: "A fungal species (PDO:0000069) which causes alternaria leaf blight of Triticum_aestivum (PDO:0000116)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Alternaria triticina Prasada & Prabhu" NARROW []
-xref: NCBI_Taxonomy_ID:216836
+xref: NCBITaxon:216836
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-18T13:24:30Z
@@ -1364,7 +1364,7 @@ id: PDO:0000118
 name: Microdochium bolleyi
 def: "A fungal species (PDO:0000069) which causes aureobasidium decay in Triticum_aestivum (PDO:0000116)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Microdochium bolleyi (R. Sprague) DeHoog & Hermanides-Nijhof" NARROW []
-xref: NCBI_Taxonomy_ID:196109
+xref: NCBITaxon:196109
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2013-01-18T13:30:45Z
@@ -1605,7 +1605,7 @@ id: PDO:0000141
 name: phytoplasma causal agent
 def: "A bacterial biotic causal agent (PDO:0000016) that is a phytoplasma." [PDO:cooperl]
 comment: Phytoplasmas are specialised bacteria that are obligate parasites of plant phloem tissue and transmitting insects (vectors). They were discovered by scientists in 1967 and were named mycoplasma-like organisms or MLOs (Doi, et al 1967). They cannot be cultured in vitro in cell-free media. They are characterised by their lack of a cell wall, a pleiomorphic or filamentous shape, normally with a diameter less than 1 μm, and their very small genomes (Source: http://eol.org/data_objects/31853082).
-synonym: "Candidatus Phytoplasma" EXACT [NCBI_Taxonomy_ID:33926]
+synonym: "Candidatus Phytoplasma" EXACT [NCBITaxon:33926]
 synonym: "Candidatus Phytoplasma Firrao et al. 2004" NARROW []
 synonym: "mycoplasma-like organism (MLO)" EXACT []
 synonym: "plant yellows agent" RELATED [EOL:97837]
@@ -1791,10 +1791,10 @@ creation_date: 2014-05-17T13:43:13Z
 id: PDO:0000157
 name: Burkholderia andropogonis
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial stripe disease (PDO:0000149)." [PDO:cooperl, PDO:megan_seymour]
-synonym: "Burkholderia andropogonis (Smith 1911) Gillis et al. 1995" NARROW [NCBI_Taxonomy_ID:28092]
+synonym: "Burkholderia andropogonis (Smith 1911) Gillis et al. 1995" NARROW [NCBITaxon:28092]
 synonym: "Pseudomonas andropogonis (Smith) Stapp" RELATED [APS:Plant_Diseases]
 xref: EOL:976724
-xref: NCBI_Taxonomy_ID:28092
+xref: NCBITaxon:28092
 xref: OBO_SF2_PSO:76
 xref: PSO_GIT:75
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -1809,7 +1809,7 @@ def: "A Pseudomonas syringae (PDO:0000062) that causes maize holcus spot bacteri
 subset: Zea_mays
 synonym: "Pseudomonas syringae pv. syringae van Hall" RELATED [APS:Plant_Diseases]
 xref: EOL:1268797
-xref: NCBI_Taxonomy_ID:321
+xref: NCBITaxon:321
 xref: OBO_SF2_PSO:77
 xref: PSO_GIT:76
 is_a: PDO:0000062 ! Pseudomonas syringae subsp. syringae
@@ -1821,10 +1821,10 @@ creation_date: 2015-05-14T13:22:39Z
 id: PDO:0000159
 name: Clavibacter michiganensis subsp. nebraskensis
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Goss's bacterial wilt and blight disease (PDO:0000151)." [APS:Plant_Diseases, PDO:cooperl, PDO:megan_seymour]
-synonym: "Clavibacter michiganensis subsp. nebraskensis corrig. (Vidaver and Mandel 1974) Davis et al. 1984 (NCBI)" NARROW [NCBI_Taxonomy_ID:31963]
+synonym: "Clavibacter michiganensis subsp. nebraskensis corrig. (Vidaver and Mandel 1974) Davis et al. 1984 (NCBI)" NARROW [NCBITaxon:31963]
 synonym: "Corynebacterium michiganense pv. nebraskense (Schuster et al.) Dye & Kemp" RELATED [APS:Plant_Diseases]
 xref: EOL:1268657
-xref: NCBI_Taxonomy_ID:31963
+xref: NCBITaxon:31963
 xref: OBO_SF2_PSO:79
 xref: PSO_GIT:78
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -1838,7 +1838,7 @@ name: Pseudomonas coronafaciens pv. coronafaciens
 def: "A Pseudomonas (PDO:0000094) species that causes maize chocolate spot bacterial disease (PDO:0000150)." [PDO:megan_seymour]
 synonym: "Pseudomonas syringae pv. coronafaciens (Elliott) Young et al.  " NARROW [APS:Plant_Diseases]
 xref: EOL:32399817
-xref: NCBI_Taxonomy_ID:235275
+xref: NCBITaxon:235275
 xref: OBO_SF2_PSO:83
 xref: PSO_GIT:82
 is_a: PDO:0000094 ! Pseudomonas
@@ -1851,10 +1851,10 @@ id: PDO:0000161
 name: Pantoea stewartii subsp. stewartii
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize Stewart's bacterial disease (PDO:0000155)." [PDO:cooperl, PDO:megan_seymour]
 synonym: "Erwinia stewartii (Smith) Dye" NARROW [APS:Plant_Diseases]
-synonym: "Pantoea stewartii subsp. stewartii DC283" NARROW [NCBI_Taxonomy_ID:660596]
+synonym: "Pantoea stewartii subsp. stewartii DC283" NARROW [NCBITaxon:660596]
 synonym: "Pantoea stewartii subsp. stewartii SS104" NARROW [PHIbase:xxx]
 xref: EOL:1268776
-xref: NCBI_Taxonomy_ID:66271
+xref: NCBITaxon:66271
 xref: OBO_SF2_PSO:85
 xref: PSO_GIT:84
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -1866,9 +1866,9 @@ creation_date: 2015-05-15T14:54:30Z
 id: PDO:0000162
 name: Spiroplasma kunkelii
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize stunt bacterial disease (PDO:0000156)." [APS:Plant_Diseases, PDO:cooperl, PDO:megan_seymour]
-synonym: "Spiroplasma kunkelii Whitcomb et al. 1986" NARROW [NCBI_Taxonomy_ID:47834]
+synonym: "Spiroplasma kunkelii Whitcomb et al. 1986" NARROW [NCBITaxon:47834]
 xref: EOL:977408
-xref: NCBI_Taxonomy_ID:47834
+xref: NCBITaxon:47834
 xref: OBO_SF2_PSO:88
 xref: PSO_GIT:87
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -1883,9 +1883,9 @@ def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial 
 subset: Zea_mays
 synonym: "Erwinia carotovora subsp. carotovora (Jones) Bergey et al." RELATED [APS:Plant_Diseases]
 synonym: "Erwinia chrysanthemi pv. zeae (Sabet) Victoria et al." RELATED [APS:Plant_Diseases]
-synonym: "Pectobacterium carotovorum subsp. carotovorum (Jones 1901) Hauben &al. 1999 emend. Gardan &al. 2003" RELATED [NCBI_Taxonomy_ID:555]
+synonym: "Pectobacterium carotovorum subsp. carotovorum (Jones 1901) Hauben &al. 1999 emend. Gardan &al. 2003" RELATED [NCBITaxon:555]
 xref: EOL:1268774
-xref: NCBI_Taxonomy_ID:555
+xref: NCBITaxon:555
 xref: OBO_SF2_PSO:90
 xref: PSO_GIT:89
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -1898,9 +1898,9 @@ id: PDO:0000164
 name: Bacillus subtilis
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize seed rot and seedling blight bacterial disease (PDO:0000154)." [APS:Plant_Diseases, PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
-synonym: "Bacillus subtilis (Ehrenberg 1835) Cohn 1872 " NARROW [NCBI_Taxonomy_ID:1423]
+synonym: "Bacillus subtilis (Ehrenberg 1835) Cohn 1872 " NARROW [NCBITaxon:1423]
 xref: EOL:2912748
-xref: NCBI_Taxonomy_ID:1423
+xref: NCBITaxon:1423
 xref: OBO_SF2_PSO:93
 xref: PSO_GIT:92
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -1915,7 +1915,7 @@ def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial 
 subset: Zea_mays
 synonym: "Pseudomonas avenae subsp. avenae Manns" RELATED [APS:Plant_Disease]
 xref: EOL:6376997
-xref: NCBI_Taxonomy_ID:80867
+xref: NCBITaxon:80867
 xref: OBO_SF2_PSO:95
 xref: PSO_GIT:94
 is_a: PDO:0000016 ! bacterial biotic causal agent
@@ -1929,7 +1929,7 @@ name: Burkholderia glumae AU6208
 def: "A Burkholderia glumae (PDO:0000022) strain that causes rice bacterial panicle blight (PDO:0000167)." [PDO:cooperl, PHI-base:xyz]
 synonym: "Burkholderia glumae str. AU6208 " EXACT []
 synonym: "Burkholderia glumae strain AU6208" EXACT []
-xref: NCBI_Taxonomy_ID:1176514
+xref: NCBITaxon:1176514
 xref: OBO_SF2_PSO:100
 xref: PSO_GIT:99
 is_a: PDO:0000022 ! Burkholderia glumae
@@ -1965,9 +1965,9 @@ name: Fusarium fujikuroi
 def: "A fungal species (PDO:0000069) that causes rice bakanae fungal disease (PDO:0000168)." [PDO:cooperl, PDO:megan_seymour, PMID:25115968]
 subset: Oryza_sativa_L
 synonym: "Fusarium fujikuroi Nirenberg 1976 " NARROW [EOL:192530]
-synonym: "Gibberella fujikuroi " RELATED [NCBI_Taxonomy_ID:5127]
+synonym: "Gibberella fujikuroi " RELATED [NCBITaxon:5127]
 xref: EOL:192530
-xref: NCBI_Taxonomy_ID:5127
+xref: NCBITaxon:5127
 xref: OBO_SF2_PSO:102
 xref: PSO_GIT:101
 is_a: PDO:0000069 ! fungal species
@@ -1989,12 +1989,12 @@ creation_date: 2015-05-29T15:16:33Z
 id: PDO:0000171
 name: Candidatus phytoplasma oryzae
 def: "A phytoplasma causal agent (PDO:0000141) that causes rice yellow dwarf phytoplasma disease  (PDO:0000129)." [PDO:cooperl]
-synonym: " Rice yellow dwarf phytoplasma" RELATED [NCBI_Taxonomy_ID:203274]
-synonym: "Candidatus Phytoplasma oryzae Jung et al. 2003" NARROW [NCBI_Taxonomy_ID:203274]
-synonym: "Phytoplasma oryzae" RELATED [NCBI_Taxonomy_ID:203274]
+synonym: " Rice yellow dwarf phytoplasma" RELATED [NCBITaxon:203274]
+synonym: "Candidatus Phytoplasma oryzae Jung et al. 2003" NARROW [NCBITaxon:203274]
+synonym: "Phytoplasma oryzae" RELATED [NCBITaxon:203274]
 synonym: "Phytoplasma oryzae Jung et al. 2003" RELATED [EOL:1002599]
 xref: EOL:1002599
-xref: NCBI_Taxonomy_ID:203274
+xref: NCBITaxon:203274
 is_a: PDO:0000141 ! phytoplasma causal agent
 relationship: causal_agent PDO:0000129 ! rice yellow dwarf phytoplasma disease
 created_by: cooperl
@@ -2005,7 +2005,7 @@ id: PDO:0000172
 name: maize bushy stunt phytoplasma
 def: "A phytoplasma causal agent (PDO:0000141) that causes maize bushy stunt phytoplasma disease (PDO:0000173)." [PDO:cooperl]
 xref: EOL:11810019
-xref: NCBI_Taxonomy_ID:202462
+xref: NCBITaxon:202462
 is_a: PDO:0000141 ! phytoplasma causal agent
 relationship: causal_agent PDO:0000173 ! maize bushy stunt phytoplasma disease
 created_by: cooperl
@@ -2036,7 +2036,7 @@ name: Cercospora zeae-maydis
 def: "A fungal species (PDO:0000069) that causes maize gray leaf spot fungal disease (PDO:0000174)." [PDO:cooperl]
 synonym: "Cercospora zeae-maydis SCOH1-5 " NARROW [PHI-base:xxx]
 synonym: "Cercospora zeae-maydis Tehon & E.Y. Daniels" NARROW []
-xref: NCBI_Taxonomy_ID:135779
+xref: NCBITaxon:135779
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000174 ! maize gray leaf spot fungal disease
 created_by: cooperl
