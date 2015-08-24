@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 19:08:2015 15:10
-saved-by: seymoume
+date: 24:08:2015 12:54
+saved-by: meiera
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
 subsetdef: Oryza_sativa_L "Terms used for rice"
@@ -1611,7 +1611,6 @@ synonym: "mycoplasma-like organism (MLO)" EXACT []
 synonym: "plant yellows agent" RELATED [EOL:97837]
 xref: EOL:97837
 is_a: PDO:0000016 ! bacterial biotic causal agent
-relationship: causal_agent PDO:0000170 ! rice phytoplasma disease
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
 
@@ -1982,6 +1981,7 @@ name: rice phytoplasma disease
 def: "A rice phytoplasma disease (PDO:0000170) caused by a caused by phytoplasma oryzae (PDO:00001xx)." [PDO:cooeprl]
 xref: OBO_SF2_PSO:xxx
 is_a: PDO:0000003 ! rice bacterial disease
+relationship: has_causal_agent PDO:0000141 ! phytoplasma causal agent
 created_by: cooperl
 creation_date: 2015-05-29T15:16:33Z
 
@@ -2410,6 +2410,10 @@ creation_date: 2015-07-17T15:41:31Z
 [Typedef]
 id: causal_agent
 name: causal agent of
+
+[Typedef]
+id: has_causal_agent
+name: has causal agent
 
 [Typedef]
 id: isa_primary_host
