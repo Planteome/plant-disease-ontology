@@ -2007,7 +2007,7 @@ def: "A phytoplasma causal agent (PDO:0000141) that causes maize bushy stunt phy
 xref: EOL:11810019
 xref: NCBI_Taxonomy_ID:202462
 is_a: PDO:0000141 ! phytoplasma causal agent
-relationship: causal_agent_of PDO:0000173 ! maize bushy stunt phytoplasma disease
+relationship: causal_agent PDO:0000173 ! maize bushy stunt phytoplasma disease
 created_by: cooperl
 creation_date: 2015-05-29T16:32:06Z
 
