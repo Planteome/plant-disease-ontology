@@ -10,9 +10,9 @@
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pdo.owl">
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24:08:2015 12:54</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28:08:2015 18:11</oboInOwl:date>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
-        <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meiera</oboInOwl:saved-by>
+        <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:saved-by>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:default-namespace>
     </owl:Ontology>
     
@@ -239,6 +239,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
@@ -262,23 +270,32 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pdo#causal_agent -->
+    <!-- http://purl.obolibrary.org/obo/PSO_GIT_151 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/pdo#causal_agent">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">causal agent of</rdfs:label>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">causal_agent</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pdo#has_causal_agent -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/pdo#has_causal_agent">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PSO_GIT_151">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">causal agent in</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has causal agent</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a material entity and a process where the material entity has some causal role that influences the process.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of &apos;causal agent in</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO_GIT:151</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">causal_agent</oboInOwl:shorthand>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">causal_agent</oboInOwl:id>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_causal_agent</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_causal_agent</oboInOwl:shorthand>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a material entity and a process where the material entity has some causal role that influences the process.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002500</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of &apos;causal agent in</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002608</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
+    </owl:Axiom>
     
 
 
@@ -686,7 +703,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000095"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -704,12 +721,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas oryzae pv. oryzae (Ishiyama) Swings et al.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000017"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Xanthomonas (PDO:0000095) species that causes rice bacterial blight disease (PDO:0000014).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
@@ -717,6 +728,12 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:saisree_uppala</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000017"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas oryzae pv. oryzae (Ishiyama) Swings et al.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000017"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
@@ -734,7 +751,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000095"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -758,6 +775,12 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:129394</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas campestris pv. oryzicola</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000018"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Xanthomonas (PDO:0000095) species that causes rice bacterial leaf streak disease (PDO:0000018).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
@@ -765,12 +788,6 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:saisree_uppala</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000018"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:129394</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas campestris pv. oryzicola</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000018"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -836,7 +853,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -852,6 +869,12 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erwinia chrysanthemi Burkholder et al. </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000021"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacterial biotic causal agent (PDO:0000016) that causes rice foot rot bacterial disease (PDO:0000020).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
@@ -866,12 +889,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000021"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erwinia chrysanthemi Burkholder et al. </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000021"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
     
 
 
@@ -882,7 +899,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -900,20 +917,8 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia glumae (Kurita and Tabei 1967) Urakami et al. 1994 </owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:337</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000022"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:337</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas glumae</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000022"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas glumae Kurita &amp; Tabei</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000022"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -923,6 +928,18 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000022"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas glumae Kurita &amp; Tabei</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000022"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia glumae (Kurita and Tabei 1967) Urakami et al. 1994 </owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:337</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000022"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     
 
@@ -987,7 +1004,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1086,7 +1103,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1103,12 +1120,6 @@
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceratobasidium oryzae-sativae Gunnell &amp; Webster</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000028"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceratobasidium sativae</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:63189</oboInOwl:hasDbXref>
@@ -1130,6 +1141,12 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Megan_Seymour</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000028"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceratobasidium oryzae-sativae Gunnell &amp; Webster</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000028"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:63189</oboInOwl:hasDbXref>
@@ -1175,14 +1192,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000074"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000029"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000074"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-04-09T02:19:53Z</oboInOwl:creation_date>
@@ -1197,17 +1214,17 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_DIseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curvularia lunata (Wakk.) Boedijn</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000030"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cochiobolus lunatus R.R. Nelson &amp; Haasis </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000030"/>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pdo#telomorph"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_DIseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curvularia lunata (Wakk.) Boedijn</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000030"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice black kernel (PDO:0000029).</owl:annotatedTarget>
@@ -1258,7 +1275,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1278,9 +1295,9 @@
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:318829</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyricularia oryzae Cavara</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnaporthe grisea (Hebert) Barr</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000032"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pdo#telomorph"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1305,9 +1322,9 @@
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnaporthe grisea (Hebert) Barr</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:318829</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyricularia oryzae Cavara</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000032"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pdo#telomorph"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
@@ -1318,9 +1335,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDO_0000033">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice brown spot fungal disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-04-09T02:27:33Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice fungal disease (PDO:0000081) caused by Bipolaris oryzae (PDO:0000034).</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_PSO:25</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:0000033</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO_GIT:24</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brown spot</oboInOwl:hasExactSynonym>
@@ -1347,42 +1369,23 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDO_0000034">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolaris oryzae</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000078"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000084"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000033"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-04-09T02:28:59Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice brown spot (PDO:0000033), Cochliobolus miyabeanus pecky rice (PDO:0000078) and rice Cochliobolus miyabeanus seedling blight (PDO:0000084).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice brown spot fungal disease (PDO:0000033), Bipolaris oryzae fungal pecky rice (PDO:0000078), and rice Bipolaris oryzae seedling blight (PDO:0000084).</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolaris oryzae (Breda de Haan) Shoemaker</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolaris oryzae (Breda de Haan) Shoemaker, 1959 </oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cochliobolus miyabeanus (Ito &amp; Kuribayashi) Drechs. ex Dastur</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EOL:6752668</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:101162</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:0000034</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO_GIT:157</oboInOwl:hasDbXref>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice brown spot (PDO:0000033), Cochliobolus miyabeanus pecky rice (PDO:0000078) and rice Cochliobolus miyabeanus seedling blight (PDO:0000084).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Megan_Seymour</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cochliobolus miyabeanus (Ito &amp; Kuribayashi) Drechs. ex Dastur</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000034"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolaris oryzae (Breda de Haan) Shoemaker, 1959 </owl:annotatedTarget>
@@ -1398,10 +1401,12 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cochliobolus miyabeanus (Ito &amp; Kuribayashi) Drechs. ex Dastur</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice brown spot fungal disease (PDO:0000033), Bipolaris oryzae fungal pecky rice (PDO:0000078), and rice Bipolaris oryzae seedling blight (PDO:0000084).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Megan_Seymour</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000034"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -1439,7 +1444,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1454,17 +1459,17 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaeumannomyces graminis (Sacc.) Thirumalachar et al.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000036"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice crown sheath rot (PDO:0000035).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000036"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaeumannomyces graminis (Sacc.) Thirumalachar et al.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000036"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     
 
@@ -1563,7 +1568,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1627,7 +1632,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1644,22 +1649,16 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ustilaginoidea virens (Cooke) Takah.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000042"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Claviceps virens</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1159556</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000042"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1159556</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Villosiclava virens</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ustilaginoidea virens (Cooke) Takah.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000042"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice false smut (PDO:0000041).</owl:annotatedTarget>
@@ -1668,6 +1667,12 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO:Megan_Seymour</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000042"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1159556</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Villosiclava virens</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000042"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -1707,7 +1712,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000043"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1731,6 +1736,12 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000044"/>
     </owl:Axiom>
     <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tilletia barclayana (Bref.) Sacc. &amp; Syd. in Sacc.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000044"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:157178</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neovossia barclayana</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000044"/>
@@ -1741,12 +1752,6 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neovossia horrida (Takah.) Padwick &amp; A. Khan  </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000044"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tilletia barclayana (Bref.) Sacc. &amp; Syd. in Sacc.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000044"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     
 
@@ -1785,7 +1790,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1850,13 +1855,13 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000079"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1871,17 +1876,17 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhynchosporium oryzae Hashioka &amp; Yokogi</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000048"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice leaf scald (PDO:0000047) and Microdochium oryzae pecky rice (PDO:0000079).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000048"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhynchosporium oryzae Hashioka &amp; Yokogi</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000048"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
@@ -1926,7 +1931,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1983,7 +1988,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2000,17 +2005,17 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_DIseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizoctonia solani Kühn  </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000052"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pdo#anamorph"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:107832</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thanatephorus praticola </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000052"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice sheath blight (PDO:0000051).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000052"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
@@ -2019,11 +2024,11 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_DIseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizoctonia solani Kühn  </owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice sheath blight (PDO:0000051).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000052"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pdo#anamorph"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -2062,7 +2067,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000095"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000146"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2080,12 +2085,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pdo#Zea_mays"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas campestris pv. holcicola (Elliott) Dye</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000054"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Xanthomonas bacterial causal agent (PDO:0000095) that causes maize bacterial leaf spot disease (PDO:0000146).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
@@ -2097,6 +2096,12 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas vasicola Vauterin et al. 1995</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000054"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas campestris pv. holcicola (Elliott) Dye</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000054"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -2135,7 +2140,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2150,17 +2155,17 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizoctonia oryzae Ryker &amp; Gooch</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000056"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice sheath spot (PDO:0000055).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000056"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizoctonia oryzae Ryker &amp; Gooch</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000056"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     
 
@@ -2200,7 +2205,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000057"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2215,18 +2220,18 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternaria padwickii (Ganguly) M.B. Ellis 1971</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:714880</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000058"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice stackburn (alternaria leaf spot) (PDO:0000057).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Megan_Seymour</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000058"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternaria padwickii (Ganguly) M.B. Ellis 1971</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:714880</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000058"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     
 
@@ -2266,7 +2271,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2284,24 +2289,25 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice stem rot (PDO:0000059).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Megan_Seymour</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Nakataea sigmoidae (Cavara) K. Hara </owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000060"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:165778</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakataea oryzae (Catt.) J. Luo &amp; N. Zhang, 2013</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000060"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pdo#synanamorph"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnaporthe salvinii (Cattaneo) R. Krause &amp; Webster</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000060"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal species (PDO:0000069) that causes rice stem rot (PDO:0000059).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Megan_Seymour</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000060"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
@@ -2311,11 +2317,10 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Nakataea sigmoidae (Cavara) K. Hara </owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:165778</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakataea oryzae (Catt.) J. Luo &amp; N. Zhang, 2013</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000060"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pdo#synanamorph"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     
 
@@ -2351,7 +2356,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000061"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2420,7 +2425,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000070"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2470,7 +2475,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000065"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2643,7 +2648,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000063"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000072"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2671,13 +2676,13 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000070"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000085"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000075"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2729,14 +2734,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000070"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000077"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000086"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000086"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-04-27T13:43:12Z</oboInOwl:creation_date>
@@ -2782,18 +2787,24 @@
     <!-- http://purl.obolibrary.org/obo/PDO_0000078 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDO_0000078">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cochliobolus miyabeanus pecky rice</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolaris oryzae fungal pecky rice</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-04-27T13:48:26Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pecky rice (PDO:0000092) caused by Cochliobolus miyabeanus.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:101162</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal pecky rice (PDO:0000090) caused by Bipolaris oryzae (PDO:0000034).</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:0000078</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO_GIT:155</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kernel spotting</oboInOwl:hasRelatedSynonym>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pecky rice (PDO:0000092) caused by Cochliobolus miyabeanus.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal pecky rice (PDO:0000090) caused by Bipolaris oryzae (PDO:0000034).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -2861,8 +2872,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000004"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-03-12T14:04:34Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal plant disease (PDO:0000004) that affects rice (Oryza_sativa_L.; PDO:0000098).</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_PSO:1</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:0000081</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO_GIT:1</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uppalas</oboInOwl:created_by>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L"/>
@@ -2907,7 +2918,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000082"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2925,6 +2936,12 @@
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarocladium oryzae (Sawada) W. Gams &amp; D. Hawksworth</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000083"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acrocylindrium oryzae Sawada</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000083"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -2936,29 +2953,29 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000083"/>
     </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarocladium oryzae (Sawada) W. Gams &amp; D. Hawksworth</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000083"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PDO_0000084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDO_0000084">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice cochliobolus miyabeanus seedling blight</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Bipolaris oryzae seedling blight fungal disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000093"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-04-27T14:11:12Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice seedling blight (PDO:0000093) caused by Cochliobolus miyabeanus (PDO:0000034).</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:101162</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice seedling blight fungal disease (PDO:0000093) caused by Bipolaris oryzae (PDO:0000034).</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:0000084</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO_GIT:156</oboInOwl:hasDbXref>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice seedling blight (PDO:0000093) caused by Cochliobolus miyabeanus (PDO:0000034).</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice seedling blight fungal disease (PDO:0000093) caused by Bipolaris oryzae (PDO:0000034).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -2996,7 +3013,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000093"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-04-27T14:17:44Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice seedling blight (PDO:0000093) caused by Fusarium spp. (PDO:0000076).</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:5506</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:0000086</oboInOwl:id>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
@@ -3018,7 +3034,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000093"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-04-27T14:21:31Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice seedling blight (PDO:0000092) caused by Rhizoctonia solani (PDO:0000088).</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:456999</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:0000087</oboInOwl:id>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
@@ -3040,7 +3055,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000087"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3089,9 +3104,8 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungal pecky rice</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000081"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-05-14T14:45:43Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice fungal disease (PDO:0000081) caused by one or more of Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Microdochium oryzae (PDO:0000048), and Sarocladium oryzae (PDO:0000083).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice fungal disease (PDO:0000081) caused by one or more of Bipolaris oryzae (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Microdochium oryzae (PDO:0000048), and Sarocladium oryzae (PDO:0000083).</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fungal pecky rice results in rice kernels that has brown spots.</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_PSO:30</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:0000090</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO_GIT:29</oboInOwl:hasDbXref>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
@@ -3100,7 +3114,7 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice fungal disease (PDO:0000081) caused by one or more of Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Microdochium oryzae (PDO:0000048), and Sarocladium oryzae (PDO:0000083).</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice fungal disease (PDO:0000081) caused by one or more of Bipolaris oryzae (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Microdochium oryzae (PDO:0000048), and Sarocladium oryzae (PDO:0000083).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
@@ -3118,7 +3132,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000147"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3136,17 +3150,17 @@
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planteome</oboInOwl:created_by>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterobacter cloacae subsp. dissolvens (Rosen 1922) Hoffmann et al. 2005</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:69219</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000091"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria (PDO:0000016) genus that causes maize bacterial stalk rot disease (PDO:0000147).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000091"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterobacter cloacae subsp. dissolvens (Rosen 1922) Hoffmann et al. 2005</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:69219</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000091"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
@@ -3197,9 +3211,9 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice seedling blight fungal disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000081"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-05-16T13:46:51Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice fungal disease (PDO:0000081) caused by one or more of Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Rhizoctonia solani (PDO:0000088), Sclerotium rolfsii (PDO:0000114), or other pathogenic fungi.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_PSO:14</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice fungal disease (PDO:0000081) caused by one or more of Bipolaris oryzae (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Rhizoctonia solani (PDO:0000088), Sclerotium rolfsii (PDO:0000114), or other pathogenic fungi.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:0000093</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSO_GIT:14</oboInOwl:hasDbXref>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice seedling blight</oboInOwl:hasExactSynonym>
@@ -3207,7 +3221,7 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice fungal disease (PDO:0000081) caused by one or more of Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Rhizoctonia solani (PDO:0000088), Sclerotium rolfsii (PDO:0000114), or other pathogenic fungi.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice fungal disease (PDO:0000081) caused by one or more of Bipolaris oryzae (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Rhizoctonia solani (PDO:0000088), Sclerotium rolfsii (PDO:0000114), or other pathogenic fungi.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laura_Moore</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:Laurel_Cooper</oboInOwl:hasDbXref>
@@ -4072,17 +4086,17 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice yellow dwarf</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice yellow dwarf</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000129"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rice viral disease (PDO:0000007) caused by mycoplasma like organism (PDO:0000141).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:saisree_uppala</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000129"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice yellow dwarf</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000129"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     
 
@@ -4365,16 +4379,16 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacterial biotic causal agent (PDO:0000016) that is a phytoplasma.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000141"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candidatus Phytoplasma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:33926</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000141"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacterial biotic causal agent (PDO:0000016) that is a phytoplasma.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000141"/>
     </owl:Axiom>
     
 
@@ -4608,17 +4622,17 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pdo#Zea_mays"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize leaf freckles</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000151"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize bacterial disease (PDO:0000011) that is caused by Clavibacter michiganensis subsp. nebraskensis (PDO:0000159).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000151"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize leaf freckles</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000151"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -4677,16 +4691,16 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pdo#Zea_mays"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize bacterial disease (PDO:0000011) that is caused by Bacillus subtilis (PDO:0000164).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000154"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seed rot-seedling blight </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000154"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize bacterial disease (PDO:0000011) that is caused by Bacillus subtilis (PDO:0000164).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000154"/>
     </owl:Axiom>
     
 
@@ -4716,10 +4730,11 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize bacterial wilt</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize bacterial disease (PDO:0000011) that is caused by Pantoea stewartii subsp. stewartii (PDO:0000161).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000155"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
@@ -4728,11 +4743,10 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize bacterial disease (PDO:0000011) that is caused by Pantoea stewartii subsp. stewartii (PDO:0000161).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize bacterial wilt</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000155"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -4758,13 +4772,13 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rio Grande maize stunt</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corn stunt </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000156"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achapparramiento</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize stunt</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000156"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -4777,19 +4791,19 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize stunt</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000156"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corn stunt </owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rio Grande maize stunt</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000156"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesa Central maize stunt </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000156"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achapparramiento</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000156"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -4803,7 +4817,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000149"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4820,16 +4834,16 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planteome</oboInOwl:created_by>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia andropogonis (Smith 1911) Gillis et al. 1995</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28092</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000157"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas andropogonis (Smith) Stapp</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000157"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia andropogonis (Smith 1911) Gillis et al. 1995</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28092</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000157"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial stripe disease (PDO:0000149).</owl:annotatedTarget>
@@ -4848,7 +4862,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000062"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000152"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4865,17 +4879,17 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pdo#Zea_mays"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas syringae pv. syringae van Hall</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000158"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pseudomonas syringae (PDO:0000062) that causes maize holcus spot bacterial disease (PDO:0000152).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000158"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas syringae pv. syringae van Hall</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000158"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -4887,7 +4901,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000151"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4904,12 +4918,6 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planteome</oboInOwl:created_by>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corynebacterium michiganense pv. nebraskense (Schuster et al.) Dye &amp; Kemp</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000159"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clavibacter michiganensis subsp. nebraskensis corrig. (Vidaver and Mandel 1974) Davis et al. 1984 (NCBI)</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:31963</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000159"/>
@@ -4923,6 +4931,12 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000159"/>
     </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corynebacterium michiganense pv. nebraskense (Schuster et al.) Dye &amp; Kemp</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000159"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
     
 
 
@@ -4933,7 +4947,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000150"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4949,16 +4963,16 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planteome</oboInOwl:created_by>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas syringae pv. coronafaciens (Elliott) Young et al.  </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000160"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pseudomonas (PDO:0000094) species that causes maize chocolate spot bacterial disease (PDO:0000150).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000160"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas syringae pv. coronafaciens (Elliott) Young et al.  </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000160"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     
 
@@ -4970,7 +4984,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000155"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4988,18 +5002,6 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planteome</oboInOwl:created_by>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:660596</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pantoea stewartii subsp. stewartii DC283</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000161"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIbase:xxx</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pantoea stewartii subsp. stewartii SS104</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000161"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacterial biotic causal agent (PDO:0000016) that causes maize Stewart&apos;s bacterial disease (PDO:0000155).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
@@ -5009,6 +5011,18 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erwinia stewartii (Smith) Dye</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000161"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:660596</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pantoea stewartii subsp. stewartii DC283</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000161"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIbase:xxx</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pantoea stewartii subsp. stewartii SS104</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000161"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
@@ -5022,7 +5036,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000156"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5038,18 +5052,18 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planteome</oboInOwl:created_by>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:47834</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spiroplasma kunkelii Whitcomb et al. 1986</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000162"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacterial biotic causal agent (PDO:0000016) that causes maize stunt bacterial disease (PDO:0000156).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000162"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:47834</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spiroplasma kunkelii Whitcomb et al. 1986</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000162"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     
 
@@ -5061,7 +5075,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5080,20 +5094,14 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pdo#Zea_mays"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:555</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pectobacterium carotovorum subsp. carotovorum (Jones 1901) Hauben &amp;al. 1999 emend. Gardan &amp;al. 2003</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000163"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erwinia chrysanthemi pv. zeae (Sabet) Victoria et al.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000163"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erwinia carotovora subsp. carotovora (Jones) Bergey et al.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:555</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pectobacterium carotovorum subsp. carotovorum (Jones 1901) Hauben &amp;al. 1999 emend. Gardan &amp;al. 2003</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000163"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -5103,6 +5111,12 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000163"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:Plant_Diseases</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erwinia carotovora subsp. carotovora (Jones) Bergey et al.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000163"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -5114,7 +5128,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000154"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5154,7 +5168,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000145"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5193,7 +5207,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000022"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5273,7 +5287,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000168"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5320,7 +5334,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#has_causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000141"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5347,7 +5361,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000141"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000129"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5364,14 +5378,14 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candidatus Phytoplasma oryzae Jung et al. 2003</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:203274</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phytoplasma causal agent (PDO:0000141) that causes rice yellow dwarf phytoplasma disease  (PDO:0000129).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000171"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Rice yellow dwarf phytoplasma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:203274</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phytoplasma oryzae</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000171"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -5382,14 +5396,14 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phytoplasma causal agent (PDO:0000141) that causes rice yellow dwarf phytoplasma disease  (PDO:0000129).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:cooperl</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candidatus Phytoplasma oryzae Jung et al. 2003</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:203274</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000171"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Rice yellow dwarf phytoplasma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:203274</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phytoplasma oryzae</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000171"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -5403,7 +5417,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000141"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000173"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5474,7 +5488,7 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pdo#causal_agent"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PSO_GIT_151"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PDO_0000174"/>
             </owl:Restriction>
         </rdfs:subClassOf>
