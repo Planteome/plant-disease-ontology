@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 24:08:2015 12:54
-saved-by: meiera
+date: 28:08:2015 18:11
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
 subsetdef: Oryza_sativa_L "Terms used for rice"
@@ -398,25 +398,23 @@ def: "A rice fungal disease (PDO:0000081) caused by Bipolaris oryzae (PDO:000003
 subset: Oryza_sativa_L
 synonym: "brown spot" EXACT []
 synonym: "rice brown spot" EXACT []
-xref: OBO_SF2_PSO:25
 xref: PSO_GIT:24
 is_a: PDO:0000081 ! rice fungal disease
+relationship: has_causal_agent PDO:0000034 ! Bipolaris oryzae
 created_by: moorel
 creation_date: 2012-04-09T02:27:33Z
 
 [Term]
 id: PDO:0000034
 name: Bipolaris oryzae
-def: "A fungal species (PDO:0000069) that causes rice brown spot (PDO:0000033), Cochliobolus miyabeanus pecky rice (PDO:0000078) and rice Cochliobolus miyabeanus seedling blight (PDO:0000084)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
+def: "A fungal species (PDO:0000069) that causes rice brown spot fungal disease (PDO:0000033), Bipolaris oryzae fungal pecky rice (PDO:0000078), and rice Bipolaris oryzae seedling blight (PDO:0000084)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "Bipolaris oryzae (Breda de Haan) Shoemaker" RELATED anamorph [APS:Plant_Diseases]
 synonym: "Bipolaris oryzae (Breda de Haan) Shoemaker, 1959 " NARROW [NCBITaxon:101162]
 synonym: "Cochliobolus miyabeanus (Ito & Kuribayashi) Drechs. ex Dastur" RELATED [APS:Plant_Diseases]
 xref: EOL:6752668
 xref: NCBITaxon:101162
+xref: PSO_GIT:157
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000033 ! rice brown spot fungal disease
-relationship: causal_agent PDO:0000078 ! Cochliobolus miyabeanus pecky rice
-relationship: causal_agent PDO:0000084 ! rice cochliobolus miyabeanus seedling blight
 created_by: moorel
 creation_date: 2012-04-09T02:28:59Z
 
@@ -938,11 +936,12 @@ creation_date: 2012-04-27T13:44:52Z
 
 [Term]
 id: PDO:0000078
-name: Cochliobolus miyabeanus pecky rice
-def: "A pecky rice (PDO:0000092) caused by Cochliobolus miyabeanus." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+name: Bipolaris oryzae fungal pecky rice
+def: "A fungal pecky rice (PDO:0000090) caused by Bipolaris oryzae (PDO:0000034)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "kernel spotting" RELATED []
-xref: NCBITaxon:101162
+xref: PSO_GIT:155
 is_a: PDO:0000090 ! fungal pecky rice
+relationship: has_causal_agent PDO:0000034 ! Bipolaris oryzae
 created_by: moorel
 creation_date: 2012-04-27T13:48:26Z
 
@@ -975,7 +974,7 @@ id: PDO:0000081
 name: rice fungal disease
 def: "A fungal plant disease (PDO:0000004) that affects rice (Oryza_sativa_L.; PDO:0000098)." [APS:Plant_Diseases, PDO:saisree_uppala]
 subset: Oryza_sativa_L
-xref: OBO_SF2_PSO:1
+xref: PSO_GIT:1
 is_a: PDO:0000004 ! plant fungal disease
 created_by: uppalas
 creation_date: 2014-03-12T14:04:34Z
@@ -1007,10 +1006,11 @@ creation_date: 2012-04-27T14:07:05Z
 
 [Term]
 id: PDO:0000084
-name: rice cochliobolus miyabeanus seedling blight
-def: "A rice seedling blight (PDO:0000093) caused by Cochliobolus miyabeanus (PDO:0000034)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBITaxon:101162
+name: Rice Bipolaris oryzae seedling blight fungal disease
+def: "A rice seedling blight fungal disease (PDO:0000093) caused by Bipolaris oryzae (PDO:0000034)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+xref: PSO_GIT:156
 is_a: PDO:0000093 ! rice seedling blight fungal disease
+relationship: has_causal_agent PDO:0000034 ! Bipolaris oryzae
 created_by: moorel
 creation_date: 2012-04-27T14:11:12Z
 
@@ -1027,7 +1027,6 @@ creation_date: 2012-04-27T14:15:08Z
 id: PDO:0000086
 name: rice fusarium seedling blight
 def: "A rice seedling blight (PDO:0000093) caused by Fusarium spp. (PDO:0000076)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBITaxon:5506
 is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:17:44Z
@@ -1036,7 +1035,6 @@ creation_date: 2012-04-27T14:17:44Z
 id: PDO:0000087
 name: rice rhizoctonia solani seedling blight
 def: "A rice seedling blight (PDO:0000092) caused by Rhizoctonia solani (PDO:0000088)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBITaxon:456999
 is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:21:31Z
@@ -1063,11 +1061,10 @@ creation_date: 2012-04-27T14:26:03Z
 [Term]
 id: PDO:0000090
 name: fungal pecky rice
-def: "A rice fungal disease (PDO:0000081) caused by one or more of Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Microdochium oryzae (PDO:0000048), and Sarocladium oryzae (PDO:0000083)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by one or more of Bipolaris oryzae (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Microdochium oryzae (PDO:0000048), and Sarocladium oryzae (PDO:0000083)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 comment: Fungal pecky rice results in rice kernels that has brown spots.
 subset: Oryza_sativa_L
 synonym: "pecky rice" BROAD []
-xref: OBO_SF2_PSO:30
 xref: PSO_GIT:29
 is_a: PDO:0000081 ! rice fungal disease
 created_by: cooperl
@@ -1105,11 +1102,11 @@ creation_date: 2012-05-16T13:14:55Z
 [Term]
 id: PDO:0000093
 name: rice seedling blight fungal disease
-def: "A rice fungal disease (PDO:0000081) caused by one or more of Cochliobolus miyabeanus (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Rhizoctonia solani (PDO:0000088), Sclerotium rolfsii (PDO:0000114), or other pathogenic fungi." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by one or more of Bipolaris oryzae (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Rhizoctonia solani (PDO:0000088), Sclerotium rolfsii (PDO:0000114), or other pathogenic fungi." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza_sativa_L
 synonym: "rice seedling blight" EXACT []
 synonym: "seedling blight" EXACT []
-xref: OBO_SF2_PSO:14
+xref: PSO_GIT:14
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-05-16T13:46:51Z
@@ -2410,11 +2407,15 @@ creation_date: 2015-07-17T15:41:31Z
 
 [Typedef]
 id: causal_agent
-name: causal agent of
+name: causal agent in
+def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process." [RO:0002500]
+xref: PSO_GIT:151
 
 [Typedef]
 id: has_causal_agent
 name: has causal agent
+def: "Inverse of 'causal agent in" [RO:0002608]
+xref: PSO_GIT:151
 
 [Typedef]
 id: isa_primary_host
