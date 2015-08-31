@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 28:08:2015 18:11
-saved-by: cooperl
+date: 31:08:2015 12:59
+saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
 subsetdef: Oryza_sativa_L "Terms used for rice"
@@ -588,14 +588,14 @@ creation_date: 2012-04-09T03:01:46Z
 [Term]
 id: PDO:0000048
 name: Microdochium oryzae
-def: "A fungal species (PDO:0000069) that causes rice leaf scald (PDO:0000047) and Microdochium oryzae pecky rice (PDO:0000079)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal species (PDO:0000069) that causes rice leaf scald (PDO:0000047) and Microdochium oryzae pecky rice fungal disease (PDO:0000079)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "Microdochium oryzae (Hashioka & Yokogi) Samuels & I.C. Hallett" NARROW [APS:Plant_Diseases]
 synonym: "Rhynchosporium oryzae Hashioka & Yokogi" RELATED [APS:Plant_Diseases]
 xref: EOL:1003765
 xref: NCBITaxon:67608
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000047 ! rice leaf scald fungal disease
-relationship: causal_agent PDO:0000079 ! Microdochium oryzae pecky rice
+relationship: causal_agent PDO:0000079 ! Microdochium oryzae pecky rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T03:04:07Z
 
@@ -894,43 +894,44 @@ creation_date: 2012-04-27T13:37:47Z
 [Term]
 id: PDO:0000074
 name: Curvularia spp.
-def: "A Curvularia fungal spp. (PDO:0000070) that is more than one Curvularia species and causes Curvularia pecky rice (PDO:0000075) and rice Curvularia seedling blight (PDO:0000085)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A Curvularia fungal spp. (PDO:0000070) that is more than one Curvularia species and causes Curvularia pecky rice fungal disease (PDO:0000075) and rice Curvularia seedling blight (PDO:0000085)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PSO:Megan_Seymour]
 xref: EOL:16319
 xref: NCBITaxon:5502
 is_a: PDO:0000070 ! fungal spp.
-relationship: causal_agent PDO:0000075 ! Curvularia pecky rice
+relationship: causal_agent PDO:0000075 ! Curvularia pecky rice fungal disease
 relationship: causal_agent PDO:0000085 ! rice curvularia seedling blight
 created_by: moorel
 creation_date: 2012-04-27T13:39:46Z
 
 [Term]
 id: PDO:0000075
-name: Curvularia pecky rice
-def: "A pecky rice (PDO:0000092) caused by Curvularia spp. (PDO:0000074)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+name: Curvularia pecky rice fungal disease
+def: "A pecky rice fungal disease (PDO:0000090) caused by Curvularia spp. (PDO:0000074)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "kernel spotting" RELATED []
-xref: NCBITaxon:5502
-is_a: PDO:0000090 ! fungal pecky rice
+xref: PSO_GIT:158
+is_a: PDO:0000090 ! pecky rice fungal disease
 created_by: moorel
 creation_date: 2012-04-27T13:41:18Z
 
 [Term]
 id: PDO:0000076
 name: Fusarium spp.
-def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium species and causes rice Fusarium root rot (PDO:0000080), Fusarium pecky rice (PDO:0000077) and rice Fusarium seedling blight (PDO:0000086)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium species and causes rice Fusarium root rot (PDO:0000080), Fusarium pecky rice fungal disease (PDO:0000077) and rice Fusarium seedling blight (PDO:0000086)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_seymour]
 xref: EOL:16364
 xref: NCBITaxon:5506
 is_a: PDO:0000070 ! fungal spp.
-relationship: causal_agent PDO:0000077 ! Fusarium pecky rice
+relationship: causal_agent PDO:0000077 ! Fusarium pecky rice fungal disease
 relationship: causal_agent PDO:0000086 ! rice fusarium seedling blight
 created_by: moorel
 creation_date: 2012-04-27T13:43:12Z
 
 [Term]
 id: PDO:0000077
-name: Fusarium pecky rice
-def: "A rice fungal disease (PDO:0000006) caused by Fusarium spp. (PDO:0000076)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+name: Fusarium pecky rice fungal disease
+def: "A pecky rice fungal disease (PDO:0000090) caused by Fusarium spp. (PDO:0000076)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "kernel spotting" RELATED []
-is_a: PDO:0000090 ! fungal pecky rice
+xref: PSO_GIT:159
+is_a: PDO:0000090 ! pecky rice fungal disease
 created_by: moorel
 creation_date: 2012-04-27T13:44:52Z
 
@@ -940,18 +941,18 @@ name: Bipolaris oryzae fungal pecky rice
 def: "A fungal pecky rice (PDO:0000090) caused by Bipolaris oryzae (PDO:0000034)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "kernel spotting" RELATED []
 xref: PSO_GIT:155
-is_a: PDO:0000090 ! fungal pecky rice
+is_a: PDO:0000090 ! pecky rice fungal disease
 relationship: has_causal_agent PDO:0000034 ! Bipolaris oryzae
 created_by: moorel
 creation_date: 2012-04-27T13:48:26Z
 
 [Term]
 id: PDO:0000079
-name: Microdochium oryzae pecky rice
-def: "A pecky rice (PDO:0000092) caused by Microdochium oryzae." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+name: Microdochium oryzae pecky rice fungal disease
+def: "A pecky rice fungal disease (PDO:0000090) caused by Microdochium oryzae (PDO:0000048)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "kernel spotting" RELATED []
-xref: NCBITaxon:67608
-is_a: PDO:0000090 ! fungal pecky rice
+xref: PSO_GIT:160
+is_a: PDO:0000090 ! pecky rice fungal disease
 created_by: moorel
 creation_date: 2012-04-27T13:50:51Z
 
@@ -981,11 +982,11 @@ creation_date: 2014-03-12T14:04:34Z
 
 [Term]
 id: PDO:0000082
-name: Sarocladium oryzae pecky rice
-def: "A pecky rice (PDO:0000092) caused by Sarocladium oryzae (PDO:0000083)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+name: Sarocladium oryzae pecky rice fungal disease
+def: "A pecky rice fungal disease (PDO:0000090) caused by Sarocladium oryzae (PDO:0000083)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PSO:Megan_Seymour]
 synonym: "kernel spotting" RELATED []
-xref: NCBITaxon:284135
-is_a: PDO:0000090 ! fungal pecky rice
+xref: PSO_GIT:161
+is_a: PDO:0000090 ! pecky rice fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:05:28Z
 
@@ -1000,7 +1001,7 @@ xref: EOL:1013725
 xref: NCBITaxon:284135
 xref: PSO_GIT:146
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000082 ! Sarocladium oryzae pecky rice
+relationship: causal_agent PDO:0000082 ! Sarocladium oryzae pecky rice fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:07:05Z
 
@@ -1060,7 +1061,7 @@ creation_date: 2012-04-27T14:26:03Z
 
 [Term]
 id: PDO:0000090
-name: fungal pecky rice
+name: pecky rice fungal disease
 def: "A rice fungal disease (PDO:0000081) caused by one or more of Bipolaris oryzae (PDO:0000034), Curvularia spp. (PDO:0000074), Fusarium spp. (PDO:0000076), Microdochium oryzae (PDO:0000048), and Sarocladium oryzae (PDO:0000083)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 comment: Fungal pecky rice results in rice kernels that has brown spots.
 subset: Oryza_sativa_L
