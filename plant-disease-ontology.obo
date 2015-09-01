@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:08:2015 12:59
+date: 01:09:2015 11:56
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -565,7 +565,7 @@ name: Entyloma oryzae
 def: "A fungal species (PDO:0000069) that causes rice leaf smut (PDO:0000045)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "Entyloma oryzae Syd. & P. Syd." NARROW [APS:Plant_Diseases]
 xref: EOL:188781
-xref: NCBITaxon:62636
+xref: NCBITaxon:62636 "genus"
 xref: PSO_GIT:141
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000045 ! rice leaf smut fungal disease
