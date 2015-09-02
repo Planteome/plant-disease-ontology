@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:09:2015 15:24
+date: 02:09:2015 16:52
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -408,7 +408,7 @@ creation_date: 2012-04-09T02:27:33Z
 [Term]
 id: PDO:0000034
 name: Bipolaris oryzae
-def: "A fungal species (PDO:0000069) that causes rice brown spot fungal disease (PDO:0000033), Bipolaris oryzae fungal pecky rice (PDO:0000078), and rice Bipolaris oryzae seedling blight (PDO:0000084)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
+def: "A fungal species (PDO:0000069) that causes rice brown spot fungal disease (PDO:0000033), Bipolaris oryzae fungal pecky rice (PDO:0000078), and rice Bipolaris oryzae seedling blight fungal disease (PDO:0000084)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "Bipolaris oryzae (Breda de Haan) Shoemaker" RELATED anamorph [APS:Plant_Diseases]
 synonym: "Bipolaris oryzae (Breda de Haan) Shoemaker, 1959 " NARROW [NCBITaxon:101162]
 synonym: "Cochliobolus miyabeanus (Ito & Kuribayashi) Drechs. ex Dastur" RELATED [APS:Plant_Diseases]
@@ -485,10 +485,10 @@ creation_date: 2012-04-09T02:43:16Z
 [Term]
 id: PDO:0000040
 name: Drechslera gigantea
-def: "A fungal species (PDO:0000069) that causes rice eyespot (PDO:0000039)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal species (PDO:0000069) that causes rice eyespot fungal disease (PDO:0000039)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 synonym: "Drechslera gigantea (Heald & F.A. Wolf) Ito" NARROW [APS:Plant_Diseases]
 xref: EOL:1005334
-xref: NCBITaxon:5028
+xref: NCBITaxon:33198 "genus"
 xref: PSO_GIT:140
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000039 ! rice eyespot fungal disease
@@ -568,7 +568,7 @@ creation_date: 2012-04-09T02:56:24Z
 [Term]
 id: PDO:0000046
 name: Entyloma oryzae
-def: "A fungal species (PDO:0000069) that causes rice leaf smut (PDO:0000045)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal species (PDO:0000069) that causes rice leaf smut fungal disease (PDO:0000045)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 synonym: "Entyloma oryzae Syd. & P. Syd." NARROW [APS:Plant_Diseases]
 xref: EOL:188781
 xref: NCBITaxon:62636 "genus"
@@ -907,12 +907,12 @@ creation_date: 2012-04-27T13:37:47Z
 [Term]
 id: PDO:0000074
 name: Curvularia spp.
-def: "A Curvularia fungal spp. (PDO:0000070) that is more than one Curvularia species and causes Curvularia pecky rice fungal disease (PDO:0000075) and rice Curvularia seedling blight (PDO:0000085)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PSO:Megan_Seymour]
+def: "A Curvularia fungal spp. (PDO:0000070) that is more than one Curvularia species and causes Curvularia pecky rice fungal disease (PDO:0000075) and rice Curvularia seedling blight fungal disease (PDO:0000085)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PSO:Megan_Seymour]
 xref: EOL:16319
 xref: NCBITaxon:5502
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000075 ! Curvularia pecky rice fungal disease
-relationship: causal_agent PDO:0000085 ! rice curvularia seedling blight
+relationship: causal_agent PDO:0000085 ! rice curvularia seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T13:39:46Z
 
@@ -929,12 +929,12 @@ creation_date: 2012-04-27T13:41:18Z
 [Term]
 id: PDO:0000076
 name: Fusarium spp.
-def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium species and causes rice Fusarium root rot (PDO:0000080), Fusarium pecky rice fungal disease (PDO:0000077) and rice Fusarium seedling blight (PDO:0000086)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_seymour]
+def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium species and causes rice water-mold fungal disease (PDO:0000080), Fusarium pecky rice fungal disease (PDO:0000077) and rice Fusarium seedling blight fungal disease (PDO:0000086)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 xref: EOL:16364
 xref: NCBITaxon:5506
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000077 ! Fusarium pecky rice fungal disease
-relationship: causal_agent PDO:0000086 ! rice fusarium seedling blight
+relationship: causal_agent PDO:0000086 ! rice fusarium seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T13:43:12Z
 
@@ -1020,7 +1020,7 @@ creation_date: 2012-04-27T14:07:05Z
 
 [Term]
 id: PDO:0000084
-name: Rice Bipolaris oryzae seedling blight fungal disease
+name: rice Bipolaris oryzae seedling blight fungal disease
 def: "A rice seedling blight fungal disease (PDO:0000093) caused by Bipolaris oryzae (PDO:0000034)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 xref: PSO_GIT:156
 is_a: PDO:0000093 ! rice seedling blight fungal disease
@@ -1030,17 +1030,16 @@ creation_date: 2012-04-27T14:11:12Z
 
 [Term]
 id: PDO:0000085
-name: rice curvularia seedling blight
-def: "A rice seedling blight (PDO:0000093) caused by Curvularia spp. (PDO:0000074)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: NCBITaxon:5502
+name: rice curvularia seedling blight fungal disease
+def: "A rice seedling blight (PDO:0000093) caused by Curvularia spp. (PDO:0000074)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:15:08Z
 
 [Term]
 id: PDO:0000086
-name: rice fusarium seedling blight
-def: "A rice seedling blight (PDO:0000093) caused by Fusarium spp. (PDO:0000076)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+name: rice fusarium seedling blight fungal disease
+def: "A rice seedling blight fungal disease (PDO:0000093) caused by Fusarium spp. (PDO:0000076)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:17:44Z
@@ -1223,8 +1222,9 @@ creation_date: 2013-01-16T13:40:26Z
 [Term]
 id: PDO:0000104
 name: Achlya conspicua
-def: "A fungal species (PDO:0000069) which causes plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Achlya conspicua Coker" NARROW []
+def: "A fungal species (PDO:0000069) which causes plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+synonym: "Achlya conspicua Coker" NARROW [APS:Plant_Diseases]
+xref: EOL:189519
 xref: NCBITaxon:112027
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
@@ -1233,8 +1233,9 @@ creation_date: 2013-01-17T13:04:11Z
 [Term]
 id: PDO:0000105
 name: Achlya klebsiana
-def: "A fungal species (PDO:0000069) which causes plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Achlya klebsiana Pieters" NARROW []
+def: "A fungal species (PDO:0000069) which causes plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+synonym: "Achlya klebsiana Pieters" NARROW [APS:Plant_Diseases]
+xref: EOL:1008843
 xref: NCBITaxon:4767
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
