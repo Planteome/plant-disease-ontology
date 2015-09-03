@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:09:2015 16:52
+date: 03:09:2015 09:37
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -378,7 +378,7 @@ creation_date: 2012-04-09T02:23:26Z
 [Term]
 id: PDO:0000032
 name: Magnaporthe oryzae
-def: "A fungal species (PDO:0000069) that causes rice blast (PDO:0000031)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+def: "A fungal species (PDO:0000069) that causes rice blast fungal disease (PDO:0000031)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 subset: Oryza_sativa_L
 synonym: "Magnaporthe grisea (Hebert) Barr" RELATED telomorph [APS:Plant_Diseases]
 synonym: "Magnaporthe oryzae B.C. Couch 2002" NARROW [EOL:1002512]
@@ -434,7 +434,7 @@ creation_date: 2012-04-09T02:31:07Z
 [Term]
 id: PDO:0000036
 name: Gaeumannomyces graminis
-def: "A fungal species (PDO:0000069) that causes rice crown sheath rot (PDO:0000035)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal species (PDO:0000069) that causes rice crown sheath rot fungal disease (PDO:0000035)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 synonym: "Gaeumannomyces graminis (Sacc.) Thirumalachar et al." NARROW [APS:Plant_Diseases]
 xref: EOL:6640995
 xref: NCBITaxon:29850
@@ -460,7 +460,7 @@ creation_date: 2012-04-09T02:35:27Z
 [Term]
 id: PDO:0000038
 name: Sclerophthora macrospora
-def: "A fungal species (PDO:0000069) that causes downy mildew (PDO:0000037)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
+def: "A fungal species (PDO:0000069) that causes downy mildew fungal disease (PDO:0000037)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "Sclerophthora macrospora (Sacc.) Thirumalachar et al. " NARROW [APS:Plant_Diseases]
 xref: EOL:1009008
 xref: NCBITaxon:467176
@@ -511,7 +511,7 @@ creation_date: 2012-04-09T02:47:43Z
 [Term]
 id: PDO:0000042
 name: Ustilaginoidea virens
-def: "A fungal species (PDO:0000069) that causes rice false smut (PDO:0000041)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PSO:Megan_Seymour]
+def: "A fungal species (PDO:0000069) that causes rice false smut fungal disease (PDO:0000041)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PSO:Megan_Seymour]
 synonym: "Claviceps virens" RELATED [NCBITaxon:1159556]
 synonym: "Ustilaginoidea virens (Cooke) Takah." NARROW [APS:Plant_Diseases]
 synonym: "Villosiclava virens" RELATED [NCBITaxon:1159556]
@@ -540,7 +540,7 @@ creation_date: 2012-04-09T02:52:18Z
 [Term]
 id: PDO:0000044
 name: Tilletia barclayana
-def: "A fungal species (PDO:0000069) that causes rice kernel smut (PDO:0000043)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal species (PDO:0000069) that causes rice kernel smut fungal disease (PDO:0000043)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 synonym: "Neovossia barclayana" RELATED [NCBITaxon:157178]
 synonym: "Neovossia horrida (Takah.) Padwick & A. Khan  " RELATED [APS:Plant_Diseases]
 synonym: "Tilletia barclayana (Bref.) Sacc. & Syd. in Sacc." NARROW [APS:Plant_Diseases]
@@ -595,11 +595,11 @@ creation_date: 2012-04-09T03:01:46Z
 [Term]
 id: PDO:0000048
 name: Microdochium oryzae
-def: "A fungal species (PDO:0000069) that causes rice leaf scald (PDO:0000047) and Microdochium oryzae pecky rice fungal disease (PDO:0000079)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
+def: "A fungal species (PDO:0000069) that causes rice leaf scald fungal disease (PDO:0000047) and Microdochium oryzae pecky rice fungal disease (PDO:0000079)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "Microdochium oryzae (Hashioka & Yokogi) Samuels & I.C. Hallett" NARROW [APS:Plant_Diseases]
 synonym: "Rhynchosporium oryzae Hashioka & Yokogi" RELATED [APS:Plant_Diseases]
 xref: EOL:1003765
-xref: NCBITaxon:67608
+xref: NCBITaxon:67608 "genus"
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000047 ! rice leaf scald fungal disease
 relationship: causal_agent PDO:0000079 ! Microdochium oryzae pecky rice fungal disease
@@ -647,7 +647,7 @@ creation_date: 2012-04-12T10:28:54Z
 [Term]
 id: PDO:0000052
 name: Thanatephorus cucumeris
-def: "A fungal species (PDO:0000069) that causes rice sheath blight (PDO:0000051)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal species (PDO:0000069) that causes rice sheath blight fungal disease (PDO:0000051)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 synonym: "Rhizoctonia solani Kühn  " RELATED anamorph [APS:Plant_DIseases]
 synonym: "Thanatephorus cucumeris (A.B. Frank) Donk " NARROW [APS:Plant_Diseases]
 synonym: "Thanatephorus praticola " RELATED [NCBITaxon:107832]
@@ -704,7 +704,7 @@ creation_date: 2012-04-12T10:41:34Z
 [Term]
 id: PDO:0000056
 name: Rhizoctonia oryzae
-def: "A fungal species (PDO:0000069) that causes rice sheath spot (PDO:0000055)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal species (PDO:0000069) that causes rice sheath spot fungal disease (PDO:0000055)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 synonym: "Rhizoctonia oryzae Ryker & Gooch" NARROW [APS:Plant_Diseases]
 xref: EOL:11446349
 xref: NCBITaxon:459364
@@ -757,7 +757,7 @@ creation_date: 2012-04-12T10:55:03Z
 [Term]
 id: PDO:0000060
 name: Nakataea oryzae
-def: "A fungal species (PDO:0000069) that causes rice stem rot (PDO:0000059)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
+def: "A fungal species (PDO:0000069) that causes rice stem rot fungal disease (PDO:0000059)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: " Nakataea sigmoidae (Cavara) K. Hara " RELATED synanamorph [APS:Plant_Diseases]
 synonym: "Magnaporthe salvinii (Cattaneo) R. Krause & Webster" RELATED [APS:Plant_Diseases]
 synonym: "Nakataea oryzae (Catt.) J. Luo & N. Zhang, 2013" NARROW [NCBITaxon:165778]
@@ -1055,8 +1055,9 @@ creation_date: 2012-04-27T14:21:31Z
 [Term]
 id: PDO:0000088
 name: Rhizoctonia solani
-def: "A fungal species (PDO:0000069) that causes rice Rhizoctonia solani seedling blight (PDO:0000087) and Rhizoctonia root rot and stalk rot." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-synonym: "Rhizoctonia solani Kühn" NARROW []
+def: "A fungal species (PDO:0000069) that causes rice Rhizoctonia solani seedling blight (PDO:0000087) and Rhizoctonia root rot and stalk rot." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+synonym: "Rhizoctonia solani Kühn" NARROW [APS:Plant_Diseases]
+xref: EOL:11446730
 xref: NCBITaxon:456999
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent PDO:0000087 ! rice rhizoctonia solani seedling blight
