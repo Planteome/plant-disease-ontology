@@ -13,16 +13,19 @@ Once we have a number in, we will import the taxonomy slice that we have created
 
 A note about the definitions: Currently we are defining the diseases based on the causal agent(s) and the host plant affected using the relations (still in progress).
 
-
+```
 id: RO:0002608
 name: has causal agent
 def: "Inverse of 'causal agent in'" []
 is_a: RO:0002410 ! causally related to
 inverse_of: RO:0002500 ! causal agent in
+```
 
 and
+
+```
 id: RO:0002500
 name: causal agent in
 def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process" []
 is_a: RO:0002595 ! causal relation between material entity and a process
-
+```
