@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:09:2015 14:42
+date: 04:09:2015 12:52
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -805,7 +805,7 @@ creation_date: 2012-04-13T01:13:06Z
 [Term]
 id: PDO:0000063
 name: rice root rot fungal disease
-def: "A rice fungal disease (PDO:0000081) caused by one or more of Fusarium spp. (PDO:0000076), Pythium spp. (PDO:0000063) such as P. dissotocum Drechs. (PDO:0000066), P. spinosum Sawada (PDO:0000072)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by one or more of Fusarium spp. (PDO:0000076), Pythium spp. (PDO:0000064) such as P. dissotocum Drechs. (PDO:0000066), P. spinosum Sawada (PDO:0000072)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour, PDO:saisree_uppala]
 subset: Oryza_sativa_L
 synonym: "rice root rot" EXACT []
 xref: OBO_SF2_PSO:23
@@ -817,18 +817,17 @@ creation_date: 2012-04-13T02:04:43Z
 [Term]
 id: PDO:0000064
 name: Pythium spp.
-def: "A fungal spp. (PDO:0000070) that is more than one Pythium species." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+def: "A fungal spp. (PDO:0000070) that is more than one Pythium species and causes rice Pythium root rot fungal disease (PDO:0000210)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 xref: EOL:16534
-xref: NCBITaxon:4797
+xref: NCBITaxon:4797 "genus"
 is_a: PDO:0000070 ! fungal spp.
-relationship: causal_agent PDO:0000063 ! rice root rot fungal disease
 created_by: moorel
 creation_date: 2012-04-13T02:11:59Z
 
 [Term]
 id: PDO:0000065
-name: rice Pythium dissotocum root rot
-def: "A rice Pythium root rot (PDO:0000063) caused by Pythium dissotocum (PDO:0000066)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+name: rice Pythium dissotocum root rot fungal disease
+def: "A rice root rot fungal disease (PDO:0000063) caused by Pythium dissotocum (PDO:0000066)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 subset: Oryza_sativa_L
 is_a: PDO:0000063 ! rice root rot fungal disease
 created_by: moorel
@@ -837,13 +836,13 @@ creation_date: 2012-04-13T02:15:43Z
 [Term]
 id: PDO:0000066
 name: Pythium dissotocum
-def: "A fungal species (PDO:0000069) that causes rice Pythium dissotocum root rot (PDO:0000065)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+def: "A fungal species (PDO:0000069) that causes rice Pythium dissotocum root rot fungal disease (PDO:0000065)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 comment: Pythium is an oomycete.  This species causes Pythium root rot in Oryza sativa.
 synonym: "Pythium dissotocum Drechs" NARROW [APS:Plant_Diseases]
 xref: EOL:189661
 xref: NCBITaxon:82936
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000065 ! rice Pythium dissotocum root rot
+relationship: causal_agent PDO:0000065 ! rice Pythium dissotocum root rot fungal disease
 relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
 creation_date: 2012-04-13T02:18:59Z
@@ -892,7 +891,7 @@ creation_date: 2012-04-16T01:12:08Z
 [Term]
 id: PDO:0000072
 name: Pythium spinosum
-def: "A fungal species (PDO:0000069) that causes rice Pythium spinosum root rot (PDO:0000073)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+def: "A fungal species (PDO:0000069) that causes rice Pythium spinosum root rot fungal disease (PDO:0000073)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 subset: Oryza_sativa_L
 synonym: "Pythium spinosum Sawada" NARROW [APS:Plant_Diseases]
 xref: EOL:1004517
@@ -904,8 +903,8 @@ creation_date: 2012-04-27T13:35:14Z
 
 [Term]
 id: PDO:0000073
-name: rice Pythium spinosum root rot
-def: "A rice Pythium root rot (PDO:0000063) caused by Pythium spinosum (PDO:0000072)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+name: rice Pythium spinosum root rot fungal disease
+def: "A rice root rot fungal disease (PDO:0000063) caused by Pythium spinosum (PDO:0000072)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 subset: Oryza_sativa_L
 is_a: PDO:0000063 ! rice root rot fungal disease
 relationship: causal_agent PDO:0000072 ! Pythium spinosum
@@ -937,7 +936,7 @@ creation_date: 2012-04-27T13:41:18Z
 [Term]
 id: PDO:0000076
 name: Fusarium spp.
-def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium species and causes rice water-mold fungal disease (PDO:0000080), Fusarium pecky rice fungal disease (PDO:0000077) and rice Fusarium seedling blight fungal disease (PDO:0000086)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
+def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium species and causes rice water-mold fungal disease (PDO:0000080), Fusarium pecky rice fungal disease (PDO:0000077), rice Fusarium seedling blight fungal disease (PDO:0000086) and rice Fusarium root rot fungal disease (PDO:0000209)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 xref: EOL:16364
 xref: NCBITaxon:5506
 is_a: PDO:0000070 ! fungal spp.
@@ -1273,7 +1272,7 @@ creation_date: 2013-01-17T14:43:46Z
 [Term]
 id: PDO:0000108
 name: Pythium arrhenomanes
-def: "A fungal species (PDO:0000069) that causes Pythium root rot (PDO:0000063)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal species (PDO:0000069) that causes rice root rot fungal disease (PDO:0000063)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 comment: Pythium is an oomycete.  This species causes Pythium root rot  in Zea_mays\nHordeum vulgare, and Triticum spp.
 synonym: "Pythium arrhenomanes Drechs. " NARROW []
 xref: NCBITaxon:82932
@@ -1285,7 +1284,7 @@ creation_date: 2013-01-17T14:47:59Z
 [Term]
 id: PDO:0000109
 name: Pythium graminicola
-def: "A fungal species (PDO:0000069) which causes Pythium root rot (PDO:0000063)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+def: "A fungal species (PDO:0000069) that causes rice root rot fungal disease (PDO:0000063)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 comment: Pythium is an oomycete.  This species causes Pythium root rot  in Zea_mays\nHordeum vulgare, and Triticum spp.
 synonym: "Pythium graminicola Subramanian" NARROW []
 xref: NCBITaxon:82937
@@ -2434,6 +2433,24 @@ xref: PSO_GIT:135
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T15:41:31Z
+
+[Term]
+id: PDO:0000209
+name: rice Fusarium root rot fungal disease
+def: "A rice root rot fungal disease (PDO:0000063) caused by a Fusarium spp. (PDO:0000076)." [PDO:megan_seymour]
+is_a: PDO:0000063 ! rice root rot fungal disease
+relationship: causal_agent PDO:0000076 ! Fusarium spp.
+created_by: seymoume
+creation_date: 2015-09-04T09:59:48Z
+
+[Term]
+id: PDO:0000210
+name: rice Pythium root rot fungal disease
+def: "A rice root rot fungal disease (PDO:0000063) caused by a Pythium spp. (PDO:0000064)." [PDO:megan_seymour]
+is_a: PDO:0000063 ! rice root rot fungal disease
+relationship: has_causal_agent PDO:0000064 ! Pythium spp.
+created_by: seymoume
+creation_date: 2015-09-04T10:31:59Z
 
 [Typedef]
 id: causal_agent
