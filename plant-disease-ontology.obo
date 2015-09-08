@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 04:09:2015 12:52
+date: 08:09:2015 12:59
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -817,7 +817,7 @@ creation_date: 2012-04-13T02:04:43Z
 [Term]
 id: PDO:0000064
 name: Pythium spp.
-def: "A fungal spp. (PDO:0000070) that is more than one Pythium species and causes rice Pythium root rot fungal disease (PDO:0000210)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+def: "A fungal spp. (PDO:0000070) that is more than one Pythium species and causes rice Pythium root rot fungal disease (PDO:0000210) and rice Pythium water-mold fungal disease (PDO:0000214)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 xref: EOL:16534
 xref: NCBITaxon:4797 "genus"
 is_a: PDO:0000070 ! fungal spp.
@@ -836,7 +836,7 @@ creation_date: 2012-04-13T02:15:43Z
 [Term]
 id: PDO:0000066
 name: Pythium dissotocum
-def: "A fungal species (PDO:0000069) that causes rice Pythium dissotocum root rot fungal disease (PDO:0000065)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+def: "A fungal species (PDO:0000069) that causes rice Pythium dissotocum root rot fungal disease (PDO:0000065) and rice Pythium dissotocum water-mold fungal disease (PDO:0000215)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 comment: Pythium is an oomycete.  This species causes Pythium root rot in Oryza sativa.
 synonym: "Pythium dissotocum Drechs" NARROW [APS:Plant_Diseases]
 xref: EOL:189661
@@ -891,7 +891,7 @@ creation_date: 2012-04-16T01:12:08Z
 [Term]
 id: PDO:0000072
 name: Pythium spinosum
-def: "A fungal species (PDO:0000069) that causes rice Pythium spinosum root rot fungal disease (PDO:0000073)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+def: "A fungal species (PDO:0000069) that causes rice Pythium spinosum root rot fungal disease (PDO:0000073) and rice Pythium spinosum water-mold fungal disease (PDO:0000216)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 subset: Oryza_sativa_L
 synonym: "Pythium spinosum Sawada" NARROW [APS:Plant_Diseases]
 xref: EOL:1004517
@@ -919,7 +919,7 @@ xref: EOL:16319
 xref: NCBITaxon:5502
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000075 ! Curvularia pecky rice fungal disease
-relationship: causal_agent PDO:0000085 ! rice curvularia seedling blight fungal disease
+relationship: causal_agent PDO:0000085 ! rice Curvularia seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T13:39:46Z
 
@@ -936,12 +936,12 @@ creation_date: 2012-04-27T13:41:18Z
 [Term]
 id: PDO:0000076
 name: Fusarium spp.
-def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium species and causes rice water-mold fungal disease (PDO:0000080), Fusarium pecky rice fungal disease (PDO:0000077), rice Fusarium seedling blight fungal disease (PDO:0000086) and rice Fusarium root rot fungal disease (PDO:0000209)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
+def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium species and causes rice Fusarium water-mold fungal disease (PDO:0000213), Fusarium pecky rice fungal disease (PDO:0000077), rice Fusarium seedling blight fungal disease (PDO:0000086) and rice Fusarium root rot fungal disease (PDO:0000209)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 xref: EOL:16364
 xref: NCBITaxon:5506
 is_a: PDO:0000070 ! fungal spp.
 relationship: causal_agent PDO:0000077 ! Fusarium pecky rice fungal disease
-relationship: causal_agent PDO:0000086 ! rice fusarium seedling blight fungal disease
+relationship: causal_agent PDO:0000086 ! rice Fusarium seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T13:43:12Z
 
@@ -979,7 +979,7 @@ creation_date: 2012-04-27T13:50:51Z
 [Term]
 id: PDO:0000080
 name: rice water-mold fungal disease
-def: "A rice fungal disease (PDO:0000081) caused by one or more of Achlya conspicua (PDO:0000104), A. klebsiana (PDO:0000105), Fusarium spp.  (PDO:0000076), Pythium spp. (PDO:0000063), P. dissotocum (PDO:0000066), P. spinosum (PDO:0000072)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
+def: "A rice fungal disease (PDO:0000081) caused by one or more of Achlya conspicua (PDO:0000104), A. klebsiana (PDO:0000105), Fusarium spp.  (PDO:0000076), Pythium spp. (PDO:0000063), P. dissotocum (PDO:0000066), P. spinosum (PDO:0000072)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour, PDO:saisree_uppala]
 subset: Oryza_sativa_L
 synonym: "rice water-mold (seed-rot and seedling disease)" EXACT []
 synonym: "seed rot disease" EXACT []
@@ -1037,15 +1037,15 @@ creation_date: 2012-04-27T14:11:12Z
 
 [Term]
 id: PDO:0000085
-name: rice curvularia seedling blight fungal disease
-def: "A rice seedling blight (PDO:0000093) caused by Curvularia spp. (PDO:0000074)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+name: rice Curvularia seedling blight fungal disease
+def: "A rice seedling blight fungal disease (PDO:0000093) caused by Curvularia spp. (PDO:0000074)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:15:08Z
 
 [Term]
 id: PDO:0000086
-name: rice fusarium seedling blight fungal disease
+name: rice Fusarium seedling blight fungal disease
 def: "A rice seedling blight fungal disease (PDO:0000093) caused by Fusarium spp. (PDO:0000076)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
@@ -1053,7 +1053,7 @@ creation_date: 2012-04-27T14:17:44Z
 
 [Term]
 id: PDO:0000087
-name: rice rhizoctonia solani seedling blight fungal disease
+name: rice Rhizoctonia solani seedling blight fungal disease
 def: "A rice seedling blight fungal disease (PDO:0000093) caused by Rhizoctonia solani (PDO:0000088)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 is_a: PDO:0000093 ! rice seedling blight fungal disease
 created_by: moorel
@@ -1067,15 +1067,16 @@ synonym: "Rhizoctonia solani Kühn" NARROW [APS:Plant_Diseases]
 xref: EOL:11446730
 xref: NCBITaxon:456999
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000087 ! rice rhizoctonia solani seedling blight fungal disease
+relationship: causal_agent PDO:0000087 ! rice Rhizoctonia solani seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:22:42Z
 
 [Term]
 id: PDO:0000089
-name: rice sclerotium rolfsii seedling blight
-def: "A rice seedling blight (PDO:0000092) caused by Sclerotium rolfsii (PDO:0000090)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
+name: rice Athelia rolfsii seedling blight fungal disease 
+def: "A rice seedling blight fungal disease (PDO:0000093) caused by Athelia rolfsii (PDO:0000114)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 is_a: PDO:0000093 ! rice seedling blight fungal disease
+relationship: has_causal_agent PDO:0000114 ! Athelia rolfsii
 created_by: moorel
 creation_date: 2012-04-27T14:26:03Z
 
@@ -1230,7 +1231,7 @@ creation_date: 2013-01-16T13:40:26Z
 [Term]
 id: PDO:0000104
 name: Achlya conspicua
-def: "A fungal species (PDO:0000069) which causes plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+def: "A fungal species (PDO:0000069) which causes rice Achlya conspicua water-mold fungal disease (PDO:0000211)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 synonym: "Achlya conspicua Coker" NARROW [APS:Plant_Diseases]
 xref: EOL:189519
 xref: NCBITaxon:112027
@@ -1241,7 +1242,7 @@ creation_date: 2013-01-17T13:04:11Z
 [Term]
 id: PDO:0000105
 name: Achlya klebsiana
-def: "A fungal species (PDO:0000069) which causes plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+def: "A fungal species (PDO:0000069) which causes rice Achlya klebsiana water-mold fungal disease (PDO:0000212)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 synonym: "Achlya klebsiana Pieters" NARROW [APS:Plant_Diseases]
 xref: EOL:1008843
 xref: NCBITaxon:4767
@@ -1342,7 +1343,7 @@ creation_date: 2013-01-17T15:32:41Z
 [Term]
 id: PDO:0000114
 name: Athelia rolfsii
-def: "A fungal species (PDO:0000069) which causes southern blight." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+def: "A fungal species (PDO:0000069) which causes rice Athelia rolfsii seedling blight fungal disease (PDO:0000089)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 synonym: "Athelia rolfsii (Curzi) C. C. Tu & Kimbr. 1978" NARROW [EOL:191953]
 synonym: "Athelia rolfsii (Curzi) Tu & Kimbrough) " RELATED telomorph [APS:Plant_Diseases]
 synonym: "Sclerotium rolfsii" RELATED anamorph [NCBITaxon:39291]
@@ -2451,6 +2452,61 @@ is_a: PDO:0000063 ! rice root rot fungal disease
 relationship: has_causal_agent PDO:0000064 ! Pythium spp.
 created_by: seymoume
 creation_date: 2015-09-04T10:31:59Z
+
+[Term]
+id: PDO:0000211
+name: rice Achlya conspicua water-mold fungal disease
+def: "A rice water-mold fungal disease (PDO:0000080) caused by Achlya conspicua (PDO:0000104)." [PDO:megan_seymour]
+is_a: PDO:0000080 ! rice water-mold fungal disease
+relationship: has_causal_agent PDO:0000104 ! Achlya conspicua
+created_by: seymoume
+creation_date: 2015-09-08T10:45:20Z
+
+[Term]
+id: PDO:0000212
+name: rice Achlya klebsiana water-mold fungal disease
+def: "A rice water-mold fungal disease (PDO:0000080) caused by Achlya klebsiana (PDO:0000105)." [PDO:megan_seymour]
+is_a: PDO:0000080 ! rice water-mold fungal disease
+relationship: has_causal_agent PDO:0000105 ! Achlya klebsiana
+created_by: seymoume
+creation_date: 2015-09-08T11:00:09Z
+
+[Term]
+id: PDO:0000213
+name: rice Fusarium water-mold fungal disease
+def: "A rice water-mold fungal disease (PDO:0000080) caused by Fusarium spp. (PDO:0000076)." [PDO:megan_seymour]
+is_a: PDO:0000080 ! rice water-mold fungal disease
+relationship: causal_agent PDO:0000076 ! Fusarium spp.
+created_by: seymoume
+creation_date: 2015-09-08T11:11:56Z
+
+[Term]
+id: PDO:0000214
+name: rice Pythium water-mold fungal disease
+def: "A rice water-mold fungal disease (PDO:0000080) caused by Pythium spp. (PDO:0000064)." [PDO:megan_seymour]
+is_a: PDO:0000080 ! rice water-mold fungal disease
+relationship: causal_agent PDO:0000064 ! Pythium spp.
+created_by: seymoume
+creation_date: 2015-09-08T11:24:47Z
+
+[Term]
+id: PDO:0000215
+name: rice Pythium dissotocum water-mold fungal disease
+def: "A rice water-mold fungal disease (PDO:0000080) caused by Pythium dissotocum (PDO:0000066)." [PDO:megan_seymour]
+is_a: PDO:0000080 ! rice water-mold fungal disease
+relationship: has_causal_agent PDO:0000066 ! Pythium dissotocum
+created_by: seymoume
+creation_date: 2015-09-08T11:34:31Z
+
+[Term]
+id: PDO:0000216
+name: rice Pythium spinosum water-mold fungal disease
+def: "A rice water-mold fungal disease (PDO:0000080) caused by Pythium spinosum (PDO:0000072)." [PDO:megan_seymour]
+is_a: PDO:0000080 ! rice water-mold fungal disease
+is_a: PDO:0000216 ! rice Pythium spinosum water-mold fungal disease
+relationship: has_causal_agent PDO:0000072 ! Pythium spinosum
+created_by: seymoume
+creation_date: 2015-09-08T11:45:15Z
 
 [Typedef]
 id: causal_agent
