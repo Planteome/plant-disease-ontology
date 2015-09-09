@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 09:09:2015 11:13
-saved-by: seymoume
+date: 09:09:2015 12:48
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
 subsetdef: Oryza_sativa_L "Terms used for rice"
@@ -943,7 +943,7 @@ creation_date: 2012-04-27T13:44:52Z
 
 [Term]
 id: PDO:0000078
-name: Bipolaris oryzae fungal pecky rice
+name: Bipolaris oryzae pecky rice fungal disease
 def: "A fungal pecky rice (PDO:0000090) caused by Bipolaris oryzae (PDO:0000034)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "kernel spotting" RELATED []
 xref: PSO_GIT:155
