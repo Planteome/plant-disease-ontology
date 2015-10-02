@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 09:09:2015 12:48
-saved-by: cooperl
+date: 02:10:2015 12:05
+saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
 subsetdef: Oryza_sativa_L "Terms used for rice"
@@ -2105,7 +2105,7 @@ creation_date: 2015-06-25T14:07:05Z
 [Term]
 id: PDO:0000180
 name: maize Fusarium seed rot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX)." [PSO:austin_meier]
+def: "A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:XXX)." [PDO:megan_seymour, PSO:austin_meier]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:107
 xref: OBO_SF2_PSO:108
@@ -2139,6 +2139,7 @@ creation_date: 2015-07-02T09:17:51Z
 id: PDO:0000183
 name: maize northern leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus carbonum (PDO:XXX)." [PDO:austin_meier, PDO:Megan_Seymour]
+synonym: "Helminthosporium ear rot (race 1) " RELATED [APS:plant_diseases]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:114
 xref: PSO_GIT:102
@@ -2150,7 +2151,7 @@ creation_date: 2015-07-09T14:21:28Z
 [Term]
 id: PDO:0000184
 name: maize southern leaf blight fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus heterostrophus (PDO:XXX)." [PDO:austin_meier]
+def: "A maize fungal disease (PDO:0000012) caused by Bipolaris maydis (PDO:XXX)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:104
 xref: PSO_GIT:103
@@ -2161,7 +2162,7 @@ creation_date: 2015-07-09T15:00:03Z
 [Term]
 id: PDO:0000185
 name: maize foolish seedling fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by  Gibberella fujikuroi (PDO:xxx)." [PDO:austin_meier]
+def: "A maize fungal disease (PDO:0000012) caused by  Fusarium verticillioides (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:109
 xref: PSO_GIT:108
@@ -2183,7 +2184,7 @@ creation_date: 2015-07-09T15:41:54Z
 [Term]
 id: PDO:0000187
 name: maize black bundle fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Acremonium strictum (PDO:xxx)." [PDO:austin_meier]
+def: "A maize fungal disease (PDO:0000012) caused by Sarocladium strictum (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:115
 xref: PSO_GIT:114
@@ -2348,7 +2349,7 @@ creation_date: 2015-07-17T13:30:27Z
 [Term]
 id: PDO:0000202
 name: maize Curvularia minor ear rot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Curvularia pallescens (PDO:xxx)." [PDO:austin_meier]
+def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus pallescens (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:130
 xref: PSO_GIT:129
@@ -2402,8 +2403,8 @@ creation_date: 2015-07-17T15:27:16Z
 
 [Term]
 id: PDO:0000207
-name: maize Exserohilum minor leaf spot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Exserohilum prolatum (PDO:xxx)." [PDO:austin_meier]
+name: maize Setosphaeria minor leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Setosphaeria prolata (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:135
 xref: PSO_GIT:134
@@ -2414,7 +2415,7 @@ creation_date: 2015-07-17T15:30:26Z
 [Term]
 id: PDO:0000208
 name: maize Pythium stalk rot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Epicoccum nigrum (PDO:xxx)." [PDO:austin_meier]
+def: "A maize fungal disease (PDO:0000012) caused by Pythium aphanidermatum (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:136
 xref: PSO_GIT:135
