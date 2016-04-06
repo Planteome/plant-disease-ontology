@@ -178,7 +178,7 @@ xref: NCBITaxon:64187
 xref: OBO_SF2_PSO:96
 xref: PSO_GIT:95
 is_a: PDO:0000095 ! Xanthomonas
-relationship: causal_agent PDO:0000014 ! rice bacterial blight disease
+relationship: causal_agent_in PDO:0000014 ! rice bacterial blight disease
 created_by: moorel
 creation_date: 2012-04-06T02:30:34Z
 
@@ -194,7 +194,7 @@ xref: NCBITaxon:129394
 xref: OBO_SF2_PSO:97
 xref: PSO_GIT:96
 is_a: PDO:0000095 ! Xanthomonas
-relationship: causal_agent PDO:0000019 ! rice bacterial leaf streak disease
+relationship: causal_agent_in PDO:0000019 ! rice bacterial leaf streak disease
 created_by: moorel
 creation_date: 2012-04-09T01:35:20Z
 
@@ -232,7 +232,7 @@ xref: EOL:972724
 xref: NCBITaxon:556
 xref: PSO_GIT:88
 is_a: PDO:0000016 ! bacterial biotic causal agent
-relationship: causal_agent PDO:0000020 ! rice foot rot bacterial disease
+relationship: causal_agent_in PDO:0000020 ! rice foot rot bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:43:12Z
 
@@ -248,7 +248,7 @@ xref: NCBITaxon:337
 xref: OBO_SF2_PSO:99
 xref: PSO_GIT:98
 is_a: PDO:0000016 ! bacterial biotic causal agent
-relationship: causal_agent PDO:0000023 ! rice grain rot bacterial disease
+relationship: causal_agent_in PDO:0000023 ! rice grain rot bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:48:50Z
 
@@ -288,7 +288,7 @@ xref: NCBITaxon:50340
 xref: OBO_SF2_PSO:98
 xref: PSO_GIT:97
 is_a: PDO:0000094 ! Pseudomonas
-relationship: causal_agent PDO:0000024 ! rice sheath brown rot bacterial disease
+relationship: causal_agent_in PDO:0000024 ! rice sheath brown rot bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T02:00:45Z
 
@@ -327,7 +327,7 @@ xref: EOL:18499121
 xref: NCBITaxon:63189
 xref: PSO_GIT:136
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000027 ! rice aggregate sheath spot fungal disease
+relationship: causal_agent_in PDO:0000027 ! rice aggregate sheath spot fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:14:30Z
 
@@ -354,7 +354,7 @@ xref: EOL:11501463
 xref: NCBITaxon:418123
 xref: PSO_GIT:139
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000029 ! rice black kernel fungal disease
+relationship: causal_agent_in PDO:0000029 ! rice black kernel fungal disease
 relationship: part_of PDO:0000074 ! Curvularia spp.
 created_by: moorel
 creation_date: 2012-04-09T02:19:53Z
@@ -388,7 +388,7 @@ xref: EOL:1002512
 xref: NCBITaxon:318829
 xref: PSO_GIT:100
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000031 ! rice blast fungal disease
+relationship: causal_agent_in PDO:0000031 ! rice blast fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:25:01Z
 
@@ -440,7 +440,7 @@ xref: EOL:6640995
 xref: NCBITaxon:29850
 xref: PSO_GIT:148
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000035 ! rice crown sheath rot fungal disease
+relationship: causal_agent_in PDO:0000035 ! rice crown sheath rot fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:32:53Z
 
@@ -491,7 +491,7 @@ xref: EOL:1005334
 xref: NCBITaxon:33198 "genus"
 xref: PSO_GIT:140
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000039 ! rice eyespot fungal disease
+relationship: causal_agent_in PDO:0000039 ! rice eyespot fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:44:40Z
 
@@ -519,7 +519,7 @@ xref: EOL:997966
 xref: NCBITaxon:1159556
 xref: PSO_GIT:143
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000041 ! rice false smut fungal disease
+relationship: causal_agent_in PDO:0000041 ! rice false smut fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:49:19Z
 
@@ -548,7 +548,7 @@ xref: EOL:1029922
 xref: NCBITaxon:157178
 xref: PSO_GIT:138
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000043 ! rice kernel smut fungal disease
+relationship: causal_agent_in PDO:0000043 ! rice kernel smut fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:53:56Z
 
@@ -574,7 +574,7 @@ xref: EOL:188781
 xref: NCBITaxon:62636 "genus"
 xref: PSO_GIT:141
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000045 ! rice leaf smut fungal disease
+relationship: causal_agent_in PDO:0000045 ! rice leaf smut fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:57:42Z
 
@@ -601,8 +601,8 @@ synonym: "Rhynchosporium oryzae Hashioka & Yokogi" RELATED [APS:Plant_Diseases]
 xref: EOL:1003765
 xref: NCBITaxon:67608 "genus"
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000047 ! rice leaf scald fungal disease
-relationship: causal_agent PDO:0000079 ! Microdochium oryzae pecky rice fungal disease
+relationship: causal_agent_in PDO:0000047 ! rice leaf scald fungal disease
+relationship: causal_agent_in PDO:0000079 ! Microdochium oryzae pecky rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T03:04:07Z
 
@@ -630,7 +630,7 @@ synonym: "Sphaerulina oryzina K. Hara" RELATED telomorph [APS:Plant_Diseases]
 xref: EOL:18190562
 xref: NCBITaxon:706553
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000049 ! rice narrow brown leaf spot fungal disease
+relationship: causal_agent_in PDO:0000049 ! rice narrow brown leaf spot fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:22:56Z
 
@@ -675,7 +675,7 @@ xref: NCBITaxon:56459
 xref: OBO_SF2_PSO:72
 xref: PSO_GIT:71
 is_a: PDO:0000095 ! Xanthomonas
-relationship: causal_agent PDO:0000146 ! maize bacterial leaf spot disease
+relationship: causal_agent_in PDO:0000146 ! maize bacterial leaf spot disease
 created_by: planteome
 creation_date: 2015-05-11T13:21:11Z
 
@@ -701,7 +701,7 @@ xref: EOL:11446349
 xref: NCBITaxon:459364
 xref: PSO_GIT:145
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000055 ! rice sheath spot fungal disease
+relationship: causal_agent_in PDO:0000055 ! rice sheath spot fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:44:51Z
 
@@ -728,7 +728,7 @@ xref: EOL:1005087
 xref: NCBITaxon:714880
 xref: PSO_GIT:137
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000057 ! rice stackburn fungal disease
+relationship: causal_agent_in PDO:0000057 ! rice stackburn fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:51:24Z
 
@@ -757,7 +757,7 @@ xref: EOL:42754629
 xref: NCBITaxon:165778
 xref: PSO_GIT:147
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000059 ! rice stem rot fungal disease
+relationship: causal_agent_in PDO:0000059 ! rice stem rot fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:56:31Z
 
@@ -784,7 +784,7 @@ xref: NCBITaxon:317
 xref: OBO_SF2_PSO:81
 xref: PSO_GIT:80
 is_a: PDO:0000094 ! Pseudomonas
-relationship: causal_agent PDO:0000061 ! wheat bacterial leaf blight
+relationship: causal_agent_in PDO:0000061 ! wheat bacterial leaf blight
 created_by: moorel
 creation_date: 2012-04-13T01:13:06Z
 
@@ -828,7 +828,7 @@ synonym: "Pythium dissotocum Drechs" NARROW [APS:Plant_Diseases]
 xref: EOL:189661
 xref: NCBITaxon:82936
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000065 ! rice Pythium dissotocum root rot fungal disease
+relationship: causal_agent_in PDO:0000065 ! rice Pythium dissotocum root rot fungal disease
 relationship: part_of PDO:0000064 ! Pythium spp.
 created_by: moorel
 creation_date: 2012-04-13T02:18:59Z
@@ -893,7 +893,7 @@ name: rice Pythium spinosum root rot fungal disease
 def: "A rice root rot fungal disease (PDO:0000063) caused by Pythium spinosum (PDO:0000072)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 subset: Oryza_sativa_L
 is_a: PDO:0000063 ! rice root rot fungal disease
-relationship: causal_agent PDO:0000072 ! Pythium spinosum
+relationship: causal_agent_in PDO:0000072 ! Pythium spinosum
 created_by: moorel
 creation_date: 2012-04-27T13:37:47Z
 
@@ -904,8 +904,8 @@ def: "A Curvularia fungal spp. (PDO:0000070) that is more than one Curvularia sp
 xref: EOL:16319
 xref: NCBITaxon:5502
 is_a: PDO:0000070 ! fungal spp.
-relationship: causal_agent PDO:0000075 ! Curvularia pecky rice fungal disease
-relationship: causal_agent PDO:0000085 ! rice Curvularia seedling blight fungal disease
+relationship: causal_agent_in PDO:0000075 ! Curvularia pecky rice fungal disease
+relationship: causal_agent_in PDO:0000085 ! rice Curvularia seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T13:39:46Z
 
@@ -926,8 +926,8 @@ def: "A Fusarium fungal spp. (PDO:0000070) that is more than one Fusarium specie
 xref: EOL:16364
 xref: NCBITaxon:5506
 is_a: PDO:0000070 ! fungal spp.
-relationship: causal_agent PDO:0000077 ! Fusarium pecky rice fungal disease
-relationship: causal_agent PDO:0000086 ! rice Fusarium seedling blight fungal disease
+relationship: causal_agent_in PDO:0000077 ! Fusarium pecky rice fungal disease
+relationship: causal_agent_in PDO:0000086 ! rice Fusarium seedling blight fungal disease
 created_by: moorel
 creation_date: 2012-04-27T13:43:12Z
 
@@ -1091,7 +1091,7 @@ xref: NCBITaxon:69219
 xref: OBO_SF2_PSO:73
 xref: PSO_GIT:72
 is_a: PDO:0000016 ! bacterial biotic causal agent
-relationship: causal_agent PDO:0000147 ! maize bacterial stalk rot disease
+relationship: causal_agent_in PDO:0000147 ! maize bacterial stalk rot disease
 created_by: planteome
 creation_date: 2015-05-13T13:26:10Z
 
@@ -1812,7 +1812,7 @@ xref: NCBITaxon:28092
 xref: OBO_SF2_PSO:76
 xref: PSO_GIT:75
 is_a: PDO:0000016 ! bacterial biotic causal agent
-relationship: causal_agent PDO:0000149 ! maize bacterial stripe disease
+relationship: causal_agent_in PDO:0000149 ! maize bacterial stripe disease
 created_by: planteome
 creation_date: 2015-05-13T14:48:55Z
 
@@ -1827,7 +1827,7 @@ xref: NCBITaxon:321
 xref: OBO_SF2_PSO:77
 xref: PSO_GIT:76
 is_a: PDO:0000062 ! Pseudomonas syringae subsp. syringae
-relationship: causal_agent PDO:0000152 ! maize holcus spot bacterial disease
+relationship: causal_agent_in PDO:0000152 ! maize holcus spot bacterial disease
 created_by: planteome
 creation_date: 2015-05-14T13:22:39Z
 
@@ -1842,7 +1842,7 @@ xref: NCBITaxon:31963
 xref: OBO_SF2_PSO:79
 xref: PSO_GIT:78
 is_a: PDO:0000016 ! bacterial biotic causal agent
-relationship: causal_agent PDO:0000151 ! maize Goss's bacterial wilt disease
+relationship: causal_agent_in PDO:0000151 ! maize Goss's bacterial wilt disease
 created_by: planteome
 creation_date: 2015-05-14T13:45:39Z
 
@@ -1856,7 +1856,7 @@ xref: NCBITaxon:235275
 xref: OBO_SF2_PSO:83
 xref: PSO_GIT:82
 is_a: PDO:0000094 ! Pseudomonas
-relationship: causal_agent PDO:0000150 ! maize chocolate spot bacterial disease
+relationship: causal_agent_in PDO:0000150 ! maize chocolate spot bacterial disease
 created_by: planteome
 creation_date: 2015-05-15T13:42:09Z
 
@@ -1872,7 +1872,7 @@ xref: NCBITaxon:66271
 xref: OBO_SF2_PSO:85
 xref: PSO_GIT:84
 is_a: PDO:0000016 ! bacterial biotic causal agent
-relationship: causal_agent PDO:0000155 ! maize Stewart's bacterial disease
+relationship: causal_agent_in PDO:0000155 ! maize Stewart's bacterial disease
 created_by: planteome
 creation_date: 2015-05-15T14:54:30Z
 
@@ -1886,7 +1886,7 @@ xref: NCBITaxon:47834
 xref: OBO_SF2_PSO:88
 xref: PSO_GIT:87
 is_a: PDO:0000016 ! bacterial biotic causal agent
-relationship: causal_agent PDO:0000156 ! maize stunt bacterial disease
+relationship: causal_agent_in PDO:0000156 ! maize stunt bacterial disease
 created_by: planteome
 creation_date: 2015-05-18T12:43:28Z
 
@@ -1903,7 +1903,7 @@ xref: NCBITaxon:555
 xref: OBO_SF2_PSO:90
 xref: PSO_GIT:89
 is_a: PDO:0000016 ! bacterial biotic causal agent
-relationship: causal_agent PDO:0000148 ! maize bacterial stalk and top rot disease
+relationship: causal_agent_in PDO:0000148 ! maize bacterial stalk and top rot disease
 created_by: planteome
 creation_date: 2015-05-20T13:39:29Z
 
@@ -1918,7 +1918,7 @@ xref: NCBITaxon:1423
 xref: OBO_SF2_PSO:93
 xref: PSO_GIT:92
 is_a: PDO:0000016 ! bacterial biotic causal agent
-relationship: causal_agent PDO:0000154 ! maize seed rot and seedling blight bacterial disease
+relationship: causal_agent_in PDO:0000154 ! maize seed rot and seedling blight bacterial disease
 created_by: planteome
 creation_date: 2015-05-20T14:07:41Z
 
@@ -1933,7 +1933,7 @@ xref: NCBITaxon:80867
 xref: OBO_SF2_PSO:95
 xref: PSO_GIT:94
 is_a: PDO:0000016 ! bacterial biotic causal agent
-relationship: causal_agent PDO:0000145 ! maize bacterial leaf blight and stalk rot disease
+relationship: causal_agent_in PDO:0000145 ! maize bacterial leaf blight and stalk rot disease
 created_by: planteome
 creation_date: 2015-05-20T14:32:42Z
 
@@ -1947,7 +1947,7 @@ xref: NCBITaxon:1176514
 xref: OBO_SF2_PSO:100
 xref: PSO_GIT:99
 is_a: PDO:0000022 ! Burkholderia glumae
-relationship: causal_agent PDO:0000167 ! rice bacterial panicle blight disease
+relationship: causal_agent_in PDO:0000167 ! rice bacterial panicle blight disease
 created_by: cooperl
 creation_date: 2015-05-20T17:49:52Z
 
@@ -1985,7 +1985,7 @@ xref: NCBITaxon:5127
 xref: OBO_SF2_PSO:102
 xref: PSO_GIT:101
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000168 ! rice bakanae fungal disease
+relationship: causal_agent_in PDO:0000168 ! rice bakanae fungal disease
 created_by: planteome
 creation_date: 2015-05-21T15:43:40Z
 
@@ -2010,7 +2010,7 @@ synonym: "Phytoplasma oryzae Jung et al. 2003" RELATED [EOL:1002599]
 xref: EOL:1002599
 xref: NCBITaxon:203274
 is_a: PDO:0000141 ! phytoplasma causal agent
-relationship: causal_agent PDO:0000129 ! rice yellow dwarf phytoplasma disease
+relationship: causal_agent_in PDO:0000129 ! rice yellow dwarf phytoplasma disease
 created_by: cooperl
 creation_date: 2015-05-29T15:29:18Z
 
@@ -2021,7 +2021,7 @@ def: "A phytoplasma causal agent (PDO:0000141) that causes maize bushy stunt phy
 xref: EOL:11810019
 xref: NCBITaxon:202462
 is_a: PDO:0000141 ! phytoplasma causal agent
-relationship: causal_agent PDO:0000173 ! maize bushy stunt phytoplasma disease
+relationship: causal_agent_in PDO:0000173 ! maize bushy stunt phytoplasma disease
 created_by: cooperl
 creation_date: 2015-05-29T16:32:06Z
 
@@ -2052,7 +2052,7 @@ synonym: "Cercospora zeae-maydis SCOH1-5 " NARROW [PHI-base:xxx]
 synonym: "Cercospora zeae-maydis Tehon & E.Y. Daniels" NARROW []
 xref: NCBITaxon:135779
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent PDO:0000174 ! maize gray leaf spot fungal disease
+relationship: causal_agent_in PDO:0000174 ! maize gray leaf spot fungal disease
 created_by: cooperl
 creation_date: 2015-05-30T17:52:43Z
 
@@ -2428,7 +2428,7 @@ id: PDO:0000209
 name: rice Fusarium root rot fungal disease
 def: "A rice root rot fungal disease (PDO:0000063) caused by a Fusarium spp. (PDO:0000076)." [PDO:megan_seymour]
 is_a: PDO:0000063 ! rice root rot fungal disease
-relationship: causal_agent PDO:0000076 ! Fusarium spp.
+relationship: has_causal_agent PDO:0000076 ! Fusarium spp.
 created_by: seymoume
 creation_date: 2015-09-04T09:59:48Z
 
@@ -2464,7 +2464,7 @@ id: PDO:0000213
 name: rice Fusarium water-mold fungal disease
 def: "A rice water-mold fungal disease (PDO:0000080) caused by Fusarium spp. (PDO:0000076)." [PDO:megan_seymour]
 is_a: PDO:0000080 ! rice water-mold fungal disease
-relationship: causal_agent PDO:0000076 ! Fusarium spp.
+relationship: has_causal_agent PDO:0000076 ! Fusarium spp.
 created_by: seymoume
 creation_date: 2015-09-08T11:11:56Z
 
@@ -2473,7 +2473,7 @@ id: PDO:0000214
 name: rice Pythium water-mold fungal disease
 def: "A rice water-mold fungal disease (PDO:0000080) caused by Pythium spp. (PDO:0000064)." [PDO:megan_seymour]
 is_a: PDO:0000080 ! rice water-mold fungal disease
-relationship: causal_agent PDO:0000064 ! Pythium spp.
+relationship: has_causal_agent PDO:0000064 ! Pythium spp.
 created_by: seymoume
 creation_date: 2015-09-08T11:24:47Z
 
@@ -2497,16 +2497,16 @@ created_by: seymoume
 creation_date: 2015-09-08T11:45:15Z
 
 [Typedef]
-id: causal_agent
+id: causal_agent_in
 name: causal agent in
 def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process." [RO:0002500]
-xref: PSO_GIT:151
+
 
 [Typedef]
 id: has_causal_agent
 name: has causal agent
 def: "Inverse of 'causal agent in" [RO:0002608]
-xref: PSO_GIT:151
+
 
 [Typedef]
 id: isa_primary_host
@@ -2515,5 +2515,5 @@ name: primary host of
 [Typedef]
 id: part_of
 name: part of
-namespace: plant_trait_ontology
+
 
