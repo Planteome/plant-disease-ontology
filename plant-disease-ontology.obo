@@ -2496,17 +2496,21 @@ relationship: has_causal_agent PDO:0000072 ! Pythium spinosum
 created_by: seymoume
 creation_date: 2015-09-08T11:45:15Z
 
+[Term]
+id: PDO:0000217
+name: maize Ascochyta ischaemi yellow leaf blight fungal disease
+def: "lllll" [Megan_Seymour]
+is_a: PDO:0000012 ! maize fungal disease
+
 [Typedef]
 id: causal_agent_in
 name: causal agent in
 def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process." [RO:0002500]
 
-
 [Typedef]
 id: has_causal_agent
 name: has causal agent
 def: "Inverse of 'causal agent in" [RO:0002608]
-
 
 [Typedef]
 id: isa_primary_host
@@ -2515,5 +2519,4 @@ name: primary host of
 [Typedef]
 id: part_of
 name: part of
-
 
