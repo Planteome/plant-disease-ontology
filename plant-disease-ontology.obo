@@ -2498,7 +2498,7 @@ creation_date: 2015-09-08T11:45:15Z
 
 [Term]
 id: PDO:0000217
-name: maize ascochyta ischaemi yellow leaf blight fungal disease
+name: maize Ascochyta ischaemi yellow leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Ascochyta ischaemi (PDO:XXX)." [PDO:megan_seymour]
 xref: APS:plant_diseases
 is_a: PDO:0000012 ! maize fungal disease
