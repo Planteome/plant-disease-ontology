@@ -6650,6 +6650,27 @@ Hordeum vulgare, and Triticum spp.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000216"/>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PDO_0000217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDO_0000217">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maize ascochyta ischaemi yellow leaf blight fungal disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PDO_0000012"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-04-16T16:24:00</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize fungal disease (PDO:0000012) caused by Ascochyta ischaemi (PDO:XXX).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS:plant_diseases</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:0000217</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">megan_seymour</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_disease_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A maize fungal disease (PDO:0000012) caused by Ascochyta ischaemi (PDO:XXX).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDO:megan_seymour</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PDO_0000217"/>
+    </owl:Axiom>
 </rdf:RDF>
 
 
