@@ -1661,7 +1661,7 @@ creation_date: 2014-04-10T22:06:25Z
 [Term]
 id: PDO:0000145
 name: maize bacterial leaf blight and stalk rot disease
-def: "A maize bacterial disease (PDO:0000011) that is caused by Acidovorax avenae (PDO:0000165)." [PDO:megan_seymour]
+def: "A maize bacterial disease (PDO:0000011) that is caused by Acidovorax avenae subsp. avenae (PDO:0000165)." [PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:94
 xref: PSO_GIT:93
@@ -1753,6 +1753,7 @@ creation_date: 2014-05-17T13:43:13Z
 [Term]
 id: PDO:0000153
 name: maize purple leaf sheath bacterial disease
+def: "A maize bacterial disease (PDO:0000011) that is caused by hemiparasitic bacteria (PDO:XXX)." [PDO:megan_seymour]
 subset: Zea_mays
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
@@ -1924,12 +1925,12 @@ creation_date: 2015-05-20T14:07:41Z
 
 [Term]
 id: PDO:0000165
-name: Acidovorax avenae
+name: Acidovorax avenae subsp. avenae
 def: "A bacterial biotic causal agent (PDO:0000016) that causes maize bacterial leaf blight and stalk rot disease (PDO:0000145)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 synonym: "Pseudomonas avenae subsp. avenae Manns" RELATED [APS:Plant_Disease]
 xref: EOL:6376997
-xref: NCBITaxon:80867
+xref: NCBITaxon:80870
 xref: OBO_SF2_PSO:95
 xref: PSO_GIT:94
 is_a: PDO:0000016 ! bacterial biotic causal agent
