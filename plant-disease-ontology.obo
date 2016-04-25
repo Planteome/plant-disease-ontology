@@ -2506,6 +2506,69 @@ is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-04-16T16:24:00
 
+[Term]
+id: PDO:0000218
+name: maize Lasiodiplodia black kernel rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Lasiodiplodia theobromae (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:Plant_Disease
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-04-25T13:42:59Z
+
+[Term]
+id: PDO:0000219
+name: maize Marasmiellus borde blanco fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Marasmiellus sp. (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:Plant_Diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-04-25T13:45:27Z
+
+[Term]
+id: PDO:0000220
+name: maize Sclerophthora brown stripe downy mildew fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Sclerophthora rayssiae (PDO:XXX)." [] {created_by="PDO:megan_seymour"}
+xref: APS:Plant_Diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-04-25T13:49:27Z
+
+[Term]
+id: PDO:0000221
+name: maize sarocladium kernel rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Sarocladium strictum (PDO:XXX)." [] {created_by="PDO:megan_seymour"}
+xref: APS:Plant_Diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-04-25T13:53:35Z
+
+[Term]
+id: PDO:0000222
+name: maize Macrophomina charcoal rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Macrophomina phaseolina (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:Plant_Diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-04-25T13:57:46Z
+
+[Term]
+id: PDO:0000223
+name: maize Rhizoctonia corticium ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Rhizoctonia solani (PDO:0000088)." [PDO:megan_seymour]
+xref: APS:Plant_Diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-04-25T14:00:01Z
+
+[Term]
+id: PDO:0000224
+name: maize Sclerophthora crazy top downy mildew fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Sclerophthora macrospora (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:Plant_Diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-04-25T14:03:52Z
+
 [Typedef]
 id: causal_agent_in
 name: causal agent in
