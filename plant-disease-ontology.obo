@@ -2639,6 +2639,25 @@ def: "A maize fungal disease (PDO:0000012) caused by Sphacelotheca reiliana (PDO
 xref: APS:plant_diseases
 is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
+creation_date: 2016-05-25T:16:26:05Z
+
+[Term]
+id: PDO:0000238
+name: maize Peronosclerospora sorghum downy mildew fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Peronosclerospora sorghi (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-05-25T:16:27:02Z
+
+[Term]
+id: PDO:0000239
+name: maize Stenocarpella Southern leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Stenocarpella macrospora (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-05-25T:16:30:45Z
 
 [Typedef]
 id: causal_agent_in
