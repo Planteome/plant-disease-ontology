@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:10:2015 12:05
+date: 05:01:2018 12:05
 saved-by: seymoume
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Glycine_max "Terms used for soybean"
@@ -2613,6 +2613,32 @@ xref: APS:plant_diseases
 is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-05-25T:15:39:02Z
+
+[Term]
+id: PDO:0000235
+name: maize Phaeosphaeria leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Phaeosphaeria maydis (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-05-25T:16:02:45Z
+
+[Term]
+id: PDO:0000236
+name: maize Myrothecium shuck rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Myrothecium gramineum (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-05-25T:16:06:04Z
+
+[Term]
+id: PDO:0000237
+name: maize Sphacelotheca head smut fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Sphacelotheca reiliana (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
 
 [Typedef]
 id: causal_agent_in
