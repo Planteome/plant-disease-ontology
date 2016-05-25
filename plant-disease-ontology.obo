@@ -2587,6 +2587,33 @@ is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-05-25T:15:3130Z
 
+[Term]
+id: PDO:0000232
+name: maize Hyalothyridium leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Hyalothyridium maydis (PDO:xxx)" [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-05-25T:15:35:25Z
+
+[Term]
+id: PDO:0000233
+name: maize Peronosclerospora java downy mildew fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Peronosclerospora maydis (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-05-25T:15:37:40Z
+
+[Term]
+id: PDO:0000234
+name: maize Magnaporthiopsis late wilt fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Magnaporthiopsis maydis (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-05-25T:15:39:02Z
+
 [Typedef]
 id: causal_agent_in
 name: causal agent in
