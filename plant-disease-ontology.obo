@@ -2578,6 +2578,15 @@ is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-05-25T:15:12:10Z
 
+[Term]
+id: PDO:0000231
+name: maize Setosphaeria root rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Setosphaeria pedicellata (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_disease
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-05-25T:15:3130Z
+
 [Typedef]
 id: causal_agent_in
 name: causal agent in
