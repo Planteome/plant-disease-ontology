@@ -2569,6 +2569,15 @@ is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-04-25T14:03:52Z
 
+[Term]
+id: PDO:0000230
+name: maize Sclerospora green ear downy mildew fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Sclerospora graminicola (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-05-25T:15:12:10Z
+
 [Typedef]
 id: causal_agent_in
 name: causal agent in
