@@ -454,6 +454,7 @@ synonym: "rice downy mildew " EXACT []
 xref: OBO_SF2_PSO:21
 xref: PSO_GIT:21
 is_a: PDO:0000081 ! rice fungal disease
+relationship: has_causal_agent PDO:0000038 ! Sclerophthora macrospora
 created_by: moorel
 creation_date: 2012-04-09T02:35:27Z
 
@@ -2566,6 +2567,7 @@ name: maize Sclerophthora crazy top downy mildew fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Sclerophthora macrospora (PDO:XXX)." [PDO:megan_seymour]
 xref: APS:Plant_Diseases
 is_a: PDO:0000012 ! maize fungal disease
+relationship: has_causal_agent PDO:0000038 ! Sclerophthora macrospora
 created_by: megan_seymour
 creation_date: 2016-04-25T14:03:52Z
 
