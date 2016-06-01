@@ -2059,7 +2059,7 @@ creation_date: 2015-05-30T17:52:43Z
 
 [Term]
 id: PDO:0000176
-name: maize anthracnose leaf blight fungal disease
+name: maize Anthracnose leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:105
@@ -2070,7 +2070,7 @@ creation_date: 2015-06-23T12:18:37Z
 
 [Term]
 id: PDO:0000177
-name: maize anthracnose stalk rot fungal disease
+name: maize Anthracnose stalk rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:105
@@ -2184,7 +2184,7 @@ creation_date: 2015-07-09T15:41:54Z
 
 [Term]
 id: PDO:0000187
-name: maize black bundle fungal disease
+name: maize Sarocladium black bundle fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Sarocladium strictum (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:115
@@ -2195,8 +2195,8 @@ creation_date: 2015-07-09T16:04:14Z
 
 [Term]
 id: PDO:0000188
-name: maize eyespot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Aureobasidium zeae (PDO:xxx)." [PDO:austin_meier]
+name: maize Aureobasidium eyespot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Aureobasidium zeae (PDO:xxx)." [megan_seymour, PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:116
 xref: PSO_GIT:115
@@ -2206,7 +2206,7 @@ creation_date: 2015-07-14T13:45:34Z
 
 [Term]
 id: PDO:0000189
-name: maize alternaria minor ear rot fungal disease
+name: maize Alternaria minor ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Alternaria alternata (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_diseases
 xref: OBO_SF2_PSO:117
@@ -2217,7 +2217,7 @@ creation_date: 2015-07-14T13:54:40Z
 
 [Term]
 id: PDO:0000190
-name: maize alternaria minor leaf spot fungal disease
+name: maize Alternaria minor leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Alternaria alternata (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:118
@@ -2228,7 +2228,7 @@ creation_date: 2015-07-14T13:59:15Z
 
 [Term]
 id: PDO:0000191
-name: maize alternaria minor root rot fungal disease
+name: maize Alternaria minor root rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Alternaria alternata (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:119
@@ -2316,8 +2316,8 @@ creation_date: 2015-07-16T15:14:49Z
 
 [Term]
 id: PDO:0000199
-name: maize ergot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Claviceps gigantea (PDO:xxx)." [PDO:austin_meier]
+name: maize Claviceps ergot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Claviceps gigantea (PDO:xxx)." [megan_seymour, PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:127
 xref: PSO_GIT:126
@@ -2535,7 +2535,7 @@ creation_date: 2016-04-25T13:49:27Z
 
 [Term]
 id: PDO:0000221
-name: maize sarocladium kernel rot fungal disease
+name: maize Sarocladium kernel rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Sarocladium strictum (PDO:XXX)." [] {created_by="PDO:megan_seymour"}
 xref: APS:Plant_Diseases
 is_a: PDO:0000012 ! maize fungal disease
