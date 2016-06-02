@@ -2691,6 +2691,42 @@ relationship: has_causal_agent PDO:0000042 ! Ustilaginoidea virens
 created_by: megan_seymour
 creation_date: 2016-06-02T:11:22:18Z
 
+[Term]
+id: PDO:0000243
+name: maize Peronosclerospora sugarcane downy mildew fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Peronosclerospora sacchari (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-02T:11:35:55Z
+
+[Term]
+id: PDO:0000244
+name: maize Phyllachora tar spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Phyllachora maydis (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-02T:11:40:25Z
+
+[Term]
+id: PDO:0000245
+name: maize Peyronellaea yellow leaf blight fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Peyronellaea zeae-maydis (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-02T:11:44:45Z
+
+[Term]
+id: PDO:0000246
+name: maize Microdochium zonate leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Microdochium sorghi (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-02T:11:46:55Z
+
 [Typedef]
 id: causal_agent_in
 name: causal agent in
