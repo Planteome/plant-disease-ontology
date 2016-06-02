@@ -2129,8 +2129,8 @@ creation_date: 2015-06-25T14:33:47Z
 
 [Term]
 id: PDO:0000182
-name: maize smut fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Ustilago maydis (PDO:XXX)." [PDO:austin_meier]
+name: maize Ustilago smut fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Ustilago maydis (PDO:XXX)." [megan_seymour, PDO:austin_meier]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:112
 xref: PSO_GIT:111
@@ -2153,7 +2153,7 @@ creation_date: 2015-07-09T14:21:28Z
 
 [Term]
 id: PDO:0000184
-name: maize southern leaf blight fungal disease
+name: maize Bipolaris southern leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Bipolaris maydis (PDO:XXX)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:104
@@ -2670,6 +2670,26 @@ xref: APS:plant_diseases
 is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-06-02T:10:46:20Z
+
+[Term]
+id: PDO:0000241
+name: maize Gaeumannomyces sheath rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Gaeumannomyces graminis (PDO:0000036)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+relationship: has_causal_agent PDO:0000036 ! Gaeumannomyces graminis
+created_by: megan_seymour
+creation_date: 2016-06-02T:11:06:30Z
+
+[Term]
+id: PDO:0000242
+name: maize Ustilaginoidea false smut fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Ustilaginoidea virens (PDO:0000042)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+relationship: has_causal_agent PDO:0000042 ! Ustilaginoidea virens
+created_by: megan_seymour
+creation_date: 2016-06-02T:11:22:18Z
 
 [Typedef]
 id: causal_agent_in
