@@ -2037,12 +2037,13 @@ creation_date: 2015-05-29T16:34:55Z
 
 [Term]
 id: PDO:0000174
-name: maize gray leaf spot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Cercospora zeae-maydis (PDO:0000175)." [PDO:cooperl]
+name: maize Cercospora gray leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Cercospora zeae-maydis (PDO:0000175)." [megan_seymour, PDO:cooperl]
 synonym: "Cercospora leaf spot " RELATED []
 xref: OBO_SF2_PSO:113
 xref: PSO_GIT:112
 is_a: PDO:0000012 ! maize fungal disease
+relationship: has_causal_agent PDO:0000175 ! Cercospora zeae-maydis
 created_by: cooperl
 creation_date: 2015-05-30T17:46:33Z
 
@@ -2054,7 +2055,7 @@ synonym: "Cercospora zeae-maydis SCOH1-5 " NARROW [PHI-base:xxx]
 synonym: "Cercospora zeae-maydis Tehon & E.Y. Daniels" NARROW []
 xref: NCBITaxon:135779
 is_a: PDO:0000069 ! fungal species
-relationship: causal_agent_in PDO:0000174 ! maize gray leaf spot fungal disease
+relationship: causal_agent_in PDO:0000174 ! maize Cercospora gray leaf spot fungal disease
 created_by: cooperl
 creation_date: 2015-05-30T17:52:43Z
 
@@ -2284,8 +2285,8 @@ creation_date: 2015-07-14T15:07:10Z
 
 [Term]
 id: PDO:0000196
-name: maize gray ear rot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Bipolaris zeae (PDO:xxx)." [PDO:austin_meier]
+name: maize Botryosphaeria gray ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Botryosphaeria zeae (PDO:xxx)." [megan_seymour, PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:124
 xref: PSO_GIT:123
@@ -2660,6 +2661,15 @@ xref: APS:plant_diseases
 is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-05-25T:16:30:45Z
+
+[Term]
+id: PDO:0000240
+name: maize Ramulispora grey leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Ramulispora sorghi (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-02T:10:46:20Z
 
 [Typedef]
 id: causal_agent_in
