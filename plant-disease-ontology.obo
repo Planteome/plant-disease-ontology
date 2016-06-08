@@ -2727,6 +2727,62 @@ is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-06-02T:11:46:55Z
 
+[Term]
+id: PDO:0000247
+name: maize Fusarium ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-08T:11:15:55Z
+
+[Term]
+id: PDO:0000248
+name: maize Fusarium seed rot-seedling blight fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Fusarium verticillioides (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-08T:11:17:34Z
+
+[Term]
+id: PDO:0000249
+name: maize Anthracnose leaf blight fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum falcatum (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-08T:11:21:17Z
+
+[Term]
+id: PDO:0000250
+name: maize Anthracnose stalk rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum falcatum (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-08T:11:24:48Z
+
+[Term]
+id: PDO:0000251
+name: maize Rhizoctonia sheath spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Rhizoctonia solani (PDO:0000088)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+relationship: has_causal_agent PDO:0000088 ! Rhizoctonia solani
+created_by: megan_seymour
+creation_date: 2016-06-08T:11:26:19Z
+
+[Term]
+id: PDO:0000252
+name: maize Rhizoctonia banded leaf fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Rhizoctonia solani (PDO:0000088)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+relationship: has_causal_agent PDO:0000088 ! Rhizoctonia solani
+created_by: megan_seymour
+creation_date: 2016-06-08T:11:30:20Z
+
 [Typedef]
 id: causal_agent_in
 name: causal agent in
