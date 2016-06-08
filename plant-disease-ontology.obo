@@ -2061,24 +2061,26 @@ creation_date: 2015-05-30T17:52:43Z
 
 [Term]
 id: PDO:0000176
-name: maize Anthracnose leaf blight fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier]
+name: maize Colletotrichum graminicola Anthracnose leaf blight fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:105
 xref: PSO_GIT:104
 is_a: PDO:0000012 ! maize fungal disease
+relationship: has_causal_agent PDO:0000106 ! Colletotrichum graminicola
 created_by: austinmeier
 creation_date: 2015-06-23T12:18:37Z
 
 [Term]
 id: PDO:0000177
-name: maize Anthracnose stalk rot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier]
+name: maize Colletotrichum graminicola Anthracnose stalk rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:105
 xref: PSO_GIT:104
 xref: PSO_GIT:105
 is_a: PDO:0000012 ! maize fungal disease
+relationship: has_causal_agent PDO:0000106 ! Colletotrichum graminicola
 created_by: austinmeier
 creation_date: 2015-06-24T13:39:01Z
 
@@ -2747,7 +2749,7 @@ creation_date: 2016-06-08T:11:17:34Z
 
 [Term]
 id: PDO:0000249
-name: maize Anthracnose leaf blight fungal disease
+name: maize Colletotrichum falcatum Anthracnose leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum falcatum (PDO:XXX)." [PDO:megan_seymour]
 xref: APS:plant_diseases
 is_a: PDO:0000012 ! maize fungal disease
@@ -2756,7 +2758,7 @@ creation_date: 2016-06-08T:11:21:17Z
 
 [Term]
 id: PDO:0000250
-name: maize Anthracnose stalk rot fungal disease
+name: maize Colletotrichum falcatum Anthracnose stalk rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum falcatum (PDO:XXX)." [PDO:megan_seymour]
 xref: APS:plant_diseases
 is_a: PDO:0000012 ! maize fungal disease
