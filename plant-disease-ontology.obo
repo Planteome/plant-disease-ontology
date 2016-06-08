@@ -2561,6 +2561,7 @@ name: maize Rhizoctonia corticium ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Rhizoctonia solani (PDO:0000088)." [PDO:megan_seymour]
 xref: APS:Plant_Diseases
 is_a: PDO:0000012 ! maize fungal disease
+relationship: has_causal_agent PDO:0000088 ! Rhizoctonia solani
 created_by: megan_seymour
 creation_date: 2016-04-25T14:00:01Z
 
@@ -2784,6 +2785,33 @@ is_a: PDO:0000012 ! maize fungal disease
 relationship: has_causal_agent PDO:0000088 ! Rhizoctonia solani
 created_by: megan_seymour
 creation_date: 2016-06-08T:11:30:20Z
+
+[Term]
+id: PDO:0000253
+name: maize Aspergillus kernel rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Aspergillus flavus (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-08T:12:47:18Z
+
+[Term]
+id: PDO:0000254
+name: maize Diplodia ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Physalospora zeicola (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-08T:12:50:02Z
+
+[Term]
+id: PDO:0000255
+name: maize Diplodia stalk rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Physalospora zeicola (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-08T:12:51:55Z
 
 [Typedef]
 id: causal_agent_in
