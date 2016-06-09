@@ -2210,8 +2210,8 @@ creation_date: 2015-07-14T13:45:34Z
 
 [Term]
 id: PDO:0000189
-name: maize Alternaria minor ear rot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Alternaria alternata (PDO:xxx)." [PDO:austin_meier]
+name: maize Alternaria alternata minor ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Alternaria alternata (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_diseases
 xref: OBO_SF2_PSO:117
 xref: PSO_GIT:116
@@ -2243,8 +2243,8 @@ creation_date: 2015-07-14T14:05:15Z
 
 [Term]
 id: PDO:0000192
-name: maize Aspergillus ear rot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Aspergillus glaucus (PDO:xxx), Aspergillus niger (PDO:xxx), and Aspergillus flavus (PDO:xxx)." [PDO:austin_meier]
+name: maize Aspergillus glaucus minor ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Aspergillus glaucus (PDO:xxx).." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:120
 xref: PSO_GIT:119
@@ -2332,7 +2332,7 @@ creation_date: 2015-07-17T13:19:08Z
 [Term]
 id: PDO:0000200
 name: maize Cunninghamella minor ear rot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Cunninghamella sp. (PDO:xxx)." [PDO:austin_meier]
+def: "A maize fungal disease (PDO:0000012) caused by Cunninghamella spp. (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:128
 xref: PSO_GIT:127
@@ -2353,7 +2353,7 @@ creation_date: 2015-07-17T13:30:27Z
 
 [Term]
 id: PDO:0000202
-name: maize Curvularia minor ear rot fungal disease
+name: maize Cochliobolus pallescens minor ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus pallescens (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:130
@@ -2386,7 +2386,7 @@ creation_date: 2015-07-17T15:18:06Z
 
 [Term]
 id: PDO:0000205
-name: maize Doratomyces minor ear rot fungal disease
+name: maize Doratomyces stemonitis minor ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Doratomyces stemonitis (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:133
@@ -2919,6 +2919,24 @@ xref: PSO_GIT:128
 is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-06-09T:11:09:10Z
+
+[Term]
+id: PDO:0000267
+name: maize Aspergillus niger ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Aspergillus niger (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:12:13:55Z
+
+[Term]
+id: PDO:0000268
+name: maize Aspergillus flavus ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Aspergillus flavus (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:12:19:54Z
 
 [Typedef]
 id: causal_agent_in
