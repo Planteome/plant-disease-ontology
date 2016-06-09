@@ -2938,6 +2938,78 @@ is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-06-09T:12:19:54Z
 
+[Term]
+id: PDO:0000269
+name: maize Botrytis cinerea minor ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Botrytis cinerea (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:12:36:40Z
+
+[Term]
+id: PDO:0000270
+name: maize Aspergillus minor ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Aspergillus spp. (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:12:38:03Z
+
+[Term]
+id: PDO:0000271
+name: maize Fusarium culmorum minor ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Fusarium culmorum (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:12:40:15Z
+
+[Term]
+id: PDO:0000272
+name: maize Gonatobotrys simplex minor ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Gonatobotrys simplex (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:12:42:04Z
+
+[Term]
+id: PDO:0000273
+name: maize Pithomyces maydicus minor ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Pithomyces maydicus (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:12:43:14Z
+
+[Term]
+id: PDO:0000274
+name: maize Rhizopus microsporus minor ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Rhizopus microsporus (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:12:45:19Z
+
+[Term]
+id: PDO:0000275
+name: maize Rhizopus stolonifer minor ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Rhizopus stolonifer (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:12:47:46Z
+
+[Term]
+id: PDO:0000276
+name: maize Scopulariopsis brumptii minor ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Scopulariopsis brumptii (PDO:XXX)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:12:48:55Z
+
 [Typedef]
 id: causal_agent_in
 name: causal agent in
