@@ -2342,8 +2342,8 @@ creation_date: 2015-07-17T13:23:58Z
 
 [Term]
 id: PDO:0000201
-name: maize Culvularia leaf spot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Curvularia clavata (PDO:xxx), Curvularia eragrostidis (PDO:xxx), Curvularia inaequalis (PDO:xxx), Curvularia intermedia (PDO:xxx), Curvularia lunata (PDO:xxx), Curvularia pallescens (PDO:xxx), Curvularia senegalensis (PDO:xxx), and Curvularia tuberculata (PDO:xxx)." [PDO:austin_meier]
+name: maize Culvularia clavata leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Curvularia clavata (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:129
 xref: PSO_GIT:128
@@ -2812,6 +2812,113 @@ xref: APS:plant_diseases
 is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-06-08T:12:51:55Z
+
+[Term]
+id: PDO:0000256
+name: maize Physoderma brown spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Physoderma maydis (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:10:41:14Z
+
+[Term]
+id: PDO:0000257
+name: maize Nigrospora dry ear rot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Nigrospora oryzae (PDO:xxx)." [PDO:megan_seymour]
+xref: APS_plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:10:44:45Z
+
+[Term]
+id: PDO:0000258
+name: maize Diplodia leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Stenocarpella macrospora (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:10:46:07Z
+
+[Term]
+id: PDO:0000259
+name: maize Diplodia leaf streak fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Stenocarpella macrospora (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:10:48:55Z
+
+[Term]
+id: PDO:0000260
+name: maize Cochliobolus pallescens leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus pallescens (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+xref: PSO_GIT:128
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:10:53:20Z
+
+[Term]
+id: PDO:0000261
+name: maize Curvularia eragrostidis leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Curvularia eragrostidis (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+xref: PSO_GIT:128
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:10:56:11Z
+
+[Term]
+id: PDO:0000262
+name: maize Curvularia inaequalis leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Curvularia inaequalis (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+xref: PSO_GIT:128
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:11:00:03Z
+
+[Term]
+id: PDO:0000263
+name: maize Curvularia intermedia leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Curvularia intermedia (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+xref: PSO_GIT:128
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:11:02:22Z
+
+[Term]
+id: PDO:0000264
+name: maize Curvularia lunata leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Curvularia lunata (PDO:0000030)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+xref: PSO_GIT:128
+is_a: PDO:0000012 ! maize fungal disease
+relationship: has_causal_agent PDO:0000030 ! Curvularia lunata
+created_by: megan_seymour
+creation_date: 2016-06-09T:11:05:03Z
+
+[Term]
+id: PDO:0000265
+name: maize Curvularia senegalensis leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Curvularia senegalensis (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+xref: PSO_GIT:128
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:11:08:44Z
+
+[Term]
+id: PDO:0000266
+name: maize Curvularia tuberculata leaf spot fungal disease
+def: "A maize fungal disease (PDO:0000012) caused by Curvularia tuberculata (PDO:xxx)." [PDO:megan_seymour]
+xref: APS:plant_diseases
+xref: PSO_GIT:128
+is_a: PDO:0000012 ! maize fungal disease
+created_by: megan_seymour
+creation_date: 2016-06-09T:11:09:10Z
 
 [Typedef]
 id: causal_agent_in
