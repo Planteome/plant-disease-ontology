@@ -1,9 +1,9 @@
-# plant-stress-ontology
-Repository for the Plant Stress Ontology
+# plant-disease-ontology
+Repository for the Plant Disease Ontology
 
 
 
-Please use the files in this repository with caution- the PSO is very much in the testing and preliminary stage right now. 
+Please use the files in this repository with caution- the PDO is very much in the testing and preliminary stage right now. 
 
 We are currently adding the diseases and pathogens sourced from the American Phytopathological Society (http://www.apsnet.org/publications/commonnames/Pages/default.aspx), primarily focusing on the rice and maize at this time.
 
