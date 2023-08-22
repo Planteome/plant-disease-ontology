@@ -36,7 +36,7 @@ name: rice bacterial disease
 def: "A plant bacterial disease (PDO:0000002) that affects rice (Oryza_sativa_L.; PDO:0000098)." [PDO:Laurel_Cooper, PDO:saisree_uppala]
 subset: Oryza_sativa_L
 xref: OBO_SF2_PSO:27
-xref: PSO_GIT:26
+xref: PDO_GIT:26
 is_a: PDO:0000002 ! plant bacterial disease
 created_by: cooperl
 creation_date: 2012-03-30T03:32:12Z
@@ -143,7 +143,7 @@ def: "A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv ory
 subset: Oryza_sativa_L
 synonym: "rice bacterial blight " EXACT []
 xref: OBO_SF2_PSO:31
-xref: PSO_GIT:30
+xref: PDO_GIT:30
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-05T10:37:53Z
@@ -153,7 +153,7 @@ id: PDO:0000015
 name: causal agent
 def: "An agent that causes plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:40
-xref: PSO_GIT:39
+xref: PDO_GIT:39
 is_a: PDO:0001000 ! plant disease ontology
 created_by: moorel
 creation_date: 2012-04-06T02:20:47Z
@@ -163,7 +163,7 @@ id: PDO:0000016
 name: bacterial biotic causal agent
 def: "A biotic causal agent (PDO:0000067) that is bacteria." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:39
-xref: PSO_GIT:38
+xref: PDO_GIT:38
 is_a: PDO:0000067 ! biotic causal agent
 created_by: moorel
 creation_date: 2012-04-06T02:21:57Z
@@ -178,7 +178,7 @@ synonym: "Xanthomonas oryzae pv. oryzae (Ishiyama) Swings et al." NARROW [APS:Pl
 xref: EOL:973456
 xref: NCBITaxon:64187
 xref: OBO_SF2_PSO:96
-xref: PSO_GIT:95
+xref: PDO_GIT:95
 is_a: PDO:0000095 ! Xanthomonas
 relationship: causal_agent_in PDO:0000014 ! rice bacterial blight disease
 created_by: moorel
@@ -194,7 +194,7 @@ synonym: "Xanthomonas oryzae pv. oryzicola (Ishiyama) Swings et al." NARROW [APS
 xref: EOL:39780763
 xref: NCBITaxon:129394
 xref: OBO_SF2_PSO:97
-xref: PSO_GIT:96
+xref: PDO_GIT:96
 is_a: PDO:0000095 ! Xanthomonas
 relationship: causal_agent_in PDO:0000019 ! rice bacterial leaf streak disease
 created_by: moorel
@@ -207,7 +207,7 @@ def: "A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv ory
 subset: Oryza_sativa_L
 synonym: "rice bacterial leaf streak" EXACT []
 xref: OBO_SF2_PSO:32
-xref: PSO_GIT:31
+xref: PDO_GIT:31
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:37:41Z
@@ -219,7 +219,7 @@ def: "A rice bacterial disease (PDO:0000003) caused by Dickeya chrysanthemi (PDO
 subset: Oryza_sativa_L
 synonym: "rice foot rot" EXACT []
 xref: OBO_SF2_PSO:33
-xref: PSO_GIT:32
+xref: PDO_GIT:32
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:41:32Z
@@ -232,7 +232,7 @@ synonym: "Dickeya chrysanthemi (Burkholder et al. 1953) Samson et al. 2005" RELA
 synonym: "Erwinia chrysanthemi Burkholder et al. " RELATED [APS:Plant_Diseases]
 xref: EOL:972724
 xref: NCBITaxon:556
-xref: PSO_GIT:88
+xref: PDO_GIT:88
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent_in PDO:0000020 ! rice foot rot bacterial disease
 created_by: moorel
@@ -248,7 +248,7 @@ synonym: "Pseudomonas glumae Kurita & Tabei" RELATED [APS:Plant_Diseases]
 xref: EOL:976773
 xref: NCBITaxon:337
 xref: OBO_SF2_PSO:99
-xref: PSO_GIT:98
+xref: PDO_GIT:98
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent_in PDO:0000023 ! rice grain rot bacterial disease
 created_by: moorel
@@ -261,7 +261,7 @@ def: "A rice bacterial disease (PDO:0000003) caused by Burkholderia glumae (PDO:
 subset: Oryza_sativa_L
 synonym: "rice grain rot" EXACT []
 xref: OBO_SF2_PSO:34
-xref: PSO_GIT:33
+xref: PDO_GIT:33
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:51:43Z
@@ -273,7 +273,7 @@ def: "A rice bacterial disease (PDO:0000003) caused by Pseudomonas fuscovaginae 
 subset: Oryza_sativa_L
 synonym: "rice sheath brown rot" EXACT []
 xref: OBO_SF2_PSO:35
-xref: PSO_GIT:34
+xref: PDO_GIT:34
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-04-09T01:59:01Z
@@ -288,7 +288,7 @@ synonym: "Pseudomonas fuscovaginae (ex Tanii et al. 1976) Miyajima et al. 1983" 
 xref: EOL:973020
 xref: NCBITaxon:50340
 xref: OBO_SF2_PSO:98
-xref: PSO_GIT:97
+xref: PDO_GIT:97
 is_a: PDO:0000094 ! Pseudomonas
 relationship: causal_agent_in PDO:0000024 ! rice sheath brown rot bacterial disease
 created_by: moorel
@@ -299,7 +299,7 @@ id: PDO:0000026
 name: fungal biotic causal agent
 def: "A biotic causal agent (PDO:0000067) that is fungus." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:38
-xref: PSO_GIT:37
+xref: PDO_GIT:37
 is_a: PDO:0000067 ! biotic causal agent
 created_by: moorel
 creation_date: 2012-04-09T02:06:26Z
@@ -312,7 +312,7 @@ subset: Oryza_sativa_L
 synonym: "aggregate sheath spot" EXACT []
 synonym: "rice aggregate sheath spot" EXACT []
 xref: OBO_SF2_PSO:13
-xref: PSO_GIT:6
+xref: PDO_GIT:6
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:12:07Z
@@ -327,7 +327,7 @@ synonym: "Rhizoctonia oryzae-sativae " RELATED [NCBITaxon:63189]
 synonym: "Rhizoctonia oryzae-sativae (Sawada) Mordue) " RELATED anamorph [APS:Plant_DIseases]
 xref: EOL:18499121
 xref: NCBITaxon:63189
-xref: PSO_GIT:136
+xref: PDO_GIT:136
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent_in PDO:0000027 ! rice aggregate sheath spot fungal disease
 created_by: moorel
@@ -341,7 +341,7 @@ subset: Oryza_sativa_L
 synonym: "black kernel" EXACT []
 synonym: "rice black kernel" EXACT []
 xref: OBO_SF2_PSO:24
-xref: PSO_GIT:23
+xref: PDO_GIT:23
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:18:03Z
@@ -354,7 +354,7 @@ synonym: "Cochiobolus lunatus R.R. Nelson & Haasis " RELATED telomorph [APS:Plan
 synonym: "Curvularia lunata (Wakk.) Boedijn" NARROW [APS:Plant_DIseases]
 xref: EOL:11501463
 xref: NCBITaxon:418123
-xref: PSO_GIT:139
+xref: PDO_GIT:139
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent_in PDO:0000029 ! rice black kernel fungal disease
 relationship: part_of PDO:0000074 ! Curvularia spp.
@@ -372,7 +372,7 @@ synonym: "rice neck blast" NARROW []
 synonym: "rice nodal blast" NARROW []
 synonym: "rice rotten neck" NARROW []
 xref: OBO_SF2_PSO:5
-xref: PSO_GIT:5
+xref: PDO_GIT:5
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:23:26Z
@@ -388,7 +388,7 @@ synonym: "Pyricularia grisea Sacc." RELATED [APS:Plant_Diseases]
 synonym: "Pyricularia oryzae Cavara" RELATED [APS:Plant_Diseases, NCBITaxon:318829]
 xref: EOL:1002512
 xref: NCBITaxon:318829
-xref: PSO_GIT:100
+xref: PDO_GIT:100
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent_in PDO:0000031 ! rice blast fungal disease
 created_by: moorel
@@ -401,7 +401,7 @@ def: "A rice fungal disease (PDO:0000081) caused by Bipolaris oryzae (PDO:000003
 subset: Oryza_sativa_L
 synonym: "brown spot" EXACT []
 synonym: "rice brown spot" EXACT []
-xref: PSO_GIT:24
+xref: PDO_GIT:24
 is_a: PDO:0000081 ! rice fungal disease
 relationship: has_causal_agent PDO:0000034 ! Bipolaris oryzae
 created_by: moorel
@@ -416,7 +416,7 @@ synonym: "Bipolaris oryzae (Breda de Haan) Shoemaker, 1959 " NARROW [NCBITaxon:1
 synonym: "Cochliobolus miyabeanus (Ito & Kuribayashi) Drechs. ex Dastur" RELATED [APS:Plant_Diseases]
 xref: EOL:6752668
 xref: NCBITaxon:101162
-xref: PSO_GIT:157
+xref: PDO_GIT:157
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2012-04-09T02:28:59Z
@@ -428,7 +428,7 @@ def: "A rice fungal disease (PDO:0000081) caused by Gaeumannomyces graminis (PDO
 subset: Oryza_sativa_L
 synonym: "rice crown sheath rot" EXACT []
 xref: OBO_SF2_PSO:7
-xref: PSO_GIT:7
+xref: PDO_GIT:7
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:31:07Z
@@ -440,7 +440,7 @@ def: "A fungal species (PDO:0000069) that causes rice crown sheath rot fungal di
 synonym: "Gaeumannomyces graminis (Sacc.) Thirumalachar et al." NARROW [APS:Plant_Diseases]
 xref: EOL:6640995
 xref: NCBITaxon:29850
-xref: PSO_GIT:148
+xref: PDO_GIT:148
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent_in PDO:0000035 ! rice crown sheath rot fungal disease
 created_by: moorel
@@ -454,7 +454,7 @@ subset: Oryza_sativa_L
 synonym: "downy mildew" EXACT []
 synonym: "rice downy mildew " EXACT []
 xref: OBO_SF2_PSO:21
-xref: PSO_GIT:21
+xref: PDO_GIT:21
 is_a: PDO:0000081 ! rice fungal disease
 relationship: has_causal_agent PDO:0000038 ! Sclerophthora macrospora
 created_by: moorel
@@ -467,7 +467,7 @@ def: "A fungal species (PDO:0000069) that causes downy mildew fungal disease (PD
 synonym: "Sclerophthora macrospora (Sacc.) Thirumalachar et al. " NARROW [APS:Plant_Diseases]
 xref: EOL:1009008
 xref: NCBITaxon:467176
-xref: PSO_GIT:144
+xref: PDO_GIT:144
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2012-04-09T02:39:34Z
@@ -480,7 +480,7 @@ subset: Oryza_sativa_L
 synonym: "eyespot" EXACT []
 synonym: "rice eyespot" EXACT []
 xref: OBO_SF2_PSO:26
-xref: PSO_GIT:25
+xref: PDO_GIT:25
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:43:16Z
@@ -492,7 +492,7 @@ def: "A fungal species (PDO:0000069) that causes rice eyespot fungal disease (PD
 synonym: "Drechslera gigantea (Heald & F.A. Wolf) Ito" NARROW [APS:Plant_Diseases]
 xref: EOL:1005334
 xref: NCBITaxon:33198 "genus"
-xref: PSO_GIT:140
+xref: PDO_GIT:140
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent_in PDO:0000039 ! rice eyespot fungal disease
 created_by: moorel
@@ -506,7 +506,7 @@ subset: Oryza_sativa_L
 synonym: "false smut" EXACT []
 synonym: "rice false smut" EXACT []
 xref: OBO_SF2_PSO:20
-xref: PSO_GIT:20
+xref: PDO_GIT:20
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:47:43Z
@@ -520,7 +520,7 @@ synonym: "Ustilaginoidea virens (Cooke) Takah." NARROW [APS:Plant_Diseases]
 synonym: "Villosiclava virens" RELATED [NCBITaxon:1159556]
 xref: EOL:997966
 xref: NCBITaxon:1159556
-xref: PSO_GIT:143
+xref: PDO_GIT:143
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent_in PDO:0000041 ! rice false smut fungal disease
 created_by: moorel
@@ -535,7 +535,7 @@ subset: Oryza_sativa_L
 synonym: "kernel smut" EXACT []
 synonym: "rice kernel smut" EXACT []
 xref: OBO_SF2_PSO:2
-xref: PSO_GIT:2
+xref: PDO_GIT:2
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:52:18Z
@@ -549,7 +549,7 @@ synonym: "Neovossia horrida (Takah.) Padwick & A. Khan  " RELATED [APS:Plant_Dis
 synonym: "Tilletia barclayana (Bref.) Sacc. & Syd. in Sacc." NARROW [APS:Plant_Diseases]
 xref: EOL:1029922
 xref: NCBITaxon:157178
-xref: PSO_GIT:138
+xref: PDO_GIT:138
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent_in PDO:0000043 ! rice kernel smut fungal disease
 created_by: moorel
@@ -563,7 +563,7 @@ subset: Oryza_sativa_L
 synonym: "leaf smut" EXACT []
 synonym: "rice leaf smut" EXACT []
 xref: OBO_SF2_PSO:4
-xref: PSO_GIT:4
+xref: PDO_GIT:4
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T02:56:24Z
@@ -575,7 +575,7 @@ def: "A fungal species (PDO:0000069) that causes rice leaf smut fungal disease (
 synonym: "Entyloma oryzae Syd. & P. Syd." NARROW [APS:Plant_Diseases]
 xref: EOL:188781
 xref: NCBITaxon:62636 "genus"
-xref: PSO_GIT:141
+xref: PDO_GIT:141
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent_in PDO:0000045 ! rice leaf smut fungal disease
 created_by: moorel
@@ -590,7 +590,7 @@ subset: Oryza_sativa_L
 synonym: "leaf scald" EXACT []
 synonym: "rice leaf scald" EXACT []
 xref: OBO_SF2_PSO:8
-xref: PSO_GIT:8
+xref: PDO_GIT:8
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-09T03:01:46Z
@@ -617,7 +617,7 @@ subset: Oryza_sativa_L
 synonym: "narrow brown leaf spot" EXACT []
 synonym: "rice narrow brown leaf spot" EXACT []
 xref: OBO_SF2_PSO:3
-xref: PSO_GIT:3
+xref: PDO_GIT:3
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:19:40Z
@@ -646,7 +646,7 @@ subset: Oryza_sativa_L
 synonym: "rice sheath blight" EXACT []
 synonym: "sheath blight" EXACT []
 xref: OBO_SF2_PSO:15
-xref: PSO_GIT:15
+xref: PDO_GIT:15
 is_a: PDO:0000081 ! rice fungal disease
 relationship: has_causal_agent PDO:0000088 ! Rhizoctonia solani
 created_by: moorel
@@ -660,7 +660,7 @@ subset: Oryza_sativa_L
 synonym: "rice sheath rot" EXACT []
 synonym: "sheath rot" EXACT []
 xref: OBO_SF2_PSO:19
-xref: PSO_GIT:19
+xref: PDO_GIT:19
 is_a: PDO:0000081 ! rice fungal disease
 relationship: has_causal_agent PDO:0000083 ! Sarocladium oryzae
 created_by: moorel
@@ -676,7 +676,7 @@ synonym: "Xanthomonas vasicola Vauterin et al. 1995" NARROW [NCBITaxon:56459]
 xref: EOL:973427
 xref: NCBITaxon:56459
 xref: OBO_SF2_PSO:72
-xref: PSO_GIT:71
+xref: PDO_GIT:71
 is_a: PDO:0000095 ! Xanthomonas
 relationship: causal_agent_in PDO:0000146 ! maize bacterial leaf spot disease
 created_by: planteome
@@ -690,7 +690,7 @@ subset: Oryza_sativa_L
 synonym: "rice sheath spot" EXACT []
 synonym: "sheath spot" EXACT []
 xref: OBO_SF2_PSO:16
-xref: PSO_GIT:16
+xref: PDO_GIT:16
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:41:34Z
@@ -702,7 +702,7 @@ def: "A fungal species (PDO:0000069) that causes rice sheath spot fungal disease
 synonym: "Rhizoctonia oryzae Ryker & Gooch" NARROW [APS:Plant_Diseases]
 xref: EOL:11446349
 xref: NCBITaxon:459364
-xref: PSO_GIT:145
+xref: PDO_GIT:145
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent_in PDO:0000055 ! rice sheath spot fungal disease
 created_by: moorel
@@ -717,7 +717,7 @@ synonym: "alternaria leaf spot" EXACT []
 synonym: "rice alternaria leaf spot" EXACT []
 synonym: "rice stackburn (alternaria leaf spot)" EXACT []
 xref: OBO_SF2_PSO:17
-xref: PSO_GIT:17
+xref: PDO_GIT:17
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:49:10Z
@@ -729,7 +729,7 @@ def: "A fungal species (PDO:0000069) that causes rice stackburn (alternaria leaf
 synonym: "Alternaria padwickii (Ganguly) M.B. Ellis 1971" NARROW [NCBITaxon:714880]
 xref: EOL:1005087
 xref: NCBITaxon:714880
-xref: PSO_GIT:137
+xref: PDO_GIT:137
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent_in PDO:0000057 ! rice stackburn fungal disease
 created_by: moorel
@@ -743,7 +743,7 @@ subset: Oryza_sativa_L
 synonym: "rice stem rot" EXACT []
 synonym: "stem rot" EXACT []
 xref: OBO_SF2_PSO:18
-xref: PSO_GIT:18
+xref: PDO_GIT:18
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-12T10:55:03Z
@@ -758,7 +758,7 @@ synonym: "Nakataea oryzae (Catt.) J. Luo & N. Zhang, 2013" NARROW [NCBITaxon:165
 synonym: "Sclerotium oryzae Cattaneo" RELATED synanamorph [APS:Plant_Diseases]
 xref: EOL:42754629
 xref: NCBITaxon:165778
-xref: PSO_GIT:147
+xref: PDO_GIT:147
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent_in PDO:0000059 ! rice stem rot fungal disease
 created_by: moorel
@@ -770,7 +770,7 @@ name: wheat bacterial leaf blight
 def: "A wheat bacterial disease (PDO:0000008) caused by Pseudomonas syringae subsp. syringae (PDO:0000062)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 subset: Triticum_aestivum
 xref: OBO_SF2_PSO:82
-xref: PSO_GIT:81
+xref: PDO_GIT:81
 is_a: PDO:0000008 ! wheat bacterial disease
 created_by: moorel
 creation_date: 2012-04-13T01:10:09Z
@@ -785,7 +785,7 @@ synonym: "Pseudomonas syringae subsp. syringae van Hall 1902 " NARROW [APS:Plant
 synonym: "Pseudomonas syringae van Hall 1902" RELATED []
 xref: NCBITaxon:317
 xref: OBO_SF2_PSO:81
-xref: PSO_GIT:80
+xref: PDO_GIT:80
 is_a: PDO:0000094 ! Pseudomonas
 relationship: causal_agent_in PDO:0000061 ! wheat bacterial leaf blight
 created_by: moorel
@@ -798,7 +798,7 @@ def: "A rice fungal disease (PDO:0000081) caused by one or more of Fusarium spp.
 subset: Oryza_sativa_L
 synonym: "rice root rot" EXACT []
 xref: OBO_SF2_PSO:23
-xref: PSO_GIT:22
+xref: PDO_GIT:22
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-13T02:04:43Z
@@ -841,7 +841,7 @@ id: PDO:0000067
 name: biotic causal agent
 def: "A causal agent (PDO:0000015) that is one or more living organisms." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:67
-xref: PSO_GIT:66
+xref: PDO_GIT:66
 is_a: PDO:0000015 ! causal agent
 created_by: moorel
 creation_date: 2012-04-13T02:26:01Z
@@ -918,7 +918,7 @@ id: PDO:0000075
 name: Curvularia pecky rice fungal disease
 def: "A pecky rice fungal disease (PDO:0000090) caused by Curvularia spp. (PDO:0000074)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "kernel spotting" RELATED []
-xref: PSO_GIT:158
+xref: PDO_GIT:158
 is_a: PDO:0000090 ! pecky rice fungal disease
 created_by: moorel
 creation_date: 2012-04-27T13:41:18Z
@@ -940,7 +940,7 @@ id: PDO:0000077
 name: Fusarium pecky rice fungal disease
 def: "A pecky rice fungal disease (PDO:0000090) caused by Fusarium spp. (PDO:0000076)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "kernel spotting" RELATED []
-xref: PSO_GIT:159
+xref: PDO_GIT:159
 is_a: PDO:0000090 ! pecky rice fungal disease
 created_by: moorel
 creation_date: 2012-04-27T13:44:52Z
@@ -950,7 +950,7 @@ id: PDO:0000078
 name: Bipolaris oryzae pecky rice fungal disease
 def: "A fungal pecky rice (PDO:0000090) caused by Bipolaris oryzae (PDO:0000034)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
 synonym: "kernel spotting" RELATED []
-xref: PSO_GIT:155
+xref: PDO_GIT:155
 is_a: PDO:0000090 ! pecky rice fungal disease
 relationship: has_causal_agent PDO:0000034 ! Bipolaris oryzae
 created_by: moorel
@@ -961,7 +961,7 @@ id: PDO:0000079
 name: Microdochium oryzae pecky rice fungal disease
 def: "A pecky rice fungal disease (PDO:0000090) caused by Microdochium oryzae (PDO:0000048)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:Megan_Seymour]
 synonym: "kernel spotting" RELATED []
-xref: PSO_GIT:160
+xref: PDO_GIT:160
 is_a: PDO:0000090 ! pecky rice fungal disease
 created_by: moorel
 creation_date: 2012-04-27T13:50:51Z
@@ -975,7 +975,7 @@ synonym: "rice water-mold (seed-rot and seedling disease)" EXACT []
 synonym: "seed rot disease" EXACT []
 synonym: "seedling disease" EXACT []
 xref: OBO_SF2_PSO:37
-xref: PSO_GIT:36
+xref: PDO_GIT:36
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-04-27T14:00:25Z
@@ -985,7 +985,7 @@ id: PDO:0000081
 name: rice fungal disease
 def: "A fungal plant disease (PDO:0000004) that affects rice (Oryza_sativa_L.; PDO:0000098)." [APS:Plant_Diseases, PDO:saisree_uppala]
 subset: Oryza_sativa_L
-xref: PSO_GIT:1
+xref: PDO_GIT:1
 is_a: PDO:0000004 ! plant fungal disease
 created_by: uppalas
 creation_date: 2014-03-12T14:04:34Z
@@ -995,7 +995,7 @@ id: PDO:0000082
 name: Sarocladium oryzae pecky rice fungal disease
 def: "A pecky rice fungal disease (PDO:0000090) caused by Sarocladium oryzae (PDO:0000083)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PSO:Megan_Seymour]
 synonym: "kernel spotting" RELATED []
-xref: PSO_GIT:161
+xref: PDO_GIT:161
 is_a: PDO:0000090 ! pecky rice fungal disease
 relationship: has_causal_agent PDO:0000083 ! Sarocladium oryzae
 created_by: moorel
@@ -1010,7 +1010,7 @@ synonym: "Acrocylindrium oryzae Sawada" RELATED [APS:Plant_Diseases]
 synonym: "Sarocladium oryzae (Sawada) W. Gams & D. Hawksworth" NARROW [APS:Plant_Diseases]
 xref: EOL:1013725
 xref: NCBITaxon:284135
-xref: PSO_GIT:146
+xref: PDO_GIT:146
 is_a: PDO:0000069 ! fungal species
 created_by: moorel
 creation_date: 2012-04-27T14:07:05Z
@@ -1019,7 +1019,7 @@ creation_date: 2012-04-27T14:07:05Z
 id: PDO:0000084
 name: rice Bipolaris oryzae seedling blight fungal disease
 def: "A rice seedling blight fungal disease (PDO:0000093) caused by Bipolaris oryzae (PDO:0000034)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-xref: PSO_GIT:156
+xref: PDO_GIT:156
 is_a: PDO:0000093 ! rice seedling blight fungal disease
 relationship: has_causal_agent PDO:0000034 ! Bipolaris oryzae
 created_by: moorel
@@ -1078,7 +1078,7 @@ def: "A rice fungal disease (PDO:0000081) caused by one or more of Bipolaris ory
 comment: Fungal pecky rice results in rice kernels that has brown spots.
 subset: Oryza_sativa_L
 synonym: "pecky rice" BROAD []
-xref: PSO_GIT:29
+xref: PDO_GIT:29
 is_a: PDO:0000081 ! rice fungal disease
 created_by: cooperl
 creation_date: 2012-05-14T14:45:43Z
@@ -1093,7 +1093,7 @@ synonym: "Erwinia dissolvens (Rosen) Burkholder" RELATED [APS:Plant_Diseases]
 xref: EOL:1268764
 xref: NCBITaxon:69219
 xref: OBO_SF2_PSO:73
-xref: PSO_GIT:72
+xref: PDO_GIT:72
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent_in PDO:0000147 ! maize bacterial stalk rot disease
 created_by: planteome
@@ -1107,7 +1107,7 @@ comment: Bacterial pecky rice results in rice kernels that has brown spots.
 subset: Oryza_sativa_L
 synonym: "pecky rice" BROAD []
 xref: OBO_SF2_PSO:36
-xref: PSO_GIT:35
+xref: PDO_GIT:35
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: moorel
 creation_date: 2012-05-16T13:14:55Z
@@ -1119,7 +1119,7 @@ def: "A rice fungal disease (PDO:0000081) caused by one or more of Bipolaris ory
 subset: Oryza_sativa_L
 synonym: "rice seedling blight" EXACT []
 synonym: "seedling blight" EXACT []
-xref: PSO_GIT:14
+xref: PDO_GIT:14
 is_a: PDO:0000081 ! rice fungal disease
 created_by: moorel
 creation_date: 2012-05-16T13:46:51Z
@@ -1402,7 +1402,7 @@ name: rice giallume viral disease
 def: "A rice viral disease (PDO:0000007) caused by barley yellow dwarf virus (PDO:0000132)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice giallume " EXACT []
 xref: OBO_SF2_PSO:43
-xref: PSO_GIT:42
+xref: PDO_GIT:42
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1413,7 +1413,7 @@ name: rice black streak dwarf viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice black streak dwarf virus (PDO:0000133)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice black streak dwarf" EXACT []
 xref: OBO_SF2_PSO:45
-xref: PSO_GIT:44
+xref: PDO_GIT:44
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1424,7 +1424,7 @@ name: rice dwarf viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice dwarf virus (PDO:0000134)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice dwarf" EXACT []
 xref: OBO_SF2_PSO:47
-xref: PSO_GIT:46
+xref: PDO_GIT:46
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1435,7 +1435,7 @@ name: rice grassy stunt viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice grassy stunt virus (PDO:0000135)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice grassy stunt" RELATED []
 xref: OBO_SF2_PSO:49
-xref: PSO_GIT:48
+xref: PDO_GIT:48
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1446,7 +1446,7 @@ name: rice hoja blanca viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice hoja blanca virus (PDO:0000136)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice hoja blanca" EXACT []
 xref: OBO_SF2_PSO:51
-xref: PSO_GIT:50
+xref: PDO_GIT:50
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1457,7 +1457,7 @@ name: rice necrotic mosaic viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice necrotic mosaic virus (PDO:0000137)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice necrotic mosaic" EXACT []
 xref: OBO_SF2_PSO:60
-xref: PSO_GIT:59
+xref: PDO_GIT:59
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1468,7 +1468,7 @@ name: rice rugged stunt viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice rugged stunt virus (PDO:0000138)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice rugged stunt " EXACT []
 xref: OBO_SF2_PSO:61
-xref: PSO_GIT:60
+xref: PDO_GIT:60
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1479,7 +1479,7 @@ name: rice stripe viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice stripe virus (PDO:0000139)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice stripe" EXACT []
 xref: OBO_SF2_PSO:62
-xref: PSO_GIT:61
+xref: PDO_GIT:61
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1490,7 +1490,7 @@ name: rice transitory yellowing viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice transitory yellowing virus (PDO:0000140)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice transitory yellowing" EXACT []
 xref: OBO_SF2_PSO:63
-xref: PSO_GIT:62
+xref: PDO_GIT:62
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1501,7 +1501,7 @@ name: rice yellow dwarf phytoplasma disease
 def: "A rice viral disease (PDO:0000007) caused by mycoplasma like organism (PDO:0000141)." [PDO:cooperl, PDO:saisree_uppala]
 synonym: "rice yellow dwarf" EXACT []
 xref: OBO_SF2_PSO:65
-xref: PSO_GIT:64
+xref: PDO_GIT:64
 is_a: PDO:0000170 ! rice phytoplasma disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1512,7 +1512,7 @@ name: rice yellow mottle viral disease
 def: "A rice viral disease (PDO:0000007) caused by rice yellow mottle virus (PDO:0000142)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice yellow mottle" EXACT []
 xref: OBO_SF2_PSO:66
-xref: PSO_GIT:65
+xref: PDO_GIT:65
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1523,7 +1523,7 @@ name: rice tungro viral disease
 def: "A rice viral disease (PDO:0000007) caused by one or more of rice tungro spherical virus (PDO:0000143), rice tungro bacilliform virus (PDO:0000144)." [APS:Plant_Diseases, PDO:saisree_uppala]
 synonym: "rice tungro" EXACT []
 xref: OBO_SF2_PSO:64
-xref: PSO_GIT:63
+xref: PDO_GIT:63
 is_a: PDO:0000007 ! rice viral disease
 created_by: SAISREE
 creation_date: 2014-04-10T21:50:53Z
@@ -1533,7 +1533,7 @@ id: PDO:0000132
 name: barley yellow dwarf virus
 def: "A viral biotic causal agent (PDO:0000119) that causes rice giallume (PDO:0000132)." [PDO:saisree_uppala]
 xref: OBO_SF2_PSO:44
-xref: PSO_GIT:43
+xref: PDO_GIT:43
 is_a: PDO:0000119 ! viral biotic causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1543,7 +1543,7 @@ id: PDO:0000133
 name: rice black streak dwarf virus (RGSDV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice black streak dwarf virus disease (PDO:0000121)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:46
-xref: PSO_GIT:45
+xref: PDO_GIT:45
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1553,7 +1553,7 @@ id: PDO:0000134
 name: rice dwarf virus (RDV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice dwarf virus disease (PDO:0000122)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:48
-xref: PSO_GIT:47
+xref: PDO_GIT:47
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1563,7 +1563,7 @@ id: PDO:0000135
 name: rice grassy stunt virus (RGSV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice grassy stunt virus disease (PDO:0000123)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:50
-xref: PSO_GIT:49
+xref: PDO_GIT:49
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1573,7 +1573,7 @@ id: PDO:0000136
 name: rice hoja blanca virus (RHBV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice hoja blanca disease (PDO:0000124)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:52
-xref: PSO_GIT:51
+xref: PDO_GIT:51
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1583,7 +1583,7 @@ id: PDO:0000137
 name: rice necrotic mosaic virus (RNMV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice necrotic mosaic virus disease (PDO:0000125)." [PDO:saisree_uppala, PDO_:megan_seymour]
 xref: OBO_SF2_PSO:53
-xref: PSO_GIT:52
+xref: PDO_GIT:52
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1593,7 +1593,7 @@ id: PDO:0000138
 name: rice rugged stunt virus (RRSV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice rugged stunt  virus disease (PDO:0000126)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:54
-xref: PSO_GIT:53
+xref: PDO_GIT:53
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1603,7 +1603,7 @@ id: PDO:0000139
 name: rice stripe virus (RStV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice stripe virus disease (PDO:0000127)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:55
-xref: PSO_GIT:54
+xref: PDO_GIT:54
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1613,7 +1613,7 @@ id: PDO:0000140
 name: rice transitory yellowing virus (RTYV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice transitory yellowing virus disease (PDO:0000128)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:56
-xref: PSO_GIT:55
+xref: PDO_GIT:55
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1637,7 +1637,7 @@ id: PDO:0000142
 name: rice yellow mottle virus (RYMV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice yellow mottle virus disease (PDO:0000130)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:59
-xref: PSO_GIT:58
+xref: PDO_GIT:58
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1647,7 +1647,7 @@ id: PDO:0000143
 name: rice tungro spherical virus (RTSV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice tungro virus disease (PDO:0000131)." [PDO:megan_seymour, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:58
-xref: PSO_GIT:57
+xref: PDO_GIT:57
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1657,7 +1657,7 @@ id: PDO:0000144
 name: rice tungro bacilliform virus (RTBV)
 def: "A rice virus causal agent (PDO:0000006) that causes rice tungro virus disease (PDO:0000131)." [PDO:saisree_uppala]
 xref: OBO_SF2_PSO:57
-xref: PSO_GIT:56
+xref: PDO_GIT:56
 is_a: PDO:0000006 ! rice virus causal agent
 created_by: SAISREE
 creation_date: 2014-04-10T22:06:25Z
@@ -1668,7 +1668,7 @@ name: maize bacterial leaf blight and stalk rot disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Acidovorax avenae subsp. avenae (PDO:0000165)." [PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:94
-xref: PSO_GIT:93
+xref: PDO_GIT:93
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1679,7 +1679,7 @@ name: maize bacterial leaf spot disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Xanthomonas vasicola (PDO:0000054)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:71
-xref: PSO_GIT:70
+xref: PDO_GIT:70
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1690,7 +1690,7 @@ name: maize bacterial stalk rot disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Enterobacter cloacae subsp. dissolvens (PDO:0000091)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:74
-xref: PSO_GIT:73
+xref: PDO_GIT:73
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1701,7 +1701,7 @@ name: maize bacterial stalk and top rot disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Pectobacterium carotovorum subsp. carotovorum (PDO:0000163)." [PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:91
-xref: PSO_GIT:90
+xref: PDO_GIT:90
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1712,7 +1712,7 @@ name: maize bacterial stripe disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Burkholderia andropogonis (PDO:0000157)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:75
-xref: PSO_GIT:74
+xref: PDO_GIT:74
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1723,7 +1723,7 @@ name: maize chocolate spot bacterial disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Pseudomonas coronafaciens pv. coronafaciens (PDO:0000160)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:84
-xref: PSO_GIT:83
+xref: PDO_GIT:83
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1738,7 +1738,7 @@ synonym: "bacterial leaf blight disease" RELATED []
 synonym: "Goss's wilt" RELATED []
 synonym: "maize leaf freckles" RELATED [APS:Plant_Diseases]
 xref: OBO_SF2_PSO:80
-xref: PSO_GIT:79
+xref: PDO_GIT:79
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1749,7 +1749,7 @@ name: maize holcus spot bacterial disease
 def: "A maize bacterial disease (PDO:0000011) that is caused by Pseudomonas syringae pv. syringae (PDO:0000158)." [PDO:cooperl, PDO:megan_seymour]
 subset: Zea_mays
 xref: OBO_SF2_PSO:78
-xref: PSO_GIT:77
+xref: PDO_GIT:77
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1770,7 +1770,7 @@ def: "A maize bacterial disease (PDO:0000011) that is caused by Bacillus subtili
 subset: Zea_mays
 synonym: "Seed rot-seedling blight " RELATED [APS:Plant_Diseases]
 xref: OBO_SF2_PSO:92
-xref: PSO_GIT:91
+xref: PDO_GIT:91
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1785,7 +1785,7 @@ synonym: "maize bacterial wilt" RELATED [APS:Plant_Diseases]
 synonym: "Stewart's disease" RELATED [APS:Plant_Diseases]
 synonym: "Stewart's wilt" RELATED [PHI-base:xx]
 xref: OBO_SF2_PSO:86
-xref: PSO_GIT:85
+xref: PDO_GIT:85
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1801,7 +1801,7 @@ synonym: "maize stunt" RELATED [APS:Plant_Diseases]
 synonym: "Mesa Central maize stunt " RELATED [APS:Plant_Diseases]
 synonym: "Rio Grande maize stunt" RELATED [APS:Plant_Diseases]
 xref: OBO_SF2_PSO:87
-xref: PSO_GIT:86
+xref: PDO_GIT:86
 is_a: PDO:0000011 ! maize bacterial disease
 created_by: SAISREE
 creation_date: 2014-05-17T13:43:13Z
@@ -1815,7 +1815,7 @@ synonym: "Pseudomonas andropogonis (Smith) Stapp" RELATED [APS:Plant_Diseases]
 xref: EOL:976724
 xref: NCBITaxon:28092
 xref: OBO_SF2_PSO:76
-xref: PSO_GIT:75
+xref: PDO_GIT:75
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent_in PDO:0000149 ! maize bacterial stripe disease
 created_by: planteome
@@ -1830,7 +1830,7 @@ synonym: "Pseudomonas syringae pv. syringae van Hall" RELATED [APS:Plant_Disease
 xref: EOL:1268797
 xref: NCBITaxon:321
 xref: OBO_SF2_PSO:77
-xref: PSO_GIT:76
+xref: PDO_GIT:76
 is_a: PDO:0000062 ! Pseudomonas syringae subsp. syringae
 relationship: causal_agent_in PDO:0000152 ! maize holcus spot bacterial disease
 created_by: planteome
@@ -1845,7 +1845,7 @@ synonym: "Corynebacterium michiganense pv. nebraskense (Schuster et al.) Dye & K
 xref: EOL:1268657
 xref: NCBITaxon:31963
 xref: OBO_SF2_PSO:79
-xref: PSO_GIT:78
+xref: PDO_GIT:78
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent_in PDO:0000151 ! maize Goss's bacterial wilt disease
 created_by: planteome
@@ -1859,7 +1859,7 @@ synonym: "Pseudomonas syringae pv. coronafaciens (Elliott) Young et al.  " NARRO
 xref: EOL:32399817
 xref: NCBITaxon:235275
 xref: OBO_SF2_PSO:83
-xref: PSO_GIT:82
+xref: PDO_GIT:82
 is_a: PDO:0000094 ! Pseudomonas
 relationship: causal_agent_in PDO:0000150 ! maize chocolate spot bacterial disease
 created_by: planteome
@@ -1875,7 +1875,7 @@ synonym: "Pantoea stewartii subsp. stewartii SS104" NARROW [PHIbase:xxx]
 xref: EOL:1268776
 xref: NCBITaxon:66271
 xref: OBO_SF2_PSO:85
-xref: PSO_GIT:84
+xref: PDO_GIT:84
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent_in PDO:0000155 ! maize Stewart's bacterial disease
 created_by: planteome
@@ -1889,7 +1889,7 @@ synonym: "Spiroplasma kunkelii Whitcomb et al. 1986" NARROW [NCBITaxon:47834]
 xref: EOL:977408
 xref: NCBITaxon:47834
 xref: OBO_SF2_PSO:88
-xref: PSO_GIT:87
+xref: PDO_GIT:87
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent_in PDO:0000156 ! maize stunt bacterial disease
 created_by: planteome
@@ -1906,7 +1906,7 @@ synonym: "Pectobacterium carotovorum subsp. carotovorum (Jones 1901) Hauben &al.
 xref: EOL:1268774
 xref: NCBITaxon:555
 xref: OBO_SF2_PSO:90
-xref: PSO_GIT:89
+xref: PDO_GIT:89
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent_in PDO:0000148 ! maize bacterial stalk and top rot disease
 created_by: planteome
@@ -1921,7 +1921,7 @@ synonym: "Bacillus subtilis (Ehrenberg 1835) Cohn 1872 " NARROW [NCBITaxon:1423]
 xref: EOL:2912748
 xref: NCBITaxon:1423
 xref: OBO_SF2_PSO:93
-xref: PSO_GIT:92
+xref: PDO_GIT:92
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent_in PDO:0000154 ! maize seed rot and seedling blight bacterial disease
 created_by: planteome
@@ -1936,7 +1936,7 @@ synonym: "Pseudomonas avenae subsp. avenae Manns" RELATED [APS:Plant_Disease]
 xref: EOL:6376997
 xref: NCBITaxon:80870
 xref: OBO_SF2_PSO:95
-xref: PSO_GIT:94
+xref: PDO_GIT:94
 is_a: PDO:0000016 ! bacterial biotic causal agent
 relationship: causal_agent_in PDO:0000145 ! maize bacterial leaf blight and stalk rot disease
 created_by: planteome
@@ -1950,7 +1950,7 @@ synonym: "Burkholderia glumae str. AU6208 " EXACT []
 synonym: "Burkholderia glumae strain AU6208" EXACT []
 xref: NCBITaxon:1176514
 xref: OBO_SF2_PSO:100
-xref: PSO_GIT:99
+xref: PDO_GIT:99
 is_a: PDO:0000022 ! Burkholderia glumae
 relationship: causal_agent_in PDO:0000167 ! rice bacterial panicle blight disease
 created_by: cooperl
@@ -1961,7 +1961,7 @@ id: PDO:0000167
 name: rice bacterial panicle blight disease
 def: "A rice bacterial disease (PDO:0000003) caused by Burkholderia glumae AU6208 (PDO:0000166)." [PDO:cooperl, PHI-base:xyz]
 xref: OBO_SF2_PSO:68
-xref: PSO_GIT:67
+xref: PDO_GIT:67
 is_a: PDO:0000003 ! rice bacterial disease
 created_by: cooperl
 creation_date: 2015-05-20T17:51:05Z
@@ -1973,7 +1973,7 @@ def: "A rice fungal disease (PDO:0000081) caused by Fusarium fujikuroi (PDO:0000
 subset: Oryza_sativa_L
 synonym: "rice foolish seedling disease" RELATED []
 xref: OBO_SF2_PSO:69
-xref: PSO_GIT:68
+xref: PDO_GIT:68
 is_a: PDO:0000081 ! rice fungal disease
 created_by: planteome
 creation_date: 2015-05-21T15:41:50Z
@@ -1988,7 +1988,7 @@ synonym: "Gibberella fujikuroi " RELATED [NCBITaxon:5127]
 xref: EOL:192530
 xref: NCBITaxon:5127
 xref: OBO_SF2_PSO:102
-xref: PSO_GIT:101
+xref: PDO_GIT:101
 is_a: PDO:0000069 ! fungal species
 relationship: causal_agent_in PDO:0000168 ! rice bakanae fungal disease
 created_by: planteome
@@ -2044,7 +2044,7 @@ name: maize Cercospora gray leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cercospora zeae-maydis (PDO:0000175)." [megan_seymour, PDO:cooperl]
 synonym: "Cercospora leaf spot " RELATED []
 xref: OBO_SF2_PSO:113
-xref: PSO_GIT:112
+xref: PDO_GIT:112
 is_a: PDO:0000012 ! maize fungal disease
 relationship: has_causal_agent PDO:0000175 ! Cercospora zeae-maydis
 created_by: cooperl
@@ -2068,7 +2068,7 @@ name: maize Colletotrichum graminicola Anthracnose leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:105
-xref: PSO_GIT:104
+xref: PDO_GIT:104
 is_a: PDO:0000012 ! maize fungal disease
 relationship: has_causal_agent PDO:0000106 ! Colletotrichum graminicola
 created_by: austinmeier
@@ -2080,8 +2080,8 @@ name: maize Colletotrichum graminicola Anthracnose stalk rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Colletotrichum graminicola (PDO:0000106)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:105
-xref: PSO_GIT:104
-xref: PSO_GIT:105
+xref: PDO_GIT:104
+xref: PDO_GIT:105
 is_a: PDO:0000012 ! maize fungal disease
 relationship: has_causal_agent PDO:0000106 ! Colletotrichum graminicola
 created_by: austinmeier
@@ -2093,8 +2093,8 @@ name: maize Gibberella ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:XXX)." [PDO:austin_meier]
 xref: APS:Plant_Diseases
 xref: OBO_SF2_PSO:107
-xref: PSO_GIT:106
-xref: PSO_GIT:107
+xref: PDO_GIT:106
+xref: PDO_GIT:107
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-25T14:00:39Z
@@ -2105,7 +2105,7 @@ name: maize Gibberella stalk rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Fusarium graminearum (PDO:XXX)." [PSO:austin_meier]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:107
-xref: PSO_GIT:106
+xref: PDO_GIT:106
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-06-25T14:07:05Z
@@ -2138,7 +2138,7 @@ name: maize Ustilago smut fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Ustilago maydis (PDO:XXX)." [megan_seymour, PDO:austin_meier]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:112
-xref: PSO_GIT:111
+xref: PDO_GIT:111
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-02T09:17:51Z
@@ -2150,8 +2150,8 @@ def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus carbonum (PDO:
 synonym: "Helminthosporium ear rot (race 1) " RELATED [APS:plant_diseases]
 xref: APS:Plant_Disease
 xref: OBO_SF2_PSO:114
-xref: PSO_GIT:102
-xref: PSO_GIT:113
+xref: PDO_GIT:102
+xref: PDO_GIT:113
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-09T14:21:28Z
@@ -2162,7 +2162,7 @@ name: maize Bipolaris southern leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Bipolaris maydis (PDO:XXX)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:104
-xref: PSO_GIT:103
+xref: PDO_GIT:103
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-09T15:00:03Z
@@ -2173,7 +2173,7 @@ name: maize foolish seedling fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by  Fusarium verticillioides (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:109
-xref: PSO_GIT:108
+xref: PDO_GIT:108
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-09T15:14:27Z
@@ -2184,7 +2184,7 @@ name: maize northern leaf blight fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Setosphaeria turcica (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:111
-xref: PSO_GIT:110
+xref: PDO_GIT:110
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-09T15:41:54Z
@@ -2195,7 +2195,7 @@ name: maize Sarocladium black bundle fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Sarocladium strictum (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:115
-xref: PSO_GIT:114
+xref: PDO_GIT:114
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-09T16:04:14Z
@@ -2206,7 +2206,7 @@ name: maize Aureobasidium eyespot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Aureobasidium zeae (PDO:xxx)." [megan_seymour, PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:116
-xref: PSO_GIT:115
+xref: PDO_GIT:115
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T13:45:34Z
@@ -2217,7 +2217,7 @@ name: maize Alternaria alternata minor ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Alternaria alternata (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_diseases
 xref: OBO_SF2_PSO:117
-xref: PSO_GIT:116
+xref: PDO_GIT:116
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T13:54:40Z
@@ -2228,7 +2228,7 @@ name: maize Alternaria minor leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Alternaria alternata (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:118
-xref: PSO_GIT:117
+xref: PDO_GIT:117
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T13:59:15Z
@@ -2239,7 +2239,7 @@ name: maize Alternaria minor root rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Alternaria alternata (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:119
-xref: PSO_GIT:118
+xref: PDO_GIT:118
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T14:05:15Z
@@ -2250,7 +2250,7 @@ name: maize Aspergillus glaucus minor ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Aspergillus glaucus (PDO:xxx).." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:120
-xref: PSO_GIT:119
+xref: PDO_GIT:119
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T14:25:41Z
@@ -2261,7 +2261,7 @@ name: maize Ascochyta minor leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Ascochyta tritici (PDO:xxx), Ascochyta maydis (PDO:xxx), and Ascochyta zeicola (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:121
-xref: PSO_GIT:120
+xref: PDO_GIT:120
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T14:34:49Z
@@ -2272,7 +2272,7 @@ name: maize Bipolaris minor leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Bipolaris sorokiniana (PDO:xxx), and Bipolaris victoriae (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:122
-xref: PSO_GIT:121
+xref: PDO_GIT:121
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T14:44:09Z
@@ -2283,7 +2283,7 @@ name: maize Bipolaris seed rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Bipolaris zeicola (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:123
-xref: PSO_GIT:122
+xref: PDO_GIT:122
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T15:07:10Z
@@ -2294,7 +2294,7 @@ name: maize Botryosphaeria gray ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Botryosphaeria zeae (PDO:xxx)." [megan_seymour, PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:124
-xref: PSO_GIT:123
+xref: PDO_GIT:123
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T15:11:42Z
@@ -2305,7 +2305,7 @@ name: maize Physalospora ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Botryosphaeria festucae (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:125
-xref: PSO_GIT:124
+xref: PDO_GIT:124
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-14T15:21:18Z
@@ -2316,7 +2316,7 @@ name: maize Hormodendrum ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cladosporium cladosporioides(PDO:xxx), and .Cladosporium herbarum (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:126
-xref: PSO_GIT:125
+xref: PDO_GIT:125
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-16T15:14:49Z
@@ -2327,7 +2327,7 @@ name: maize Claviceps ergot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Claviceps gigantea (PDO:xxx)." [megan_seymour, PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:127
-xref: PSO_GIT:126
+xref: PDO_GIT:126
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T13:19:08Z
@@ -2338,7 +2338,7 @@ name: maize Cunninghamella minor ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cunninghamella spp. (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:128
-xref: PSO_GIT:127
+xref: PDO_GIT:127
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T13:23:58Z
@@ -2349,7 +2349,7 @@ name: maize Culvularia clavata leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Curvularia clavata (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:129
-xref: PSO_GIT:128
+xref: PDO_GIT:128
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T13:30:27Z
@@ -2360,7 +2360,7 @@ name: maize Cochliobolus pallescens minor ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus pallescens (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:130
-xref: PSO_GIT:129
+xref: PDO_GIT:129
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T13:35:38Z
@@ -2371,7 +2371,7 @@ name: maize Didymella leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Didymella exitalis (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:131
-xref: PSO_GIT:130
+xref: PDO_GIT:130
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T14:32:15Z
@@ -2382,7 +2382,7 @@ name: maize Dictyochaeta minor root rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Dictyochaeta fertilis (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:132
-xref: PSO_GIT:131
+xref: PDO_GIT:131
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T15:18:06Z
@@ -2393,7 +2393,7 @@ name: maize Doratomyces stemonitis minor ear rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Doratomyces stemonitis (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:133
-xref: PSO_GIT:132
+xref: PDO_GIT:132
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T15:23:34Z
@@ -2404,7 +2404,7 @@ name: maize Epicoccum minor leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Epicoccum nigrum (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:134
-xref: PSO_GIT:133
+xref: PDO_GIT:133
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T15:27:16Z
@@ -2415,7 +2415,7 @@ name: maize Setosphaeria minor leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Setosphaeria prolata (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:135
-xref: PSO_GIT:134
+xref: PDO_GIT:134
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T15:30:26Z
@@ -2426,7 +2426,7 @@ name: maize Pythium stalk rot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Pythium aphanidermatum (PDO:xxx)." [PDO:austin_meier, PDO:megan_seymour]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:136
-xref: PSO_GIT:135
+xref: PDO_GIT:135
 is_a: PDO:0000012 ! maize fungal disease
 created_by: austinmeier
 creation_date: 2015-07-17T15:41:31Z
@@ -2857,7 +2857,7 @@ id: PDO:0000260
 name: maize Cochliobolus pallescens leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Cochliobolus pallescens (PDO:xxx)." [PDO:megan_seymour]
 xref: APS:plant_diseases
-xref: PSO_GIT:128
+xref: PDO_GIT:128
 is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-06-09T:10:53:20Z
@@ -2867,7 +2867,7 @@ id: PDO:0000261
 name: maize Curvularia eragrostidis leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Curvularia eragrostidis (PDO:xxx)." [PDO:megan_seymour]
 xref: APS:plant_diseases
-xref: PSO_GIT:128
+xref: PDO_GIT:128
 is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-06-09T:10:56:11Z
@@ -2877,7 +2877,7 @@ id: PDO:0000262
 name: maize Curvularia inaequalis leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Curvularia inaequalis (PDO:xxx)." [PDO:megan_seymour]
 xref: APS:plant_diseases
-xref: PSO_GIT:128
+xref: PDO_GIT:128
 is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-06-09T:11:00:03Z
@@ -2887,7 +2887,7 @@ id: PDO:0000263
 name: maize Curvularia intermedia leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Curvularia intermedia (PDO:xxx)." [PDO:megan_seymour]
 xref: APS:plant_diseases
-xref: PSO_GIT:128
+xref: PDO_GIT:128
 is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-06-09T:11:02:22Z
@@ -2897,7 +2897,7 @@ id: PDO:0000264
 name: maize Curvularia lunata leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Curvularia lunata (PDO:0000030)." [PDO:megan_seymour]
 xref: APS:plant_diseases
-xref: PSO_GIT:128
+xref: PDO_GIT:128
 is_a: PDO:0000012 ! maize fungal disease
 relationship: has_causal_agent PDO:0000030 ! Curvularia lunata
 created_by: megan_seymour
@@ -2908,7 +2908,7 @@ id: PDO:0000265
 name: maize Curvularia senegalensis leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Curvularia senegalensis (PDO:xxx)." [PDO:megan_seymour]
 xref: APS:plant_diseases
-xref: PSO_GIT:128
+xref: PDO_GIT:128
 is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-06-09T:11:08:44Z
@@ -2918,7 +2918,7 @@ id: PDO:0000266
 name: maize Curvularia tuberculata leaf spot fungal disease
 def: "A maize fungal disease (PDO:0000012) caused by Curvularia tuberculata (PDO:xxx)." [PDO:megan_seymour]
 xref: APS:plant_diseases
-xref: PSO_GIT:128
+xref: PDO_GIT:128
 is_a: PDO:0000012 ! maize fungal disease
 created_by: megan_seymour
 creation_date: 2016-06-09T:11:09:10Z
