@@ -17,7 +17,7 @@ ontology: pdo
 id: PDO:0000001
 name: plant disease
 def: "A disease of a plant structure (PO:0009011)." [PDO:Laurel_Cooper]
-is_a: PDO:0001000 ! Plant Disease Ontology
+is_a: PDO:0001000 ! plant disease ontology
 created_by: cooperl
 creation_date: 2012-03-30T03:04:19Z
 
@@ -154,7 +154,7 @@ name: causal agent
 def: "An agent that causes plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:saisree_uppala]
 xref: OBO_SF2_PSO:40
 xref: PSO_GIT:39
-is_a: PDO:0001000 ! Plant Disease Ontology
+is_a: PDO:0001000 ! plant disease ontology
 created_by: moorel
 creation_date: 2012-04-06T02:20:47Z
 
@@ -874,7 +874,7 @@ creation_date: 2012-04-13T02:51:36Z
 id: PDO:0000071
 name: host plant
 def: "An plant species that is affected a plant disease (PDO:0000001)." [PDO:Laura_Moore, PDO:Laurel_Cooper]
-is_a: PDO:0001000 ! Plant Disease Ontology
+is_a: PDO:0001000 ! plant disease ontology
 created_by: cooperl
 creation_date: 2012-04-16T01:12:08Z
 
@@ -3015,7 +3015,7 @@ creation_date: 2016-06-09T:12:48:55Z
 
 [Term]
 id: PDO:0001000
-name: Plant Disease Ontology
+name: plant disease ontology
 created_by: https://orcid.org/0000-0002-6379-8932
 creation_date: 2023-08-22T16:31:28Z
 
