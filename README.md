@@ -1,7 +1,7 @@
 # plant-disease-ontology
 Repository for the Plant Disease Ontology
 
-Note that this ontology is being replaced by the Ontology of Plant Stress
+Note that this ontology is being subsumed into the Plant Stress Ontology
 
 Please use the files in this repository with caution- the PDO is very much in the testing and preliminary stage right now. 
 
