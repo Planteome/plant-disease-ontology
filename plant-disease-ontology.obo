@@ -639,8 +639,8 @@ creation_date: 2012-04-12T10:22:56Z
 
 [Term]
 id: PDO:0000051
-name: rice sheath blight fungal disease
-def: "A rice fungal disease (PDO:0000081) caused by Rhizoctonia solani (PDO:0000088)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour, PDO:saisree_uppala]
+name: rice leaf sheath blight fungal disease
+def: "A rice fungal disease (PDO:0000081) caused by the soil-borne Rhizoctonia solani (PDO:0000088)." [APS:Plant_Diseases, PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour, PDO:saisree_uppala]
 comment: Symptoms: Grayish-green lesions may enlarge and coalesce with other lesions, mostly on lower leaf sheaths, but occasionally on the leaves. Phenotypic evaluation scale (based on relative lesion height): 0 - No infection observed; 1 - Lesions limited to lower 20% of the plant height; 3 - 20-30%; 5 - 31-45%; 7 - 46-65%; 9 - More than 65%. Defining relative lesion height: The relative lesion height is the average vertical height of the uppermost lesion on leaf or sheath expressed as a percentage of the average plant height (RiceSES).
 subset: Oryza_sativa_L
 synonym: "rice sheath blight" EXACT []
@@ -1053,7 +1053,7 @@ creation_date: 2012-04-27T14:21:31Z
 [Term]
 id: PDO:0000088
 name: Rhizoctonia solani
-def: "A fungal species (PDO:0000069) that causes rice Rhizoctonia solani seedling blight fungal disease (PDO:0000087) and rice sheath blight fungal disease (PDO:0000051)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
+def: "A fungal species (PDO:0000069) that causes rice Rhizoctonia solani seedling blight fungal disease (PDO:0000087) and rice leaf sheath blight fungal disease (PDO:0000051)." [PDO:Laura_Moore, PDO:Laurel_Cooper, PDO:megan_seymour]
 synonym: "Rhizoctonia solani J. G. Kühn 1858" NARROW [EOL:11446730]
 synonym: "Thanatephorus cucumeris (A.B. Frank) Donk " RELATED telomorph [APS:Plant_Diseases]
 xref: EOL:11446730
