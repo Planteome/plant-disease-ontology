@@ -2313,7 +2313,7 @@ creation_date: 2015-07-14T15:21:18Z
 [Term]
 id: PDO:0000198
 name: maize Hormodendrum ear rot fungal disease
-def: "A maize fungal disease (PDO:0000012) caused by Cladosporium cladosporioides(PDO:xxx), and .Cladosporium herbarum (PDO:xxx)." [PDO:austin_meier]
+def: "A maize fungal disease (PDO:0000012) caused by Cladosporium cladosporioides (PDO:xxx) and Cladosporium herbarum (PDO:xxx)." [PDO:austin_meier]
 xref: APS:plant_disease
 xref: OBO_SF2_PSO:126
 xref: PDO_GIT:125
